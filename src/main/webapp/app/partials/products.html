@@ -1,0 +1,16 @@
+<div class="container products-wrap" ng-class="{{pageClass}}">
+    <div class="row">
+    <h1>Our Products</h1>
+        <div class="col-lg-6 col-sm-6 col-xs-12 product-item" ng-repeat="category in categories">
+            <a ng-href="#/products/{{category.shortName}}">
+                <h3>{{category.name}}</h3>
+                <img ng-src="{{category.coverImage}}" class="img-responsive">
+            </a>
+
+            <a ng-href="#/customize/{{category.shortName}}">
+                <div class="btn btn-primary">Customize</div>
+            </a>
+
+        </div>
+    </div>
+</div>

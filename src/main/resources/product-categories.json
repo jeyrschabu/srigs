@@ -1,0 +1,22 @@
+[
+  {
+    "name" : "Gaming Desktops",
+    "shortName" : "desktops",
+    "coverImage": "public/images/product_images/DSC_0259.jpg"
+  },
+  {
+    "name" : "Gaming Laptops",
+    "shortName" : "laptops",
+    "coverImage": "http://placehold.it/680x600"
+  },
+  {
+    "name" : "Workstations Desktops",
+    "shortName" : "workstations",
+    "coverImage": "http://placehold.it/680x600"
+  },
+  {
+    "name" : "Specials",
+    "shortName" : "specials",
+    "coverImage": "http://placehold.it/680x600"
+  }
+]
