@@ -48,8 +48,7 @@ public abstract class BaseService <T extends Model>{
     }
 
     public T find(String key, String value) {
-        T item = (T)getProvider().findOne(key, value);
-        return item;
+        return (T)getProvider().findOne(key, value);
     }
 
     protected void initialDataLoad() {
