@@ -26,6 +26,6 @@ public class ProductService extends BaseService<Product> {
     }
 
     public List<Product> findByCategory(String category) {
-        return (List<Product> ) super.getProvider().findMany("category", category);
+        return findMany("category", category);
     }
 }

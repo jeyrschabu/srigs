@@ -51,11 +51,21 @@ public abstract class BaseService <T extends Model>{
         return (T)getProvider().findOne(key, value);
     }
 
+    public List<T> findMany(String key, String value) {
+        List<T> items =  (List<T>) getProvider().findMany(key, value);
+
+        if (items.isEmpty()) {
+            initialDataLoad();
+        }
+
+        return items;
+    }
+
     protected void initialDataLoad() {
         InputStream stream = getClass().getClassLoader().getResourceAsStream(getInitialJsonData());
         try {
-            String theString = IOUtils.toString(stream, "UTF-8");
-            List<Map> list = new Gson().fromJson(theString, new TypeToken<List<HashMap<String, Object>>>() {}.getType());
+            List<Map> list = new Gson().fromJson(IOUtils.toString(stream, "UTF-8"),
+                    new TypeToken<List<HashMap<String, Object>>>() {}.getType());
             List<T> items = new ArrayList<>();
 
             for ( Map m : list) {

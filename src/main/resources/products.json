@@ -3,25 +3,25 @@
     "name" : "Specter",
     "coverImage": "public/images/product_images/DSC_0259.jpg",
     "category": "Gaming Desktops",
-    "price" : 1500
+    "price" : 1000
 
   },
   {
     "name" : "Phantom",
     "coverImage": "public/images/product_images/DSC_0466.jpg",
-    "category": "Gaming Desktops"
+    "category": "Gaming Desktops",
     "price" : 1500
   },
   {
     "name" : "Shade",
     "coverImage": "public/images/product_images/DSC_0550.jpg",
-    "category": "Gaming Desktops"
-    "price" : 1500
+    "category": "Gaming Desktops",
+    "price" : 1200.99
   },
   {
     "name" : "Wraith",
     "coverImage": "public/images/product_images/DSC_0616.jpg",
-    "category": "Gaming Desktops"
-    "price" : 1500
+    "category": "Gaming Desktops",
+    "price" : 1100.99
   }
 ]
