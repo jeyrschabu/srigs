@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow: none;
 }
 
 html, body {
@@ -19,10 +20,6 @@ $fa-font-path: "../../bower_components/components-font-awesome/fonts";
 $icon-font-path: '../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
 @import '../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 @import '../../bower_components/components-font-awesome/scss/font-awesome';
-
-@import '../styles/fonts/Oswald-Bold.ttf';
-@import '../styles/fonts/Oswald-Regular.ttf';
-@import '../styles/fonts/Roboto-Thin.ttf';
 
 .thin-text {
   font-weight: 100;
@@ -44,6 +41,24 @@ a {
   }
 }
 
-@import 'header';
+
 @import 'body';
-@import 'footer';
+
+
+@import "bootstrap/variables.scss";
+@import "bootstrap/mixins.scss";
+@import "toolbox";
+@import "animate";
+@import "typography.scss";
+@import "page.scss";
+@import "header.scss";
+@import "nav.scss";
+@import "banner.scss";
+@import "buttons";
+@import "footer";
+@import "product";
+@import "modules";
+
+
+
+

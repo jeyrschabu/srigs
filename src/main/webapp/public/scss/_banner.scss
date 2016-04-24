@@ -1,0 +1,279 @@
+.carousel {
+
+}
+
+.carousel-item-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include media-breakpoint-up(lg) {
+    height: 585px;
+  }
+  @include media-breakpoint-down(md) {
+    height: 500px;
+  }
+  @include media-breakpoint-down(sm) {
+    height: 420px;
+  }
+  @media (max-width: 580px) {
+    height: 400px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    height: 360px;
+  }
+  > img {
+    margin: 0 auto;
+    @include media-breakpoint-down(sm) {
+      padding: 0 10%;
+    }
+  }
+}
+
+
+
+.carousel-title {
+  position: absolute;
+  @include brand-bold;
+  text-transform: uppercase;
+  top: 65%;
+  font-size: 16px;
+  @include media-breakpoint-down(md) {
+    top: 60%;
+    font-size: 14px;
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+  span {
+    display: block;
+    @include brand-semi;
+    margin-top: -6px;
+    font-size: 19px;
+  }
+}
+
+.carousel-title-left {
+  left: 16%;
+  span {
+    color: #51ffff;
+    text-shadow: 0 0 5px #000;
+  }
+}
+.carousel-title-right {
+  right: 20%;
+  span {
+    color: #4a73ff;
+    text-shadow: 0 0 5px #000;
+  }
+}
+[class^="carousel-header-"] {
+  text-transform: uppercase;
+  @include brand-black;
+  position: absolute;
+  text-shadow: 0 0 5px #000;
+}
+
+.carousel-header-top-left {
+  top: 10%;
+  left: 2%;
+}
+.carousel-header-bottom-right {
+  bottom: 30%;
+  right: 0%;
+}
+
+.carousel-header {
+  @include brand-black;
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0 0 4px #000, 0 0 7px #000, 0 0 2px #000;
+  span {
+    display: block;
+    margin: -20px 0 0 0;
+    padding: 0;
+    @include brand-semi;
+    font-size: 40px;
+  }
+  @include media-breakpoint-down(md) {
+    top: 30%;
+    font-size: 39px;
+    span {
+      font-size: 28px;
+      margin: -9px 0 0 0;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 35px;
+    span {
+      font-size: 25px;
+      margin: -9px 0 0 0;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 26px;
+    span {
+      font-size: 19px;
+      margin: -9px 0 0 0;
+    }
+  }
+}
+
+.carousel-control {
+  &.left {
+    @include gradient-horizontal($start-color: rgba(0,0,0,.3), $end-color: rgba(0,0,0,.0001));
+  }
+  &.right {
+    @include gradient-horizontal($start-color: rgba(0,0,0,.0001), $end-color: rgba(0,0,0,.5));
+  }
+}
+
+.carousel-indicators {
+  bottom: -5px;
+  li {
+    @include border-radius(0);
+  }
+}
+.carousel-caption {
+  padding: 10px 0 30px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .2);
+  &.caption-dark {
+    background-color: rgba(0, 0, 0, .9);
+  }
+  p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  h2 {
+    @include brand-black;
+    text-transform: uppercase;
+  }
+  @include media-breakpoint-down(md) {
+    font-size: 14px;
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      width: 100%;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    bottom: 0px;
+    h2 {
+      font-size: 22px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+.below-carousel-break {
+  background: url("img/below-carousel-break.png") no-repeat center;
+  height: 56px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  bottom: -31px;
+  z-index: 10;
+}
+
+
+
+/* Create Rig Page */
+
+.cr-mid-wrap {
+  background: url("../img/create-rig-banner.jpg") center bottom no-repeat;
+  padding-bottom: 30px;
+  height: 632px;
+  @include media-breakpoint-down(sm) {
+    background-position-y: -120px;
+  }
+  @include media-breakpoint-down(xs) {
+    background-position-y: -200px;
+  }
+  & .container {
+    height: 632px;
+  }
+}
+
+.cr-mid-overlay {
+  text-transform: uppercase;
+  width: 45%;
+  position: absolute;
+  right: 5%;
+  top: 200px;
+  h1 {
+    @include brand-black;
+    font-size: 56px;
+    margin: 0;
+  }
+  p {
+    color: $blue;
+    font-size: 19px;
+    @include brand-semi;
+  }
+  @include media-breakpoint-down(lg) {
+    h1 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 17px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    h1 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    top: 100px;
+    width: 54%;
+    right: 2%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    top: 10px;
+    width: 56%;
+    right: 1%;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
