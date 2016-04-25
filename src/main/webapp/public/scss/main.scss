@@ -1,28 +1,6 @@
-@import 'varables';
-
-@mixin color-transition($time) {
-  transition-duration: $time;
-  transition-property: color;
-}
-
-
-// font awesome font path
-$fa-font-path: "../../bower_components/components-font-awesome/fonts";
-$icon-font-path: '../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
-@import '../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import '../../bower_components/bootstrap/scss/bootstrap';
 @import '../../bower_components/components-font-awesome/scss/font-awesome';
 
-
-
-
-
-@import "bootstrap/bootstrap-reboot.scss";
-@import "bootstrap/mixins.scss";
-@import "bootstrap/bootstrap-grid.scss";
-@import "bootstrap/carousel.scss";
-@import "bootstrap/utilities.scss";
-@import "bootstrap/utilities-spacing.scss";
-@import "bootstrap/utilities-responsive.scss";
 @import "toolbox";
 @import "animate";
 @import "typography.scss";
