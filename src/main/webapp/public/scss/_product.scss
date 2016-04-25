@@ -1,7 +1,7 @@
 .product-highlight {
   position: relative;
   background: black;
-  background: url("img/product-page-bg.jpg") center top no-repeat;
+  background: url("../images/product-page-bg.jpg") center top no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
@@ -47,7 +47,7 @@
 .product-main-highlight {
   position: relative;
   background: black;
-  background: url("img/product-page-main.jpg") center top no-repeat;
+  background: url("../images/product-page-main.jpg") center top no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
@@ -87,7 +87,7 @@
 
 
 body.phantom .product-highlight {
-  background: url("img/product-page-bg-01.png") center top no-repeat;
+  background: url("../images/product-page-bg-01.png") center top no-repeat;
 }
 
 .product-page-break {

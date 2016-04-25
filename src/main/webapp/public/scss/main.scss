@@ -5,15 +5,6 @@
   transition-property: color;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  overflow: none;
-}
-
-html, body {
-  height: 100%;
-}
 
 // font awesome font path
 $fa-font-path: "../../bower_components/components-font-awesome/fonts";
@@ -21,32 +12,17 @@ $icon-font-path: '../../bower_components/bootstrap-sass-official/assets/fonts/bo
 @import '../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 @import '../../bower_components/components-font-awesome/scss/font-awesome';
 
-.thin-text {
-  font-weight: 100;
-}
-
-h1 {
-  font-weight: 600;
-}
-
-.btn-primary {
-  transition-duration: .3s;
-}
-
-a {
-  @include color-transition(.2s);
-  &:hover {
-    text-decoration:none;
-    @include color-transition(.2s);
-  }
-}
 
 
-@import 'body';
 
 
-@import "bootstrap/variables.scss";
+@import "bootstrap/bootstrap-reboot.scss";
 @import "bootstrap/mixins.scss";
+@import "bootstrap/bootstrap-grid.scss";
+@import "bootstrap/carousel.scss";
+@import "bootstrap/utilities.scss";
+@import "bootstrap/utilities-spacing.scss";
+@import "bootstrap/utilities-responsive.scss";
 @import "toolbox";
 @import "animate";
 @import "typography.scss";
