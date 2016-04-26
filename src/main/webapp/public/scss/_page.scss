@@ -1,3 +1,5 @@
+/* TODO there is some cleanup needed here */
+
 
 body {
   background-color: black;
@@ -18,6 +20,10 @@ body {
 
 }
 
+/* should go somewhere else */
+.body-content {
+  min-height: 450px;
+}
 
 /* might not need anymore */
 .top-content-wrap {

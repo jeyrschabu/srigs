@@ -46,6 +46,23 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
+        // I'm sure this isn't the right way
+        }).state('phantom', {
+            url:'/products/gaming/phantom',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/phantom.html',
+                    controller: 'ProductController'
+                }
+            }
+        }).state('specter', {
+            url:'/products/gaming/specter',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/specter.html',
+                    controller: 'ProductController'
+                }
+            }
         }).state('product', {
             url:'/product/:id',
             views: {
