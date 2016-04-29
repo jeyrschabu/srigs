@@ -42,6 +42,12 @@
 <script src="app/controllers/product-controller.js"></script>
 <script src="app/controllers/warranty-controller.js"></script>
 
+<!-- trying to get ngSticky working -->
+<script>
+    angular.module('demo', ['sticky']).controller('demoCtrl', function($scope) {
+        $scope.disableSticking = false;
+    });
+</script>
 
 </body>
 </html>

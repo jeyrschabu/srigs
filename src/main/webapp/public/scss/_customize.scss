@@ -3,7 +3,7 @@
   background: url("../images/customize/customize-top-bg.png") center top no-repeat;
   width: 100%;
   min-height: 527px;
-// TODO finish responsive of this header
+
   @include media-breakpoint-down(md) {
 
   }
@@ -34,12 +34,13 @@
   text-align: center;
   position: relative;
   h2.cps-summary-title {
-    background-color: #121212;
+    background-color: $offblack;
     padding: 20px;
     color: white;
     display: block;
     @include border-radius(5px 5px 0 0);
-    margin-top: -1px;
+    position: relative;
+    top: -1px;
     text-align: center;
     font-size: 30px;
   }
@@ -93,6 +94,107 @@
   text-transform: uppercase;
   position: absolute;
   bottom: 10px;
+}
+
+
+
+.cp-module {
+  @include border-radius(8px 8px 5px 5px);
+  background: white;
+  color: $offblack;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  @include box-shadow(0 0 3px 3px rgba(0,0,0,.3));
+  h3.cpm-title {
+    background-color: #1e1e1e;
+    padding: 10px;
+    color: white;
+    display: block;
+    @include border-radius(5px 5px 0 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 1px;
+
+  }
 
 }
 
+.cpm-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    border-bottom: 1px solid $light-gray;
+    margin: 0;
+    padding: 0;
+    @include transition(all .5s ease);
+    &:hover, &:focus {
+      background-color: #cfcfcf;
+    }
+  }
+}
+
+.cpm-inner {
+  width: 100%;
+  border-bottom: 1px solid $mid-gray;
+  height: 80px;
+  position: relative;
+}
+
+.cpm-radio-wrap {
+  display: inline-block;
+  width: 40px;
+  background-color: $dark-red;
+  height: 80px;
+  position: absolute;
+  input {
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+.cpm-item-wrap {
+  display: inline-block;
+  margin-top: 16px;
+  padding-left: 50px;
+  h4 {
+    font-size: 22px;
+    @include brand-bold;
+    display: inline-block;
+
+  }
+  p {
+
+  }
+  span.cpm-price {
+    right: 80px;
+    top: 20px;
+    position: absolute;
+    @include brand-bold;
+    font-size: 25px;
+    color: $green;
+  }
+  span.cpm-expand-desc {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    @include brand-semi;
+    color: #818181;
+    font-size: 40px;
+    &:hover, &:focus {
+      color: $gray;
+    }
+  }
+}
+
+.cpm-description {
+  color: white;
+  background-color: #1e1e1e;
+  padding: 10px;
+}
