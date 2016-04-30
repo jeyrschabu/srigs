@@ -102,16 +102,7 @@ dependencies {
     remoteSources 'com.github.jsimone:webapp-runner:8.0.24.0'
 }
 
-//node {
-//    version = "0.12.4"
-//    npmVersion = "2.10.1"
-//    download = true
-//}
-
-task stage(dependsOn: ['prepareWebRunner','war'])
-
-
-
+task stage(dependsOn: ['cleanNodeModules','prepareWebRunner','war'])
 
 task prepareWebRunner(type: Copy) {
     from configurations.remoteSources
@@ -119,5 +110,9 @@ task prepareWebRunner(type: Copy) {
     rename {
         'web-runner.jar'
     }
+}
+
+task cleanNodeModules(type: Exec) {
+    commandLine 'rm', '-rf', './node_modules'
 }
 
