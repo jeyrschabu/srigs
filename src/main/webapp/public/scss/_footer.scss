@@ -1,0 +1,129 @@
+.footer-wrap {
+  position: relative;
+  min-height: 375px;
+  background: radial-gradient(circle closest-side, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, .6) 200%), url("../images/footer-bg-rpt.jpg") repeat;
+  border-top: 1px solid #444444;
+
+}
+
+.footer-left {
+  position: absolute;
+  background: url("../images/footer-left.png") no-repeat;
+  height: 420px;
+  width: 458px;
+  bottom: 0;
+  left: -90px;
+  background-size: 100%;
+  @media only screen and (max-width: 1350px) {
+    height: 336px;
+    width: 366px;
+    left: -100px;
+  }
+  @include media-breakpoint-down(lg) {
+
+    display: none;
+  }
+  @include media-breakpoint-down(md) {
+    left: -100px;
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.footer-logo {
+  background: url("../images/shadow-rigs-logo-big.png") no-repeat;
+  width: 375px;
+  height: 293px;
+  position: absolute;
+  left: 50%;
+  margin-left: -187px;
+  top: 60px;
+  /*
+  @include media-breakpoint-down(md) {
+    background-size: 80%;
+    margin-left: -150px;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: 60%;
+    margin-left: -125px;
+  }*/
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.footer-inner {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin-right: 5px;
+  @include media-breakpoint-down(sm) {
+    margin-right: 0px;
+    background: none;
+  }
+  h3 {
+    @include brand-black;
+    text-transform: uppercase;
+    color: $red;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    margin-top: 20px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+    @include media-breakpoint-down(xs) {
+      padding-left: 30px;
+    }
+    li {
+      @include brand-semi;
+      text-align: left;
+      a {
+        width: 100%;
+        color: #e5e5e5;
+        padding: 5px 0 5px 10px;
+        display: block;
+        @include border-radius(5px);
+        margin-bottom: 3px;
+        &:hover, &:focus {
+          background: rgba(0,0,0,.9);
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.footer-social {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 165px;
+  z-index: 10;
+  a {
+    font-size: 30px;
+    margin: 0 5px;
+    color: $light-gray;
+
+    &:hover, &:focus{
+      color: white;
+    }
+  }
+  .fa {
+
+  }
+}
+
+.footer-bottom {
+  height: 30px;
+  background-color: black;
+  @include brand-semi;
+  text-align: center;
+  padding-top: 7px;
+}

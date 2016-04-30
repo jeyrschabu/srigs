@@ -1,0 +1,82 @@
+.top-header-container {
+  @include brand-bold;
+  min-width: 300px;
+  background-color: #7a0000;
+  color: #dedede;
+  padding: 7px 15px;
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 1px;
+  right: 0;
+  top: -1px;
+  z-index: 1;
+  transition: all 0.7s ease;
+  @include border-radius(0px 0px 5px 5px);
+  @include media-breakpoint-down(sm) {
+    visibility: hidden;
+  }
+  .top-header-phone {
+    margin: 0 10px;
+  }
+  .top-header-email {
+    a {
+      color: #dedede;
+      text-transform: uppercase;
+      &:hover, &:focus {
+        color: white;
+      }
+    }
+  }
+  &:hover, &:focus {
+    background: #650000;
+    color: white;
+  }
+}
+
+.header-wrap {
+  background: url("../images/header-bg-rpt-6.jpg") center repeat-x;
+  height: 188px;
+  border-top: 5px solid #000;
+  border-bottom: 2px solid #393939;
+ /* @include box-shadow(inset 0 15px 15px -15px rgba(0,0,0,.5), inset 0 -15px 15px -15px rgba(0,0,0,.5)); */
+  position: relative;
+  @include media-breakpoint-down(xs) {
+    height: 100px;
+  }
+  .header-container {
+    height: 100%;
+  }
+}
+
+.header-logo-wrap {
+  height: 100%;
+  > a {
+    background: url("../images/shadow-rigs-logo.png") no-repeat center;
+
+    display: block;
+    height: 100%;
+    @include media-breakpoint-down(xs) {
+      background-size: 190px;
+    }
+  }
+}
+
+body.parent-pageid-45 .full-header-wrap {
+  height: 0;
+  @include transition(all .6s);
+
+}
+body.parent-pageid-45 .full-header-wrap-show {
+  height: 188px;
+  @include transition(all .6s);
+}
+
+.full-header-wrap {
+  overflow: hidden;
+  @include media-breakpoint-down(sm) {
+    height: 159px;
+  }
+  @include media-breakpoint-down(xs) {
+    height: 128px;
+  }
+}

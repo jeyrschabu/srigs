@@ -3,17 +3,10 @@
 var HomeController = function($scope, $location, categoryService){
     var self = this;
 
+    $scope.disableSticking = false;
+
     $scope.pageTitle = 'Home';
-
-    $scope.myInterval = 5000;
-    $scope.noWrapSlides = false;
     $scope.categories = [];
-
-    $scope.slides = [
-        { image: 'public/images/carousel_images/DSC_0550.jpg' },
-        { image: 'public/images/carousel_images/DSC_0281.jpg' },
-        { image: 'public/images/carousel_images/DSC_0474.jpg' }
-    ];
 
     function currentTab(path) {
         return $location.path() === path;

@@ -32,10 +32,6 @@ describe('MainApp', function(){
             expect(scope.pageTitle).toBe('Home');
         });
 
-        it ('should have a cat pictures array with 3 elements', function() {
-            expect(scope.slides.length).toBe(3);
-        });
-
         it ('should determine active tab based on current path', function() {
             expect(scope.currentTab('/home')).toBe(false);
             location.path('/home');

@@ -5,13 +5,15 @@
     <meta name="author" content="rooftopcoder">
     <title>Shadow Rigs</title>
     <link href="public/styles/main.css" rel="stylesheet"/>
-</head>
-<header class="header" ng-include="'app/partials/header.html'"></header>
 
-<span id="cart"><a href="#"><i class="fa fa-shopping-cart"></i><span>cart</span></a></span>
-<div class="body-content">
-    <div ui-view="content"></div>
+</head>
+<header class="" ng-include="'app/partials/header.html'"></header>
+<body>
+
+<div class="body-content" ui-view="content">
+
 </div>
+
 
 <footer class="footer" ng-include="'app/partials/footer.html'"></footer>
 <!-- libs -->
@@ -23,6 +25,10 @@
 <script src="bower_components/angular-animate/angular-animate.min.js"></script>
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 <script src="bower_components/ng-lodash/build/ng-lodash.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/ngSticky/lib/sticky.js"></script>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
 <!-- app -->
@@ -34,9 +40,9 @@
 
 <!-- controllers -->
 <script src="app/controllers/home-controller.js"></script>
-<script src="app/controllers/contact-controller.js"></script>
 <script src="app/controllers/product-controller.js"></script>
-<script src="app/controllers/warranty-controller.js"></script>
+<script src="app/controllers/support-controller.js"></script>
+<script src="app/controllers/crew-controller.js"></script>
 
 </body>
 </html>

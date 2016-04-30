@@ -1,25 +1,44 @@
+<nav class="nav sidebar-nav" id="sidebar-nav">
+    <img src="public/images/shadow-rigs-logo.png" class="img-fluid sidebar-logo" />
+    <ul class="sidebar-nav-wrap">
+        <li class="sidebar-li"><a href="#/"><div class="sidebar-nav-left"><span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Home</div></a></li>
+        <li><a href="/#products"><div class="sidebar-nav-left"><span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Products</div></a></li>
+        <li><a href="/#the-crew"><div class="sidebar-nav-left"><span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">The Crew</div></a></li>
+        <li><a href="/#support"><div class="sidebar-nav-left"><span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Support</div></a></li>
+    </ul>
 
-
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#/"><img src="../../public/images/ShadowRigsHeaderBlack.png" /> </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li ng-class="{ active: currentTab('/home')}"><a href="#/"><span class="header-spacer">Home</span></a></li>
-                <li ng-class="{ active: currentTab('/products')}"><a href="#/products"><span class="header-spacer">Products</span></a></li>
-                <li ng-class="{ active: currentTab('/warranty')}"><a href="#/warranty"><span class="header-spacer">Warranty</span></a></li>
-                <li ng-class="{ active: currentTab('/the-players')}"><a href="#/the-crew"><span class="header-spacer">The Crew</span></a></li>
-                <li ng-class="{ active: currentTab('/contact')}"><a href="#/contact"><span class="header-spacer" id="last-header-item">Contact</span></a></li>
-            </ul>
-        </div>
-    </div>
 </nav>
+
+<div class="hamburger-menu" id="menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="full-page-hamburger-menu" id="full-page-menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<section class="full-header-wrap header-wrap">
+
+    <div class="container header-container">
+        <div class="top-header-container">
+            <span class="fa fa-phone" aria-hidden="true"></span><span class="top-header-phone">202-555-0182</span>
+            <span class="top-header-email"><a href="mailto:info@shadowrigs.com">info@shadowrigs.com</a></span>
+        </div>
+
+        <div class="header-logo-wrap col-md-3 col-xs-12 col-sm-6 col-sm-push-3 col-md-push-0">
+            <a href=""><h1 class="screen-reader">Shadow Rigs</h1></a>
+        </div>
+        <nav class="nav header-nav-wrap col-sm-9">
+            <ul>
+                <li><a href="/#"><span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-hidden="true"></span>Home</a></li>
+                <li><a href="/#products"><span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-hidden="true"></span>Products</a></li>
+                <li><a href="/#the-crew"><span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-hidden="true"></span>The Crew</a></li>
+                <li><a href="/#support"><span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-hidden="true"></span>Support</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>

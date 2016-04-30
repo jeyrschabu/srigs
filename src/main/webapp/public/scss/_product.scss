@@ -1,0 +1,306 @@
+.product-highlight {
+  position: relative;
+  background: black;
+  background: url("../images/product-page-bg.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  > img {
+
+    padding-top: 6%;
+  }
+  .product-title-wrap {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(255,255,255,.02);
+    position: absolute;
+    bottom: 7%;
+    h1 {
+      font-size: 50px;
+      @include brand-bold;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      text-shadow: 0 0 4px #000, 0 0 7px #000, 0 0 2px #000;
+      margin: 0;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    height: 750px;
+  }
+  @include media-breakpoint-down(sm) {
+    height: 750px;
+    > img {
+      padding-top: 13%;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    height: 520px;
+    > img {
+      max-width: 250px;
+      padding-top: 20%;
+    }
+  }
+}
+
+.product-main-highlight {
+  position: relative;
+  background: black;
+  background: url("../images/product-page-main.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 322px;
+  .product-title-wrap {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-size: 60px;
+      padding-top: 100px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    @include media-breakpoint-down(sm) {
+      h1 {
+        font-size: 50px;
+        padding-top: 80px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+    @include media-breakpoint-down(xs) {
+      h1 {
+        font-size: 44px;
+        padding-top: 60px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+
+
+}
+
+
+body.phantom .product-highlight {
+  background: url("../images/product-page-bg-01.png") center top no-repeat;
+}
+
+.product-page-break {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  background-color: $mid-gray;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  z-index: 20;
+  text-transform: uppercase;
+  color: #171717;
+  @media (max-width: 500px) {
+    height: 60px;
+    a {
+      display: block;
+    }
+  }
+  span {
+    @include brand-black;
+    margin-right: 5%;
+  }
+  a {
+    padding: 5px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    @include border-radius(5px);
+    background-color: #4e4e4e;
+    transition: background-color 0.7s ease;
+    color: white;
+    @include brand-semi;
+    &:focus, &:hover {
+      background-color: #282828;
+      text-decoration: none;
+    }
+  }
+  @media (max-width: 500px) {
+    height: 60px;
+    span {
+      padding-left: 20px;
+    }
+    a {
+      display: block;
+
+    }
+  }
+}
+
+.header {
+  background-color: #eee;
+  height: 50px;
+  padding: 5px;
+  width: 100%;
+}
+
+.product-wrap {
+
+}
+
+
+.product-content {
+  p {
+    color: #9f9f9f;
+  }
+}
+
+
+.product-row {
+  width: 100%;
+  height: auto;
+  .container {
+    align-items: center;
+    display: flex;
+    @include media-breakpoint-down(md) {
+      display: block;
+    }
+  }
+  @include gradient-radial(rgba(255,255,255,.03), rgba(0,0,0,.5));
+  padding: 50px 10px 50px 10px;
+  border-bottom: 1px solid $gray-dark;
+  p {
+    margin: auto 0;
+    align-self: center;
+  }
+
+}
+
+
+
+.product-left, .product-right {
+  height: 100%;
+  padding: 10px 0;
+
+  img {
+    display: block;
+    margin: 0 auto;
+
+  }
+}
+
+
+.product-left-animated {
+  transform: translateX(-150px);
+  animation: come-in 0.8s ease forwards;
+}
+.product-right-animated {
+  transform: translateX(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+.product-left-animated:nth-child(odd), .product-right-animated:nth-child(odd) {
+  animation-duration: 1.2s; /* So they look staggered */
+}
+.already-visible {
+  transform: translateX(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateX(0); }
+}
+
+
+
+ /* Full size image breaker
+
+  image set via markup
+
+  thats why its weird
+
+  */
+.product-page-highlight-wrap {
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 694px;
+  display: flex;
+  border-top: 5px solid $gray-accent;
+  border-bottom: 5px solid $gray-accent;
+  align-items: center;
+  @include media-breakpoint-down(sm) {
+    height: 400px;
+  }
+  .container {
+    height: 100%;
+  }
+  h2 {
+    color: #181818;
+  }
+  p {
+    color: #181818;
+  }
+}
+
+.pph-desc {
+  width: 83%;
+  height: auto;
+  @include media-breakpoint-down(md) {
+    padding-left: 2%;
+  }
+}
+
+.pph {
+  height: 100%;
+  width: 58%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(205,205,205,.8);
+  @include media-breakpoint-down(xs) {
+    width: 85%;
+    background-color: rgba(205,205,205,.75);
+  }
+}
+
+.pph-left {
+  -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  -ms-clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  .pph-desc {
+    padding-left: 17%;
+    @include media-breakpoint-down(md) {
+      padding-left: 2%;
+    }
+  }
+}
+
+.pph-right {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+  -ms-clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+  margin-left: auto;
+  text-align: right;
+  .pph-desc {
+    margin-left: auto;
+    position: relative;
+    width: 67%;
+    right: 17%;
+    @include media-breakpoint-down(md) {
+      width: 80%;
+      right: 2%;
+    }
+  }
+}
+
+/* end */
+
+
+
+
+
+
+

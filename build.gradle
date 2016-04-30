@@ -1,6 +1,4 @@
-group 'com.rooftopcoder.web'
-version '1.0'
-
+apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'war'
@@ -11,6 +9,9 @@ apply plugin: 'com.moowork.node'
 
 targetCompatibility = JavaVersion.VERSION_1_8
 sourceCompatibility = JavaVersion.VERSION_1_8
+
+group 'com.rooftopcoder.web'
+version '1.0'
 
 repositories {
     maven  {
@@ -101,11 +102,11 @@ dependencies {
     remoteSources 'com.github.jsimone:webapp-runner:8.0.24.0'
 }
 
-node {
-    version = "0.12.4"
-    npmVersion = "2.10.1"
-    download = true
-}
+//node {
+//    version = "0.12.4"
+//    npmVersion = "2.10.1"
+//    download = true
+//}
 
 task stage(dependsOn: ['prepareWebRunner','war'])
 

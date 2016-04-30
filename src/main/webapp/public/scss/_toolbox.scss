@@ -1,0 +1,104 @@
+$color-accent: #910101; /* 48fdea  */
+$color-accent-dull: #454545;
+$gray: #121212; /* fix this */
+$offblack: #121212;
+$mid-gray: #b9b9b9;
+$light-gray: #939393;
+$neon-blue: #00ffff;
+$blue: #17a8ff;
+$dark-red: #7a0000;
+$red: #970c0e;
+$gray-accent: #393939;
+$green: #00ab00;
+
+.screen-reader {
+  text-indent: -9999px;
+}
+
+.nopadding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* bootstrap reset */
+.container {
+  padding: 0;
+  @include media-breakpoint-down(md) {
+    max-width: 900px;
+  }
+}
+
+.no-gutters {
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* Only works for one line
+.no-side-gutters {
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 2%;
+    padding-left: 0;
+  }
+  & > [class^="col-"]:last-of-type,
+  & > [class*=" col-"]:last-of-type {
+    padding-right: 0;
+  }
+} */
+
+
+
+.small-gutters {
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 2%;
+    padding-left: 0;
+  }
+  & > [class^="col-"]:last-of-type,
+  & > [class*=" col-"]:last-of-type {
+    padding-right: 0;
+  }
+}
+
+
+.breaker-gradient {
+  @include gradient-horizontal-three-colors($start-color: rgba(0,0,0,.1), $mid-color: #4e4e4e, $color-stop: 50%, $end-color: rgba(0,0,0,.1));
+  width: 70%;
+  height: 1px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: -5px;
+
+}
+
+.mqid {
+  @include media-breakpoint-down(xl) {
+    &:after {
+      content: "xl"
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    &:after {
+      content: "lg"
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &:after {
+      content: "md"
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    &:after {
+      content: "SM"
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    &:after {
+      content: "xs"
+    }
+  }
+}

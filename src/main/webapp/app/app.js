@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('MainApp', ['ui.router', 'ngAnimate', 'ui.bootstrap']);
-angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
+angular.module('MainApp', ['ui.router', 'ngAnimate', 'ui.bootstrap', 'sticky']);
+angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
 
@@ -14,12 +14,12 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'HomeController'
                 }
             }
-        }).state('warranty', {
-            url:'/warranty',
+        }).state('support', {
+            url:'/support',
             views: {
                 'content':{
-                    templateUrl: '/app/partials/warranty.html',
-                    controller: 'WarrantyController'
+                    templateUrl: '/app/partials/support.html',
+                    controller: 'SupportController'
                 }
             }
         }).state('contact', {
@@ -28,6 +28,14 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                 'content':{
                     templateUrl: '/app/partials/contact.html',
                     controller: 'ContactController'
+                }
+            }
+        }).state('the-crew', {
+            url:'/the-crew',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/the-crew.html',
+                    controller: 'warranty-controller'
                 }
             }
         }).state('products', {
@@ -46,20 +54,29 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
+        // I'm sure this isn't the right way
+        }).state('phantom', {
+            url:'/products/gaming/phantom',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/phantom.html',
+                    controller: 'ProductController'
+                }
+            }
+        }).state('specter', {
+            url:'/products/gaming/specter',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/specter.html',
+                    controller: 'ProductController'
+                }
+            }
         }).state('product', {
             url:'/product/:id',
             views: {
                 'content':{
                     templateUrl: '/app/partials/product-long-description.html',
                     controller: 'ProductController'
-                }
-            }
-        }).state('the-crew', {
-            url:'/the-crew',
-            views: {
-                'content':{
-                    templateUrl: '/app/partials/the-crew.html',
-                    controller: 'warranty-controller' // this should maybe become the static page controller
                 }
             }
         }).state('customize', {
@@ -73,7 +90,7 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
         });
 
 }]).run( function($rootScope) {
-    $rootScope.$on('$locationChangeStart', function(){
+    $rootScope.$on('$locationChangeStart', function() {
 
     });
 });
