@@ -8,6 +8,7 @@
 
 </head>
 <header class="" ng-include="'app/partials/header.html'"></header>
+<body>
 
 <div class="body-content" ui-view="content">
 
@@ -25,6 +26,7 @@
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 <script src="bower_components/ng-lodash/build/ng-lodash.min.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/ngSticky/lib/sticky.js"></script>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
@@ -38,16 +40,9 @@
 
 <!-- controllers -->
 <script src="app/controllers/home-controller.js"></script>
-<script src="app/controllers/contact-controller.js"></script>
 <script src="app/controllers/product-controller.js"></script>
-<script src="app/controllers/warranty-controller.js"></script>
-
-<!-- trying to get ngSticky working -->
-<script>
-    angular.module('demo', ['sticky']).controller('demoCtrl', function($scope) {
-        $scope.disableSticking = false;
-    });
-</script>
+<script src="app/controllers/support-controller.js"></script>
+<script src="app/controllers/crew-controller.js"></script>
 
 </body>
 </html>

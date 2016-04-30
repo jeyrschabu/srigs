@@ -1,21 +1,22 @@
+
 describe('MainApp', function(){
     var scope;
-    var contactController;
+    var supportController;
 
     beforeEach(function () {
         module('MainApp');
     });
 
-    describe('ContactController', function(){
+    describe('SupportController', function(){
         beforeEach(inject(function($rootScope, $controller){
             scope = $rootScope.$new();
-            contactController = $controller('ContactController', {
+            supportController = $controller('SupportController', {
                 '$scope' : scope
             });
         }));
 
         it('should have a title to match the page', function(){
-            expect(scope.pageTitle).toBe('Contact');
+            expect(scope.pageTitle).toBe('Support');
         });
     })
 });

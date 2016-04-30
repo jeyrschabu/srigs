@@ -1,22 +1,21 @@
-
 describe('MainApp', function(){
     var scope;
-    var warrantyController;
+    var crewController;
 
     beforeEach(function () {
         module('MainApp');
     });
 
-    describe('WarrantyController', function(){
+    describe('CrewController', function(){
         beforeEach(inject(function($rootScope, $controller){
             scope = $rootScope.$new();
-            warrantyController = $controller('WarrantyController', {
+            crewController = $controller('CrewController', {
                 '$scope' : scope
             });
         }));
 
         it('should have a title to match the page', function(){
-            expect(scope.pageTitle).toBe('Warranty');
+            expect(scope.pageTitle).toBe('Crew');
         });
     })
 });
