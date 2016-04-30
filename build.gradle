@@ -85,7 +85,7 @@ npmSetup {
     outputs.upToDateWhen { false }
 }
 
-grunt_build.dependsOn 'installGrunt', 'npmInstall'
+grunt_build.dependsOn 'nodeSetup', 'installGrunt', 'npmInstall'
 
 configurations {
     remoteSources {
@@ -101,6 +101,12 @@ war {
 dependencies {
     remoteSources 'com.github.jsimone:webapp-runner:8.0.24.0'
 }
+
+node {
+    version = '4.4.3'
+    npmVersion = '2.15.1'
+}
+
 
 task stage(dependsOn: ['cleanNodeModules','prepareWebRunner','war'])
 
