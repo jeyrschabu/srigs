@@ -2,6 +2,9 @@
 
 var ProductController = function($scope, $stateParams, categoryService, productService, featureService) {
     var self = this;
+
+    $scope.disableSticking = false;
+    
     $scope.pageTitle = 'Products';
     $scope.categories = [];
     $scope.features = [];

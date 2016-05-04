@@ -184,29 +184,99 @@
 
         </div>
 
-        <div class="col-md-4">
-            <!-- will be sticky -->
-            <div ng-app="demo" ng-controller="demoCtrl">
-                <section class="cp-summary" id="sticker" sticky>
-                    <h2 class="cps-summary-title">PHANTOM</h2>
-                    <ul class="cps-list">
-                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Stage One Overclocking Included</li>
-                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Rigorous Stress Testing</li>
-                    </ul>
-                    <div class="cps-delivery"><h3>EST. Delivery:</h3><span>10-15 Business Days</span></div>
-                    <div class="cps-total"><h3>Total:</h3><span>$1,500</span></div>
-                    <p><a href="">Email us about this build</a></p>
-                    <a href="#" class="cps-add-to-cart">Add to Cart</a>
-                </section>
-            </div>
+        <div class="col-md-4" ng-include="'app/partials/customize/summary.html'">
         </div>
     </div>
 </section>
 
+<pre>
+Customize page order (Rough Outline, will need Dom/Gringo's input for final):
 
+Case Options
 
+Case Cooling Options
+    Stock Fans
+    LED Fans
+        Color Options
+    Performance
 
+Case Color
+    LED Strips
+        Color Options
+    None
 
+Cable Color
+    Basic
+    Colored
+        Color Options
+
+Processor (locked to build)
+
+RAM
+    4
+    8
+    16
+    32
+    64
+
+Graphics
+    Card option #1
+    Card option #1 2-way SLI
+    Card option #2
+    Card option #2 2-way Crossfire
+
+Overclock (CPU & GPU)
+    Stage One
+    Stage Two
+    Stage Three
+
+Hard Drive
+    HDD option #1
+    HDD option #1 RAID0
+    HDD option #1 RAID1
+
+    SSD option #2
+    SSD option #2 RAID0
+    SSD option #2 RAID1
+
+    SSD option #2 m.2
+
+Optical Drives
+    BR Burner
+    BR player
+    DVD burner
+
+Operating System
+    Win 10 Home
+    Win 10 Pro
+
+Internal WiFi
+    Option #1
+    Option #2
+
+EXTRAS
+
+External Storage
+Routers
+Monitor
+Cables
+Speakers
+Headphones
+Keyboard/Mouse
+Branded Mouse Pads
+Shirts
+Surge Protected
+Flash Drives
+Camera
+
+Support Package
+    1-3 Year for Free
+    2-4 Paid
+    3-5 Year
+
+Rush Processing
+
+</pre>
 
 <!-- OLD
 
