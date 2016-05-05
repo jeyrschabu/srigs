@@ -169,13 +169,14 @@
   padding-left: 50px;
   h4 {
     font-size: 20px;
-    @include brand-bold;
+    font-family: "Open Sans";
+    font-weight: bold;
     display: inline-block;
     text-transform: none;
     max-width: 500px;
   }
-  img {
-    max-width: 100%;
+  p {
+
   }
   span.cpm-price {
     right: 80px;
