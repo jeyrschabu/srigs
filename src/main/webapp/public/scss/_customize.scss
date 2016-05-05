@@ -146,6 +146,9 @@
   border-bottom: 1px solid $mid-gray;
   min-height: 80px;
   position: relative;
+  img {
+    max-width: 100%;
+  }
 }
 
 .cpm-radio-wrap {
