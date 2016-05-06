@@ -217,6 +217,9 @@
     &:last-of-type {
       border-right: 0;
     }
+    &:first-of-type {
+      border-left: 1px solid $offwhite;
+    }
   }
   .cpm-item-wrap {
     margin: 10px;
