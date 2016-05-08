@@ -5,12 +5,29 @@
 
             <!-- TODO finish style/js & import -->
 
+            <section class="customize-nav" sticky>
+                <a href="#makeityours" class="col-md-3">
+                    <h3>Make it Yours</h3>
+                </a>
+                <a href="#performance" class="col-md-3">
+                    <h3>Performance Options</h3>
+                </a>
+                <a href="#storage" class="col-md-3">
+                    <h3>Storage and Optical</h3>
+                </a>
+                <a href="/#/customize/accessories" class="col-md-3">
+                    <h3>Accessories</h3>
+                </a>
+
+            </section>
+
+            <a name="makeityours"></a>
             <section class="cp-module">
                 <h3 class="cpm-title">Case</h3>
                 <ul class="cpm-list cpm-horz row">
 
                     <li class="col-md-4">
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-item-wrap">
                                 <img src="/public/images/products/phantom.png">
                                 <h4>Corsair Obsidian 900D</h4>
@@ -20,7 +37,7 @@
                                     </span>
                             </div>
 
-                        </div>
+                        </a>
                         <div class="cpm-radio-wrap">
                             <input type="radio">
                         </div>
@@ -63,12 +80,14 @@
                 </ul>
             </section>
 
+
+            <!-- Closest to what final structure will be -->
             <section class="cp-module">
                 <h3 class="cpm-title">Case Cooling Options</h3>
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio" class="radio-custom">
                             </div>
@@ -78,14 +97,18 @@
                                     <span class="cpm-price">
                                         + $0
                                     </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                            </div>
-                        </div>
+                                <!-- this ng-click will need to be dynamic somehow -->
 
-                    </li>
+                            </div>
+                            <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                                <p><img src="#" />An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1"></i></a>
+                    </i>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -95,9 +118,83 @@
                                     <span class="cpm-price">
                                         + $100
                                     </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2"></i></a>
+
+
+                    <!-- only shows if LED is selected,  will be replaced by product images -->
+                        <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="#" class="cpm-color red"></a>
+                                    <p>Red</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color blue"></a>
+                                    <p>Blue</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color green selected"></a>
+                                    <p>Green</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color purple"></a>
+                                    <p>Purple</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color yellow"></a>
+                                    <p>Yellow</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color white"></a>
+                                    <p>white</p>
+                                </div>
                             </div>
                         </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Performance</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+                            <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                                <p><img src="#" />An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3"></i></a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Case LED Options</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>LED Strips</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
 
                         <!-- only shows if LED is selected -->
                         <div class="cpm-description cpm-color-picker">
@@ -131,19 +228,19 @@
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
                             <div class="cpm-item-wrap">
-                                <h4>Performance</h4>
+                                <h4>None</h4>
                                 <p>Some brief descriptive text here.</p>
                                     <span class="cpm-price">
                                         + $120
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                 </ul>
@@ -155,7 +252,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -167,12 +264,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -184,7 +281,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <!-- only shows if LED is selected -->
                         <div class="cpm-description cpm-color-picker">
                             <div class="row">
@@ -220,13 +317,15 @@
                 </ul>
             </section>
 
+
+            <a name="performance"></a>
             <!-- CPU will be locked to build -->
             <section class="cp-module">
                 <h3 class="cpm-title">Processor</h3>
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -238,7 +337,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
@@ -254,7 +353,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -266,12 +365,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -283,14 +382,14 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -302,11 +401,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -318,7 +417,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                 </ul>
@@ -331,7 +430,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -343,12 +442,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -360,10 +459,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -375,12 +475,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -392,10 +492,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -407,12 +508,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -424,6 +525,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
+                        </a>
                     </li>
 
                 </ul>
@@ -435,7 +537,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -447,12 +549,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -464,11 +566,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -480,19 +582,19 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                 </ul>
             </section>
 
-
+            <a name="storage"></a>
             <section class="cp-module">
                 <h3 class="cpm-title">Hard Drives</h3>
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -504,12 +606,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -521,11 +623,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -537,11 +639,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -553,12 +655,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -570,11 +672,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -586,7 +688,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                 </ul>
@@ -599,7 +701,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -611,12 +713,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -628,14 +730,14 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -647,11 +749,11 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -663,7 +765,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                 </ul>
@@ -675,7 +777,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -687,12 +789,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -704,7 +806,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
@@ -722,7 +824,7 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -734,12 +836,12 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
@@ -751,7 +853,7 @@
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
@@ -759,6 +861,11 @@
 
                 </ul>
             </section>
+
+
+
+
+
         </div>
 
         <div class="col-md-4" ng-include="'app/partials/customize/summary.html'">
