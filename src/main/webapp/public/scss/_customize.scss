@@ -33,6 +33,7 @@
   color: #1a1a1a;
   text-align: center;
   position: relative;
+
   h2.cps-summary-title {
     border: 1px solid rgba(255,255,255,.1);
     background-color: $offblack;
@@ -108,10 +109,9 @@
   margin-top: 10px;
   @include box-shadow(0 0 3px 3px rgba(0,0,0,.3));
   h3.cpm-title {
-    border: 1px solid rgba(255,255,255,.3);
+    border: 1px inset rgba(255,255,255,.3);
     border-bottom: 0;
     @include gradient-vertical($start-color: $dark-red, $end-color: $darker-red, $start-percent: 0%, $end-percent: 100%);
-
     border-bottom: 1px solid $offwhite;
     padding: 7px;
     color: rgba(255,255,255,.9);
@@ -249,18 +249,38 @@
     top: auto;
     bottom: -3px;
   }
+  i {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+  }
 }
+.cpm-expand-desc-active {
+  -moz-transform: scale(1) rotate(90deg);
+  -webkit-transform: scale(1) rotate(90deg);
+  -o-transform: scale(1) rotate(90deg);
+  transform: scale(1) rotate(90deg);
+  color: $gray;
+  @include media-breakpoint-down(sm) {
+    -moz-transform: scale(1) rotate(-90deg);
+    -webkit-transform: scale(1) rotate(-90deg);
+    -o-transform: scale(1) rotate(-90deg);
+    transform: scale(1) rotate(-90deg);
+    color: $offwhite;
+  }
+}
+
+
+/* TODO fix stuttery animations */
 
 .cpm-description {
   color: white;
   @include gradient-vertical($start-color: #1e1e1e, $end-color: #0b0b0b, $start-percent: 0%, $end-percent: 100%);
   border-bottom: 1px solid $offwhite;
   padding: 10px 10px 10px 40px;
-  -webkit-transition: max-height .5s;
-  -moz-transition: max-height .5s;
-  -ms-transition: max-height .5s;
-  -o-transition: max-height .5s;
-  transition: max-height .5s;
+@include transition(max-height 1s);
   overflow: hidden;
 }
 
@@ -379,7 +399,9 @@
   width: 100%;
   margin: 10px 0 30px 0;
   min-height: 50px;
+  z-index: 30 !important; /* override ngsticky */
   @include border-radius(5px);
+  @include box-shadow(0 0 8px 8px rgba(0,0,0,.7));
   a {
     display: inline-flex;
     margin: 0;
@@ -431,7 +453,7 @@
       border-bottom: solid 25px transparent;
       border-top: solid 25px transparent;
     }
-    &:hover, &:focus, .cn-active {
+    &:hover, &:focus, &.cn-active {
       text-decoration: none;
       @include gradient-vertical($start-color: #323232, $end-color: #171717, $start-percent: 0%, $end-percent: 100%);
       color: white;
@@ -441,4 +463,17 @@
       border-left: solid 25px $offwhite;
     }
   }
+}
+
+.cp-breaker-title {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  display: block;
+  background-color: rgba(255,255,255,.1);
+  border: 1px inset rgba(255,255,255,.3);
+  border-left: none;
+  border-right: none;
+  @include gradient-horizontal-three-colors($start-color: rgba(255,255,255,.002), $mid-color: rgba(255,255,255,.09), $color-stop: 50%, $end-color: rgba(255,255,255,.002))
+
 }
