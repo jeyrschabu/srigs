@@ -34,6 +34,7 @@
   text-align: center;
   position: relative;
   h2.cps-summary-title {
+    border: 1px solid rgba(255,255,255,.1);
     background-color: $offblack;
     padding: 20px;
     color: white;
@@ -155,6 +156,12 @@
   display: block;
   position: relative;
   color: $offblack;
+  overflow: hidden;
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  transition: all .3s;
   @include gradient-vertical($start-color: white, $end-color: #d0d0d0, $start-percent: 0%, $end-percent: 100%);
 
   &:hover, &:focus {
@@ -163,6 +170,10 @@
   }
   img {
     max-width: 100%;
+  }
+  @include media-breakpoint-down(sm) {
+    min-height: 90px;
+    padding-bottom: 30px;
   }
 
 }
@@ -187,7 +198,7 @@
 .cpm-item-wrap {
   display: inline-block;
   margin-top: 10px;
-  padding-left: 50px;
+  padding: 0 10px 0 50px;
   h4 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -207,8 +218,17 @@
     font-size: 25px;
     color: $green;
   }
-
+  @include media-breakpoint-down(sm) {
+    .cpm-price {
+      top: auto;
+      bottom: 0px;
+      right: 50px;
+    }
+    padding: 5px 10px 5px 50px;
+  }
 }
+
+
 .cpm-expand-desc {
   position: absolute !important;
   top: 11px;
@@ -224,44 +244,41 @@
   &:hover, &:focus {
     color: $gray;
   }
-  z-index: 1000;
+  z-index: 20;
+  @include media-breakpoint-down(md) {
+    top: auto;
+    bottom: -3px;
+  }
 }
-/* need to clean this up */
 
 .cpm-description {
   color: white;
   @include gradient-vertical($start-color: #1e1e1e, $end-color: #0b0b0b, $start-percent: 0%, $end-percent: 100%);
   border-bottom: 1px solid $offwhite;
   padding: 10px 10px 10px 40px;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: max-height .5s;
+  -moz-transition: max-height .5s;
+  -ms-transition: max-height .5s;
+  -o-transition: max-height .5s;
+  transition: max-height .5s;
+  overflow: hidden;
 }
 
 .cpm-desc-hide {
-  visibility: hidden;
-  height: 0 !important;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  padding: 0;
-  * {
+  max-height: 0 !important;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  p, img {
     height: 0;
   }
 }
 
 .cpm-desc-open {
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  visibility: visible;
-  height: auto;
+  max-height: 300px;
+  position: relative;
 }
 
 .cpm-horz {
@@ -298,10 +315,22 @@
     border: 0;
     min-height: 520px;
   }
+  @include media-breakpoint-down(sm) {
+    img {
+      max-width: 80%;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .cpm-radio-wrap {
+      margin: 0 15%;
+      width: 70%;
+    }
+  }
 }
 
 .cpm-color-picker {
-  padding-top: 20px;
+  padding: 20px 0 0 0;
   display: block;
   p {
     text-align: center;
@@ -375,11 +404,14 @@
       font-family: 'Open Sans', sans-serif;
       text-align: center;
       width: 100%;
-      padding-left: 10px;
+      padding-left: 20px;
     }
     @include gradient-vertical($start-color: white, $end-color: #d0d0d0, $start-percent: 0%, $end-percent: 100%);
     &:first-of-type {
       @include border-radius(5px 0 0 5px);
+      h3 {
+        padding-left: 5px;
+      }
     }
     &:last-of-type {
       @include border-radius(0 5px 5px 0);
@@ -399,7 +431,7 @@
       border-bottom: solid 25px transparent;
       border-top: solid 25px transparent;
     }
-    &:hover, &:focus {
+    &:hover, &:focus, .cn-active {
       text-decoration: none;
       @include gradient-vertical($start-color: #323232, $end-color: #171717, $start-percent: 0%, $end-percent: 100%);
       color: white;

@@ -1,24 +1,26 @@
 <section class="customize-product-top">
     <div class="container">
-        <div class="col-md-8 cp-product-img">
+        <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/phantom.png">
 
             <!-- TODO finish style/js & import -->
 
-            <section class="customize-nav" sticky>
-                <a href="#makeityours" class="col-md-3">
-                    <h3>Make it Yours</h3>
-                </a>
-                <a href="#performance" class="col-md-3">
-                    <h3>Performance Options</h3>
-                </a>
-                <a href="#storage" class="col-md-3">
-                    <h3>Storage and Optical</h3>
-                </a>
-                <a href="/#/customize/accessories" class="col-md-3">
-                    <h3>Accessories</h3>
-                </a>
-
+            <section class="customize-nav" sticky media-query="min-width: 62em">
+                <div class="row">
+                    <a href="#makeityours" class="col-xs-6 col-md-6 col-lg-3 cn-active">
+                        <h3>Make it Yours</h3>
+                    </a>
+                    <a href="#performance" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Performance Options</h3>
+                    </a>
+                    <div class="clearfix hidden-md-up"></div>
+                    <a href="#storage" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Storage and Optical</h3>
+                    </a>
+                    <a href="/#/customize/accessories" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Accessories</h3>
+                    </a>
+                </div>
             </section>
 
             <a name="makeityours"></a>
@@ -100,12 +102,20 @@
                                 <!-- this ng-click will need to be dynamic somehow -->
 
                             </div>
-                            <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
-                                <p><img src="#" />An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
-                            </div>
+
                         </a>
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1"></i></a>
-                    </i>
+                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
 
                     <li>
                         <a class="cpm-inner" href="#">
@@ -126,27 +136,27 @@
                     <!-- only shows if LED is selected,  will be replaced by product images -->
                         <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a href="#" class="cpm-color red"></a>
                                     <p>Red</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color blue"></a>
                                     <p>Blue</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color green selected"></a>
                                     <p>Green</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color purple"></a>
                                     <p>Purple</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color yellow"></a>
                                     <p>Yellow</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color white"></a>
                                     <p>white</p>
                                 </div>
@@ -166,11 +176,19 @@
                                         + $120
                                     </span>
                             </div>
-                            <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
-                                <p><img src="#" />An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
-                            </div>
+
                         </a>
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
 
                 </ul>
@@ -199,27 +217,27 @@
                         <!-- only shows if LED is selected -->
                         <div class="cpm-description cpm-color-picker">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a href="#" class="cpm-color red"></a>
                                     <p>Red</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color blue"></a>
                                     <p>Blue</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color green selected"></a>
                                     <p>Green</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color purple"></a>
                                     <p>Purple</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color yellow"></a>
                                     <p>Yellow</p>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-xs-4 col-md-2">
                                     <a class="cpm-color white"></a>
                                     <p>white</p>
                                 </div>
@@ -868,7 +886,7 @@
 
         </div>
 
-        <div class="col-md-4" ng-include="'app/partials/customize/summary.html'">
+        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'">
         </div>
     </div>
 </section>
