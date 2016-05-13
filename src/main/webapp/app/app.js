@@ -71,6 +71,22 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
+        }).state('wraith', {
+            url:'/products/gaming/wraith',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/wraith.html',
+                    controller: 'ProductController'
+                }
+            }
+        }).state('shade', {
+            url:'/products/gaming/shade',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/products/shade.html',
+                    controller: 'ProductController'
+                }
+            }
         }).state('product', {
             url:'/product/:id',
             views: {

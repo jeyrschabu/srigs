@@ -114,7 +114,12 @@ nav {
   height: 150%;
   width: 100%;
   position: fixed;
-  @include transition(all .3s);
+  @include transition(all .3s); /*need to troubleshoot */
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
   z-index: 30;
   background-color: rgba(0,0,0,.95);
   left: -100%;

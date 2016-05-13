@@ -1,15 +1,37 @@
-<nav class="nav sidebar-nav" id="sidebar-nav">
+<nav class="nav sidebar-nav" ng-class="sidebarshow ? 'sidebar-nav-expand' : 'defaultState'">
     <img src="public/images/shadow-rigs-logo.png" class="img-fluid sidebar-logo" />
     <ul class="sidebar-nav-wrap">
-        <li class="sidebar-li"><a href="#/"><div class="sidebar-nav-left"><span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Home</div></a></li>
-        <li><a href="/#products"><div class="sidebar-nav-left"><span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Products</div></a></li>
-        <li><a href="/#the-crew"><div class="sidebar-nav-left"><span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">The Crew</div></a></li>
-        <li><a href="/#support"><div class="sidebar-nav-left"><span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-hidden="true"></span></div><div class="sidebar-nav-right">Support</div></a></li>
+        <li class="sidebar-li">
+            <a href="#/">
+                <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
+                    <span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-defaultState="true"></span>
+                </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Home</div>
+            </a>
+        </li>
+        <li>
+            <a href="/#products">
+                <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
+                    <span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-defaultState="true"></span>
+                </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Products</div>
+            </a>
+        </li>
+        <li><a href="/#the-crew">
+            <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
+                <span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-defaultState="true"></span>
+            </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">The Crew</div></a></li>
+
+        <li>
+            <a href="/#support">
+                <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
+                    <span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-defaultState="true"></span>
+                </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Support</div>
+            </a>
+        </li>
     </ul>
 
 </nav>
 
-<div class="hamburger-menu" id="menu-btn">
+<div class="hamburger-menu" id="menu-btn" ng-click="sidebarshow = !sidebarshow"  ng-class="sidebarshow ? 'open' : 'defaultState'">
     <span></span>
     <span></span>
     <span></span>
@@ -25,7 +47,7 @@
 
     <div class="container header-container">
         <div class="top-header-container">
-            <span class="fa fa-phone" aria-hidden="true"></span><span class="top-header-phone">202-555-0182</span>
+            <span class="fa fa-phone" aria-defaultState="true"></span><span class="top-header-phone">202-555-0182</span>
             <span class="top-header-email"><a href="mailto:info@shadowrigs.com">info@shadowrigs.com</a></span>
         </div>
 
@@ -34,10 +56,10 @@
         </div>
         <nav class="nav header-nav-wrap col-sm-9">
             <ul>
-                <li><a href="/#"><span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-hidden="true"></span>Home</a></li>
-                <li><a href="/#products"><span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-hidden="true"></span>Products</a></li>
-                <li><a href="/#the-crew"><span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-hidden="true"></span>The Crew</a></li>
-                <li><a href="/#support"><span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-hidden="true"></span>Support</a></li>
+                <li><a href="/#"><span class="fa fa-home" ng-class="{ active: currentTab('/home')}" aria-defaultState="true"></span>Home</a></li>
+                <li><a href="/#products"><span class="fa fa-desktop" ng-class="{ active: currentTab('/products')}" aria-defaultState="true"></span>Products</a></li>
+                <li><a href="/#the-crew"><span class="fa fa-users" ng-class="{ active: currentTab('/shadowrigs-crew')}" aria-defaultState="true"></span>The Crew</a></li>
+                <li><a href="/#support"><span class="fa fa-question-circle" ng-class="{ active: currentTab('/support')}" aria-defaultState="true"></span>Support</a></li>
             </ul>
         </nav>
     </div>

@@ -1,126 +1,372 @@
 <section class="customize-product-top">
     <div class="container">
-        <div class="col-md-8 cp-product-img">
+        <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/phantom.png">
 
             <!-- TODO finish style/js & import -->
 
+            <section class="customize-nav" sticky media-query="min-width: 62em">
+                <div class="row">
+                    <a href="#makeityours" class="col-xs-6 col-md-6 col-lg-3 cn-active">
+                        <h3>Make it Yours</h3>
+                    </a>
+                    <a href="#performance" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Performance Options</h3>
+                    </a>
+                    <div class="clearfix hidden-md-up"></div>
+                    <a href="#storage" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Storage and Optical</h3>
+                    </a>
+                    <a href="/#/customize/accessories" class="col-xs-6 col-md-6 col-lg-3">
+                        <h3>Accessories</h3>
+                    </a>
+                </div>
+            </section>
+
+            <a name="makeityours"></a>
+            <h2 class="cp-breaker-title">Make it Yours</h2>
+            <section class="cp-module">
+                <h3 class="cpm-title">Case</h3>
+                <ul class="cpm-list cpm-horz row">
+
+                    <li class="col-md-4">
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-item-wrap">
+                                <img src="/public/images/products/phantom.png">
+                                <h4>Corsair Obsidian 900D</h4>
+                                <p>Largest Form Factor</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+
+                        </a>
+                        <div class="cpm-radio-wrap">
+                            <input type="radio">
+                        </div>
+                    </li>
+
+                    <li class="col-md-4">
+                        <div class="cpm-inner">
+                            <div class="cpm-item-wrap">
+                                <img src="/public/images/products/phantom.png">
+                                <h4>Obsidian Series 750D Airflow Edition</h4>
+                                <p>Full tower, excellent airflow</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+
+                        </div>
+                        <div class="cpm-radio-wrap">
+                            <input type="radio">
+                        </div>
+                    </li>
+
+                    <li class="col-md-4">
+                        <div class="cpm-inner">
+                            <div class="cpm-item-wrap">
+                                <img src="/public/images/products/phantom.png">
+                                <h4>Carbide Quiet 600Q</h4>
+                                <p>Inverse ATX Full-Tower</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+
+                        </div>
+                        <div class="cpm-radio-wrap">
+                            <input type="radio">
+                        </div>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <!-- Closest to what final structure will be -->
+            <section class="cp-module">
+                <h3 class="cpm-title">Case Cooling Options</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Stock Fans</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $0
+                                    </span>
+                                <!-- this ng-click will need to be dynamic somehow -->
+
+                            </div>
+
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>LED Fans</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+
+
+                    <!-- only shows if LED is selected,  will be replaced by product images -->
+                        <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-xs-4 col-md-2">
+                                    <a href="#" class="cpm-color red"></a>
+                                    <p>Red</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color blue"></a>
+                                    <p>Blue</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color green selected"></a>
+                                    <p>Green</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color purple"></a>
+                                    <p>Purple</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color yellow"></a>
+                                    <p>Yellow</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color white"></a>
+                                    <p>white</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Performance</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Case LED Options</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>LED Strips</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                        <!-- only shows if LED is selected -->
+                        <div class="cpm-description cpm-color-picker">
+                            <div class="row">
+                                <div class="col-xs-4 col-md-2">
+                                    <a href="#" class="cpm-color red"></a>
+                                    <p>Red</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color blue"></a>
+                                    <p>Blue</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color green selected"></a>
+                                    <p>Green</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color purple"></a>
+                                    <p>Purple</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color yellow"></a>
+                                    <p>Yellow</p>
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <a class="cpm-color white"></a>
+                                    <p>white</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>None</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Cabling</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Basic</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $0
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Colored</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                        <!-- only shows if LED is selected -->
+                        <div class="cpm-description cpm-color-picker">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="#" class="cpm-color red"></a>
+                                    <p>Red</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color blue"></a>
+                                    <p>Blue</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color green selected"></a>
+                                    <p>Green</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color purple"></a>
+                                    <p>Purple</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color yellow"></a>
+                                    <p>Yellow</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="cpm-color white"></a>
+                                    <p>white</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </section>
+
+
+            <a name="performance"></a>
+            <h2 class="cp-breaker-title">Performance Options</h2>
+
+            <!-- CPU will be locked to build -->
             <section class="cp-module">
                 <h3 class="cpm-title">Processor</h3>
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
                             <div class="cpm-item-wrap">
-                                <h4>Intel Core i7 5960X 3.5GHz</h4>
+                                <h4>Intel Core i7-6700k Quad Core 4.0GHz </h4>
                                 <p>Some brief descriptive text here.</p>
                                     <span class="cpm-price">
-                                        + $120
+                                        + $0
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="cpm-inner">
-                            <div class="cpm-radio-wrap">
-                                <input type="radio">
-                            </div>
-                            <div class="cpm-item-wrap">
-                                <h4>Intel Core i7 5960X 3.5GHz</h4>
-                                <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="cpm-inner">
-                            <div class="cpm-radio-wrap">
-                                <input type="radio">
-                            </div>
-                            <div class="cpm-item-wrap">
-                                <h4>Intel Core i7 5960X 3.5GHz</h4>
-                                <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                            </div>
                         </div>
                     </li>
 
                 </ul>
             </section>
 
-            <section class="cp-module">
-                <h3 class="cpm-title">Memory</h3>
-                <ul class="cpm-list">
-
-                    <li>
-                        <div class="cpm-inner">
-                            <div class="cpm-radio-wrap">
-                                <input type="radio">
-                            </div>
-                            <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz </h4>
-                                <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <li>
-                        <div class="cpm-inner">
-                            <div class="cpm-radio-wrap">
-                                <input type="radio">
-                            </div>
-                            <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz</h4>
-                                <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
-                            </div>
-                        </div>
-                        <div class="cpm-description">
-                            <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="cpm-inner">
-                            <div class="cpm-radio-wrap">
-                                <input type="radio">
-                            </div>
-                            <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz</h4>
-                                <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-            </section>
 
 
             <section class="cp-module">
@@ -128,85 +374,615 @@
                 <ul class="cpm-list">
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
                             <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz </h4>
+                                <h4>4 GB Kingston HyperX 3200Mhz </h4>
                                 <p>Some brief descriptive text here.</p>
                                     <span class="cpm-price">
-                                        + $120
+                                        + $0
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
 
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
                             <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz</h4>
+                                <h4>8 GB Kingston HyperX 3200Mhz</h4>
                                 <p>Some brief descriptive text here.</p>
                                     <span class="cpm-price">
                                         + $120
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
                             </div>
-                        </div>
+                        </a>
                         <div class="cpm-description">
                             <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
                     </li>
 
                     <li>
-                        <div class="cpm-inner">
+                        <a class="cpm-inner" href="#">
                             <div class="cpm-radio-wrap">
                                 <input type="radio">
                             </div>
                             <div class="cpm-item-wrap">
-                                <h4>12 GB Kingston HyperX 3200Mhz</h4>
+                                <h4>16 GB Kingston HyperX 3200Mhz</h4>
                                 <p>Some brief descriptive text here.</p>
                                     <span class="cpm-price">
                                         + $120
                                     </span>
                                 <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
                             </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>32 GB Kingston HyperX 3200Mhz</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Graphics</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>NVIDIA GTX 970</h4>
+                                <p>Stage One Overclocking Included</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>NVIDIA GTX 970 Two-Way SLI</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>NVIDIA GTX 980Ti</h4>
+                                <p>Stage One Overclocking Included</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>NVIDIA GTX 980Ti Two-Way SLI</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>AMD Radeon 390X</h4>
+                                <p>Stage One Overclocking Included</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>AMD Radeon 390X Two-Way Crossfire</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- will have extra styling -->
+            <section class="cp-module">
+                <h3 class="cpm-title">ShadowRigs Overclocking</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Overclocking Stage 1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Overclocking Stage 2</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Overclocking Stage 3</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <a name="storage"></a>
+            <h2 class="cp-breaker-title">Storage, Optical & Extras</h2>
+            <section class="cp-module">
+                <h3 class="cpm-title">Hard Drives</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>500GB Samsung EVO 850 Solid State Drive </h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $0
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2x 500GB Samsung EVO 850 Solid State Drive in RAID0</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2x 500GB Samsung EVO 850 Solid State Drive RAID1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>1TB WesternDigital 7200RPM </h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $0
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2x 1TB 1TB WesternDigital 7200RPM in RAID0</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2x 1TB 1TB WesternDigital 7200RPM in RAID1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Optical Drives</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>BluRay Burner</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>BluRay Player</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                        <div class="cpm-description">
+                            <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>DVD Burner</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>None</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Operating System</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Windows 10 Home</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $0
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Windows 10 Professional</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                        <div class="cpm-description">
+                            <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </section>
+
+
+
+
+            <section class="cp-module">
+                <h3 class="cpm-title">Internal WiFi</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Standard Internal WiFi</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>High Performance Internal WiFi</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                                <span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </a>
+                        <div class="cpm-description">
+                            <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
                         </div>
                     </li>
 
                 </ul>
             </section>
+
+
+
+
 
         </div>
 
-        <div class="col-md-4">
-            <!-- will be sticky -->
-            <div ng-app="demo" ng-controller="demoCtrl">
-                <section class="cp-summary" id="sticker" sticky>
-                    <h2 class="cps-summary-title">PHANTOM</h2>
-                    <ul class="cps-list">
-                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Stage One Overclocking Included</li>
-                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Rigorous Stress Testing</li>
-                    </ul>
-                    <div class="cps-delivery"><h3>EST. Delivery:</h3><span>10-15 Business Days</span></div>
-                    <div class="cps-total"><h3>Total:</h3><span>$1,500</span></div>
-                    <p><a href="">Email us about this build</a></p>
-                    <a href="#" class="cps-add-to-cart">Add to Cart</a>
-                </section>
-            </div>
+        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'">
         </div>
     </div>
 </section>
 
+<pre>
+Customize page order (Rough Outline, will need Dom/Gringo's input for final):
 
+Case Options
 
+Case Cooling Options
+    Stock Fans
+    LED Fans
+        Color Options
+    Performance
 
+Case Color
+    LED Strips
+        Color Options
+    None
 
+Cable Color
+    Basic
+    Colored
+        Color Options
+
+Processor (locked to build)
+
+RAM
+    4
+    8
+    16
+    32
+    64
+
+Graphics
+    Card option #1
+    Card option #1 2-way SLI
+    Card option #2
+    Card option #2 2-way Crossfire
+
+Overclock (CPU & GPU)
+    Stage One
+    Stage Two
+    Stage Three
+
+Hard Drive
+    HDD option #1
+    HDD option #1 RAID0
+    HDD option #1 RAID1
+
+    SSD option #2
+    SSD option #2 RAID0
+    SSD option #2 RAID1
+
+    SSD option #2 m.2
+
+Optical Drives
+    BR Burner
+    BR player
+    DVD burner
+
+Operating System
+    Win 10 Home
+    Win 10 Pro
+
+Internal WiFi
+    Option #1
+    Option #2
+
+EXTRAS
+
+External Storage
+Routers
+Monitor
+Cables
+Speakers
+Headphones
+Keyboard/Mouse
+Branded Mouse Pads
+Shirts
+Surge Protected
+Flash Drives
+Camera
+
+Support Package
+    1-3 Year for Free
+    2-4 Paid
+    3-5 Year
+
+Rush Processing
+
+</pre>
 
 <!-- OLD
 
