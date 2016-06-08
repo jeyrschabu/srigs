@@ -1,16 +1,25 @@
 'use strict';
 
-var ProductController = function($scope, $stateParams, categoryService, productService, featureService) {
+var ProductController = function($scope, $rootScope, $stateParams, categoryService, productService, featureService) {
     var self = this;
 
     $scope.disableSticking = false;
-    
+
+    $rootScope.bodyClass = 'product-page';
+
     $scope.pageTitle = 'Products';
     $scope.categories = [];
     $scope.features = [];
     $scope.category = $stateParams.category;
 
     $scope.products = [];
+
+    self.images = [
+        {thumb: 'images/thumbs/1.jpg', img: 'images/1.jpg', description: 'Image 1'},
+        {thumb: 'images/thumbs/2.jpg', img: 'images/2.jpg', description: 'Image 2'},
+        {thumb: 'images/thumbs/3.jpg', img: 'images/3.jpg', description: 'Image 3'},
+        {thumb: 'images/thumbs/3.jpg', img: 'images/4.jpg', description: 'Image 4'}
+    ];
 
 
     ProductController.prototype.setProducts = function (products) {
