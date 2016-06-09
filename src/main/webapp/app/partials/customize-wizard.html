@@ -3,8 +3,8 @@
         <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/phantom.png">
 
-            <!-- TODO finish style/js & import -->
 
+            <!-- needs dynamic class add/remove with class 'cn-active' -->
             <section class="customize-nav" sticky media-query="min-width: 62em">
                 <div class="row">
                     <a href="#makeityours" class="col-xs-6 col-md-6 col-lg-3 cn-active">
@@ -85,7 +85,7 @@
 
 
             <!-- Closest to what final structure will be -->
-            <section class="cp-module">
+            <section class="cp-module case-cooling-options"> <!-- dynamic class per section -->
                 <h3 class="cpm-title">Case Cooling Options</h3>
                 <ul class="cpm-list">
 
@@ -134,7 +134,7 @@
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
 
 
-                    <!-- only shows if LED is selected,  will be replaced by product images -->
+                    <!-- only shows if LED is selected,  will need to be replaced by product images -->
                         <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-xs-4 col-md-2">
@@ -888,12 +888,11 @@
 
 
 
-        </div>
+        </div><!-- end column -->
 
-        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'">
-        </div>
-    </div>
-</section>
+        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'"></div>
+    </div><!-- end container -->
+</section><!-- end customize-product-top -->
 
 <pre>
 Customize page order (Rough Outline, will need Dom/Gringo's input for final):
