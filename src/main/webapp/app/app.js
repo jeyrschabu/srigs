@@ -103,15 +103,25 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
-        }).state('customize-accessories', {
-            url:'/customize-accessories/',
-            views: {
-                'content':{
-                    templateUrl: '/app/partials/customize/accessories.html',
-                    controller: 'ProductController'
-                }
+        //temporary for dev
+    }).state('customize-accessories', {
+        url:'/customize-accessories/',
+        views: {
+            'content':{
+                templateUrl: '/app/partials/customize/accessories.html',
+                controller: 'ProductController'
             }
-        });
+        }
+        //temporary for form styling
+    }).state('forms', {
+        url:'/forms/',
+        views: {
+            'content':{
+                templateUrl: '/app/partials/forms/template.html',
+                controller: 'ProductController'
+            }
+        }
+    });
 
 }]).run( function($rootScope) {
     $rootScope.$on('$locationChangeStart', function() {
