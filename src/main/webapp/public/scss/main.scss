@@ -1,8 +1,12 @@
+// Dependencies from Bower
 @import '../../bower_components/bootstrap/scss/bootstrap';
 @import '../../bower_components/components-font-awesome/scss/font-awesome';
 
+// Tools
 @import "toolbox";
 @import "animate";
+
+// Site styling
 @import "typography.scss";
 @import "page.scss";
 @import "header.scss";
@@ -14,6 +18,8 @@
 @import "modules";
 @import "customize";
 
+// Output to /styles/main.css
+// Written by Adam Schlabach
 
 
 

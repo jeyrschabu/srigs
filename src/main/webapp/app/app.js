@@ -103,6 +103,14 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
+        }).state('customize-accessories', {
+            url:'/customize-accessories/',
+            views: {
+                'content':{
+                    templateUrl: '/app/partials/customize/accessories.html',
+                    controller: 'ProductController'
+                }
+            }
         });
 
 }]).run( function($rootScope) {

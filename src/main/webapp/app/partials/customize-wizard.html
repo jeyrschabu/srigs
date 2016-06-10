@@ -3,30 +3,14 @@
         <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/phantom.png">
 
-            <!-- TODO finish style/js & import -->
-
-            <section class="customize-nav" sticky media-query="min-width: 62em">
-                <div class="row">
-                    <a href="#makeityours" class="col-xs-6 col-md-6 col-lg-3 cn-active">
-                        <h3>Make it Yours</h3>
-                    </a>
-                    <a href="#performance" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Performance Options</h3>
-                    </a>
-                    <div class="clearfix hidden-md-up"></div>
-                    <a href="#storage" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Storage and Optical</h3>
-                    </a>
-                    <a href="/#/customize/accessories" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Accessories</h3>
-                    </a>
-                </div>
-            </section>
+            <!-- needs dynamic class add/remove with class 'cn-active' -->
+            <nav ng-include="'app/partials/customize/nav.html'" class="customize-nav" sticky media-query="min-width: 62em"></nav>
 
             <a name="makeityours"></a>
             <h2 class="cp-breaker-title">Make it Yours</h2>
-            <section class="cp-module">
-                <h3 class="cpm-title">Case</h3>
+
+            <section class="cp-module case-options"><!-- dynamic class per section -->
+                <h3 class="cpm-title">Case Options</h3>
                 <ul class="cpm-list cpm-horz row">
 
                     <li class="col-md-4">
@@ -84,8 +68,8 @@
             </section>
 
 
-            <!-- Closest to what final structure will be -->
-            <section class="cp-module">
+            <!-- This Module is closest to what final structure will be -->
+            <section class="cp-module case-cooling-options"> <!-- dynamic class per section -->
                 <h3 class="cpm-title">Case Cooling Options</h3>
                 <ul class="cpm-list">
 
@@ -100,13 +84,12 @@
                                     <span class="cpm-price">
                                         + $0
                                     </span>
-                                <!-- this ng-click will need to be dynamic somehow -->
-
                             </div>
 
                         </a>
+                        <!-- this ng-click & ng-class will need to be dynamic somehow -->
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -134,8 +117,8 @@
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
 
 
-                    <!-- only shows if LED is selected,  will be replaced by product images -->
-                        <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                    <!-- only shows if LED is selected,  will need to be replaced by product images -->
+                        <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-xs-4 col-md-2">
                                     <a href="#" class="cpm-color red"></a>
@@ -180,7 +163,7 @@
 
                         </a>
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -888,12 +871,11 @@
 
 
 
-        </div>
+        </div><!-- end column -->
 
-        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'">
-        </div>
-    </div>
-</section>
+        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'"></div>
+    </div><!-- end container -->
+</section><!-- end customize-product-top -->
 
 <pre>
 Customize page order (Rough Outline, will need Dom/Gringo's input for final):

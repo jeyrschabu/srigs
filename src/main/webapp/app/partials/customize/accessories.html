@@ -1,0 +1,560 @@
+<section class="customize-product-top">
+    <div class="container">
+
+        <!-- carried over from customize-wizard.html -->
+        <div class="col-md-8 col-sm-12 cp-product-img">
+            <img src="/public/images/products/phantom.png">
+
+
+            <!-- needs dynamic class add/remove with class 'cn-active' -->
+            <nav ng-include="'app/partials/customize/nav.html'" class="customize-nav" sticky media-query="min-width: 62em"></nav>
+
+
+            <a name="accessories"></a>
+            <h2 class="cp-breaker-title">Accessories</h2>
+
+            <section class="cp-module"><!-- begin cp-module -->
+                <h3 class="cpm-title">External Storage</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Hard Drive Option 1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <!-- this ng-click will need to be dynamic somehow -->
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Hard Drive Option 2</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Hard Drive Option 3</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section><!-- end cp-module -->
+
+
+            <section class="cp-module"><!-- begin cp-module -->
+                <h3 class="cpm-title">Routers</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Router Option 1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                                <!-- this ng-click will need to be dynamic somehow -->
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Router Option 2</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Router Option  3</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section><!-- end cp-module -->
+
+
+            <section class="cp-module"><!-- begin cp-module -->
+                <h3 class="cpm-title">Monitors</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Monitor Option 1</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                                <!-- this ng-click will need to be dynamic somehow -->
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Monitor Option 2</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $100
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Monitor Option  3</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $120
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section><!-- end cp-module -->
+
+            <p>etc.. for<br />
+            Cables<br />
+            Speakers<br />
+            Headphones<br />
+            Keyboard/Mouse<br />
+            Branded Mouse Pads<br />
+            Shirts<br />
+            Surge Protected<br />
+            Flash Drives<br />
+            Camera</p>
+
+
+            <!-- 1-3 preselected -->
+            <section class="cp-module"><!-- begin cp-module -->
+                <h3 class="cpm-title">Warranty</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>1-3 Year (Included)</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2-4 Year</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>3-5 Year</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section><!-- end cp-module -->
+
+            <section class="cp-module warranty"><!-- begin cp-module -->
+                <h3 class="cpm-title">Warranty</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>1-3 Year (Included)</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>2-4 Year</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>3-5 Year</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section><!-- end cp-module -->
+
+            <section class="cp-module rush-processing"><!-- begin cp-module -->
+                <h3 class="cpm-title">Rush Processing</h3>
+                <ul class="cpm-list">
+
+                    <li>
+                        <a class="cpm-inner" href="#">
+                            <div class="cpm-radio-wrap">
+                                <input type="radio" class="radio-custom">
+                            </div>
+                            <div class="cpm-item-wrap">
+                                <h4>Rush Processing</h4>
+                                <p>Some brief descriptive text here.</p>
+                                    <span class="cpm-price">
+                                        + $90
+                                    </span>
+                            </div>
+                        </a>
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="#" />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </section><!-- end cp-module -->
+
+
+
+        </div><!-- end column -->
+
+        <div class="col-sm-12 col-md-4" ng-include="'app/partials/customize/summary.html'"></div>
+    </div><!-- end container -->
+</section><!-- end customize-product-top -->
+
+<pre>
+
+External Storage
+Routers
+Monitor
+Cables
+Speakers
+Headphones
+Keyboard/Mouse
+Branded Mouse Pads
+Shirts
+Surge Protected
+Flash Drives
+Camera
+
+Support Package
+    1-3 Year for Free
+    2-4 Paid
+    3-5 Year
+
+Rush Processing
+
+</pre>
+
+<!-- OLD
+
+<div class="container">
+
+    <h1>Customize</h1>
+
+    <div class="row">
+
+        <div class="col-lg-6">
+            <div class="accordion" ng-init="status = {open:true}" ng-repeat="group in groups">
+                <div class="accordion-heading">
+                    <h4>
+                        <a ng-click="status.open = !status.open"> {{group.title}} </a>
+                    </h4>
+                    <i ng-class="{'fa fa-chevron-down':!status.open, 'fa fa-chevron-right': status.open}"></i>
+                </div>
+                <ul class="accordion-items" collapse="status.open">
+                    <li ng-repeat="item in group.items" ng-mouseover="onHoverItem(item)" ng-click="item.active = !item.active" >
+                        {{item.name}}
+                        <span class="square">
+                            <span class="square-inner" ng-hide="!item.active"></span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xs-6 selected-item" ng-hide="!hoverItem">
+            <h3> {{hoverItem.name}} </h3>
+            <img src=" {{hoverItem.img}}" class="img-responsive"/>
+            <p>
+                {{hoverItem.description}}
+            </p>
+        </div>
+
+    </div>
+
+</div> -->
