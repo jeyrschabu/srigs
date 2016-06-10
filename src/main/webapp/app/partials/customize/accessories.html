@@ -7,23 +7,8 @@
 
 
             <!-- needs dynamic class add/remove with class 'cn-active' -->
-            <section class="customize-nav" sticky media-query="min-width: 62em">
-                <div class="row">
-                    <a href="#makeityours" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Make it Yours</h3>
-                    </a>
-                    <a href="#performance" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Performance Options</h3>
-                    </a>
-                    <div class="clearfix hidden-md-up"></div>
-                    <a href="#storage" class="col-xs-6 col-md-6 col-lg-3">
-                        <h3>Storage and Optical</h3>
-                    </a>
-                    <a href="/#/customize-accessories/" class="col-xs-6 col-md-6 col-lg-3 cn-active">
-                        <h3>Accessories</h3>
-                    </a>
-                </div>
-            </section>
+            <nav ng-include="'app/partials/customize/nav.html'" class="customize-nav" sticky media-query="min-width: 62em"></nav>
+
 
             <a name="accessories"></a>
             <h2 class="cp-breaker-title">Accessories</h2>
@@ -43,11 +28,11 @@
                                     <span class="cpm-price">
                                         + $90
                                     </span>
-                                <!-- this ng-click will need to be dynamic somehow -->
                             </div>
                         </a>
+                        <!-- this ng-click will need to be dynamic somehow -->
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -73,7 +58,7 @@
                             </div>
                         </a>
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <div class="cpm-description" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -99,7 +84,7 @@
                             </div>
                         </a>
                         <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -133,8 +118,8 @@
                                 <!-- this ng-click will need to be dynamic somehow -->
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -159,8 +144,8 @@
                                     </span>
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -185,8 +170,8 @@
                                     </span>
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -220,8 +205,8 @@
                                 <!-- this ng-click will need to be dynamic somehow -->
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -246,8 +231,8 @@
                                     </span>
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco2 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
@@ -272,8 +257,8 @@
                                     </span>
                             </div>
                         </a>
-                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-                        <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open animated fadeIn' : 'cpm-desc-hide'">
+                        <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="" ng-class=""></i></a>
+                        <div class="cpm-description cpm-desc-hide" ng-class="">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="#" />
