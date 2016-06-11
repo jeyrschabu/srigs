@@ -4,7 +4,7 @@
 
 // Tools
 @import "toolbox";
-@import "animate";
+@import "animate"; /* TODO remove unused animations */
 
 // Site styling
 @import "typography.scss";
@@ -17,6 +17,7 @@
 @import "product";
 @import "modules";
 @import "customize";
+@import "forms";
 
 // Output to /styles/main.css
 // Written by Adam Schlabach

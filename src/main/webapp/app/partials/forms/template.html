@@ -1,0 +1,89 @@
+<!-- TODO finish responsive -->
+<div class="container">
+    <div class="form-wrap col-md-6">
+        <h3>Form Title</h3>
+        <form class="form">
+
+            <ul>
+                <li>
+                    <label for="text">Text:</label>
+                    <input type="text" id="text"><!-- IDs dynamic & matched to label-for -->
+                </li>
+                <li>
+                    <label>Password:</label>
+                    <input type="password">
+                </li>
+                <li>
+                    <label>Email:</label>
+                    <input type="email">
+                </li>
+                <li>
+                    <label>Phone:</label>
+                    <input type="tel">
+                </li>
+                <li>
+                    <label>Phone:</label>
+                    <input type="tel">
+                </li>
+                <li>
+                    <h3 class="form-inner-title" >Payment Details</h3>
+                    <img class="img-fluid cc-accepted" src="http://i76.imgup.net/accepted_c22e0.png">
+
+                </li>
+                <li>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="cardNumber">CARD NUMBER</label>
+                            <div class="input-group">
+                                <input
+                                        type="tel"
+                                        class="form-control"
+                                        name="cardNumber"
+                                        placeholder="Valid Card Number"
+                                        autocomplete="cc-number"
+                                        required autofocus
+                                />
+                                <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="container form-multiple-elements">
+                    <div class="col-md-6">
+                        <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                        <input
+                                type="tel"
+                                class="form-control"
+                                name="cardExpiry"
+                                placeholder="MM / YY"
+                                autocomplete="cc-exp"
+                                required
+                        />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="cardCVC">CV CODE</label>
+                        <input
+                                type="tel"
+                                class="form-control"
+                                name="cardCVC"
+                                placeholder="CVC"
+                                autocomplete="cc-csc"
+                                required
+                        />
+                    </div>
+                </li>
+                <li>
+                    <label for="couponCode">COUPON CODE</label>
+                    <input type="text" class="form-control" name="couponCode" />
+                </li>
+                <li>
+                    <div class="col-xs-12 form-single-line">
+                        <button class="subscribe btn btn-success btn-lg btn-block" type="button">Purchase</button>
+                    </div>
+                </li>
+            </ul>
+
+        </form>
+    </div><!-- end form-wrap -->
+</div><!-- end container -->
