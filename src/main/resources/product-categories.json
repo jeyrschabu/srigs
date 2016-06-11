@@ -2,19 +2,19 @@
   {
     "name" : "Gaming Desktops",
     "shortName" : "desktops",
-    "description": "High performance Rigs to take your gaming to the next level",
-    "coverImage": "/public/images/products/gaming.png"
+    "blobDescription": "High performance Rigs to take your gaming to the next level",
+    "coverImage": "gaming.png"
   },
   {
     "name" : "Laptops",
     "shortName" : "laptops",
     "description": "For the Gamer on the go",
-    "coverImage": "/public/images/products/laptop-placeholder.png"
+    "coverImage": "laptop-placeholder.png"
   },
   {
     "name" : "Workstations",
     "shortName" : "workstations",
-    "description": "Designed specifically to keep up with the heavy resource driven applications of today's digital industry",
-    "coverImage": "/public/images/products/gaming.png"
+    "blobDescription": "Designed specifically to keep up with the heavy resource driven applications of today's digital industry",
+    "coverImage": "gaming.png"
   }
 ]

@@ -1,5 +1,6 @@
 package com.rooftopcoder.web.models;
 
+import com.google.gson.annotations.SerializedName;
 import lombok.*;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
@@ -17,5 +18,5 @@ public class ProductCategory extends Model {
     private String name;
     private String coverImage;
     private String shortName;
-    private String description;
+    private String blobDescription;
 }

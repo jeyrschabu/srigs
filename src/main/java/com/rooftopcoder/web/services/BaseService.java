@@ -9,8 +9,6 @@ import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.models.Model;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,7 +25,7 @@ public abstract class BaseService <T extends Model>{
     private Class<T> clazz;
 
 
-    protected <T> ModelProvider getProvider() {
+    protected ModelProvider<T> getProvider() {
         return this.modelProvider;
     }
 
@@ -48,13 +46,15 @@ public abstract class BaseService <T extends Model>{
     }
 
     public T find(String key, String value) {
-        return (T)getProvider().findOne(key, value);
+        return getProvider().findOne(key, value);
     }
 
     public List<T> findMany(String key, String value) {
-        List<T> items =  (List<T>) getProvider().findMany(key, value);
+        List<T> items =  getProvider().findMany(key, value);
+        log.info("fetched {} items", items.size());
 
         if (items.isEmpty()) {
+            log.info("Initializing on empty database {} items");
             initialDataLoad();
         }
 

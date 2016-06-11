@@ -1,24 +1,18 @@
 package com.rooftopcoder.web.models;
 
-
 import lombok.*;
-import org.mongodb.morphia.annotations.Entity;
 
 import java.util.List;
+
 
 @NoArgsConstructor
 @Getter
 @Setter
 @ToString
 @EqualsAndHashCode(callSuper = false)
-
-@Entity("products")
-public class Product extends Model {
+public class Mark {
     private String name;
-    private String category;
-    private String coverImage;
+    private String blobDescription;
     private Double price;
     private List<Spec> specs;
-    private List<Mark> marks;
-
 }
