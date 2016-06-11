@@ -13,9 +13,11 @@ import com.rooftopcoder.web.services.ProductFeatureService;
 import com.rooftopcoder.web.services.ProductService;
 import spark.servlet.SparkApplication;
 import static com.rooftopcoder.web.constants.ApplicationConstants.*;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;
 
+@Slf4j
 public class Main implements SparkApplication{
 
     public void init() {
@@ -23,6 +25,9 @@ public class Main implements SparkApplication{
     }
 
     private static void initWithRoutes() {
+
+        log.info("Initializing routes");
+
         String database = (System.getenv(MONGO_DATABASE) == null) ? DEFAULT_DB : System.getenv(MONGO_DATABASE);
         String mongoHost = (System.getenv(MONGO_HOST) == null) ? DEFAULT_HOST : System.getenv(MONGO_HOST);
         String userName = System.getenv(MONGO_USERNAME);

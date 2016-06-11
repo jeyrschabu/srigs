@@ -7,6 +7,7 @@ import com.rooftopcoder.web.data.DataProviderFacade;
 import com.rooftopcoder.web.data.ModelProvider;
 import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.models.Model;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,16 +19,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 public abstract class BaseService <T extends Model>{
-
-    private final Logger LOG = LoggerFactory.getLogger(BaseService.class);
 
     protected abstract String getInitialJsonData();
     protected ModelProvider<T> modelProvider;
     private Class<T> clazz;
 
 
-    protected ModelProvider getProvider() {
+    protected <T> ModelProvider getProvider() {
         return this.modelProvider;
     }
 
@@ -38,7 +38,7 @@ public abstract class BaseService <T extends Model>{
     }
 
     public List<T> findAll() {
-        List<T> items =  getProvider().findAll();
+        List<T> items =  this.getProvider().findAll();
 
         if (items.isEmpty()) {
             initialDataLoad();
@@ -73,7 +73,7 @@ public abstract class BaseService <T extends Model>{
             }
             getProvider().insert(items);
         } catch (IOException e) {
-            LOG.error("Initial data load for products failed {}", e);
+            log.error("Initial data load for products failed {}", e);
         } finally {
             IOUtils.closeQuietly(stream);
         }
