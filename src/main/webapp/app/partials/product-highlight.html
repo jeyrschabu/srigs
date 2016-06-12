@@ -1,44 +1,13 @@
 <section class="product-highlight-wrap">
     <div class="container top-content">
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <a class="product-module-highlight" href="/#/products/">
-                    <img src="/public/images/products/gaming.png" class="img-fluid">
+            <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="category in categories">
+                <a class="product-module-highlight" href="/#/products/{{category.shortName}}">
+                    <img ng-src="/public/images/products/{{category.coverImage}}" class="img-fluid">
                     <div class="highlight-overlay">
-                        <h2>Gaming Desktop</h2>
+                        <h2>{{category.name}}</h2>
                         <span class="breaker-gradient"></span>
-                        <p>High performance Rigs to take your gaming to the next level</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <a class="product-module-highlight" href="/#/products/">
-                    <img src="/public/images/products/laptop-placeholder.png" class="img-fluid">
-                    <div class="highlight-overlay">
-                        <h2>Laptops</h2>
-                        <span class="breaker-gradient"></span>
-                        <p>For the Gamer on the go</p>
-                    </div>
-                </a>
-            </div>
-            <div class="clearfix hidden-md-up"></div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <a class="product-module-highlight" href="/#/products/">
-                    <img src="/public/images/products/gaming.png" class="img-fluid">
-                    <div class="highlight-overlay">
-                        <h2>Workstations</h2>
-                        <span class="breaker-gradient"></span>
-                        <p>Designed specifically to keep up with the heavy resource driven applications of today's digital industry</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <a class="product-module-highlight" href="/#/products/">
-                    <img src="/public/images/products/gaming.png" class="img-fluid">
-                    <div class="highlight-overlay">
-                        <h2>Specials</h2>
-                        <span class="breaker-gradient"></span>
-                        <p>High performance Rigs to take your gaming to the next level</p>
+                        <p>{{category.blobDescription}}</p>
                     </div>
                 </a>
             </div>

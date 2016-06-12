@@ -1,11 +1,13 @@
 package com.rooftopcoder.web.data;
 
 import com.rooftopcoder.web.models.Model;
+import lombok.extern.slf4j.Slf4j;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.query.Query;
 
 import java.util.List;
 
+@Slf4j
 public class MorphiaProvider<T extends Model> implements ModelProvider<T> {
     private Datastore datastore;
     private final Class<T> clazz;
@@ -20,6 +22,7 @@ public class MorphiaProvider<T extends Model> implements ModelProvider<T> {
     }
 
     public void insert(List<T> list) {
+        log.info("Inserting {} items", list.size());
         datastore.save(list);
     }
 

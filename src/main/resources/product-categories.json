@@ -1,22 +1,20 @@
 [
   {
     "name" : "Gaming Desktops",
-    "shortName" : "desktops",
-    "coverImage": "public/images/product_images/DSC_0259.jpg"
+    "shortName" : "gaming",
+    "blobDescription": "High performance Rigs to take your gaming to the next level",
+    "coverImage": "gaming.png"
   },
   {
-    "name" : "Gaming Laptops",
+    "name" : "Laptops",
     "shortName" : "laptops",
-    "coverImage": "http://placehold.it/680x600"
+    "description": "For the Gamer on the go",
+    "coverImage": "laptop-placeholder.png"
   },
   {
-    "name" : "Workstations Desktops",
-    "shortName" : "workstations",
-    "coverImage": "http://placehold.it/680x600"
-  },
-  {
-    "name" : "Specials",
-    "shortName" : "specials",
-    "coverImage": "http://placehold.it/680x600"
+    "name" : "pro",
+    "shortName" : "pro",
+    "blobDescription": "Designed specifically to keep up with the heavy resource driven applications of today's digital industry",
+    "coverImage": "gaming.png"
   }
 ]

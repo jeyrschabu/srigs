@@ -14,9 +14,14 @@ module.exports = function (karma) {
         './../../main/webapp/bower_components/angular-animate/angular-animate.js',
         './../../main/webapp/bower_components/angular-sanitize/angular-sanitize.js',
         './../../main/webapp/bower_components/ng-lodash/build/ng-lodash.min.js',
+        './../../main/webapp/bower_components/jquery/dist/jquery.min.js',
+
+        './../../main/webapp/bower_components/tether/dist/js/tether.min.js',
+        './../../main/webapp/bower_components/bootstrap/dist/js/bootstrap.min.js',
+        './../../main/webapp/bower_components/ngSticky/lib/sticky.js',
+        './../../main/webapp/bower_components/ngGallery/src/js/ngGallery.js',
         './../../main/webapp/app/**/*.js',
         './../../main/webapp/bower_components/angular-mocks/angular-mocks.js',
-        './../../main/webapp/bower_components/angular-bootstrap/ui-bootstrap.min.js',
 
         /******* Test Fixtures ******************/
       {

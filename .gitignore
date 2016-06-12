@@ -1,6 +1,7 @@
 /src/main/webapp/public/styles/main.css.map
 # Created by https://www.gitignore.io
 
+/npm-debug.log
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
