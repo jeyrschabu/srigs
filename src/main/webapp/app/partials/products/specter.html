@@ -88,102 +88,12 @@
 
         <section class="build-list">
             <div class="container">
-                <div class="col-xs-12 col-sm-6 col-md-15">
+                <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="mark in product.marks">
                     <a href="#" class="build-module">
-                        <h4>Mark 1</h4>
-                        <h5>Starting at <strong>$1,156</strong></h5>
-                        <ul>
-                            <li>Intel core i3 6100</li>
-                            <li>H80i Liquid CPU cooler</li>
-                            <li>MSI Z170M Mortar</li>
-                            <li>8 GB Ram</li>
-                            <li>120 GB Samsung SSD</li>
-                            <li>Nvidia GTX 960</li>
-                            <li>Corsair 350D Case</li>
-                            <li>550W Gold PSU</li>
-                            <li>Windows 10 Home edition </li>
-                        </ul>
-                        <span>
-                            Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-15">
-                    <a href="#" class="build-module">
-                        <h4>Mark 2</h4>
-                        <h5>Starting at <strong>$1,572</strong></h5>
-                        <ul>
-                            <li>Intel core i5 6600K</li>
-                            <li>H100i GTX Liquid CPU cooler</li>
-                            <li>MSI Z170M Mortar</li>
-                            <li>16 GB Ram</li>
-                            <li>250 GB Samsung SSD</li>
-                            <li>Nvidia GTX 970</li>
-                            <li>Corsair 350D Case</li>
-                            <li>650W Gold PSU</li>
-                            <li>Windows 10 Home edition </li>
-                        </ul>
-                        <span>
-                            Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-15">
-                    <a href="#" class="build-module">
-                        <h4>Mark 3</h4>
-                        <h5>Starting at <strong>$1,911</strong></h5>
-                        <ul>
-                            <li>Intel core i5 6600K</li>
-                            <li>H100i GTX Liquid CPU cooler</li>
-                            <li>ASUS Maximus VIII</li>
-                            <li>16 GB Ram</li>
-                            <li>250 GB Samsung SSD</li>
-                            <li>Nvidia GTX 980</li>
-                            <li>Corsair 350D Case</li>
-                            <li>650W Gold PSU</li>
-                            <li>Windows 10 Home edition </li>
-                        </ul>
-                        <span>
-                            Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-15">
-                    <a href="#" class="build-module">
-                        <h4>Mark 4</h4>
-                        <h5>Starting at <strong>$2,463</strong></h5>
-                        <ul>
-                            <li>Intel core i7 6700K</li>
-                            <li>H100i GTX Liquid CPU cooler</li>
-                            <li>ASUS Maximus VIII</li>
-                            <li>32 GB Ram</li>
-                            <li>500 GB Samsung SSD</li>
-                            <li>Nvidia GTX 980Ti</li>
-                            <li>Corsair 350D Case</li>
-                            <li>750W Gold PSU</li>
-                            <li>Windows 10 Home edition </li>
-                        </ul>
-                        <span>
-                            Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-15">
-                    <a href="#" class="build-module">
-                        <h4>Mark 5</h4>
-                        <h5>Starting at <strong>$3,371</strong></h5>
-                        <ul>
-                            <li>Intel core i7 6700K</li>
-                            <li>H100i GTX Liquid CPU cooler</li>
-                            <li>ASUS Maximus VIII</li>
-                            <li>32 GB Ram</li>
-                            <li>500 GB Samsung SSD</li>
-                            <li>Nvidia GTX 980Ti</li>
-                            <li>Nvidia GTX 980Ti</li>
-                            <li>Two-way SLI</li>
-                            <li>Corsair 350D Case</li>
-                            <li>1000W Gold PSU</li>
-                            <li>Windows 10 Home edition </li>
+                        <h4>{{mark.name}}</h4>
+                        <h5>Starting at <strong>${{mark.price}}</strong></h5>
+                        <ul ng-repeat="spec in mark.specs">
+                            <li>{{spec.type}}: {{spec.name}}</li>
                         </ul>
                         <span>
                             Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>

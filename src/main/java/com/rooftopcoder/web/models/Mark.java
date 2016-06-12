@@ -14,5 +14,6 @@ public class Mark {
     private String name;
     private String blobDescription;
     private Double price;
+    private String brand;
     private List<Spec> specs;
 }
