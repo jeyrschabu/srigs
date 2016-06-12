@@ -1,9 +1,10 @@
 'use strict';
 
-var ProductController = function($scope, $rootScope, $stateParams, categoryService, productService) {
+var ProductController = function($scope, $state, $rootScope, $stateParams, categoryService, productService) {
     var self = this;
 
     $scope.byGlance = byGlance;
+    $scope.details = details;
     $scope.disableSticking = false;
 
     $rootScope.bodyClass = 'product-page';
@@ -12,17 +13,38 @@ var ProductController = function($scope, $rootScope, $stateParams, categoryServi
     $scope.categories = [];
     $scope.features = [];
     $scope.category = $stateParams.category;
-    var glanceSpecTypes = ['CPU', 'RAM' , 'GPU'];
+    $scope.productId = $stateParams.productId;
+
+    const MAIN_SPECS_TYPE = ['CPU', 'RAM' , 'GPU'];
+    const DETAIL_ROUTE = 'product-detail';
 
     $scope.products = [];
 
     function byGlance(spec) {
-        return glanceSpecTypes.indexOf(spec.type) > -1 ;
+        return MAIN_SPECS_TYPE.indexOf(spec.type) > -1 ;
     }
 
+    function details(product, category, $event) {
+        $event.preventDefault();
+        $state.go(DETAIL_ROUTE, {
+            category: category,
+            productId: product.id
+        } );
+    }
 
     ProductController.prototype.setProducts = function (products) {
         $scope.products = products.data;
+        if ($scope.productId) {
+            $scope.products = $scope.products.filter(function(product) {
+                return product.id === $scope.productId;
+            });
+
+            //temp url construction for single product detail page
+            $scope.products = $scope.products.map(function(product) {
+                product.url =  'app/partials/products/'+ product.name.toLowerCase() + '.html';
+                return product;
+            });
+        }
     };
 
     ProductController.prototype.setCategories = function (categories) {
@@ -46,5 +68,5 @@ var ProductController = function($scope, $rootScope, $stateParams, categoryServi
 
 };
 
-ProductController.$inject = ['$scope', '$rootScope', '$stateParams', 'categoryService', 'productService'];
+ProductController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'categoryService', 'productService'];
 angular.module('MainApp').controller('ProductController', ProductController);

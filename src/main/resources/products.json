@@ -177,6 +177,7 @@
     "marks" : [
       {
         "name" : "Mark 1",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2474,
         "specs" : [
@@ -247,6 +248,7 @@
       },
       {
         "name" : "Mark 2",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2667,
         "specs" : [
@@ -317,6 +319,7 @@
       },
       {
         "name" : "Mark 3",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 3474,
         "specs" : [
@@ -387,6 +390,7 @@
       },
       {
         "name" : "Mark 4",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 4254,
         "specs" : [
@@ -457,6 +461,7 @@
       },
       {
         "name" : "Mark 5",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 6551,
         "specs" : [
@@ -713,6 +718,7 @@
     "marks" : [
       {
         "name" : "Mark 1",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1156,
         "specs" : [
@@ -776,6 +782,7 @@
       },
       {
         "name" : "Mark 2",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1572,
         "specs" : [
@@ -839,6 +846,7 @@
       },
       {
         "name" : "Mark 3",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1911,
         "specs" : [
@@ -902,6 +910,7 @@
       },
       {
         "name" : "Mark 4",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2463,
         "specs" : [
@@ -965,6 +974,7 @@
       },
       {
         "name" : "Mark 5",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2463,
         "specs" : [
@@ -1213,6 +1223,7 @@
     "marks" : [
       {
         "name" : "Mark 1",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1658,
         "specs" : [
@@ -1276,6 +1287,7 @@
       },
       {
         "name" : "Mark 2",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1884,
         "specs" : [
@@ -1339,6 +1351,7 @@
       },
       {
         "name" : "Mark 3",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2423,
         "specs" : [
@@ -1402,6 +1415,7 @@
       },
       {
         "name" : "Mark 4",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 3257,
         "specs" : [
@@ -1472,6 +1486,7 @@
       },
       {
         "name" : "Mark 5",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 3866,
         "specs" : [
@@ -1741,7 +1756,8 @@
     ],
     "marks" : [
       {
-        "name" : "AMD Mark 1",
+        "name" : "Mark 1",
+        "brand" : "AMD",
         "blobDescription" : "some description",
         "price" : 1060,
         "specs" : [
@@ -1804,7 +1820,8 @@
         ]
       },
       {
-        "name" : "AMD Mark 2",
+        "name" : "Mark 2",
+        "brand" : "AMD",
         "blobDescription" : "some description",
         "price" : 1360,
         "specs" : [
@@ -1867,7 +1884,8 @@
         ]
       },
       {
-        "name" : "AMD Mark 3",
+        "name" : "Mark 3",
+        "brand" : "AMD",
         "blobDescription" : "some description",
         "price" : 1831,
         "specs" : [
@@ -1930,7 +1948,8 @@
         ]
       },
       {
-        "name" : "Intel Mark 1",
+        "name" : "Mark 1",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1209,
         "specs" : [
@@ -1993,7 +2012,8 @@
         ]
       },
       {
-        "name" : "Intel Mark 2",
+        "name" : "Mark 2",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 1620,
         "specs" : [
@@ -2056,7 +2076,8 @@
         ]
       },
       {
-        "name" : "Intel Mark 2",
+        "name" : "Mark 2",
+        "brand" : "Intel",
         "blobDescription" : "some description",
         "price" : 2237,
         "specs" : [
