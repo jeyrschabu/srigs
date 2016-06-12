@@ -11,6 +11,7 @@ import com.rooftopcoder.web.resources.ProductResource;
 import com.rooftopcoder.web.services.ProductCategoryService;
 import com.rooftopcoder.web.services.ProductService;
 import org.aeonbits.owner.ConfigFactory;
+import org.apache.commons.lang3.StringUtils;
 import spark.servlet.SparkApplication;
 import static com.rooftopcoder.web.constants.ApplicationConstants.*;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +28,7 @@ public class Main implements SparkApplication {
 
     private static void initWithRoutes() {
 
-        log.info("Initializing routes");
+        log.info("Initializing database");
 
         String database  = serverConfig.db() == null ? DEFAULT_DB : serverConfig.db();
         String mongoHost = serverConfig.dbHost() == null ? DEFAULT_HOST : serverConfig.dbHost();
@@ -36,17 +37,20 @@ public class Main implements SparkApplication {
 
         MongoClient mongoClient = new MongoClient();
 
-        if (userName != null && password != null) {
+        if (!StringUtils.isEmpty(userName) && !StringUtils.isEmpty(password)) {
             MongoCredential credential = MongoCredential.createCredential(userName,
                     database, password.toCharArray());
             mongoClient = new MongoClient(new ServerAddress(mongoHost), Arrays.asList(credential));
         }
+
+        log.info("Initializing services");
 
         final MongoConnectionConfig dbCfg = new MongoConnectionConfig(mongoClient, database);
 
         final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
         final ProductService productService = new ProductService().setDataProvider(dbCfg);
 
+        log.info("Initializing routes");
 
         new ProductResource(productService, categoryService);
         new ProductCategoryResource(categoryService);

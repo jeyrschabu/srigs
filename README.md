@@ -30,4 +30,6 @@ Windows Set-up:
   Mongodb
     CMD From mongodb folder
     mongod.exe --dbpath path-to-db-folder
+
+set -DCONFIG_FILE=/path/to/config.properties
     
