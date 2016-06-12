@@ -7,7 +7,7 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
     $scope.details = details;
     $scope.disableSticking = false;
 
-    $rootScope.bodyClass = 'product-page';
+    $rootScope.bodyClass = 'products';
 
     $scope.pageTitle = 'Products';
     $scope.categories = [];
@@ -44,6 +44,8 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
                 product.url =  'app/partials/products/'+ product.name.toLowerCase() + '.html';
                 return product;
             });
+
+            $rootScope.bodyClass = $scope.products[0].name;
         }
     };
 
@@ -55,6 +57,7 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
         if (!category) {
             productService.list().then(self.setProducts);
         }  else {
+            $rootScope.bodyClass = category;
             productService.listByCategory(category).then(self.setProducts);
         }
     };
