@@ -35,7 +35,7 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
             views: {
                 'content':{
                     templateUrl: '/app/partials/the-crew.html',
-                    controller: 'warranty-controller'
+                    controller: 'CrewController'
                 }
             }
         }).state('products', {

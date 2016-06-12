@@ -1,11 +1,12 @@
 'use strict';
 
-var HomeController = function($scope, $location, categoryService){
+var HomeController = function($scope, $rootScope,  $location, categoryService){
     var self = this;
 
     $scope.disableSticking = false;
 
     $scope.pageTitle = 'Home';
+    $rootScope.bodyClass = 'home';
     $scope.categories = [];
 
     function currentTab(path) {
@@ -26,6 +27,6 @@ var HomeController = function($scope, $location, categoryService){
     $scope.currentTab = currentTab;
 };
 
-HomeController.$inject = ['$scope', '$location', 'categoryService'];
+HomeController.$inject = ['$scope', '$rootScope', '$location', 'categoryService'];
 angular.module('MainApp').controller('HomeController', HomeController);
 
