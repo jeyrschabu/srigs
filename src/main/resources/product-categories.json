@@ -1,7 +1,7 @@
 [
   {
     "name" : "Gaming Desktops",
-    "shortName" : "desktops",
+    "shortName" : "gaming",
     "blobDescription": "High performance Rigs to take your gaming to the next level",
     "coverImage": "gaming.png"
   },
@@ -12,8 +12,8 @@
     "coverImage": "laptop-placeholder.png"
   },
   {
-    "name" : "Workstations",
-    "shortName" : "workstations",
+    "name" : "pro",
+    "shortName" : "pro",
     "blobDescription": "Designed specifically to keep up with the heavy resource driven applications of today's digital industry",
     "coverImage": "gaming.png"
   }

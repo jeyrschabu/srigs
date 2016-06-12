@@ -1,20 +1,40 @@
-<div class="container products-wrap" ng-class="{{pageClass}}">
+<section class="content-wrap">
+    <div class="product-main-highlight">
 
-    <h1>{{products[0].category}}</h1>
+        <div class="product-title-wrap">
+            <h1 class="animated fadeInDown">Choose Your Rig</h1>
+            <h2 class="animated fadeInUp">View our selection of powerful Gaming Desktops. Small form to full tower, Fully Customizable. </h2>
 
-    <div class="row">
-        <div class="col-lg-6 col-sm-6 col-xs-12 product-item-wrap" ng-repeat="product in products">
-            <a ng-href="#/product/{{product.name}}">
-                <h3>{{product.name}}</h3>
-                <img ng-src="{{product.coverImage}}" class="img-responsive">
-            </a>
-
-            <a ng-href="#/customize/{{product.name}}">
-                <div class="btn btn-primary">Customize</div>
-            </a>
         </div>
-
     </div>
-</div>
+
+    <div class="product-page-break" id="sticker">
+        <a href="#/customize/">Customize A Rig</a>
+    </div>
+    <div class="content page-content product-content">
+        <div class="container">
+            <div class="col-xl-6 col-sm-12" ng-repeat="product in products">
+                <a href="#/products/{{category}}/{{product.id}}" class="product-module-list">
+                    <img ng-src="/public/images/products/{{product.coverImage}}" class="img-fluid">
+                    <h2>{{product.name}}</h2>
+                    <p>{{product.blobDescription}}</p>
+                </a>
+                <div class="product-expanded-module">
+                    <h3>ShadowRigs {{product.name}}</h3>
+                    <h4>SPECS AT-A-GLANCE</h4>
+
+                    <div ng-repeat="mark in product.marks">
+                        <h5>{{mark.name}}</h5>
+                        <ul ng-repeat="spec in mark.specs | filter:byGlance">
+                            <li>{{spec.type}}: {{spec.name}}</li>
+                        </ul>
+                    </div>
+
+                    <a href="#/customize/">Customize <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 

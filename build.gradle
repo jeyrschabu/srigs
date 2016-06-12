@@ -89,7 +89,7 @@ npmSetup {
     outputs.upToDateWhen { false }
 }
 
-//grunt_build.dependsOn 'nodeSetup', 'installGrunt', 'npmInstall'
+grunt_build.dependsOn 'nodeSetup', 'installGrunt', 'npmInstall'
 
 configurations {
     remoteSources {

@@ -1,7 +1,6 @@
 package com.rooftopcoder.web.models;
 
 import lombok.*;
-import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Id;
 
 @NoArgsConstructor
@@ -10,5 +9,5 @@ import org.mongodb.morphia.annotations.Id;
 @ToString
 @EqualsAndHashCode(callSuper = false)
 public class Model {
-    @Id private ObjectId id;
+    @Id private String id;
 }
