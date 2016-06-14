@@ -3,20 +3,21 @@
 var ProductController = function($scope, $state, $rootScope, $stateParams, categoryService, productService) {
     var self = this;
 
+    $rootScope.bodyClass = 'products';
     $scope.byGlance = byGlance;
     $scope.details = details;
+    $scope.customize = customize;
+
     $scope.disableSticking = false;
-
-    $rootScope.bodyClass = 'products';
-
     $scope.pageTitle = 'Products';
     $scope.categories = [];
-    $scope.features = [];
     $scope.category = $stateParams.category;
     $scope.productId = $stateParams.productId;
+    $scope.product = {};
 
     const MAIN_SPECS_TYPE = ['CPU', 'RAM' , 'GPU'];
-    const DETAIL_ROUTE = 'product-detail';
+    const DETAIL_ROUTE = 'detail';
+    const CUSTOMIZE_ROUTE = 'customize';
 
     $scope.products = [];
 
@@ -28,37 +29,39 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
         $event.preventDefault();
         $state.go(DETAIL_ROUTE, {
             category: category,
+            name: product.name.toLowerCase().trim(),
             productId: product.id
         } );
     }
 
-    ProductController.prototype.setProducts = function (products) {
-        $scope.products = products.data;
-        if ($scope.productId) {
-            $scope.products = $scope.products.filter(function(product) {
-                return product.id === $scope.productId;
-            });
+    function customize(product, $event) {
+        $event.preventDefault();
+        $state.go(CUSTOMIZE_ROUTE, {
+            productId: product.id
+        } );
+    }
 
-            //temp url construction for single product detail page
-            $scope.products = $scope.products.map(function(product) {
-                product.url =  'app/partials/products/'+ product.name.toLowerCase() + '.html';
-                return product;
-            });
+    ProductController.prototype.setProducts = function (response) {
+        $scope.products = response.data;
+    };
 
-            $rootScope.bodyClass = $scope.products[0].name;
-        }
+    ProductController.prototype.setProduct = function (response) {
+        $scope.product = response.data;
     };
 
     ProductController.prototype.setCategories = function (categories) {
         $scope.categories = categories.data;
     };
 
-    ProductController.prototype.getProducts = function(category) {
-        if (!category) {
+    ProductController.prototype.getProducts = function(category, productId) {
+        if (!category && !productId) {
             productService.list().then(self.setProducts);
-        }  else {
+        }  else if (category && !productId){
             $rootScope.bodyClass = category;
             productService.listByCategory(category).then(self.setProducts);
+        } else {
+            $rootScope.bodyClass = $scope.product.name;
+            productService.findById(productId).then(self.setProduct);
         }
     };
 
@@ -66,7 +69,7 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
         categoryService.list().then(self.setCategories);
     };
 
-    self.getProducts($scope.category);
+    self.getProducts($scope.category, $scope.productId);
     self.getCategories();
 
 };

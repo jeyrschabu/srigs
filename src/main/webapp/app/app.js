@@ -46,27 +46,29 @@ angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', functi
                     controller: 'ProductController'
                 }
             }
-        }).state('product-category', {
+        }).state('category', {
             url:'/products/:category',
             views: {
                 'content':{
                     templateUrl: '/app/partials/product-category.html',
                     controller: 'ProductController'
                 }
-        }}).state('product-detail', {
-            url:'/products/:category/:productId',
+        }}).state('detail', {
+            url:'/products/:category/:name/:productId',
             views: {
                 'content':{
-                    templateUrl: '/app/partials/products/product.html',
+                    templateUrl: function($stateParams) {
+                        return '/app/partials/products/' + $stateParams.name +'.html';
+                    },
                     controller: 'ProductController'
                 }
             }
         }).state('customize', {
-            url:'/customize/:id',
+            url:'/customize/:productId/' ,
             views: {
                 'content':{
                     templateUrl: '/app/partials/customize-wizard.html',
-                    controller: 'ProductController'
+                    controller: 'RigBuilderController'
                 }
             }
         //temporary for dev

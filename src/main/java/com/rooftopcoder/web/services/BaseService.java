@@ -49,15 +49,13 @@ public abstract class BaseService <T extends Model>{
         return getProvider().findOne(key, value);
     }
 
+    public T find(String id) {
+        return getProvider().findById(id);
+    }
+
     public List<T> findMany(String key, String value) {
         List<T> items =  getProvider().findMany(key, value);
         log.info("fetched {} items", items.size());
-
-        if (items.isEmpty()) {
-            log.info("Initializing on empty database {} items");
-            initialDataLoad();
-        }
-
         return items;
     }
 

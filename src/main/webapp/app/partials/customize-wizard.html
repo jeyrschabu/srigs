@@ -1,7 +1,7 @@
 <section class="customize-product-top">
     <div class="container">
         <div class="col-md-8 col-sm-12 cp-product-img">
-            <img src="/public/images/products/phantom.png">
+            <img src="/public/images/products/{{product.coverImage}}">
 
             <!-- needs dynamic class add/remove with class 'cn-active' -->
             <nav ng-include="'app/partials/customize/nav.html'" class="customize-nav" sticky media-query="min-width: 62em"></nav>
@@ -16,7 +16,7 @@
                     <li class="col-md-4">
                         <a class="cpm-inner" href="#">
                             <div class="cpm-item-wrap">
-                                <img src="/public/images/products/phantom.png">
+                                <img src="/public/images/products/{{product.coverImage}}">
                                 <h4>Corsair Obsidian 900D</h4>
                                 <p>Largest Form Factor</p>
                                     <span class="cpm-price">
@@ -33,7 +33,7 @@
                     <li class="col-md-4">
                         <div class="cpm-inner">
                             <div class="cpm-item-wrap">
-                                <img src="/public/images/products/phantom.png">
+                                <img src="/public/images/products/{{product.coverImage}}">
                                 <h4>Obsidian Series 750D Airflow Edition</h4>
                                 <p>Full tower, excellent airflow</p>
                                     <span class="cpm-price">
@@ -50,7 +50,7 @@
                     <li class="col-md-4">
                         <div class="cpm-inner">
                             <div class="cpm-item-wrap">
-                                <img src="/public/images/products/phantom.png">
+                                <img src="/public/images/products/{{product.coverImage}}">
                                 <h4>Carbide Quiet 600Q</h4>
                                 <p>Inverse ATX Full-Tower</p>
                                     <span class="cpm-price">
