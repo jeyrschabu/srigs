@@ -2,6 +2,7 @@ package com.rooftopcoder.web.data;
 
 import com.rooftopcoder.web.models.Model;
 import lombok.extern.slf4j.Slf4j;
+import org.bson.types.ObjectId;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.query.Query;
 
@@ -24,6 +25,10 @@ public class MorphiaProvider<T extends Model> implements ModelProvider<T> {
     public void insert(List<T> list) {
         log.info("Inserting {} items", list.size());
         datastore.save(list);
+    }
+
+    public T findById(String id) {
+        return datastore.find(clazz).field("_id").equal(new ObjectId(id)).get();
     }
 
 

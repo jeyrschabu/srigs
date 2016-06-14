@@ -7,6 +7,7 @@ import java.util.List;
 public interface ModelProvider<T extends Model> {
     List<T> findAll();
     void insert(List<T> list);
+    T findById(String id);
     T findOne(String key, String value);
     List<T>  findMany(String key, String value);
 

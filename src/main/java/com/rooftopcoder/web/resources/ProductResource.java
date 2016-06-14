@@ -17,12 +17,17 @@ public class ProductResource extends GeneralResource {
     }
 
     protected void routes() {
+        //READ BY CATEGORY
         get(CONTEXT+"/products/categories/:category", (request, response) -> {
             ProductCategory productCategory = this.categoryService.find("shortName", request.params("category"));
             return this.productService.findByCategory(productCategory.getName());
         }, json());
 
+        //READ ALL
         get(CONTEXT+"/products", (request, response) -> this.productService.findAll(), json());
+
+        //READ ONE
+        get(CONTEXT+"/products/:id", (request, response) -> this.productService.find(request.params(":id")), json());
 
     }
 }
