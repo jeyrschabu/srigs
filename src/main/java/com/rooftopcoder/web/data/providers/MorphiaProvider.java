@@ -1,5 +1,6 @@
-package com.rooftopcoder.web.data;
+package com.rooftopcoder.web.data.providers;
 
+import com.rooftopcoder.web.data.providers.ModelProvider;
 import com.rooftopcoder.web.models.Model;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;

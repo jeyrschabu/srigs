@@ -1,6 +1,7 @@
 package com.rooftopcoder.web.data
 
 import com.mongodb.MongoClient
+import com.rooftopcoder.web.data.providers.DataProviderFacade
 import com.rooftopcoder.web.models.Model
 import spock.lang.Specification
 

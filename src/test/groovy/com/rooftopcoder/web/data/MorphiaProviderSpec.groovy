@@ -1,5 +1,6 @@
 package com.rooftopcoder.web.data
 
+import com.rooftopcoder.web.data.providers.MorphiaProvider
 import com.rooftopcoder.web.models.Product
 import org.mongodb.morphia.Datastore
 import org.mongodb.morphia.query.Query

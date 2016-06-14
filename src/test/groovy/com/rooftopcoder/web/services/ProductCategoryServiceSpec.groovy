@@ -1,6 +1,6 @@
 package com.rooftopcoder.web.services
 
-import com.rooftopcoder.web.data.ModelProvider
+import com.rooftopcoder.web.data.providers.ModelProvider
 import com.rooftopcoder.web.models.ProductCategory
 import spock.lang.Specification
 

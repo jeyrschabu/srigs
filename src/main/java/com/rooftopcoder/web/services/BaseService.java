@@ -3,8 +3,8 @@ package com.rooftopcoder.web.services;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.rooftopcoder.web.data.DataProviderFacade;
-import com.rooftopcoder.web.data.ModelProvider;
+import com.rooftopcoder.web.data.providers.DataProviderFacade;
+import com.rooftopcoder.web.data.providers.ModelProvider;
 import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.models.Model;
 import lombok.extern.slf4j.Slf4j;

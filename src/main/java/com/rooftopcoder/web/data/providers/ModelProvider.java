@@ -1,4 +1,4 @@
-package com.rooftopcoder.web.data;
+package com.rooftopcoder.web.data.providers;
 
 import com.rooftopcoder.web.models.Model;
 
