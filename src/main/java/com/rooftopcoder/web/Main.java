@@ -8,8 +8,10 @@ import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.resources.HomeResource;
 import com.rooftopcoder.web.resources.ProductCategoryResource;
 import com.rooftopcoder.web.resources.ProductResource;
+import com.rooftopcoder.web.resources.SpecResource;
 import com.rooftopcoder.web.services.ProductCategoryService;
 import com.rooftopcoder.web.services.ProductService;
+import com.rooftopcoder.web.services.SpecService;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.commons.lang3.StringUtils;
 import spark.servlet.SparkApplication;
@@ -49,11 +51,13 @@ public class Main implements SparkApplication {
 
         final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
         final ProductService productService = new ProductService().setDataProvider(dbCfg);
+        final SpecService specService = new SpecService().setDataProvider(dbCfg);
 
         log.info("Initializing routes");
 
         new ProductResource(productService, categoryService);
         new ProductCategoryResource(categoryService);
+        new SpecResource(specService);
         new HomeResource();
     }
 }

@@ -1,13 +1,15 @@
 package com.rooftopcoder.web.models;
 
 import lombok.*;
+import org.mongodb.morphia.annotations.Entity;
 
 @NoArgsConstructor
 @Getter
 @Setter
 @ToString
 @EqualsAndHashCode(callSuper = false)
-public class Spec {
+@Entity("specs")
+public class Spec extends Model {
     private String name;
     private String type;
     private Double weight; //in lbs
