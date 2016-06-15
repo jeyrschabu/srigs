@@ -2,7 +2,7 @@
 
 var SupportController = function($scope, $rootScope) {
     $scope.pageTitle = 'Support';
-    $rootScope.bodyClass = 'support';
+    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
 };
 
 SupportController.$inject = ['$scope', '$rootScope'];

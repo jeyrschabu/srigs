@@ -18,7 +18,6 @@ describe('MainApp', function(){
                 '$scope' : scope,
                 '$location' : location,
                 'categoryService' : mockCategoryService
-
             });
 
             spyOn(mockCategoryService, 'list').and.callFake(function() {
