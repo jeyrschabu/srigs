@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('MainApp', ['ui.router', 'ngAnimate', 'sticky', 'jkuri.gallery']);
+angular.module('MainApp', ['ui.router', 'ngAnimate', 'sticky', 'jkuri.gallery', 'ngLodash']);
 angular.module('MainApp').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');

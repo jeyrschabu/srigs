@@ -1,6 +1,6 @@
 'use strict';
 
-var RigBuilderController = function($scope, $state, $rootScope, $stateParams, productService, specService) {
+var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lodash, productService, specService) {
     var self = this;
 
     $scope.disableSticking = false;
@@ -15,13 +15,28 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, pr
     $scope.caseCooling = [];
     $scope.cables = [];
 
-    RigBuilderController.prototype.setProduct = function (product) {
-        $scope.product = product.data;
+    RigBuilderController.prototype.setProduct = function (response) {
+        $scope.product = response.data;
+        self.initializeRig($scope.product);
+    };
+
+    RigBuilderController.prototype.setSpecs = function (response) {
+        var specs = response.data;
+        //TODO: revisit this
+
+        $scope.cases        = lodash.find(specs, { 'type' : 'Cases' }); //TODO check type
+        $scope.caseCooling  = lodash.find(specs, { 'type' : 'Case Cooling' }); //TODO check type
+        $scope.cables       = lodash.find(specs, { 'type' : 'Cable' }); //TODO check type
+
         self.initializeRig($scope.product);
     };
 
     RigBuilderController.prototype.getProduct = function(productId) {
         productService.findById(productId).then(self.setProduct);
+    };
+
+    RigBuilderController.prototype.getSpecs = function() {
+        specService.list().then(self.setSpecs);
     };
 
     RigBuilderController.prototype.initializeRig = function(product) {
@@ -35,5 +50,5 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, pr
 
 };
 
-RigBuilderController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'productService', 'specService'];
+RigBuilderController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'lodash', 'productService', 'specService'];
 angular.module('MainApp').controller('RigBuilderController', RigBuilderController);
