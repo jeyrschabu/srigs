@@ -4,7 +4,7 @@ import com.rooftopcoder.web.data.providers.ModelProvider
 import com.rooftopcoder.web.models.Product
 import spock.lang.Specification
 
-class ProductServiceSpec extends Specification{
+class ProductServiceSpec extends Specification {
 
     def 'should return a list of products'() {
         given:
