@@ -5,7 +5,7 @@ angular
     .service('categoryService', function($http){
         function getCategories(){
             return $http({
-                url: '/v1/categories',
+                url: '/api/v1/categories',
                 method: 'GET'
             });
         }

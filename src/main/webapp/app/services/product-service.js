@@ -5,21 +5,21 @@ angular
     .service('productService', function($http){
         function getProducts() {
             return $http({
-                url: '/v1/products',
+                url: '/api/v1/products',
                 method: 'GET'
             });
         }
 
         function getProductsByCategory(category) {
             return $http({
-                url: '/v1/products/categories/'+category,
+                url: '/api/v1/products/categories/'+category,
                 method: 'GET'
             });
         }
 
         function findById(productId) {
             return $http({
-                url: '/v1/products/'+productId,
+                url: '/api/v1/products/'+productId,
                 method: 'GET'
             });
         }
