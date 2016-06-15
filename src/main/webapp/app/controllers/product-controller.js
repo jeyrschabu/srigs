@@ -3,13 +3,14 @@
 var ProductController = function($scope, $state, $rootScope, $stateParams, categoryService, productService) {
     var self = this;
 
-    $rootScope.bodyClass = 'products';
+    $scope.pageTitle = 'Products';
+    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
+
     $scope.byGlance = byGlance;
     $scope.details = details;
     $scope.customize = customize;
 
     $scope.disableSticking = false;
-    $scope.pageTitle = 'Products';
     $scope.categories = [];
     $scope.category = $stateParams.category;
     $scope.productId = $stateParams.productId;
@@ -54,14 +55,16 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
     };
 
     ProductController.prototype.getProducts = function(category, productId) {
-        if (!category && !productId) {
-            productService.list().then(self.setProducts);
-        }  else if (category && !productId){
-            $rootScope.bodyClass = category;
-            productService.listByCategory(category).then(self.setProducts);
-        } else {
+        if (productId) {
             $rootScope.bodyClass = $scope.product.name;
             productService.findById(productId).then(self.setProduct);
+
+        } else if (category) {
+            $rootScope.bodyClass = category;
+            productService.listByCategory(category).then(self.setProducts);
+
+        } else {
+            productService.list().then(self.setProducts);
         }
     };
 

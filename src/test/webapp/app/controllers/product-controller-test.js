@@ -8,7 +8,7 @@ describe('MainApp', function(){
     });
 
     describe('ProductController', function(){
-        beforeEach(inject(function($rootScope, $controller, $q, productService){
+        beforeEach(inject(function($rootScope, $controller, $q, productService) {
             scope = $rootScope.$new();
             mockProductService = productService;
 
@@ -17,7 +17,19 @@ describe('MainApp', function(){
                 'productService' : mockProductService
             });
 
-            spyOn(mockProductService, 'list').and.callFake(function(){
+            spyOn(mockProductService, 'list').and.callFake(function() {
+                return {
+                    then: function(callback) { return callback({}); }
+                };
+            });
+
+            spyOn(mockProductService, 'listByCategory').and.callFake(function() {
+                return {
+                    then: function(callback) { return callback({}); }
+                };
+            });
+
+            spyOn(mockProductService, 'findById').and.callFake(function() {
                 return {
                     then: function(callback) { return callback({}); }
                 };
@@ -28,9 +40,15 @@ describe('MainApp', function(){
             expect(scope.products.length).toBe(0);
         });
 
-        xit ('should return a list of products when getProducts is called', function() {
-            productController.getProducts(undefined);
+        it ('should return a list of products when getProducts is called', function() {
+            productController.getProducts(undefined, undefined);
             expect(mockProductService.list).toHaveBeenCalled();
+
+            productController.getProducts('gaming', undefined);
+            expect(mockProductService.listByCategory).toHaveBeenCalled();
+
+            productController.getProducts('gaming', 'id1');
+            expect(mockProductService.findById).toHaveBeenCalled();
         });
     })
 });

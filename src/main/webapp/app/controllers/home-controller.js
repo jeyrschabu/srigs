@@ -1,12 +1,12 @@
 'use strict';
 
-var HomeController = function($scope, $rootScope,  $location, categoryService){
+var HomeController = function($scope, $rootScope,  $location, categoryService) {
     var self = this;
 
     $scope.disableSticking = false;
 
     $scope.pageTitle = 'Home';
-    $rootScope.bodyClass = 'home';
+    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
     $scope.categories = [];
 
     function currentTab(path) {

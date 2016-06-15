@@ -5,6 +5,7 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, pr
 
     $scope.disableSticking = false;
     $scope.pageTitle = 'Customize';
+    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
     $scope.productId = $stateParams.productId;
 
     /** all parts to build a rig more coming soon **/

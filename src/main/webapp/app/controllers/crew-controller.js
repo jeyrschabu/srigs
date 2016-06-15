@@ -1,8 +1,8 @@
 'use strict';
 
 var CrewController = function($scope ,$rootScope ) {
-    $rootScope.bodyClass = 'crew';
     $scope.pageTitle = 'Crew';
+    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
 };
 
 CrewController.$inject = ['$scope', '$rootScope'];

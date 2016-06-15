@@ -25,7 +25,7 @@ describe('MainApp', function () {
             });
             httpBackend.flush();
         });
-        //
+
         it ('should return a list of products based by category', function() {
             var category = 'gaming desktops';
             var products = [{
@@ -37,6 +37,19 @@ describe('MainApp', function () {
             });
             productService.listByCategory(category).then(function(response) {
                 expect(response.data.products).toEqual(products);
+            });
+
+            httpBackend.flush();
+        });
+
+        it ('should return a single product by id', function() {
+            var id = 'id';
+            var product = { id : id };
+
+            httpBackend.whenGET('/v1/products/'+id).respond(product);
+
+            productService.findById(id).then(function(response) {
+                expect(response.data).toEqual(product);
             });
 
             httpBackend.flush();

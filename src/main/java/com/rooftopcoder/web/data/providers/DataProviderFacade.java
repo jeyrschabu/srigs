@@ -1,7 +1,10 @@
-package com.rooftopcoder.web.data;
+package com.rooftopcoder.web.data.providers;
 
 
 import com.rooftopcoder.web.constants.ApplicationConstants;
+import com.rooftopcoder.web.data.MongoConnectionConfig;
+import com.rooftopcoder.web.data.providers.ModelProvider;
+import com.rooftopcoder.web.data.providers.MorphiaProvider;
 import com.rooftopcoder.web.models.Model;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
