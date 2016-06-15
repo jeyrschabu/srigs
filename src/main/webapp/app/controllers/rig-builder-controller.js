@@ -1,6 +1,6 @@
 'use strict';
 
-var RigBuilderController = function($scope, $state, $rootScope, $stateParams, productService) {
+var RigBuilderController = function($scope, $state, $rootScope, $stateParams, productService, specService) {
     var self = this;
 
     $scope.disableSticking = false;
@@ -35,5 +35,5 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, pr
 
 };
 
-RigBuilderController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'productService'];
+RigBuilderController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'productService', 'specService'];
 angular.module('MainApp').controller('RigBuilderController', RigBuilderController);
