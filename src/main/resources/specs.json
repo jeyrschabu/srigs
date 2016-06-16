@@ -1,226 +1,555 @@
 [
-    {
-      "name" : "Intel i7 5820K",
-      "weight" : "0",
-      "price" : "200",
-      "wattage" : "100",
-      "type" : "CPU"
-    },
-    {
-      "name" : "Intel i7 5930K",
-      "weight" : "0",
-      "price" : "200",
-      "wattage" : "100",
-      "type" : "CPU"
-    },
-    {
-      "name" : "Intel i7 5960X",
-      "weight" : "0",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "CPU"
-    },
-    {
-      "name" : "H100i GTX Liquid CPU Cooler",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "CPU Cooler"
-    },
-    {
-      "name" : "MSI X99 Gaming 7",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Motherboard"
-    },
-    {
-      "name" : "MSI X99 Gaming 9 ACK",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Motherboard"
-    },
-    {
-      "name" : "MSI X99 Gaming m9 ACK",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Motherboard"
-    },
-    {
-      "name" : "16 GB RAM",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "RAM"
-    },
-    {
-      "name" : "32 GB RAM",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "RAM"
-    },
-    {
-      "name" : "64 GB RAM",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "RAM"
-    },
-    {
-      "name" : "250 GB Samsung SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-SSD"
-    },
-    {
-      "name" : "500 GB Samsung SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-SSD"
-    },
-    {
-      "name" : "1TB GB Samsung SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-SSD"
-    },
-    {
-      "name" : "256 GB Samsung Pro M.2 SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-m2"
-    },
-    {
-      "name" : "512 GB Samsung Pro M.2 SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-m2"
-    },
-    {
-      "name" : "NVIDIA GTX 980",
-      "weight" : "0",
-      "price" : "276.18",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "NVIDIA GTX 980 Two-Way SLI",
-      "weight" : "2",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "NVIDIA GTX 980Ti",
-      "weight" : "2",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "NVIDIA GTX 980Ti Two-Way SLI",
-      "weight" : "2",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "NVIDIA GTX 980Ti Three-Way SLI",
-      "weight" : "2",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "Corsair 750D",
-      "weight" : "20",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Case"
-    },
-    {
-      "name" : "750W Gold PSU",
-      "weight" : "10",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "PSU"
-    },
-    {
-      "name" : "1000W Gold PSU",
-      "weight" : "10",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "PSU"
-    },
-    {
-      "name" : "1300W Gold PSU",
-      "weight" : "10",
-      "price" : "200",
-      "wattage" : "100",
-      "type" : "PSU"
-    },
-    {
-      "name" : "H100i GTX Liquid CPU Cooler",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "CPU Cooler"
-    },
-    {
-      "name" : "MSI Gaming M9 ACK",
-      "weight" : "5",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Motherboard"
-    },
-    {
-      "name" : "32 GB RAM",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "RAM"
-    },
-    {
-      "name" : "500 GB Samsung SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-SSD"
-    },
-    {
-      "name" : "256 GB Samsung Pro M.2 SSD",
-      "weight" : "1",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Storage-m2"
-    },
-    {
-      "name" : "NVIDIA GTX 980Ti Two-Way",
-      "weight" : "0",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "GPU"
-    },
-    {
-      "name" : "Corsair 450D",
-      "weight" : "20",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "Case"
-    },
-    {
-      "name" : "1000W Gold PSU",
-      "weight" : "10",
-      "price" : "100",
-      "wattage" : "100",
-      "type" : "PSU"
-    }
+  {
+    "name" : "Intel i3 4170",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i5 4690K Devil's Canyon",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i5 4590",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i5 4790K Devil's Canyon",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel Xeon E3-1231 v3",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i7 5820K",
+    "weight" : "0",
+    "price" : "200",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i7 5930K",
+    "weight" : "0",
+    "price" : "200",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i7 5960X",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i5 6600K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "Intel i7 6700K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-6300",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-8320",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-8350",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-8370",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-9370",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "AMD FX-9590",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU"
+  },
+  {
+    "name" : "H80i GT Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU Cooler"
+  },
+  {
+    "name" : "H100i GTX Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU Cooler"
+  },
+  {
+    "name" : "H110i GT Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU Cooler"
+  },
+  {
+    "name" : "H100i GTX Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU Cooler"
+  },
+  {
+    "name" : "MSI Z170M Mortar",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "ASUS Maxiumus VIII",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI Z170 Gaming M5",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI 970A SLI Krait MB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI 990FX Gaming MB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI Z97 Gaming 5",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI X99 Gaming 7",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI X99 Gaming 9 ACK",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "MSI X99 Gaming m9 ACK",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard"
+  },
+  {
+    "name" : "8 GB RAM",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM"
+  },
+  {
+    "name" : "16 GB RAM",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM"
+  },
+  {
+    "name" : "32 GB RAM",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM"
+  },
+  {
+    "name" : "64 GB RAM",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM"
+  },
+  {
+    "name" : "250 GB Samsung SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "2x 250 GB Samsung SSD RAID0",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "500 GB Samsung SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "2x 500 GB Samsung SSD RAID0",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "1TB GB Samsung SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "2x 1TB GB Samsung SSD RAID0",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "2TB GB Samsung SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "2x 2TB GB Samsung SSD RAID0",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD"
+  },
+  {
+    "name" : "256 GB Samsung Pro M.2 SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-m2"
+  },
+  {
+    "name" : "512 GB Samsung Pro M.2 SSD",
+    "weight" : "1",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-m2"
+  },
+  {
+    "name" : "AMD Radeon R7 370 OC",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 380X OC",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 380X OC Two-Way Crossfire",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 390",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 390",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 390 Two-Way Crossfire",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 Fury",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 Fury Two-Way Crossfire",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 FuryX",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 FuryX Two-Way Crossfire",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "AMD Radeon R9 FuryX Three-Way Crossfire",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 960",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 970",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 970 Two-Way SLI",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 980",
+    "weight" : "0",
+    "price" : "276.18",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 980 Two-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 980Ti",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 980Ti Two-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 980Ti Three-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1070",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1070 Two-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1070 Three-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1080",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1080 Two-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "NVIDIA GTX 1080 Three-Way SLI",
+    "weight" : "2",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU"
+  },
+  {
+    "name" : "Corsair Carbide Air 240 White",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "Corsair Carbide Air 240 Black",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "Corsair Obsidian 350D",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "Corsair Obsidian 450D",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "Corsair Obsidian 750D",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "Corsair Obsidian 900D",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case"
+  },
+  {
+    "name" : "550W Gold PSU",
+    "weight" : "10",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU"
+  },
+  {
+    "name" : "650W Gold PSU",
+    "weight" : "10",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU"
+  },
+  {
+    "name" : "750W Gold PSU",
+    "weight" : "10",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU"
+  },
+  {
+    "name" : "1000W Gold PSU",
+    "weight" : "10",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU"
+  },
+  {
+    "name" : "1300W Gold PSU",
+    "weight" : "10",
+    "price" : "200",
+    "wattage" : "100",
+    "type" : "PSU"
+  }
 ]
