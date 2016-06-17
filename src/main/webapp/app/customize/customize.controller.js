@@ -26,7 +26,9 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     };
 
     CustomizeController.prototype.getProduct = function(productId) {
-        productService.findById(productId).then(self.setProduct);
+        if (productId) {
+            productService.findById(productId).then(self.setProduct);
+        }
     };
 
     CustomizeController.prototype.getSpecs = function() {

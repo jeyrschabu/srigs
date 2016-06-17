@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('Product', ['Home']);
+angular.module('Product', ['Home', 'ui.router']);
 angular.module('Product').config(['$stateProvider', function($stateProvider) {
     $stateProvider
       .state('products', {

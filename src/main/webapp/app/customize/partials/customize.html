@@ -2,16 +2,13 @@
     <div class="container">
         <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/{{product.coverImage}}">
-
-            <!-- needs dynamic class add/remove with class 'cn-active' -->
             <nav ng-include="'app/customize/partials/customize/nav.html'" class="customize-nav" sticky media-query="min-width: 62em"></nav>
-            <div>
-                <div ui-view> </div>
-            </div>
-
-
-        </div><!-- end column -->
+            <div ui-view="makeityours"></div>
+            <div ui-view="performance"></div>
+            <div ui-view="storage"></div>
+            <div ui-view="accessories"></div>
+        </div>
 
         <div class="col-sm-12 col-md-4" ng-include="'app/customize/partials/customize/summary.html'"></div>
-    </div><!-- end container -->
-</section><!-- end customize-product-top -->
+    </div>
+</section>

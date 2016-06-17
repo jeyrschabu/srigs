@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('Customize', ['Product']);
-angular.module('Customize').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+angular.module('Customize', ['ui.router']);
+angular.module('Customize').config(['$stateProvider', function($stateProvider) {
 
     $stateProvider
         .state('customize', {
@@ -13,18 +13,34 @@ angular.module('Customize').config(['$stateProvider', '$urlRouterProvider', func
                 }
             }
         }).state('customize.makeityours', {
-            url:'makeityours' ,
+            url:'/makeityours' ,
             views: {
-                'content':{
+                'makeityours@customize': {
                     templateUrl: '/app/customize/partials/customize/makeityours.html',
                     controller: 'CustomizeController'
                 }
             }
         }).state('customize.performance', {
-            url:'performance' ,
+            url:'/performance' ,
             views: {
-                'content':{
+                'performance@customize': {
                     templateUrl: '/app/customize/partials/customize/performance.html',
+                    controller: 'CustomizeController'
+                }
+            }
+        }).state('customize.storage', {
+            url:'/storage' ,
+            views: {
+                'storage@customize': {
+                    templateUrl: '/app/customize/partials/customize/storage.html',
+                    controller: 'CustomizeController'
+                }
+            }
+        }).state('customize.accessories', {
+            url:'/accessories' ,
+            views: {
+                'accessories@customize': {
+                    templateUrl: '/app/customize/partials/customize/accessories.html',
                     controller: 'CustomizeController'
                 }
             }

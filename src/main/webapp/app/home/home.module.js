@@ -1,5 +1,5 @@
 'use strict';
-angular.module('Home', []);
+angular.module('Home', ['ui.router']);
 angular.module('Home').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
