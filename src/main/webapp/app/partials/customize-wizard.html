@@ -13,57 +13,21 @@
                 <h3 class="cpm-title">Case Options</h3>
                 <ul class="cpm-list cpm-horz row">
 
-                    <li class="col-md-4">
+                    <li class="col-md-4" ng-repeat="case in cases">
                         <a class="cpm-inner" href="#">
                             <div class="cpm-item-wrap">
                                 <img src="/public/images/products/{{product.coverImage}}">
-                                <h4>Corsair Obsidian 900D</h4>
-                                <p>Largest Form Factor</p>
+                                <h4>{{case.name}}</h4>
+                                <p>{{case.blobDescription}}</p>
                                     <span class="cpm-price">
-                                        + $120
+                                        + $ {{case.price}}
                                     </span>
                             </div>
-
                         </a>
                         <div class="cpm-radio-wrap">
                             <input type="radio">
                         </div>
                     </li>
-
-                    <li class="col-md-4">
-                        <div class="cpm-inner">
-                            <div class="cpm-item-wrap">
-                                <img src="/public/images/products/{{product.coverImage}}">
-                                <h4>Obsidian Series 750D Airflow Edition</h4>
-                                <p>Full tower, excellent airflow</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                            </div>
-
-                        </div>
-                        <div class="cpm-radio-wrap">
-                            <input type="radio">
-                        </div>
-                    </li>
-
-                    <li class="col-md-4">
-                        <div class="cpm-inner">
-                            <div class="cpm-item-wrap">
-                                <img src="/public/images/products/{{product.coverImage}}">
-                                <h4>Carbide Quiet 600Q</h4>
-                                <p>Inverse ATX Full-Tower</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                            </div>
-
-                        </div>
-                        <div class="cpm-radio-wrap">
-                            <input type="radio">
-                        </div>
-                    </li>
-
                 </ul>
             </section>
 

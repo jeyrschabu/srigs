@@ -12,8 +12,9 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
     $scope.product = {};
     $scope.rig = {};
     $scope.cases = [];
-    $scope.caseCooling = [];
+    $scope.cpuCooling = [];
     $scope.cables = [];
+    $scope.specs = [];
 
     RigBuilderController.prototype.setProduct = function (response) {
         $scope.product = response.data;
@@ -21,14 +22,7 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
     };
 
     RigBuilderController.prototype.setSpecs = function (response) {
-        var specs = response.data;
-        //TODO: revisit this
-
-        $scope.cases        = lodash.find(specs, { 'type' : 'Cases' }); //TODO check type
-        $scope.caseCooling  = lodash.find(specs, { 'type' : 'Case Cooling' }); //TODO check type
-        $scope.cables       = lodash.find(specs, { 'type' : 'Cable' }); //TODO check type
-
-        self.initializeRig($scope.product);
+        $scope.specs = response.data;
     };
 
     RigBuilderController.prototype.getProduct = function(productId) {
@@ -40,6 +34,10 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
     };
 
     RigBuilderController.prototype.initializeRig = function(product) {
+        $scope.cases        = lodash.filter($scope.product.specs, { 'type' : 'Case' });
+        $scope.cpuCooling   = lodash.filter($scope.product.specs, { 'type' : 'CPU Cooler' });
+        $scope.cables       = lodash.filter($scope.product.specs, { 'type' : 'Cable' });
+
         $scope.rig = {
             product : product,
             totalPrice : 0
@@ -47,6 +45,7 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
     };
 
     self.getProduct($scope.productId);
+    self.getSpecs();
 
 };
 
