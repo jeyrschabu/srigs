@@ -6,4 +6,4 @@ var SupportController = function($scope, $rootScope) {
 };
 
 SupportController.$inject = ['$scope', '$rootScope'];
-angular.module('MainApp').controller('SupportController', SupportController);
+angular.module('Home').controller('SupportController', SupportController);

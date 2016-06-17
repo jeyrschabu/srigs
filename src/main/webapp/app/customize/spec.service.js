@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('MainApp')
+    .module('Customize')
     .service('specService', function($http) {
         function getSpecs() {
             return $http({

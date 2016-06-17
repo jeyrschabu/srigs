@@ -1,6 +1,6 @@
 'use strict';
 
-var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lodash, productService, specService) {
+var CustomizeController = function($scope, $state, $rootScope, $stateParams, lodash, productService, specService) {
     var self = this;
 
     $scope.disableSticking = false;
@@ -16,24 +16,26 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
     $scope.cables = [];
     $scope.specs = [];
 
-    RigBuilderController.prototype.setProduct = function (response) {
+    CustomizeController.prototype.setProduct = function (response) {
         $scope.product = response.data;
         self.initializeRig($scope.product);
     };
 
-    RigBuilderController.prototype.setSpecs = function (response) {
+    CustomizeController.prototype.setSpecs = function (response) {
         $scope.specs = response.data;
     };
 
-    RigBuilderController.prototype.getProduct = function(productId) {
-        productService.findById(productId).then(self.setProduct);
+    CustomizeController.prototype.getProduct = function(productId) {
+        if (productId) {
+            productService.findById(productId).then(self.setProduct);
+        }
     };
 
-    RigBuilderController.prototype.getSpecs = function() {
+    CustomizeController.prototype.getSpecs = function() {
         specService.list().then(self.setSpecs);
     };
 
-    RigBuilderController.prototype.initializeRig = function(product) {
+    CustomizeController.prototype.initializeRig = function(product) {
         $scope.cases        = lodash.filter($scope.product.specs, { 'type' : 'Case' });
         $scope.cpuCooling   = lodash.filter($scope.product.specs, { 'type' : 'CPU Cooler' });
         $scope.cables       = lodash.filter($scope.product.specs, { 'type' : 'Cable' });
@@ -49,5 +51,5 @@ var RigBuilderController = function($scope, $state, $rootScope, $stateParams, lo
 
 };
 
-RigBuilderController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'lodash', 'productService', 'specService'];
-angular.module('MainApp').controller('RigBuilderController', RigBuilderController);
+CustomizeController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'lodash', 'productService', 'specService'];
+angular.module('Customize').controller('CustomizeController', CustomizeController);

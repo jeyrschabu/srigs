@@ -6,4 +6,4 @@ var CrewController = function($scope ,$rootScope ) {
 };
 
 CrewController.$inject = ['$scope', '$rootScope'];
-angular.module('MainApp').controller('CrewController', CrewController);
+angular.module('Home').controller('CrewController', CrewController);
