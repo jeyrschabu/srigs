@@ -78,4 +78,4 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
 };
 
 ProductController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'categoryService', 'productService'];
-angular.module('MainApp').controller('ProductController', ProductController);
+angular.module('Product').controller('ProductController', ProductController);

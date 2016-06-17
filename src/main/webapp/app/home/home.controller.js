@@ -28,5 +28,5 @@ var HomeController = function($scope, $rootScope,  $location, categoryService) {
 };
 
 HomeController.$inject = ['$scope', '$rootScope', '$location', 'categoryService'];
-angular.module('MainApp').controller('HomeController', HomeController);
+angular.module('Home').controller('HomeController', HomeController);
 

@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('MainApp')
+    .module('Home')
     .service('categoryService', function($http){
         function getCategories(){
             return $http({
