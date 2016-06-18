@@ -15,4 +15,7 @@ public class Spec extends Model {
     private Double weight; //in lbs
     private Double price;
     private Double wattage;
+    private String shortDescription;
+    private String longDescription;
+    private String coverImage;
 }

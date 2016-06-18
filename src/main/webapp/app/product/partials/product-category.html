@@ -8,9 +8,6 @@
         </div>
     </div>
 
-    <div class="product-page-break" id="sticker">
-        <a href="#/customize/">Customize A Rig</a>
-    </div>
     <div class="content page-content product-content">
         <div class="container">
             <div class="col-xl-6 col-sm-12" ng-repeat="product in products">
@@ -30,7 +27,7 @@
                         </ul>
                     </div>
 
-                    <a href="#/customize/">Customize <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a ui-sref="customize({productId : product.id})">Customize <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
