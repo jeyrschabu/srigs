@@ -5,7 +5,7 @@ angular.module('Customize').config(['$stateProvider', function($stateProvider) {
 
     $stateProvider
         .state('customize', {
-            url:'/customize/:productId' ,
+            url:'/customize/:productId/:mark' ,
             views: {
                 'content':{
                     templateUrl: '/app/customize/partials/customize.html',

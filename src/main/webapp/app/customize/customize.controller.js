@@ -7,6 +7,7 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     $scope.pageTitle = 'Customize';
     $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
     $scope.productId = $stateParams.productId;
+    $scope.selectedMark = $stateParams.mark;
 
     /** all parts to build a rig more coming soon **/
     $scope.product = {};
@@ -36,13 +37,23 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     };
 
     CustomizeController.prototype.initializeRig = function(product) {
-        $scope.cases        = lodash.filter($scope.product.specs, { 'type' : 'Case' });
-        $scope.cpuCooling   = lodash.filter($scope.product.specs, { 'type' : 'CPU Cooler' });
-        $scope.cables       = lodash.filter($scope.product.specs, { 'type' : 'Cable' });
+        var specs = $scope.product.specs;
+        var totalPrice = $scope.product.price;
+        if ($scope.selectedMark) {
+            var matchedMark = lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark });
+            if (matchedMark instanceof Array) {
+                specs = matchedMark[0].specs;
+                totalPrice = matchedMark[0].price;
+            }
+        }
+
+        $scope.cases        = lodash.filter(specs, { 'type' : 'Case' });
+        $scope.cpuCooling   = lodash.filter(specs, { 'type' : 'CPU Cooler' });
+        $scope.cables       = lodash.filter(specs, { 'type' : 'Cable' });
 
         $scope.rig = {
             product : product,
-            totalPrice : 0
+            totalPrice : totalPrice
         };
     };
 

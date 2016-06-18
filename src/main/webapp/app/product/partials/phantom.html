@@ -83,20 +83,7 @@
 
         <section class="build-list" ng-repeat="markBrand in ['AMD', 'INTEL']">
             <h2 class="bl-brand">{{markBrand}}</h2>
-            <div class="container">
-                <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="mark in product.marks |filter:{ brand: markBrand }">
-                    <a href="#" ng-click="customize(product, $event)" class="build-module">
-                        <h4>{{mark.name}}</h4>
-                        <h5>Starting at <strong>${{mark.price}}</strong></h5>
-                        <ul ng-repeat="spec in mark.specs">
-                            <li>{{spec.type}}: {{spec.name}}</li>
-                        </ul>
-                        <span>
-                            Customize <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
+            <div class="container" ng-include="'app/product/partials/product-marks.html'"> </div>
         </section>
 
     </div>
