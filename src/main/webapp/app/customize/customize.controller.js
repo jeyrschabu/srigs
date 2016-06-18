@@ -8,6 +8,7 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
     $scope.productId = $stateParams.productId;
     $scope.selectedMark = $stateParams.mark;
+    $scope.brand = $stateParams.brand;
 
     /** all parts to build a rig more coming soon **/
     $scope.product = {};
@@ -37,11 +38,15 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     };
 
     CustomizeController.prototype.initializeRig = function(product) {
-        var specs = $scope.product.specs;
-        var totalPrice = $scope.product.price;
+        var specs = product.specs;
+        var totalPrice = product.price;
         if ($scope.selectedMark) {
-            var matchedMark = lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark });
-            if (matchedMark instanceof Array) {
+
+            var matchedMark = ($scope.brand) ?
+                lodash.filter(product.marks, { 'name' : $scope.selectedMark, 'brand' : $scope.brand }):
+                    lodash.filter(product.marks, { 'name' : $scope.selectedMark });
+
+            if (matchedMark && matchedMark.length) {
                 specs = matchedMark[0].specs;
                 totalPrice = matchedMark[0].price;
             }
