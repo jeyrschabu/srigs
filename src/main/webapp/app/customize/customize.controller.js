@@ -18,33 +18,15 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     $scope.cables = [];
     $scope.specs = [];
 
-    CustomizeController.prototype.setProduct = function (response) {
+    CustomizeController.prototype.setRig = function (response) {
         $scope.product = response.data;
-        self.initializeRig($scope.product);
-    };
-
-    CustomizeController.prototype.setSpecs = function (response) {
-        $scope.specs = response.data;
-    };
-
-    CustomizeController.prototype.getProduct = function(productId) {
-        if (productId) {
-            productService.findById(productId).then(self.setProduct);
-        }
-    };
-
-    CustomizeController.prototype.getSpecs = function() {
-        specService.list().then(self.setSpecs);
-    };
-
-    CustomizeController.prototype.initializeRig = function(product) {
-        var specs = product.specs;
-        var totalPrice = product.price;
+        var specs = $scope.product.specs;
+        var totalPrice = $scope.product.price;
         if ($scope.selectedMark) {
 
             var matchedMark = ($scope.brand) ?
-                lodash.filter(product.marks, { 'name' : $scope.selectedMark, 'brand' : $scope.brand }):
-                    lodash.filter(product.marks, { 'name' : $scope.selectedMark });
+                lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark, 'brand' : $scope.brand }):
+                lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark });
 
             if (matchedMark && matchedMark.length) {
                 specs = matchedMark[0].specs;
@@ -57,9 +39,23 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
         $scope.cables       = lodash.filter(specs, { 'type' : 'Cable' });
 
         $scope.rig = {
-            product : product,
+            product : $scope.product,
             totalPrice : totalPrice
         };
+    };
+
+    CustomizeController.prototype.setSpecs = function (response) {
+        $scope.specs = response.data;
+    };
+
+    CustomizeController.prototype.getProduct = function(productId) {
+        if (productId) {
+            productService.findById(productId).then(self.setRig);
+        }
+    };
+
+    CustomizeController.prototype.getSpecs = function() {
+        specService.list().then(self.setSpecs);
     };
 
     self.getProduct($scope.productId);
