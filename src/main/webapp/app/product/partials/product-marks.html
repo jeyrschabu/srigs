@@ -1,5 +1,5 @@
 <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="mark in product.marks |filter:{ brand: markBrand }">
-    <a ui-sref="customize({productId : product.id, mark : mark.name})" class="build-module">
+    <a ui-sref="customize.makeityours({productId : product.id, mark : mark.name, brand : mark.brand})" class="build-module">
         <h4>{{mark.name}}</h4>
         <h5>Starting at <strong>${{mark.price}}</strong></h5>
         <ul ng-repeat="spec in mark.specs">
