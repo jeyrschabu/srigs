@@ -3,6 +3,8 @@ package com.rooftopcoder.web.models;
 import lombok.*;
 import org.mongodb.morphia.annotations.Entity;
 
+import java.util.List;
+
 @NoArgsConstructor
 @Getter
 @Setter
@@ -18,4 +20,5 @@ public class Spec extends Model {
     private String shortDescription;
     private String longDescription;
     private String coverImage;
+    private List<Option> options;
 }
