@@ -538,506 +538,1231 @@
     "category": "Gaming Desktops",
     "price" : 1156,
     "specs" : [
-      {
-        "name" : "Intel i3 6100",
-        "weight" : "0",
-        "price" : "200",
-        "wattage" : "100",
-        "type" : "CPU"
-      },
-      {
-        "name" : "Intel i5 6600k",
-        "weight" : "0",
-        "price" : "200",
-        "wattage" : "100",
-        "type" : "CPU"
-      },
-      {
-        "name" : "Intel i7 6700k",
-        "weight" : "0",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "CPU"
-      },
-      {
-        "name" : "H80i Liquid CPU Cooler",
-        "weight" : "5",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "CPU Cooler"
-      },
-      {
-        "name" : "H100i GTX Liquid CPU Cooler",
-        "weight" : "5",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "CPU Cooler"
-      },
-      {
-        "name" : "MSI Z170M Mortar",
-        "weight" : "5",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Motherboard"
-      },
-      {
-        "name" : "ASUS Maximus VIII",
-        "weight" : "5",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Motherboard"
-      },
-      {
-        "name" : "8 GB RAM",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "RAM"
-      },
-      {
-        "name" : "16 GB RAM",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "RAM"
-      },
-      {
-        "name" : "32 GB RAM",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "RAM"
-      },
-      {
-        "name" : "120 GB Samsung SSD",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Storage-SSD"
-      },
-      {
-        "name" : "250 GB Samsung SSD",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Storage-SSD"
-      },
-      {
-        "name" : "500 GB Samsung SSD",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Storage-SSD"
-      },
-      {
-        "name" : "120 GB Samsung SSD",
-        "weight" : "1",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Storage-SSD"
-      },
-      {
-        "name" : "NVIDIA GTX 960",
-        "weight" : "0",
-        "price" : "276.18",
-        "wattage" : "100",
-        "type" : "GPU"
-      },
-      {
-        "name" : "NVIDIA GTX 970",
-        "weight" : "2",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "GPU"
-      },
-      {
-        "name" : "NVIDIA GTX 980",
-        "weight" : "2",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "GPU"
-      },
-      {
-        "name" : "NVIDIA GTX 980Ti",
-        "weight" : "2",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "GPU"
-      },
-      {
-        "name" : "NVIDIA GTX 980Ti Two-Way SLI",
-        "weight" : "2",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "GPU"
-      },
-      {
-        "name" : "Corsair 350D",
-        "weight" : "20",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Case"
-      },
-      {
-        "name" : "550W Gold PSU",
-        "weight" : "10",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "PSU"
-      },
-      {
-        "name" : "650W Gold PSU",
-        "weight" : "10",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "PSU"
-      },
-      {
-        "name" : "650W Gold PSU",
-        "weight" : "10",
-        "price" : "200",
-        "wattage" : "100",
-        "type" : "PSU"
-      },
-      {
-        "name" : "750W Gold PSU",
-        "weight" : "10",
-        "price" : "300",
-        "wattage" : "100",
-        "type" : "PSU"
-      },
-      {
-        "name" : "1000W Gold PSU",
-        "weight" : "10",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "PSU"
-      }
-
-    ],
-    "marks" : [
-      {
-        "name" : "Mark 1",
-        "brand" : "Intel",
-        "blobDescription" : "some description",
-        "price" : 1156,
-        "specs" : [
-          {
-            "name" : "Intel i3 6100",
+        {
+            "name" : "Corsair Carbide Air 240 White",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Corsair Carbide Air 240 Black",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Corsair Obsidian 350D",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Stock Fans",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case Fans",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "LED Fans",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case Fans",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : [
+                { 
+                    "name" : "White",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Red",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Green",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Purple",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Blue",
+                    "coverImage" : "img/source.png"
+                }
+            ]
+        },
+        {
+            "name" : "Performance Fans",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case Fans",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "None",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case LED",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "LED Strips",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Case LED",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : [
+                { 
+                    "name" : "White",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Red",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Green",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Purple",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Blue",
+                    "coverImage" : "img/source.png"
+                }
+            ]
+        },
+        {
+            "name" : "Basic",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Cabling",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Colored",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Cabling",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : [
+                { 
+                    "name" : "Black",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "White",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Red",
+                    "coverImage" : "img/source.png"
+                },
+                { 
+                    "name" : "Blue",
+                    "coverImage" : "img/source.png"
+                }
+            ]
+        },
+        {
+            "name" : "Intel i3-6100",
             "weight" : "0",
             "price" : "200",
             "wattage" : "100",
-            "type" : "CPU"
-          },
-          {
+            "type" : "CPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "Intel i5-6600k",
+            "weight" : "0",
+            "price" : "200",
+            "wattage" : "100",
+            "type" : "CPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Intel i7-6700k",
+            "weight" : "0",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "CPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
             "name" : "H80i Liquid CPU Cooler",
             "weight" : "5",
             "price" : "100",
             "wattage" : "100",
-            "type" : "CPU Cooler"
-          },
-          {
+            "type" : "CPU Cooler",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "H100i GTX Liquid CPU Cooler",
+            "weight" : "5",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "CPU Cooler",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
             "name" : "MSI Z170M Mortar",
             "weight" : "5",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Motherboard"
-          },
-          {
-            "name" : "8 GB RAM",
-            "weight" : "1",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "RAM"
-          },
-          {
-            "name" : "120 GB Samsung SSD",
-            "weight" : "1",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Storage-SSD"
-          },
-          {
-            "name" : "NVIDIA GTX 960",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "GPU"
-          },
-          {
-            "name" : "Corsair 350D",
-            "weight" : "20",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Case"
-          },
-          {
-            "name" : "550W Gold PSU",
-            "weight" : "10",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "PSU"
-          }
-        ]
-      },
-      {
-        "name" : "Mark 2",
-        "brand" : "Intel",
-        "blobDescription" : "some description",
-        "price" : 1572,
-        "specs" : [
-          {
-            "name" : "Intel i5 6600k",
-            "weight" : "0",
-            "price" : "200",
-            "wattage" : "100",
-            "type" : "CPU"
-          },
-          {
-            "name" : "H100i GTX Liquid CPU Cooler",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU Cooler"
-          },
-          {
-            "name" : "MSI Z170M Mortar",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Motherboard"
-          },
-          {
-            "name" : "16 GB RAM",
-            "weight" : "1",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "RAM"
-          },
-          {
-            "name" : "250 GB Samsung SSD",
-            "weight" : "1",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Storage-SSD"
-          },
-          {
-            "name" : "NVIDIA GTX 970",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "GPU"
-          },
-          {
-            "name" : "Corsair 350D",
-            "weight" : "20",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Case"
-          },
-          {
-            "name" : "650W Gold PSU",
-            "weight" : "10",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "PSU"
-          }
-        ]
-      },
-      {
-        "name" : "Mark 3",
-        "brand" : "Intel",
-        "blobDescription" : "some description",
-        "price" : 1911,
-        "specs" : [
-          {
-            "name" : "Intel i5 6600k",
-            "weight" : "0",
-            "price" : "200",
-            "wattage" : "100",
-            "type" : "CPU"
-          },
-          {
-            "name" : "H100i GTX Liquid CPU Cooler",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU Cooler"
-          },
-          {
+            "type" : "Motherboard",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
             "name" : "ASUS Maximus VIII",
             "weight" : "5",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Motherboard"
-          },
-          {
-            "name" : "16 GB RAM",
+            "type" : "Motherboard",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "8 GB RAM Standard",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "RAM"
-          },
-          {
-            "name" : "250 GB Samsung SSD",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "16 GB RAM Standard",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Storage-SSD"
-          },
-          {
-            "name" : "NVIDIA GTX 980",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "GPU"
-          },
-          {
-            "name" : "Corsair 350D",
-            "weight" : "20",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Case"
-          },
-          {
-            "name" : "650W Gold PSU",
-            "weight" : "10",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "PSU"
-          }
-        ]
-      },
-      {
-        "name" : "Mark 4",
-        "brand" : "Intel",
-        "blobDescription" : "some description",
-        "price" : 2463,
-        "specs" : [
-          {
-            "name" : "Intel i7 6700k",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU"
-          },
-          {
-            "name" : "H100i GTX Liquid CPU Cooler",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU Cooler"
-          },
-          {
-            "name" : "ASUS Maximus VIII",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Motherboard"
-          },
-          {
-            "name" : "32 GB RAM",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "32 GB RAM Standard",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "RAM"
-          },
-          {
-            "name" : "500 GB Samsung SSD",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "64 GB RAM Standard",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Storage-SSD"
-          },
-          {
-            "name" : "NVIDIA GTX 980Ti",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "GPU"
-          },
-          {
-            "name" : "Corsair 350D",
-            "weight" : "20",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Case"
-          },
-          {
-            "name" : "750W Gold PSU",
-            "weight" : "10",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "PSU"
-          }
-        ]
-      },
-      {
-        "name" : "Mark 5",
-        "brand" : "Intel",
-        "blobDescription" : "some description",
-        "price" : 2463,
-        "specs" : [
-          {
-            "name" : "Intel i7 6700k",
-            "weight" : "0",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU"
-          },
-          {
-            "name" : "H100i GTX Liquid CPU Cooler",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "CPU Cooler"
-          },
-          {
-            "name" : "ASUS Maximus VIII",
-            "weight" : "5",
-            "price" : "100",
-            "wattage" : "100",
-            "type" : "Motherboard"
-          },
-          {
-            "name" : "32 GB RAM",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "128 GB RAM Standard",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "RAM"
-          },
-          {
-            "name" : "500 GB Samsung SSD",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "8 GB RAM Performance",
             "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Storage-SSD"
-          },
-          {
-            "name" : "NVIDIA GTX 980Ti Two-Way SLI",
-            "weight" : "0",
-            "price" : "1000",
-            "wattage" : "100",
-            "type" : "GPU"
-          },
-          {
-            "name" : "Corsair 350D",
-            "weight" : "20",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "16 GB RAM Performance",
+            "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "Case"
-          },
-          {
-            "name" : "1000W Gold PSU",
-            "weight" : "10",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "32 GB RAM Performance",
+            "weight" : "1",
             "price" : "100",
             "wattage" : "100",
-            "type" : "PSU"
-          }
-        ]
-      }
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "64 GB RAM Performance",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "128 GB RAM Performance",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "RAM",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "Nvidia GTX 960 4GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "Nvidia GTX 970 4GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Nvidia GTX 980 4GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Nvidia GTX 980Ti 6GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Nvidia GTX 1070 8GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Nvidia GTX 1080 8GB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "AMD Radeon R7 370 OC",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "AMD Radeon R9 380X OC",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "AMD Radeon R9 390",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "AMD Radeon R9 390X",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "AMD Radeon R9 Fury",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "GPU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Stage One",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Overclocking",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Stage Two",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Overclocking",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "550W Gold-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "650W Gold-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "750W Gold-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "850W Gold-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "650W Platinum-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "750W Platinum-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "850W Platinum-Rated PSU",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "PSU",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung PRO 128GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "Samsung PRO 256GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung PRO 512GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung PRO 512GB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung PRO 1TB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung PRO 1TB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung PRO 2TB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung PRO 2TB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+                {
+            "name" : "Samsung EVO 128GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }, 
+        {
+            "name" : "Samsung EVO 256GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung EVO 512GB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung EVO 512GB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung EVO 1TB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung EVO 1TB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Samsung EVO 2TB SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "2x Samsung EVO 2TB SSD RAID0",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-SSD",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "256 GB Samsung Pro M.2 SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-M2",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "512 GB Samsung Pro M.2 SSD",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage-M2",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-BLACK 1TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-BLACK 2TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-BLACK 3TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-RED 2TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-RED 3TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "WD-RED 4TB",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Storage",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Windows 10 Home",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "OS",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Windows 10 Professional",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "OS",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "None",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "OS",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "None",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Internal Wi-Fi",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Standard Internal Wi-FI",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Internal Wi-Fi",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        },
+        {
+            "name" : "Standard Performance Wi-FI",
+            "weight" : "1",
+            "price" : "100",
+            "wattage" : "100",
+            "type" : "Internal Wi-Fi",
+            "shortDescription" : "some description",
+            "longDescription" : "long description",
+            "coverImage" : "src/image.png",
+            "options" : []
+        }
+    ],
+    "marks" : [
+        {
+            "name" : "Mark 1",
+            "blobDescription" : "some description",
+            "price" : 1156,
+            "specs" : [
+                {
+                    "name" : "Intel i3 6100",
+                    "weight" : "0",
+                    "price" : "200",
+                    "wattage" : "100",
+                    "type" : "CPU",
+                },
+                {
+                    "name" : "H80i Liquid CPU Cooler",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU Cooler",
+                },
+                {
+                    "name" : "MSI Z170M Mortar",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Motherboard",
+                },
+                {
+                    "name" : "8 GB RAM",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "RAM",
+                },
+                {
+                    "name" : "120 GB Samsung SSD",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Storage-SSD",
+                },
+                {
+                    "name" : "NVIDIA GTX 960",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "GPU",
+                },
+                {
+                    "name" : "Corsair 350D",
+                    "weight" : "20",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Case",
+                },
+                {
+                    "name" : "550W Gold PSU",
+                    "weight" : "10",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "PSU",
+                }
+            ]
+        },
+        {
+            "name" : "Mark 2",
+            "blobDescription" : "some description",
+            "price" : 1572,
+            "specs" : [
+                {
+                    "name" : "Intel i5 6600k",
+                    "weight" : "0",
+                    "price" : "200",
+                    "wattage" : "100",
+                    "type" : "CPU",
+                },
+                {
+                    "name" : "H100i GTX Liquid CPU Cooler",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU Cooler",
+                },
+                {
+                    "name" : "MSI Z170M Mortar",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Motherboard",
+                },
+                {
+                    "name" : "16 GB RAM",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "RAM",
+                },
+                {
+                    "name" : "250 GB Samsung SSD",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Storage-SSD",
+                },
+                {
+                    "name" : "NVIDIA GTX 970",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "GPU",
+                },
+                {
+                    "name" : "Corsair 350D",
+                    "weight" : "20",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Case",
+                },
+                {
+                    "name" : "650W Gold PSU",
+                    "weight" : "10",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "PSU",
+                }
+            ]
+        },
+        {
+            "name" : "Mark 3",
+            "blobDescription" : "some description",
+            "price" : 1911,
+            "specs" : [
+                {
+                    "name" : "Intel i5 6600k",
+                    "weight" : "0",
+                    "price" : "200",
+                    "wattage" : "100",
+                    "type" : "CPU",
+                },
+                {
+                    "name" : "H100i GTX Liquid CPU Cooler",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU Cooler",
+                },
+                {
+                    "name" : "ASUS Maximus VIII",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Motherboard",
+                },
+                {
+                    "name" : "16 GB RAM",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "RAM",
+                },
+                {
+                    "name" : "250 GB Samsung SSD",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Storage-SSD",
+                },
+                {
+                    "name" : "NVIDIA GTX 980",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "GPU",
+                },
+                {
+                    "name" : "Corsair 350D",
+                    "weight" : "20",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Case",
+                },
+                {
+                    "name" : "650W Gold PSU",
+                    "weight" : "10",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "PSU",
+                }
+            ]
+        },
+        {
+            "name" : "Mark 4",
+            "blobDescription" : "some description",
+            "price" : 2463,
+            "specs" : [
+                {
+                    "name" : "Intel i7 6700k",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU",
+                },
+                {
+                    "name" : "H100i GTX Liquid CPU Cooler",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU Cooler",
+                },
+                {
+                    "name" : "ASUS Maximus VIII",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Motherboard",
+                },
+                {
+                    "name" : "32 GB RAM",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "RAM",
+                },
+                {
+                    "name" : "500 GB Samsung SSD",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Storage-SSD",
+                },
+                {
+                    "name" : "NVIDIA GTX 980Ti",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "GPU",
+                },
+                {
+                    "name" : "Corsair 350D",
+                    "weight" : "20",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Case",
+                },
+                {
+                    "name" : "750W Gold PSU",
+                    "weight" : "10",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "PSU",
+                }
+            ]
+        },        
+        {
+            "name" : "Mark 5",
+            "blobDescription" : "some description",
+            "price" : 2463,
+            "specs" : [
+                {
+                    "name" : "Intel i7 6700k",
+                    "weight" : "0",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU",
+                },
+                {
+                    "name" : "H100i GTX Liquid CPU Cooler",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "CPU Cooler",
+                },
+                {
+                    "name" : "ASUS Maximus VIII",
+                    "weight" : "5",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Motherboard",
+                },
+                {
+                    "name" : "32 GB RAM",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "RAM",
+                },
+                {
+                    "name" : "500 GB Samsung SSD",
+                    "weight" : "1",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Storage-SSD",
+                },
+                {
+                    "name" : "NVIDIA GTX 980Ti Two-Way SLI",
+                    "weight" : "0",
+                    "price" : "1000",
+                    "wattage" : "100",
+                    "type" : "GPU",
+                },
+                {
+                    "name" : "Corsair 350D",
+                    "weight" : "20",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "Case",
+                },
+                {
+                    "name" : "1000W Gold PSU",
+                    "weight" : "10",
+                    "price" : "100",
+                    "wattage" : "100",
+                    "type" : "PSU",
+                }
+            ]
+        }
     ]
-  },
+},
   {
     "name" : "Shade",
     "coverImage": "main-shade.png",
