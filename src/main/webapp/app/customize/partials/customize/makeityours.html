@@ -8,7 +8,7 @@
         <li class="col-md-4" ng-repeat="case in cases">
             <a class="cpm-inner" href="#">
                 <div class="cpm-item-wrap">
-                    <img src="/public/images/products/{{product.coverImage}}">
+                    <img ng-src="/public/images/products/{{product.coverImage}}">
                     <h4>{{case.name}}</h4>
                     <p>{{case.blobDescription}}</p>
                                     <span class="cpm-price">

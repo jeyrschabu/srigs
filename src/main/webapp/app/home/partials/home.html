@@ -4,7 +4,7 @@
     <div class="container top-content">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="category in categories">
-                <a class="product-module-highlight" href="/#/products/{{category.shortName}}">
+                <a class="product-module-highlight" ui-sref='category({category : category.shortName})'>
                     <img ng-src="/public/images/products/{{category.coverImage}}" class="img-fluid">
                     <div class="highlight-overlay">
                         <h2>{{category.name}}</h2>
