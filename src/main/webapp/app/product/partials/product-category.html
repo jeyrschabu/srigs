@@ -11,7 +11,7 @@
     <div class="content page-content product-content">
         <div class="container">
             <div class="col-xl-6 col-sm-12" ng-repeat="product in products">
-                <a href="#" ng-click="details(product, category, $event)" class="product-module-list">
+                <a href="#" ui-sref="detail({productId: product.id, category: category, name: product.name.toLowerCase().trim()})" ng-click="details(product, category, $event)" class="product-module-list">
                     <img ng-src="/public/images/products/{{product.coverImage}}" class="img-fluid">
                     <h2>{{product.name}}</h2>
                     <p>{{product.blobDescription}}</p>

@@ -7,8 +7,6 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
     $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
 
     $scope.byGlance = byGlance;
-    $scope.details = details;
-    $scope.customize = customize;
 
     $scope.disableSticking = false;
     $scope.categories = [];
@@ -17,29 +15,11 @@ var ProductController = function($scope, $state, $rootScope, $stateParams, categ
     $scope.product = {};
 
     const MAIN_SPECS_TYPE = ['CPU', 'RAM' , 'GPU'];
-    const DETAIL_ROUTE = 'detail';
-    const CUSTOMIZE_ROUTE = 'customize';
 
     $scope.products = [];
 
     function byGlance(spec) {
         return MAIN_SPECS_TYPE.indexOf(spec.type) > -1 ;
-    }
-
-    function details(product, category, $event) {
-        $event.preventDefault();
-        $state.go(DETAIL_ROUTE, {
-            category: category,
-            name: product.name.toLowerCase().trim(),
-            productId: product.id
-        } );
-    }
-
-    function customize(product, $event) {
-        $event.preventDefault();
-        $state.go(CUSTOMIZE_ROUTE, {
-            productId: product.id
-        } );
     }
 
     ProductController.prototype.setProducts = function (response) {
