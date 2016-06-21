@@ -1,13 +1,17 @@
-describe('MainApp', function(){
+/**
+ * Created by jeyrschabu on 6/20/16.
+ */
+
+describe('Product', function() {
     var scope,
         productController,
         mockProductService;
 
     beforeEach(function () {
-        module('MainApp');
+        module('Product');
     });
 
-    describe('ProductController', function(){
+    describe('ProductController', function() {
         beforeEach(inject(function($rootScope, $controller, $q, productService) {
             scope = $rootScope.$new();
             mockProductService = productService;
@@ -52,3 +56,4 @@ describe('MainApp', function(){
         });
     })
 });
+
