@@ -1,11 +1,15 @@
-describe('MainApp', function () {
+/**
+ * Created by jeyrschabu on 6/20/16.
+ */
+
+describe('Product', function () {
 
     var productService;
     var httpBackend = {};
 
 
     beforeEach(function () {
-        module('MainApp');
+        module('Product');
     });
 
     describe ('productService', function () {
@@ -61,3 +65,4 @@ describe('MainApp', function () {
         });
     });
 });
+

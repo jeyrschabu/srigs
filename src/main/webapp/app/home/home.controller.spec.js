@@ -1,14 +1,18 @@
-describe('MainApp', function(){
+/**
+ * Created by jeyrschabu on 6/20/16.
+ */
+
+describe('Home', function(){
     var scope,
         location,
         homeController,
         mockCategoryService;
 
     beforeEach(function () {
-        module('MainApp');
+        module('Home');
     });
 
-    describe('HomeController', function(){
+    describe('HomeController', function() {
         beforeEach(inject(function($rootScope, $controller, $location, _categoryService_) {
             scope = $rootScope.$new();
             mockCategoryService = _categoryService_;
