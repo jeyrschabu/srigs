@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 @Slf4j
-public abstract class BaseService <T extends Model>{
+public abstract class BaseService <T extends Model> {
 
     protected abstract String getInitialJsonData();
     protected ModelProvider<T> modelProvider;

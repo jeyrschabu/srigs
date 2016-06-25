@@ -1456,56 +1456,56 @@
                     "weight" : "0",
                     "price" : "200",
                     "wattage" : "100",
-                    "type" : "CPU",
+                    "type" : "CPU"
                 },
                 {
                     "name" : "H80i Liquid CPU Cooler",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU Cooler",
+                    "type" : "CPU Cooler"
                 },
                 {
                     "name" : "MSI Z170M Mortar",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Motherboard",
+                    "type" : "Motherboard"
                 },
                 {
                     "name" : "8 GB RAM",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "RAM",
+                    "type" : "RAM"
                 },
                 {
                     "name" : "120 GB Samsung SSD",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Storage-SSD",
+                    "type" : "Storage-SSD"
                 },
                 {
                     "name" : "NVIDIA GTX 960",
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "GPU",
+                    "type" : "GPU"
                 },
                 {
                     "name" : "Corsair 350D",
                     "weight" : "20",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Case",
+                    "type" : "Case"
                 },
                 {
                     "name" : "550W Gold PSU",
                     "weight" : "10",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "PSU",
+                    "type" : "PSU"
                 }
             ]
         },
@@ -1519,56 +1519,56 @@
                     "weight" : "0",
                     "price" : "200",
                     "wattage" : "100",
-                    "type" : "CPU",
+                    "type" : "CPU"
                 },
                 {
                     "name" : "H100i GTX Liquid CPU Cooler",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU Cooler",
+                    "type" : "CPU Cooler"
                 },
                 {
                     "name" : "MSI Z170M Mortar",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Motherboard",
+                    "type" : "Motherboard"
                 },
                 {
                     "name" : "16 GB RAM",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "RAM",
+                    "type" : "RAM"
                 },
                 {
                     "name" : "250 GB Samsung SSD",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Storage-SSD",
+                    "type" : "Storage-SSD"
                 },
                 {
                     "name" : "NVIDIA GTX 970",
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "GPU",
+                    "type" : "GPU"
                 },
                 {
                     "name" : "Corsair 350D",
                     "weight" : "20",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Case",
+                    "type" : "Case"
                 },
                 {
                     "name" : "650W Gold PSU",
                     "weight" : "10",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "PSU",
+                    "type" : "PSU"
                 }
             ]
         },
@@ -1582,56 +1582,56 @@
                     "weight" : "0",
                     "price" : "200",
                     "wattage" : "100",
-                    "type" : "CPU",
+                    "type" : "CPU"
                 },
                 {
                     "name" : "H100i GTX Liquid CPU Cooler",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU Cooler",
+                    "type" : "CPU Cooler"
                 },
                 {
                     "name" : "ASUS Maximus VIII",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Motherboard",
+                    "type" : "Motherboard"
                 },
                 {
                     "name" : "16 GB RAM",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "RAM",
+                    "type" : "RAM"
                 },
                 {
                     "name" : "250 GB Samsung SSD",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Storage-SSD",
+                    "type" : "Storage-SSD"
                 },
                 {
                     "name" : "NVIDIA GTX 980",
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "GPU",
+                    "type" : "GPU"
                 },
                 {
                     "name" : "Corsair 350D",
                     "weight" : "20",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Case",
+                    "type" : "Case"
                 },
                 {
                     "name" : "650W Gold PSU",
                     "weight" : "10",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "PSU",
+                    "type" : "PSU"
                 }
             ]
         },
@@ -1645,56 +1645,56 @@
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU",
+                    "type" : "CPU"
                 },
                 {
                     "name" : "H100i GTX Liquid CPU Cooler",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU Cooler",
+                    "type" : "CPU Cooler"
                 },
                 {
                     "name" : "ASUS Maximus VIII",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Motherboard",
+                    "type" : "Motherboard"
                 },
                 {
                     "name" : "32 GB RAM",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "RAM",
+                    "type" : "RAM"
                 },
                 {
                     "name" : "500 GB Samsung SSD",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Storage-SSD",
+                    "type" : "Storage-SSD"
                 },
                 {
                     "name" : "NVIDIA GTX 980Ti",
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "GPU",
+                    "type" : "GPU"
                 },
                 {
                     "name" : "Corsair 350D",
                     "weight" : "20",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Case",
+                    "type" : "Case"
                 },
                 {
                     "name" : "750W Gold PSU",
                     "weight" : "10",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "PSU",
+                    "type" : "PSU"
                 }
             ]
         },        
@@ -1708,56 +1708,56 @@
                     "weight" : "0",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU",
+                    "type" : "CPU"
                 },
                 {
                     "name" : "H100i GTX Liquid CPU Cooler",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "CPU Cooler",
+                    "type" : "CPU Cooler"
                 },
                 {
                     "name" : "ASUS Maximus VIII",
                     "weight" : "5",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Motherboard",
+                    "type" : "Motherboard"
                 },
                 {
                     "name" : "32 GB RAM",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "RAM",
+                    "type" : "RAM"
                 },
                 {
                     "name" : "500 GB Samsung SSD",
                     "weight" : "1",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Storage-SSD",
+                    "type" : "Storage-SSD"
                 },
                 {
                     "name" : "NVIDIA GTX 980Ti Two-Way SLI",
                     "weight" : "0",
                     "price" : "1000",
                     "wattage" : "100",
-                    "type" : "GPU",
+                    "type" : "GPU"
                 },
                 {
                     "name" : "Corsair 350D",
                     "weight" : "20",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "Case",
+                    "type" : "Case"
                 },
                 {
                     "name" : "1000W Gold PSU",
                     "weight" : "10",
                     "price" : "100",
                     "wattage" : "100",
-                    "type" : "PSU",
+                    "type" : "PSU"
                 }
             ]
         }
