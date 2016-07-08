@@ -56,6 +56,11 @@ public abstract class BaseService <T extends Model> {
     public List<T> findMany(String key, String value) {
         List<T> items =  getProvider().findMany(key, value);
         log.info("fetched {} items", items.size());
+
+        if (items.isEmpty()) {
+            initialDataLoad();
+        }
+
         return items;
     }
 

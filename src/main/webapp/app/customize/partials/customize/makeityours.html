@@ -10,10 +10,10 @@
                 <div class="cpm-item-wrap">
                     <img ng-src="/public/images/products/{{product.coverImage}}">
                     <h4>{{case.name}}</h4>
-                    <p>{{case.blobDescription}}</p>
-                                    <span class="cpm-price">
-                                        + $ {{case.price}}
-                                    </span>
+                    <p>{{case.shortDescription}}</p>
+                    <span class="cpm-price">
+                        + $ {{case.price}}
+                    </span>
                 </div>
             </a>
             <div class="cpm-radio-wrap">
@@ -29,17 +29,17 @@
     <h3 class="cpm-title">Case Cooling Options</h3>
     <ul class="cpm-list">
 
-        <li>
+        <li ng-repeat="fan in caseFans">
             <a class="cpm-inner" href="#">
                 <div class="cpm-radio-wrap">
                     <input type="radio" class="radio-custom">
                 </div>
                 <div class="cpm-item-wrap">
-                    <h4>Stock Fans</h4>
-                    <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $0
-                                    </span>
+                    <h4>{{fan.name}}</h4>
+                    <p>{{fan.shortDescription}}</p>
+                    <span class="cpm-price">
+                        + ${{fan.price}}
+                    </span>
                 </div>
 
             </a>
@@ -50,88 +50,19 @@
                     <div class="col-md-3">
                         <img src="#" />
                     </div>
-                    <div class="col-md-9">
-                        <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
+                    <div class="col-md-9" ng-show="fan.longDescription">
+                        <p>{{fan.longDescription}}</p>
+                    </div>
+                </div>
+
+                <div class="row" ng-show="fan.options.length">
+                    <div class="col-xs-4 col-md-2" ng-repeat="option in fan.options">
+                        <a href="#" class="cpm-color"></a>
+                        <p>{{option.name}}</p>
                     </div>
                 </div>
             </div>
         </li>
-
-        <li>
-            <a class="cpm-inner" href="#">
-                <div class="cpm-radio-wrap">
-                    <input type="radio">
-                </div>
-                <div class="cpm-item-wrap">
-                    <h4>LED Fans</h4>
-                    <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $100
-                                    </span>
-                </div>
-            </a>
-            <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco2 = !cpmcco2" ng-class="cpmcco2 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-
-
-            <!-- only shows if LED is selected,  will need to be replaced by product images -->
-            <div class="cpm-description cpm-color-picker" ng-class="cpmcco2 ? 'cpm-desc-open' : 'cpm-desc-hide'">
-                <div class="row">
-                    <div class="col-xs-4 col-md-2">
-                        <a href="#" class="cpm-color red"></a>
-                        <p>Red</p>
-                    </div>
-                    <div class="col-xs-4 col-md-2">
-                        <a class="cpm-color blue"></a>
-                        <p>Blue</p>
-                    </div>
-                    <div class="col-xs-4 col-md-2">
-                        <a class="cpm-color green selected"></a>
-                        <p>Green</p>
-                    </div>
-                    <div class="col-xs-4 col-md-2">
-                        <a class="cpm-color purple"></a>
-                        <p>Purple</p>
-                    </div>
-                    <div class="col-xs-4 col-md-2">
-                        <a class="cpm-color yellow"></a>
-                        <p>Yellow</p>
-                    </div>
-                    <div class="col-xs-4 col-md-2">
-                        <a class="cpm-color white"></a>
-                        <p>white</p>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <li>
-            <a class="cpm-inner" href="#">
-                <div class="cpm-radio-wrap">
-                    <input type="radio">
-                </div>
-                <div class="cpm-item-wrap">
-                    <h4>Performance</h4>
-                    <p>Some brief descriptive text here.</p>
-                                    <span class="cpm-price">
-                                        + $120
-                                    </span>
-                </div>
-
-            </a>
-            <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco3 = !cpmcco3" ng-class="cpmcco3 ? 'cpm-expand-desc-active' : 'default'"></i></a>
-            <div class="cpm-description" ng-class="cpmcco3 ? 'cpm-desc-open' : 'cpm-desc-hide'">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="#" />
-                    </div>
-                    <div class="col-md-9">
-                        <p>An optional expanded description relating to this individual part maybe with some more information and stuff but will be hidden by default until the user expands this information.</p>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-    </ul>
 </section>
 
 

@@ -14,7 +14,7 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
     $scope.product = {};
     $scope.rig = {};
     $scope.cases = [];
-    $scope.cpuCooling = [];
+    $scope.caseFans = [];
     $scope.cables = [];
     $scope.specs = [];
 
@@ -35,7 +35,7 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
         }
 
         $scope.cases        = lodash.filter(specs, { 'type' : 'Case' });
-        $scope.cpuCooling   = lodash.filter(specs, { 'type' : 'CPU Cooler' });
+        $scope.caseFans     = lodash.filter(specs, { 'type' : 'Case Fans' });
         $scope.cables       = lodash.filter(specs, { 'type' : 'Cable' });
 
         $scope.rig = {
