@@ -1,156 +1,144 @@
 [
   {
     "name" : "Corsair Carbide Air 240 White",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "12.35",
+    "price" : "102",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "High airflow, small form factor.",
+    "longDescription" : "The eye-catching cube design -- complete with a full side window -- hosts an internal layout optimized for maximum airflow.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide Air 240 Black",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "12.35",
+    "price" : "102",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "High airflow, small form factor.",
+    "longDescription" : "The eye-catching cube design -- complete with a full side window -- hosts an internal layout optimized for maximum airflow.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Obsidian 350D",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "15.79",
+    "price" : "121",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "The Micro ATX case for high-performance",
+    "longDescription" : "The Obsidian Series 350D Micro ATX PC case is designed  for compact high-performance systems with Micro ATX motherboards. The compact size is ideal if space is limited, but there’s plenty of room inside for liquid CPU cooling, dual hard drives, dual SSDs, and dual full-length graphics cards.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Obsidian 450D",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "15.43",
+    "price" : "135",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
-    "coverImage" : "src/image.png",
-    "fullImageLink" : "src/image-full.png",
-    "options" : []
-  },
-  {
-    "name" : "Corsair Graphite 600T",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Mid-tower size, with a roomy interior that’s optimized for airflow.",
+    "longDescription" : "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious gear.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Vengeance C70 Military Green",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "19.4",
+    "price" : "165",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Battle Ready.",
+    "longDescription" : "When it’s time to take your competitive gaming on the road, the Vengeance C70 mid-tower PC case is a great choice. It’s crafted out of solid steel and made to survive trips with less wear and tear, and the ergonomic carry handles help you move your gear with confidence.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Vengeance C70 Black",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "19.4",
+    "price" : "165",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Battle Ready.",
+    "longDescription" : "When it’s time to take your competitive gaming on the road, the Vengeance C70 mid-tower PC case is a great choice. It’s crafted out of solid steel and made to survive trips with less wear and tear, and the ergonomic carry handles help you move your gear with confidence.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide Air 540 White",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "20.2",
+    "price" : "175",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Cooling for revolutionary performance.",
+    "longDescription" : "The unconventional design of Carbide Series Air 540 utilizes dual chambers to deliver cooler air to your CPU, graphics cards, motherboard, and memory. Designed to be the foundation of awesome yet approachable PCs, they combine the latest technology and ergonomic innovations with lots of room to build and expand, and amazing cooling potential.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide Air 540 Black",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "20.2",
+    "price" : "175",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Cooling for revolutionary performance.",
+    "longDescription" : "The unconventional design of Carbide Series Air 540 utilizes dual chambers to deliver cooler air to your CPU, graphics cards, motherboard, and memory. Designed to be the foundation of awesome yet approachable PCs, they combine the latest technology and ergonomic innovations with lots of room to build and expand, and amazing cooling potential.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide Air 540 Silver",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "20.2",
+    "price" : "175",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Cooling for revolutionary performance.",
+    "longDescription" : "The unconventional design of Carbide Series Air 540 utilizes dual chambers to deliver cooler air to your CPU, graphics cards, motherboard, and memory. Designed to be the foundation of awesome yet approachable PCs, they combine the latest technology and ergonomic innovations with lots of room to build and expand, and amazing cooling potential.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide 600C",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "22.05",
+    "price" : "185",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Quiet. Cool. Gorgeous.",
+    "longDescription" : "600C allows you to create a beautifully minimal modern PC layout, in full view through the giant transparent side panel.600C's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide 600Q",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "22.05",
+    "price" : "185",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Quiet. Cool. Gorgeous.",
+    "longDescription" : "600Q allows you to create a beautifully minimal modern PC layout. 600Q's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Obsidian 750D",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "24.6",
+    "price" : "180",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "The full tower Obsidian case for great-looking high performance PCs.",
+    "longDescription" : "The Obsidian Series 750D full tower PC case combines generous expansion flexibility, room for advanced cooling options. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you’ll need if you’re going to push those components to their limits.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -159,7 +147,7 @@
     "name" : "Corsair Carbide 750D Airflow Edition",
     "weight" : "20",
     "price" : "100",
-    "wattage" : "100",
+    "wattage" : "0",
     "type" : "Case",
     "shortDescription" : "some description",
     "longDescription" : "long description",
@@ -169,60 +157,60 @@
   },
   {
     "name" : "Corsair Carbide 760T Arctic White",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "28",
+    "price" : "215",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Full-tower PC case starts with a visually stunning design that’s a match for its stunning performance potential.",
+    "longDescription" : "The beauty begins on the outside with its sculpted shapes and ingenious, full windowed hinged side panel with flush-mount latches. The front panel has two massive 140mm intake fans bathed in soft LED light, and there’s a dual-speed fan selector for performance or silence. Inside, there’s ample cooling potential, with eight fan mounting locations and room for multiple radiators for self-contained liquid CPU coolers, or even custom liquid cooling.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide 760T Black",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "28",
+    "price" : "215",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Full-tower PC case starts with a visually stunning design that’s a match for its stunning performance potential.",
+    "longDescription" : "The beauty begins on the outside with its sculpted shapes and ingenious, full windowed hinged side panel with flush-mount latches. The front panel has two massive 140mm intake fans bathed in soft LED light, and there’s a dual-speed fan selector for performance or silence. Inside, there’s ample cooling potential, with eight fan mounting locations and room for multiple radiators for self-contained liquid CPU coolers, or even custom liquid cooling.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Carbide 900D",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "49.4",
+    "price" : "390",
+    "wattage" : "0",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Do you want to design your ultimate dream PC? Add state-of-the-art liquid cooling or air cooling",
+    "longDescription" : "A cooling-optimized case design requires three things: good passive ventilation, flexible fan mounting options for good airflow, and the room to add sophisticated active cooling systems. Obsidian Series 900D is built on a steel and cast aluminum frame, with solid steel panels and a fully painted interior. The brushed aluminum fascia resists scratches and fingerprints, and it’s just plain fun to put your hands on it.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Corsair Bulldog",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "11.02",
+    "price" : "500",
+    "wattage" : "60",
     "type" : "Case",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Your living room solution",
+    "longDescription" : "The Bulldog kit condenses high-end desktop performance and the ability to game in 4K and VR into a form factor fit for your living room. Supporting liquid cooling for both the processor and graphics card, Bulldog lets you maximize performance without adding noise, delivering a best in class living room gaming experience.",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
   },
   {
     "name" : "Stock Fans",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "0",
+    "price" : "0",
+    "wattage" : "0",
     "type" : "Case Fans",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -230,11 +218,11 @@
   {
     "name" : "LED Fans",
     "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
+    "price" : "75",
+    "wattage" : "0",
     "type" : "Case Fans",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Superior cooling performance and LED illumination.",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "options" : [
       {
@@ -261,15 +249,51 @@
   },
   {
     "name" : "Performance Fans",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "0",
+    "price" : "115",
+    "wattage" : "0",
     "type" : "Case Fans",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Excellent performance at a moderate price point.",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
+  },
+  {
+    "name" : "Performance Magnetic Fans",
+    "weight" : "0",
+    "price" : "155",
+    "wattage" : "0",
+    "type" : "Case Fans",
+    "shortDescription" : "If NASA Designed a Computer Case Fan – This Would Be It.",
+    "longDescription" : "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Performance LED Magnetic Fans",
+    "weight" : "0",
+    "price" : "175",
+    "wattage" : "0",
+    "type" : "Case Fans",
+    "shortDescription" : "If NASA Designed a Computer Case Fan – This Would Be It.",
+    "longDescription" : "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+    "coverImage" : "src/image.png",
+    "options" : [
+      {
+        "name" : "White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Blue",
+        "coverImage" : "img/source.png"
+      }
+    ]
   },
   {
     "name" : "None",
@@ -285,12 +309,12 @@
   },
   {
     "name" : "LED Strips",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "2",
+    "price" : "57",
+    "wattage" : "0",
     "type" : "Case LED",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Internal lighting. Show your style.",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "options" : [
       {
@@ -317,12 +341,12 @@
   },
   {
     "name" : "Basic",
-    "weight" : "20",
-    "price" : "100",
-    "wattage" : "100",
+    "weight" : "0",
+    "price" : "0",
+    "wattage" : "0",
     "type" : "Cabling",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Modular cabling for a clean look.",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -330,15 +354,19 @@
   {
     "name" : "Colored",
     "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
+    "price" : "115",
+    "wattage" : "0",
     "type" : "Cabling",
-    "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "shortDescription" : "Custom cabling for a truly unique look and feel.",
+    "longDescription" : "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
     "coverImage" : "src/image.png",
     "options" : [
       {
-        "name" : "White",
+        "name" : "Black",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Green",
         "coverImage" : "img/source.png"
       },
       {
@@ -346,11 +374,71 @@
         "coverImage" : "img/source.png"
       },
       {
-        "name" : "Black",
+        "name" : "Blue",
         "coverImage" : "img/source.png"
       },
       {
-        "name" : "Blue",
+        "name" : "Orange",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Light Green",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Light Blue",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Carbon",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Blue",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Green",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Orange",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Yellow",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Blood Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/Orange",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black/White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "White/Blue",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "White/Red",
         "coverImage" : "img/source.png"
       }
     ]
@@ -362,7 +450,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -374,7 +462,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -386,7 +474,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -398,7 +486,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -410,7 +498,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -422,7 +510,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -434,7 +522,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -446,7 +534,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -458,7 +546,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -470,7 +558,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -482,7 +570,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -494,7 +582,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -506,7 +594,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -518,7 +606,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -530,7 +618,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -542,7 +630,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -554,7 +642,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -566,7 +654,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -578,7 +666,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -590,7 +678,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []
@@ -602,7 +690,7 @@
     "wattage" : "100",
     "type" : "CPU",
     "shortDescription" : "some description",
-    "longDescription" : "long description",
+    "longDescription" : "",
     "coverImage" : "src/image.png",
     "fullImageLink" : "src/image-full.png",
     "options" : []

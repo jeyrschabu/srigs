@@ -18,18 +18,6 @@
         "options" : []
       },
       {
-        "name" : "Corsair Graphite 600T",
-        "weight" : "20",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Case",
-        "shortDescription" : "some description",
-        "longDescription" : "long description",
-        "coverImage" : "src/image.png",
-        "fullImageLink" : "src/image-full.png",
-        "options" : []
-      },
-      {
         "name" : "Corsair Vengeance C70 Military Green",
         "weight" : "20",
         "price" : "100",
@@ -2040,18 +2028,6 @@
         "options" : []
       },
       {
-        "name" : "Corsair Graphite 600T",
-        "weight" : "20",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Case",
-        "shortDescription" : "some description",
-        "longDescription" : "long description",
-        "coverImage" : "src/image.png",
-        "fullImageLink" : "src/image-full.png",
-        "options" : []
-      },
-      {
         "name" : "Corsair Vengeance C70 Military Green",
         "weight" : "20",
         "price" : "100",
@@ -3981,7 +3957,6 @@
     "category": "Gaming Desktops",
     "price" : 1156,
     "specs" : [
-      [
         {
           "name" : "Corsair Carbide Air 240 White",
           "weight" : "20",
@@ -5046,7 +5021,6 @@
           "fullImageLink" : "src/image-full.png",
           "options" : []
         }
-      ]
     ],
     "marks" : [
       {
@@ -5572,7 +5546,6 @@
     "category": "Gaming Desktops",
     "price" : 2474,
     "specs" : [
-      [
         {
           "name" : "Corsair Obsidian 750D",
           "weight" : "20",
@@ -6925,7 +6898,6 @@
           "fullImageLink" : "src/image-full.png",
           "options" : []
         }
-      ]
     ],
     "marks" : [
       {
