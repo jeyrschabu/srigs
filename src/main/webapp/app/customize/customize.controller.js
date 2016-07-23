@@ -31,9 +31,9 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
         customizeController.product = response.data;
         var specs = customizeController.product.specs;
         var totalPrice = customizeController.product.price;
-        if (customizeController.selectedMark && customizeController.selectedMark !== 'NA') {
+        if (customizeController.selectedMark) {
 
-            var matchedMark = (customizeController.brand && customizeController.brand !== 'NA') ?
+            var matchedMark = (customizeController.brand) ?
                 lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark, 'brand' : customizeController.brand }):
                 lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark });
 
