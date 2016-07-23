@@ -18,18 +18,6 @@
         "options" : []
       },
       {
-        "name" : "Corsair Graphite 600T",
-        "weight" : "20",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Case",
-        "shortDescription" : "some description",
-        "longDescription" : "long description",
-        "coverImage" : "src/image.png",
-        "fullImageLink" : "src/image-full.png",
-        "options" : []
-      },
-      {
         "name" : "Corsair Vengeance C70 Military Green",
         "weight" : "20",
         "price" : "100",
@@ -2029,18 +2017,6 @@
     "specs" : [
       {
         "name" : "Corsair Obsidian 450D",
-        "weight" : "20",
-        "price" : "100",
-        "wattage" : "100",
-        "type" : "Case",
-        "shortDescription" : "some description",
-        "longDescription" : "long description",
-        "coverImage" : "src/image.png",
-        "fullImageLink" : "src/image-full.png",
-        "options" : []
-      },
-      {
-        "name" : "Corsair Graphite 600T",
         "weight" : "20",
         "price" : "100",
         "wattage" : "100",
