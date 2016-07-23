@@ -1,555 +1,1858 @@
 [
   {
-    "name" : "Intel i3 4170",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i5 4690K Devil's Canyon",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i5 4590",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i5 4790K Devil's Canyon",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel Xeon E3-1231 v3",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i7 5820K",
-    "weight" : "0",
-    "price" : "200",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i7 5930K",
-    "weight" : "0",
-    "price" : "200",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i7 5960X",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i5 6600K",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "Intel i7 6700K",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-6300",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-8320",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-8350",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-8370",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-9370",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "AMD FX-9590",
-    "weight" : "0",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU"
-  },
-  {
-    "name" : "H80i GT Liquid CPU Cooler",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU Cooler"
-  },
-  {
-    "name" : "H100i GTX Liquid CPU Cooler",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU Cooler"
-  },
-  {
-    "name" : "H110i GT Liquid CPU Cooler",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU Cooler"
-  },
-  {
-    "name" : "H100i GTX Liquid CPU Cooler",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "CPU Cooler"
-  },
-  {
-    "name" : "MSI Z170M Mortar",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "ASUS Maxiumus VIII",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI Z170 Gaming M5",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI 970A SLI Krait MB",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI 990FX Gaming MB",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI Z97 Gaming 5",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI X99 Gaming 7",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI X99 Gaming 9 ACK",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "MSI X99 Gaming m9 ACK",
-    "weight" : "5",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Motherboard"
-  },
-  {
-    "name" : "8 GB RAM",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "RAM"
-  },
-  {
-    "name" : "16 GB RAM",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "RAM"
-  },
-  {
-    "name" : "32 GB RAM",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "RAM"
-  },
-  {
-    "name" : "64 GB RAM",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "RAM"
-  },
-  {
-    "name" : "250 GB Samsung SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "2x 250 GB Samsung SSD RAID0",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "500 GB Samsung SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "2x 500 GB Samsung SSD RAID0",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "1TB GB Samsung SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "2x 1TB GB Samsung SSD RAID0",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "2TB GB Samsung SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "2x 2TB GB Samsung SSD RAID0",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-SSD"
-  },
-  {
-    "name" : "256 GB Samsung Pro M.2 SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-m2"
-  },
-  {
-    "name" : "512 GB Samsung Pro M.2 SSD",
-    "weight" : "1",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "Storage-m2"
-  },
-  {
-    "name" : "AMD Radeon R7 370 OC",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 380X OC",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 380X OC Two-Way Crossfire",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 390",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 390",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 390 Two-Way Crossfire",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 Fury",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 Fury Two-Way Crossfire",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 FuryX",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 FuryX Two-Way Crossfire",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "AMD Radeon R9 FuryX Three-Way Crossfire",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 960",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 970",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 970 Two-Way SLI",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 980",
-    "weight" : "0",
-    "price" : "276.18",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 980 Two-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 980Ti",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 980Ti Two-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 980Ti Three-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1070",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1070 Two-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1070 Three-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1080",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1080 Two-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
-    "name" : "NVIDIA GTX 1080 Three-Way SLI",
-    "weight" : "2",
-    "price" : "100",
-    "wattage" : "100",
-    "type" : "GPU"
-  },
-  {
     "name" : "Corsair Carbide Air 240 White",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
     "name" : "Corsair Carbide Air 240 Black",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
     "name" : "Corsair Obsidian 350D",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
     "name" : "Corsair Obsidian 450D",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Graphite 600T",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Vengeance C70 Military Green",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Vengeance C70 Black",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Carbide Air 540 White",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Carbide Air 540 Black",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Carbide Air 540 Silver",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Carbide 600C",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Corsair Carbide 600Q",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
     "name" : "Corsair Obsidian 750D",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "Corsair Obsidian 900D",
+    "name" : "Corsair Carbide 750D Airflow Edition",
     "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "Case"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "550W Gold PSU",
-    "weight" : "10",
+    "name" : "Corsair Carbide 760T Arctic White",
+    "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "PSU"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "650W Gold PSU",
-    "weight" : "10",
+    "name" : "Corsair Carbide 760T Black",
+    "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "PSU"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "750W Gold PSU",
-    "weight" : "10",
+    "name" : "Corsair Carbide 900D",
+    "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "PSU"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "1000W Gold PSU",
-    "weight" : "10",
+    "name" : "Corsair Bulldog",
+    "weight" : "20",
     "price" : "100",
     "wattage" : "100",
-    "type" : "PSU"
+    "type" : "Case",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   },
   {
-    "name" : "1300W Gold PSU",
-    "weight" : "10",
-    "price" : "200",
+    "name" : "Stock Fans",
+    "weight" : "20",
+    "price" : "100",
     "wattage" : "100",
-    "type" : "PSU"
+    "type" : "Case Fans",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "LED Fans",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case Fans",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "options" : [
+      {
+        "name" : "White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Green",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Purple",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Blue",
+        "coverImage" : "img/source.png"
+      }
+    ]
+  },
+  {
+    "name" : "Performance Fans",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case Fans",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case LED",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "LED Strips",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Case LED",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "options" : [
+      {
+        "name" : "White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Green",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Purple",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Blue",
+        "coverImage" : "img/source.png"
+      }
+    ]
+  },
+  {
+    "name" : "Basic",
+    "weight" : "20",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Cabling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Colored",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Cabling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "options" : [
+      {
+        "name" : "White",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Red",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Black",
+        "coverImage" : "img/source.png"
+      },
+      {
+        "name" : "Blue",
+        "coverImage" : "img/source.png"
+      }
+    ]
+  },
+  {
+    "name" : "Intel i3-4170",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i3-6100",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i5-4690K Devil's Canyon",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i5-4590",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i5-4790K Devil's Canyon",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel Xeon E3-1231 v3",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-5820K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-5930K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-5960X",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i5-6600k",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-6700K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-6800K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-6850K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-6900K",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Intel i7-6950X",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-6300",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-8320",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-8350",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-8370",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-9370",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD FX-9590",
+    "weight" : "0",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "CPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "H80i GT Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "H100i GTX Liquid CPU Cooler",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Dark Fusion Stage One",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Dark Fusion Stage Two",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Dark Fusion Stage Three",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Dark Fusion Stage Four",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "System Cooling",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z170M Mortar",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z170 Gaming M5",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z170 Gaming M7",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z170 Gaming M9 ACK",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "ASUS Maximus VIII",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI 970A SLI Krait MB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI 990FX Gaming MB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z97 Gaming 5",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI X99 Gaming 7",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI X99 Gaming 9 ACK",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI X99 Godlike Gaming",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "MSI Z170 Godlike Gaming",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Motherboard",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "8GB Standard",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "16GB Standard",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "32GB Standard",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "64GB Standard",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "128GB Standard",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "8GB Performance",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "16GB Performance",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "32GB Performance",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "64GB Performance",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "128GB Performance",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "RAM",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 950 2GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 960 4GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 970 4GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 980 4GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 980 4GB Two-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 980Ti 6GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 980Ti 6GB Two-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 980Ti 6GB Three-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1060 6GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1060 6GB Two-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1070 8GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1070 8GB Two-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1080 8GB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Nvidia GTX 1080 8GB Two-Way SLI",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R7 370 OC",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 380X OC",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 390",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 390 Two-Way Crossfire",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 390X",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 390X Two-Way Crossfire",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 Fury",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 Fury Two-Way Crossfire",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 FuryX",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "AMD Radeon R9 FuryX Two-Way Crossfire",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "GPU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Overclocking Stage One",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Overclocking",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Overclocking Stage Two",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Overclocking",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Overclocking Stage Three",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Overclocking",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "550W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "650W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "750W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "850W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1000W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1300W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1600W Gold-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "650W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "750W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "850W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1000W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1200W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "1600W Platinum-Rated PSU",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "PSU",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 128GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 256GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 512GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 512GB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 1TB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 1TB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 2TB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung PRO 2TB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 120GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 250GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 500GB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 500GB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 1TB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 1TB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 2TB SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Samsung EVO 2TB SSD RAID0",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-SSD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "256GB Samsung Pro M.2 SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-m2",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "512GB Samsung Pro M.2 SSD",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-m2",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-m2",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Black 1TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Black 2TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Black 3TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Red 2TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Red 3TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Western Digital Red 4TB",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Storage-HDD",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Blu-Ray Burner",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Optical",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Blu-Ray Player",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Optical",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "DVD Burner",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Optical",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Optical",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Windows 10 Home",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "OS",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Windows 10 Professional",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "OS",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "OS",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Standard Internal Wi-Fi",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Internal-WiFi",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "Performance Internal Wi-Fi",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Internal-WiFi",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
+  },
+  {
+    "name" : "None",
+    "weight" : "5",
+    "price" : "100",
+    "wattage" : "100",
+    "type" : "Internal-WiFi",
+    "shortDescription" : "some description",
+    "longDescription" : "long description",
+    "coverImage" : "src/image.png",
+    "fullImageLink" : "src/image-full.png",
+    "options" : []
   }
 ]
