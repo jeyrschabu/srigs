@@ -3957,7 +3957,6 @@
     "category": "Gaming Desktops",
     "price" : 1156,
     "specs" : [
-      [
         {
           "name" : "Corsair Carbide Air 240 White",
           "weight" : "20",
@@ -5022,7 +5021,6 @@
           "fullImageLink" : "src/image-full.png",
           "options" : []
         }
-      ]
     ],
     "marks" : [
       {
@@ -5548,7 +5546,6 @@
     "category": "Gaming Desktops",
     "price" : 2474,
     "specs" : [
-      [
         {
           "name" : "Corsair Obsidian 750D",
           "weight" : "20",
@@ -6901,7 +6898,6 @@
           "fullImageLink" : "src/image-full.png",
           "options" : []
         }
-      ]
     ],
     "marks" : [
       {
