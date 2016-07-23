@@ -1,32 +1,34 @@
 'use strict';
 
-var CustomizeController = function($scope, $state, $rootScope, $stateParams, lodash, productService, specService) {
-    var self = this;
+CustomizeController.$inject = ['$rootScope', '$stateParams', 'lodash', 'ProductService'];
 
-    $scope.disableSticking = false;
-    $scope.pageTitle = 'Customize';
-    $rootScope.bodyClass = $scope.pageTitle.toLocaleLowerCase();
-    $scope.productId = $stateParams.productId;
-    $scope.selectedMark = $stateParams.mark;
-    $scope.brand = $stateParams.brand;
+function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
+    var customizeController = this;
+
+    customizeController.disableSticking = false;
+    customizeController.pageTitle = 'Customize';
+    $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
+    customizeController.productId = $stateParams.productId;
+    customizeController.selectedMark = $stateParams.mark;
+    customizeController.brand = $stateParams.brand;
 
     /** all parts to build a rig more coming soon **/
-    $scope.product = {};
-    $scope.rig = {};
-    $scope.cases = [];
-    $scope.caseFans = [];
-    $scope.cables = [];
-    $scope.specs = [];
+    customizeController.product = {};
+    customizeController.rig = {};
+    customizeController.cases = [];
+    customizeController.caseFans = [];
+    customizeController.cables = [];
+    customizeController.specs = [];
 
-    CustomizeController.prototype.setRig = function (response) {
-        $scope.product = response.data;
-        var specs = $scope.product.specs;
-        var totalPrice = $scope.product.price;
-        if ($scope.selectedMark) {
+    function setRig(response) {
+        customizeController.product = response.data;
+        var specs = customizeController.product.specs;
+        var totalPrice = customizeController.product.price;
+        if (customizeController.selectedMark && customizeController.selectedMark !== 'NA') {
 
-            var matchedMark = ($scope.brand) ?
-                lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark, 'brand' : $scope.brand }):
-                lodash.filter($scope.product.marks, { 'name' : $scope.selectedMark });
+            var matchedMark = (customizeController.brand && customizeController.brand !== 'NA') ?
+                lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark, 'brand' : customizeController.brand }):
+                lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark });
 
             if (matchedMark && matchedMark.length) {
                 specs = matchedMark[0].specs;
@@ -34,34 +36,24 @@ var CustomizeController = function($scope, $state, $rootScope, $stateParams, lod
             }
         }
 
-        $scope.cases        = lodash.filter(specs, { 'type' : 'Case' });
-        $scope.caseFans     = lodash.filter(specs, { 'type' : 'Case Fans' });
-        $scope.cables       = lodash.filter(specs, { 'type' : 'Cable' });
+        customizeController.cases        = lodash.filter(specs, { 'type' : 'Case' });
+        customizeController.caseFans     = lodash.filter(specs, { 'type' : 'Case Fans' });
+        customizeController.cables       = lodash.filter(specs, { 'type' : 'Cable' });
 
-        $scope.rig = {
-            product : $scope.product,
+        customizeController.rig = {
+            product : customizeController.product,
             totalPrice : totalPrice
         };
-    };
+    }
 
-    CustomizeController.prototype.setSpecs = function (response) {
-        $scope.specs = response.data;
-    };
-
-    CustomizeController.prototype.getProduct = function(productId) {
+    function getProduct(productId) {
         if (productId) {
-            productService.findById(productId).then(self.setRig);
+            ProductService.findById(productId).then(setRig);
         }
-    };
+    }
 
-    CustomizeController.prototype.getSpecs = function() {
-        specService.list().then(self.setSpecs);
-    };
+    getProduct(customizeController.productId);
+}
 
-    self.getProduct($scope.productId);
-    self.getSpecs();
 
-};
 
-CustomizeController.$inject = ['$scope', '$state', '$rootScope', '$stateParams', 'lodash', 'productService', 'specService'];
-angular.module('Customize').controller('CustomizeController', CustomizeController);
