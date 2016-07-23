@@ -18,6 +18,7 @@ public class Spec extends Model {
     private Double price;
     private Double wattage;
     private String shortDescription;
+    private String fullImageLink;
     private String longDescription;
     private String coverImage;
     private List<Option> options;
