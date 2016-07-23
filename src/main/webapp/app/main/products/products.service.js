@@ -1,26 +1,26 @@
 'use strict';
 
 angular.module('rigs.services.products', [])
-    .service('ProductService', function($http) {
+    .service('ProductService', function($http, API_PREFIX) {
         var service = this;
 
         function getProducts() {
             return $http({
-                url: '/api/v1/products',
+                url: API_PREFIX +'/products',
                 method: 'GET'
             });
         }
 
         function getProductsByCategory(category) {
             return $http({
-                url: '/api/v1/products/categories/'+category,
+                url: API_PREFIX + '/products/categories/'+ category,
                 method: 'GET'
             });
         }
 
         function findById(productId) {
             return $http({
-                url: '/api/v1/products/'+productId,
+                url: API_PREFIX + '/products/'+ productId,
                 method: 'GET'
             });
         }
