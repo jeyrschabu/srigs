@@ -1,11 +1,11 @@
 'use strict';
 
-function CategoryService($http) {
+function CategoryService($http, API_PREFIX) {
     var categoryService = this;
 
     function getCategories() {
         return $http({
-            url: '/api/v1/categories',
+            url: API_PREFIX + '/categories',
             method: 'GET'
         });
     }
