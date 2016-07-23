@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         },
         karma: {
             unit: {
-                configFile: './src/test/webapp/karma.client.config.js',
+                configFile: './src/main/webapp/test/karma.client.config.js',
                 plugins:[
                     'karma-jasmine',
                     'karma-coverage',

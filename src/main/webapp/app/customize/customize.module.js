@@ -1,48 +1,48 @@
 'use strict';
 
-angular.module('Customize', ['ui.router']);
-angular.module('Customize').config(['$stateProvider', function($stateProvider) {
+angular.module('rigs.customize', ['rigs.services.products']).config(['$stateProvider', function($stateProvider) {
 
     $stateProvider
         .state('customize', {
             url:'/customize/:productId/:mark/:brand' ,
             views: {
                 'content':{
-                    templateUrl: '/app/customize/partials/customize.html',
-                    controller: 'CustomizeController'
+                    templateUrl: '/app/customize/customize.template.html',
+                    controller: 'CustomizeController as customizeController'
                 }
             }
         }).state('customize.makeityours', {
             url:'/makeityours' ,
             views: {
                 'makeityours@customize': {
-                    templateUrl: '/app/customize/partials/customize/makeityours.html',
-                    controller: 'CustomizeController'
+                    templateUrl: '/app/customize/customize-templates/makeityours.template.html',
+                    controller: 'CustomizeController as customizeController'
                 }
             }
         }).state('customize.performance', {
             url:'/performance' ,
             views: {
                 'performance@customize': {
-                    templateUrl: '/app/customize/partials/customize/performance.html',
-                    controller: 'CustomizeController'
+                    templateUrl: '/app/customize/customize-templates/performance.template.html',
+                    controller: 'CustomizeController as customizeController'
                 }
             }
         }).state('customize.storage', {
             url:'/storage' ,
             views: {
                 'storage@customize': {
-                    templateUrl: '/app/customize/partials/customize/storage.html',
-                    controller: 'CustomizeController'
+                    templateUrl: '/app/customize/customize-templates/storage.template.html',
+                    controller: 'CustomizeController as customizeController'
                 }
             }
         }).state('customize.accessories', {
             url:'/accessories' ,
             views: {
                 'accessories@customize': {
-                    templateUrl: '/app/customize/partials/customize/accessories.html',
-                    controller: 'CustomizeController'
+                    templateUrl: '/app/customize/customize-templates/accessories.template.html',
+                    controller: 'CustomizeController as customizeController'
                 }
             }
         })
-}]);
+    }])
+    .controller('CustomizeController', CustomizeController);

@@ -1,0 +1,16 @@
+<section class="customize-product-top">
+    <div class="container">
+        <div class="col-md-8 col-sm-12 cp-product-img">
+            <img src="/public/images/products/{{customizeController.product.coverImage}}">
+            <nav ng-include="'app/customize/customize-templates/nav.template.html'"
+                 class="customize-nav" sticky media-query="min-width: 62em"></nav>
+
+            <div ui-view="makeityours"></div>
+            <div ui-view="performance"></div>
+            <div ui-view="storage"></div>
+            <div ui-view="accessories"></div>
+        </div>
+
+        <div class="col-sm-12 col-md-4" ng-include="'app/customize/customize-templates/summary.template.html'"></div>
+    </div>
+</section>

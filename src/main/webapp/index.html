@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="MainApp">
+<html ng-app="Rigs">
 <head>
     <meta charset="utf-8">
     <meta name="author" content="rooftopcoder">
@@ -11,14 +11,19 @@
 
 </head>
 <body  class="{{bodyClass}}">
-<header class="" ng-include="'app/partials/header.html'"></header>
+<header class="" ng-include="'app/common/header.template.html'"></header>
 
 <div class="body-content" ui-view="content">
 
 </div>
 
+<div ui-view="categories">
 
-<footer class="footer" ng-include="'app/partials/footer.html'"></footer>
+</div>
+
+
+
+<footer class="footer" ng-include="'app/common/footer.template.html'"></footer>
 
 <!-- libs -->
 <script src="bower_components/angular/angular.js"></script>
@@ -35,22 +40,37 @@
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
 
-<!-- home -->
-<script src="app/home/home.module.js"></script>
-<script src="app/home/category.service.js"></script>
-<script src="app/home/crew.controller.js"></script>
-<script src="app/home/home.controller.js"></script>
-<script src="app/home/support.controller.js"></script>
+<script src="app/common/common.controller.js"></script>
+<script src="app/common/common.module.js"></script>
 
-<!-- products -->
-<script src="app/product/product.module.js"></script>
-<script src="app/product/product.service.js"></script>
-<script src="app/product/product.controller.js"></script>
+<script src="app/main/home/categories/categories.controller.js"></script>
+<script src="app/main/home/categories/categories.service.js"></script>
+<script src="app/main/home/categories/categories.module.js"></script>
+
+
+<script src="app/main/products/products.service.js"></script>
+<script src="app/main/products/products.controller.js"></script>
+<script src="app/main/products/products-detail.controller.js"></script>
+<script src="app/main/products/products.module.js"></script>
+
+<!-- home -->
+<script src="app/main/home/home.controller.js"></script>
+<script src="app/main/home/home.module.js"></script>
+
+
+<!-- crew -->
+<script src="app/main/crew/crew.controller.js"></script>
+<script src="app/main/crew/crew.module.js"></script>
+
+<!-- support -->
+<script src="app/main/support/support.controller.js"></script>
+<script src="app/main/support/support.module.js"></script>
+
 
 <!-- customize -->
-<script src="app/customize/customize.module.js"></script>
 <script src="app/customize/customize.controller.js"></script>
-<script src="app/customize/spec.service.js"></script>
+<script src="app/customize/customize.module.js"></script>
+
 
 <!-- app -->
 <script src="app/app.js"></script>

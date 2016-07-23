@@ -1,0 +1,9 @@
+<div class="product-highlight">
+    <img src="/public/images/products/{{productDetailController.product.coverImage}}">
+    <div class="product-title-wrap"><h1>{{productDetailController.product.name}}</h1></div>
+</div>
+
+<div class="product-page-break" id="sticker" sticky>
+    <span>ShadowRigs {{productDetailController.product.name}}</span>
+    <a ui-sref="customize({productId : productDetailController.product.id, mark: 'NA', brand: 'NA'})">Customize this Rig</a>
+</div>
