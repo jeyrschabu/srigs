@@ -2,15 +2,40 @@
     <div class="container">
         <div class="col-md-8 col-sm-12 cp-product-img">
             <img src="/public/images/products/{{customizeController.product.coverImage}}">
-            <nav ng-include="'app/customize/customize-templates/nav.template.html'"
-                 class="customize-nav" sticky media-query="min-width: 62em"></nav>
+            <wizard on-finish="finishedWizard()" name="rig builder" hide-indicators="false">
 
-            <div ui-view="makeityours"></div>
-            <div ui-view="performance"></div>
-            <div ui-view="storage"></div>
-            <div ui-view="accessories"></div>
+                <wz-step wz-title="Make It Yours">
+                    <div ng-include="'app/customize/customize-templates/makeityours.template.html'"></div>
+                    <input type="submit" wz-next value="Next" />
+                </wz-step>
+
+
+                <wz-step wz-title="Performance">
+                    <div ng-include="'app/customize/customize-templates/performance.template.html'"></div>
+                    <div ui-view="performance"></div>
+                    <input type="submit" wz-previous value="Previous" />
+                    <input type="submit" wz-next value="Next" />
+                </wz-step>
+
+
+
+                <wz-step wz-title="Storage">
+
+                    <div ng-include="'app/customize/customize-templates/storage.template.html'"></div>
+                    <div ui-view="storage"></div>
+                    <input type="submit" wz-previous value="Previous" />
+                    <input type="submit" wz-next value="Next" />
+                </wz-step>
+
+
+                <wz-step wz-title="Done">
+                    <p>Summary Page</p>
+                    <input type="submit" wz-previous value="Previous" />
+                    <input type="submit" wz-finish value="Complete" />
+                </wz-step>
+            </wizard>
         </div>
 
-        <div class="col-sm-12 col-md-4" ng-include="'app/customize/customize-templates/summary.template.html'"></div>
+
     </div>
 </section>

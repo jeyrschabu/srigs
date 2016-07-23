@@ -20,6 +20,13 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
     customizeController.cables = [];
     customizeController.specs = [];
 
+    customizeController.finishedWizard = finishedWizard;
+
+
+    function finishedWizard() {
+
+    }
+
     function setRig(response) {
         customizeController.product = response.data;
         var specs = customizeController.product.specs;
