@@ -20,11 +20,12 @@ module.exports = function (karma) {
         './../../webapp/bower_components/bootstrap/dist/js/bootstrap.min.js',
         './../../webapp/bower_components/ngSticky/lib/sticky.js',
         './../../webapp/bower_components/ngGallery/src/js/ngGallery.js',
-
-
+        './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
+        
         './../../webapp/app/**/*.service.js',
         './../../webapp/app/**/*.controller.js',
         './../../webapp/app/**/*.module.js',
+        './../../webapp/app/app.js',
         './../../webapp/app/**/*.spec.js'
     ],
 
