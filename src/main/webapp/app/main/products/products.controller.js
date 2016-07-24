@@ -17,6 +17,7 @@ function ProductController($rootScope, $stateParams, ProductService) {
     productController.product = {};
     productController.products = [];
     productController.byGlance = byGlance;
+    productController.getProducts = getProducts;
 
     const MAIN_SPECS_TYPE = ['CPU', 'RAM' , 'GPU'];
 

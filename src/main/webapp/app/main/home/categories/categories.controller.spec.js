@@ -7,13 +7,7 @@ describe('Categories Controller', function(){
         categoryController,
         mockCategoryService;
 
-    beforeEach(module('rigs.categories'));
-    
-    beforeEach (function () {
-        module(function($provide) {
-            $provide.constant('API_PREFIX', '/api/v1');
-        });
-    });
+    beforeEach(module('Rigs'));
 
     describe('CategoryController', function() {
 
