@@ -8,10 +8,10 @@ function ProductDetailController($stateParams, $rootScope, ProductService) {
     var productDetailController = this;
     productDetailController.productId = $stateParams.productId;
     productDetailController.product = {};
+    productDetailController.getProduct = getProduct;
     
     function getProduct(productId) {
         if (productId) {
-            $rootScope.bodyClass = productDetailController.product.name;
             ProductService.findById(productId).then(function (response) {
                 productDetailController.product = response.data;
                 $rootScope.bodyClass = productDetailController.product.name;

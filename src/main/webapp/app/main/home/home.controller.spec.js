@@ -7,7 +7,6 @@ describe('Home', function(){
         homeController;
 
     beforeEach(module('Rigs'));
-    beforeEach(module('rigs.home'));
 
     describe('HomeController', function() {
 
