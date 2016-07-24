@@ -2,7 +2,7 @@ module.exports = function (karma) {
   karma.set({
 
     // base path, that will be used to resolve files and exclude
-    basePath: './../webapp',
+    basePath: '',
 
     // frameworks to use
     frameworks: ['jasmine'],
@@ -16,35 +16,22 @@ module.exports = function (karma) {
         './../../webapp/bower_components/angular-sanitize/angular-sanitize.js',
         './../../webapp/bower_components/ng-lodash/build/ng-lodash.min.js',
         './../../webapp/bower_components/jquery/dist/jquery.min.js',
-
         './../../webapp/bower_components/tether/dist/js/tether.min.js',
         './../../webapp/bower_components/bootstrap/dist/js/bootstrap.min.js',
         './../../webapp/bower_components/ngSticky/lib/sticky.js',
         './../../webapp/bower_components/ngGallery/src/js/ngGallery.js',
+        './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
+        
+        './../../webapp/app/**/*.service.js',
+        './../../webapp/app/**/*.controller.js',
         './../../webapp/app/**/*.module.js',
-        './../../webapp/app/**/*.js',
-
-        /******* Test Fixtures ******************/
-      {
-        pattern: './../test/fixtures/*.html',
-        watched: false,
-        served: true,
-        included: false
-      },
-
-        /******* Jasmine Tests ******************/
-      './../app/**/*.spec.js'
+        './../../webapp/app/app.js',
+        './../../webapp/app/**/*.spec.js'
     ],
 
     preprocessors: {
-      // define which files to include in coverage reports
-      './../../main/webapp/app/**/**/*.js': ['coverage']
     },    
 
-    coverageReporter: {
-      type : 'html',
-      dir : 'coverage/'
-    },
 
     // list of files to exclude
     exclude: [
@@ -72,7 +59,7 @@ module.exports = function (karma) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
     browsers: ['chrome_without_security'],
 

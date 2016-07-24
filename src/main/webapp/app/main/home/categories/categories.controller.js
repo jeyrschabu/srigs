@@ -12,10 +12,9 @@ function CategoryController(CategoryService) {
         categoryController.categories = categories.data;
     }
 
-    function getCategories() {
-
+    categoryController.getCategories = function () {
         CategoryService.list().then(setCategories);
-    }
+    };
 
-    getCategories();
+    categoryController.getCategories();
 }
