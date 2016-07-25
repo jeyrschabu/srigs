@@ -7,6 +7,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     customizeController.disableSticking = false;
     customizeController.pageTitle = 'Customize';
+    
     $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
     customizeController.productId = $stateParams.productId;
     customizeController.selectedMark = $stateParams.mark;
@@ -15,6 +16,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
     /** all parts to build a rig more coming soon **/
     customizeController.product = {};
     customizeController.rig = {};
+
     customizeController.cases = [];
     customizeController.caseFans = [];
     customizeController.cables = [];
@@ -27,39 +29,41 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     }
 
-    function setRig(response) {
-        customizeController.product = response.data;
-        var specs = customizeController.product.specs;
-        var totalPrice = customizeController.product.price;
-        if (customizeController.selectedMark) {
-
-            var matchedMark = (customizeController.brand) ?
-                lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark, 'brand' : customizeController.brand }):
-                lodash.filter(customizeController.product.marks, { 'name' : customizeController.selectedMark });
-
-            if (matchedMark && matchedMark.length) {
-                specs = matchedMark[0].specs;
-                totalPrice = matchedMark[0].price;
-            }
+    function Rig(options) {
+        return {
+            product:        options.product,
+            totalPrice:     options.totalPrice,
+            selectedCase:   options.selectedCase
         }
+    }
+
+    function initializeRigBuilder(response) {
+        customizeController.product = response.data;
+        var marks = lodash.filter(customizeController.product.marks, {
+            'name': customizeController.selectedMark || 'Mark 1',
+            'brand': customizeController.brand || 'Intel'
+        });
+
+        var specs = marks[0].specs;
+        var totalPrice = marks[0].price;
 
         customizeController.cases        = lodash.filter(specs, { 'type' : 'Case' });
         customizeController.caseFans     = lodash.filter(specs, { 'type' : 'Case Fans' });
         customizeController.cables       = lodash.filter(specs, { 'type' : 'Cable' });
 
-        customizeController.rig = {
+        customizeController.rig = new Rig({
             product : customizeController.product,
             totalPrice : totalPrice
-        };
+        });
     }
 
-    function getProduct(productId) {
+    function initialize(productId) {
         if (productId) {
-            ProductService.findById(productId).then(setRig);
+            ProductService.findById(productId).then(initializeRigBuilder);
         }
     }
 
-    getProduct(customizeController.productId);
+    initialize(customizeController.productId);
 }
 
 
