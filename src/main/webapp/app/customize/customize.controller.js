@@ -15,11 +15,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     /** all parts to build a rig more coming soon **/
     customizeController.rig = {};
-    customizeController.specs = [];
     customizeController.product = {};
-    customizeController.caseFans = [];
-    customizeController.cables = [];
-
 
     customizeController.finishedWizard = finishedWizard;
 
@@ -53,19 +49,17 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
         var specs = marks[0].specs;
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-        // customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
-
         var allItems = lodash.filter(allSpecs, specPredicate);
         var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0] || allItems[0];
-
         var startIndex = lodash.findIndex(allItems, function(item) {
             return item.name === defaultItem.name;
         });
 
-        return  {
+        return {
             current: defaultItem,
             items: allItems.slice(startIndex, allItems.length)
         }

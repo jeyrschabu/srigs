@@ -4,7 +4,6 @@
 <section class="cp-module case-options"><!-- dynamic class per section -->
     <h3 class="cpm-title">Case Options</h3>
     <ul class="cpm-list cpm-horz row">
-
         <li class="col-md-4" ng-repeat="case in customizeController.rig.caseOptions.items">
             <a class="cpm-inner" href="#">
                 <div class="cpm-item-wrap">
@@ -30,12 +29,8 @@
 <section class="cp-module case-cooling-options"> <!-- dynamic class per section -->
     <h3 class="cpm-title">Case Cooling Options</h3>
     <ul class="cpm-list">
-
-        <li ng-repeat="fan in customizeController.caseFans">
-            <a class="cpm-inner" href="#">
-                <div class="cpm-radio-wrap">
-                    <input type="radio" class="radio-custom">
-                </div>
+        <li ng-repeat="fan in customizeController.rig.caseCoolingOptions.items">
+            <div class="cpm-inner">
                 <div class="cpm-item-wrap">
                     <h4>{{fan.name}}</h4>
                     <p>{{fan.shortDescription}}</p>
@@ -44,9 +39,13 @@
                     </span>
                 </div>
 
-            </a>
+            </div>
             <!-- this ng-click & ng-class will need to be dynamic somehow -->
-            <a class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1" ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i></a>
+            <a class="cpm-expand-desc">
+                <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1"
+                   ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i>
+            </a>
+
             <div class="cpm-description" ng-class="cpmcco1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
                 <div class="row">
                     <div class="col-md-3">
@@ -65,6 +64,7 @@
                 </div>
             </div>
         </li>
+    </ul>
 </section>
 
 
