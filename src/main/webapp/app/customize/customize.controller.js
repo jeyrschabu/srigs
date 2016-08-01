@@ -14,13 +14,12 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
     customizeController.brand = $stateParams.brand;
 
     /** all parts to build a rig more coming soon **/
-    customizeController.product = {};
     customizeController.rig = {};
-
-    customizeController.cases = [];
+    customizeController.specs = [];
+    customizeController.product = {};
     customizeController.caseFans = [];
     customizeController.cables = [];
-    customizeController.specs = [];
+
 
     customizeController.finishedWizard = finishedWizard;
 
@@ -31,39 +30,54 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     function Rig(options) {
         return {
-            product:        options.product,
-            totalPrice:     options.totalPrice,
-            selectedCase:   options.selectedCase
+            product:            options.product,
+            totalPrice:         options.totalPrice,
+            caseOptions:        options.caseOptions,
+            caseCoolingOptions: options.caseCoolingOptions
         }
     }
 
     function initializeRigBuilder(response) {
         customizeController.product = response.data;
+
         var marks = lodash.filter(customizeController.product.marks, {
             'name': customizeController.selectedMark || 'Mark 1',
             'brand': customizeController.brand || 'Intel'
         });
-
-        var specs = marks[0].specs;
+        
         var totalPrice = marks[0].price;
-
-        customizeController.cases        = lodash.filter(specs, { 'type' : 'Case' });
-        customizeController.caseFans     = lodash.filter(specs, { 'type' : 'Case Fans' });
-        customizeController.cables       = lodash.filter(specs, { 'type' : 'Cable' });
-
         customizeController.rig = new Rig({
             product : customizeController.product,
             totalPrice : totalPrice
         });
+
+        var specs = marks[0].specs;
+        customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
+        // customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
     }
 
-    function initialize(productId) {
-        if (productId) {
-            ProductService.findById(productId).then(initializeRigBuilder);
+    function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
+
+        var allItems = lodash.filter(allSpecs, specPredicate);
+        var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0] || allItems[0];
+
+        var startIndex = lodash.findIndex(allItems, function(item) {
+            return item.name === defaultItem.name;
+        });
+
+        return  {
+            current: defaultItem,
+            items: allItems.slice(startIndex, allItems.length)
         }
     }
 
-    initialize(customizeController.productId);
+    customizeController.initialize = function(productId) {
+        if (productId) {
+            ProductService.findById(productId).then(initializeRigBuilder);
+        }
+    };
+
+    customizeController.initialize(customizeController.productId);
 }
 
 
