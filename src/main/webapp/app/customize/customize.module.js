@@ -13,5 +13,14 @@ angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products'
                     }
                 }
             })
+            .state('checkout', {
+                url:'/checkout' ,
+                views: {
+                    'content':{
+                        templateUrl: '/app/customize/customize-templates/checkout.template.html',
+                        controller: 'CustomizeController as customizeController'
+                    }
+                }
+            })
         }])
     .controller('CustomizeController', CustomizeController);

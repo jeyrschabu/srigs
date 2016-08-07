@@ -8,6 +8,7 @@ angular
         'sticky',
         'jkuri.gallery',
         'ngLodash',
+        'ngCart',
         'rigs.common',
         'rigs.home',
         'rigs.products',

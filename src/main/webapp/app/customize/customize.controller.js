@@ -7,11 +7,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     customizeController.disableSticking = false;
     customizeController.pageTitle = 'Customize';
-    
     $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
-    customizeController.productId = $stateParams.productId;
-    customizeController.selectedMark = $stateParams.mark;
-    customizeController.brand = $stateParams.brand;
 
     /** all parts to build a rig more coming soon **/
     customizeController.rig = {};
@@ -21,24 +17,25 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
 
     function finishedWizard() {
-
-    }
-
-    function Rig(options) {
-        return {
-            product:            options.product,
-            totalPrice:         options.totalPrice,
-            caseOptions:        options.caseOptions,
-            caseCoolingOptions: options.caseCoolingOptions
-        }
+        console.log(customizeController.rig);
     }
 
     function initializeRigBuilder(response) {
+
+        var Rig = function(options) {
+            return {
+                product:            options.product,
+                totalPrice:         options.totalPrice,
+                caseOptions:        options.caseOptions,
+                caseCoolingOptions: options.caseCoolingOptions
+            }
+        };
+
         customizeController.product = response.data;
 
         var marks = lodash.filter(customizeController.product.marks, {
-            'name': customizeController.selectedMark || 'Mark 1',
-            'brand': customizeController.brand || 'Intel'
+            'name': $stateParams.mark || 'Mark 1',
+            'brand': $stateParams.brand || 'Intel'
         });
         
         var totalPrice = marks[0].price;
@@ -71,7 +68,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
         }
     };
 
-    customizeController.initialize(customizeController.productId);
+    customizeController.initialize($stateParams.productId);
 }
 
 
