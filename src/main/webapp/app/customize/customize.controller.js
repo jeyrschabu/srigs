@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$stateParams', 'lodash', 'ProductService'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService'];
 
-function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
+function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -11,6 +11,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     /** all parts to build a rig more coming soon **/
     customizeController.rig = {};
+    customizeController.totalPrice = 0;
     customizeController.product = {};
 
     customizeController.finishedWizard = finishedWizard;
@@ -47,6 +48,18 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
         var specs = marks[0].specs;
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
         customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        customizeController.totalPrice = totalPrice;
+    }
+
+    function setPriceWatchers() {
+        // case option price watcher
+        $scope.$watch('customizeController.rig.caseOptions', function(newValue, oldValue, scope) {
+            var extras = 0;
+            if (newValue && newValue['current'] !== newValue['defaultOption']) {
+                extras = newValue['current'].price;
+            }
+            customizeController.rig.totalPrice = customizeController.totalPrice + extras;
+        }, true);
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
@@ -56,8 +69,11 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
             return item.name === defaultItem.name;
         });
 
+        var current = allItems[startIndex] || {};
+        current.price = 0; //reset because price is included
+
         return {
-            current: allItems[startIndex],
+            current: current,
             items: allItems.slice(startIndex, allItems.length)
         }
     }
@@ -73,6 +89,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
     };
 
     customizeController.initialize($stateParams.productId);
+    setPriceWatchers();
 }
 
 

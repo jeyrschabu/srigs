@@ -43,8 +43,8 @@ describe('Customize', function() {
                         name : 'Mark 1',
                         brand : 'Intel',
                         specs : [
-                            { name : 'Corsair Obsidian 450D', type : 'Case' },
-                            { name : 'Intel FX-6300', type : 'CPU' }
+                            { name : 'Corsair Obsidian 450D', type : 'Case', price: 100},
+                            { name : 'Intel FX-6300', type : 'CPU', price:120 }
                         ]
                     }
                 ]
@@ -57,11 +57,11 @@ describe('Customize', function() {
                 };
             });
 
-
             customizeController.initialize('id');
             expect(mockProductService.findById).toHaveBeenCalled();
             expect(customizeController.rig.caseOptions).toBeDefined();
             expect(customizeController.rig.caseOptions.current.name).toBe(product.marks[0].specs[0].name);
+            expect(customizeController.rig.caseOptions.current.price).toBe(0);
 
         });
     })
