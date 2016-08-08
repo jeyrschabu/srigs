@@ -1,0 +1,26 @@
+<h3 class="cpm-title">Case Options</h3>
+<ul class="cpm-list cpm-horz row" ng-init="slugify">
+    <li class="col-md-4"  ng-repeat="case in customizeController.rig.caseOptions.items"
+        ng-init="itemId=customizeController.slugify(case.name);">
+        <label for="{{itemId}}">
+            <div class="cpm-inner">
+                <div class="cpm-item-wrap">
+                    <img ng-src="/public/images/products/{{customizeController.product.coverImage}}">
+                    <h4>{{case.name}}</h4>
+
+                    <p>{{case.shortDescription}}</p>
+
+                    <span class="cpm-price">
+                        + $ {{case.price}}
+                    </span>
+                </div>
+            </div>
+        </label>
+
+        <div class="cpm-radio-wrap">
+            <input type="radio" name="case.name" id="{{itemId}}"
+                   ng-model="customizeController.rig.caseOptions.current"
+                   ng-value="case">
+        </div>
+    </li>
+</ul>

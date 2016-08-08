@@ -57,10 +57,14 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
         });
 
         return {
-            current: defaultItem,
+            current: allItems[startIndex],
             items: allItems.slice(startIndex, allItems.length)
         }
     }
+    
+    customizeController.slugify = function(str) {
+        return str.toLowerCase().trim().replace(/\s+/g, '-');
+    };
 
     customizeController.initialize = function(productId) {
         if (productId) {

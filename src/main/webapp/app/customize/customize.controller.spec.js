@@ -25,6 +25,10 @@ describe('Customize', function() {
             expect(scope.bodyClass).toBe(customizeController.pageTitle.toLocaleLowerCase());
         });
 
+        it ('should slugify a string', function() {
+            expect(customizeController.slugify('shadow        Rigs'), 'shadow-rigs');
+        });
+
         it ('should have a default case option from the product mark when initialized', function() {
             var product = {
                 name: 'Phantom',
