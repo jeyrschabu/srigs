@@ -7,42 +7,35 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
     customizeController.disableSticking = false;
     customizeController.pageTitle = 'Customize';
-    
     $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
-    customizeController.productId = $stateParams.productId;
-    customizeController.selectedMark = $stateParams.mark;
-    customizeController.brand = $stateParams.brand;
 
     /** all parts to build a rig more coming soon **/
     customizeController.rig = {};
-    customizeController.specs = [];
     customizeController.product = {};
-    customizeController.caseFans = [];
-    customizeController.cables = [];
-
 
     customizeController.finishedWizard = finishedWizard;
 
 
     function finishedWizard() {
-
-    }
-
-    function Rig(options) {
-        return {
-            product:            options.product,
-            totalPrice:         options.totalPrice,
-            caseOptions:        options.caseOptions,
-            caseCoolingOptions: options.caseCoolingOptions
-        }
+        console.log(customizeController.rig);
     }
 
     function initializeRigBuilder(response) {
+
+        var Rig = function(options) {
+            return {
+                product:            options.product,
+                totalPrice:         options.totalPrice,
+                caseOptions:        options.caseOptions,
+                caseCoolingOptions: options.caseCoolingOptions
+            }
+        };
+
         customizeController.product = response.data;
 
         var marks = lodash.filter(customizeController.product.marks, {
-            'name': customizeController.selectedMark || 'Mark 1',
-            'brand': customizeController.brand || 'Intel'
+            'name': $stateParams.mark || 'Mark 1',
+            'brand': $stateParams.brand || 'Intel'
         });
         
         var totalPrice = marks[0].price;
@@ -53,23 +46,25 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
 
         var specs = marks[0].specs;
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-        // customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
-
         var allItems = lodash.filter(allSpecs, specPredicate);
         var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0] || allItems[0];
-
         var startIndex = lodash.findIndex(allItems, function(item) {
             return item.name === defaultItem.name;
         });
 
-        return  {
-            current: defaultItem,
+        return {
+            current: allItems[startIndex],
             items: allItems.slice(startIndex, allItems.length)
         }
     }
+    
+    customizeController.slugify = function(str) {
+        return str.toLowerCase().trim().replace(/\s+/g, '-');
+    };
 
     customizeController.initialize = function(productId) {
         if (productId) {
@@ -77,7 +72,7 @@ function CustomizeController($rootScope, $stateParams, lodash, ProductService) {
         }
     };
 
-    customizeController.initialize(customizeController.productId);
+    customizeController.initialize($stateParams.productId);
 }
 
 

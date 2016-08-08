@@ -9,6 +9,12 @@
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Home</div>
                 </a>
             </li>
+
+            <li>
+                <a ui-sref="checkout">
+                    <ngcart-summary template-url="app/components/ngcart/summary.html"></ngcart-summary>
+                </a>
+            </li>
         </ul>
 
     </nav>
@@ -34,7 +40,7 @@
             </div>
 
             <div class="header-logo-wrap col-md-3 col-xs-12 col-sm-6 col-sm-push-3 col-md-push-0">
-                <a href=""><h1 class="screen-reader">{{ctrl.pageTitle}}</h1></a>
+                <a href="#/"><h1 class="screen-reader">{{ctrl.pageTitle}}</h1></a>
             </div>
             <nav class="nav header-nav-wrap col-sm-9">
                 <ul>
@@ -44,9 +50,14 @@
                             {{menuItem.name}}
                         </a>
                     </li>
+
+                    <li>
+                        <a ui-sref="checkout">
+                            <ngcart-summary template-url="app/components/ngcart/summary.html"></ngcart-summary>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </section>
-
 </div>

@@ -21,6 +21,7 @@ module.exports = function (karma) {
         './../../webapp/bower_components/ngSticky/lib/sticky.js',
         './../../webapp/bower_components/ngGallery/src/js/ngGallery.js',
         './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
+        './../../webapp/bower_components/ngcart/dist/ngCart.min.js',
         
         './../../webapp/app/**/*.service.js',
         './../../webapp/app/**/*.controller.js',

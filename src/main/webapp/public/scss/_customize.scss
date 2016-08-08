@@ -163,6 +163,7 @@
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
   transition: all .3s;
+  cursor:pointer;
   @include gradient-vertical($start-color: white, $end-color: #d0d0d0, $start-percent: 0%, $end-percent: 100%);
 
   &:hover, &:focus {

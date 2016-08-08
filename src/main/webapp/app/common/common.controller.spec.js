@@ -2,7 +2,7 @@
  * Created by jeyrschabu on 6/20/16.
  */
 
-describe('Common', function(){
+describe('Common', function() {
     var scope,
         location,
         commonController;
