@@ -54,11 +54,9 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
     function setPriceWatchers() {
         // case option price watcher
         $scope.$watch('customizeController.rig.caseOptions', function(newValue, oldValue, scope) {
-            var extras = 0;
-            if (newValue && newValue['current'] !== newValue['defaultOption']) {
-                extras = newValue['current'].price;
+            if (newValue) {
+                customizeController.rig.totalPrice = customizeController.totalPrice + newValue['current'].price;
             }
-            customizeController.rig.totalPrice = customizeController.totalPrice + extras;
         }, true);
     }
 
