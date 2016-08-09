@@ -49,6 +49,8 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
         customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
         customizeController.totalPrice = totalPrice;
+
+        console.log(customizeController.rig.caseCoolingOptions);
     }
 
     function setPriceWatchers() {
@@ -62,17 +64,22 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
         var allItems = lodash.filter(allSpecs, specPredicate);
-        var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0] || allItems[0];
-        var startIndex = lodash.findIndex(allItems, function(item) {
-            return item.name === defaultItem.name;
-        });
+        var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
+        var current = {};
 
-        var current = allItems[startIndex] || {};
-        current.price = 0; //reset because price is included
+        if (defaultItem) {
+            var startIndex = lodash.findIndex(allItems, function(item) {
+                return item.name === defaultItem.name;
+            });
+
+            current = allItems[startIndex];
+            current.price = 0; //reset because price is included
+            allItems = allItems.slice(startIndex, allItems.length)
+        }
 
         return {
             current: current,
-            items: allItems.slice(startIndex, allItems.length)
+            items: allItems
         }
     }
     
