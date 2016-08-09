@@ -1,150 +1,16 @@
 <a name="makeityours"></a>
+
 <h2 class="cp-breaker-title">Make it Yours</h2>
 
-<section class="cp-module case-options"
-         ng-include="'app/customize/customize-templates/makeityours-partials/case-options.template.html'"></section>
-<section class="cp-module case-cooling-options"
-         ng-include="'app/customize/customize-templates/makeityours-partials/case-cooling-options.template.html'"></section>
+<section ng-include="'app/customize/customize-templates/makeityours-partials/case-options.template.html'"
+         class="cp-module case-options"></section>
 
+<section ng-include="'app/customize/customize-templates/makeityours-partials/case-cooling-options.template.html'"
+         class="cp-module case-cooling-options"></section>
 
+<section ng-include="'app/customize/customize-templates/makeityours-partials/case-led-options.template.html'"
+         class="cp-module case-led-options"></section>
 
-<!--<section class="cp-module">-->
-    <!--<h3 class="cpm-title">Case LED Options</h3>-->
-    <!--<ul class="cpm-list">-->
-
-        <!--<li>-->
-            <!--<a class="cpm-inner" href="#">-->
-                <!--<div class="cpm-radio-wrap">-->
-                    <!--<input type="radio">-->
-                <!--</div>-->
-                <!--<div class="cpm-item-wrap">-->
-                    <!--<h4>LED Strips</h4>-->
-                    <!--<p>Some brief descriptive text here.</p>-->
-                                    <!--<span class="cpm-price">-->
-                                        <!--+ $100-->
-                                    <!--</span>-->
-                    <!--<span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>-->
-                <!--</div>-->
-            <!--</a>-->
-
-            <!--&lt;!&ndash; only shows if LED is selected &ndash;&gt;-->
-            <!--<div class="cpm-description cpm-color-picker">-->
-                <!--<div class="row">-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a href="#" class="cpm-color red"></a>-->
-                        <!--<p>Red</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a class="cpm-color blue"></a>-->
-                        <!--<p>Blue</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a class="cpm-color green selected"></a>-->
-                        <!--<p>Green</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a class="cpm-color purple"></a>-->
-                        <!--<p>Purple</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a class="cpm-color yellow"></a>-->
-                        <!--<p>Yellow</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-4 col-md-2">-->
-                        <!--<a class="cpm-color white"></a>-->
-                        <!--<p>white</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</li>-->
-
-        <!--<li>-->
-            <!--<a class="cpm-inner" href="#">-->
-                <!--<div class="cpm-radio-wrap">-->
-                    <!--<input type="radio">-->
-                <!--</div>-->
-                <!--<div class="cpm-item-wrap">-->
-                    <!--<h4>None</h4>-->
-                    <!--<p>Some brief descriptive text here.</p>-->
-                                    <!--<span class="cpm-price">-->
-                                        <!--+ $120-->
-                                    <!--</span>-->
-                    <!--<span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>-->
-                <!--</div>-->
-            <!--</a>-->
-        <!--</li>-->
-
-    <!--</ul>-->
-<!--</section>-->
-
-
-<!--<section class="cp-module">-->
-    <!--<h3 class="cpm-title">Cabling</h3>-->
-    <!--<ul class="cpm-list">-->
-
-        <!--<li>-->
-            <!--<a class="cpm-inner">-->
-                <!--<div class="cpm-radio-wrap">-->
-                    <!--<input type="radio">-->
-                <!--</div>-->
-                <!--<div class="cpm-item-wrap">-->
-                    <!--<h4>Basic</h4>-->
-                    <!--<p>Some brief descriptive text here.</p>-->
-                                    <!--<span class="cpm-price">-->
-                                        <!--+ $0-->
-                                    <!--</span>-->
-                    <!--<span class="cpm-expand-desc"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span>-->
-                <!--</div>-->
-            <!--</a>-->
-
-        <!--</li>-->
-
-        <!--<li>-->
-            <!--<a class="cpm-inner" href="#">-->
-                <!--<div class="cpm-radio-wrap">-->
-                    <!--<input type="radio">-->
-                <!--</div>-->
-                <!--<div class="cpm-item-wrap">-->
-                    <!--<h4>Colored</h4>-->
-                    <!--<p>Some brief descriptive text here.</p>-->
-                                    <!--<span class="cpm-price">-->
-                                        <!--+ $120-->
-                                    <!--</span>-->
-                    <!--<span class="cpm-expand-desc"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>-->
-                <!--</div>-->
-            <!--</a>-->
-            <!--&lt;!&ndash; only shows if LED is selected &ndash;&gt;-->
-            <!--<div class="cpm-description cpm-color-picker">-->
-                <!--<div class="row">-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a href="#" class="cpm-color red"></a>-->
-                        <!--<p>Red</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a class="cpm-color blue"></a>-->
-                        <!--<p>Blue</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a class="cpm-color green selected"></a>-->
-                        <!--<p>Green</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a class="cpm-color purple"></a>-->
-                        <!--<p>Purple</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a class="cpm-color yellow"></a>-->
-                        <!--<p>Yellow</p>-->
-                    <!--</div>-->
-                    <!--<div class="col-md-2">-->
-                        <!--<a class="cpm-color white"></a>-->
-                        <!--<p>white</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</li>-->
-
-
-    <!--</ul>-->
-<!--</section>-->
+<section ng-include="'app/customize/customize-templates/makeityours-partials/cabling.template.html'"
+         class="cp-module cabling"></section>
 
