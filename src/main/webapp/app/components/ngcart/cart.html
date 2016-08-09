@@ -5,7 +5,7 @@
 
 <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
 
-    <table class="table table-striped ngCart cart" style="color: red; font-weight: bold;">
+    <table class="table table-striped ngCart cart" style="font-weight: bold; color: black; background-color: white;">
 
         <thead>
         <tr>
@@ -41,13 +41,26 @@
         </tfoot>
         <tbody>
         <tr ng-repeat="item in ngCart.getCart().items track by $index">
-            <td><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
+
+            <td>
+                <span ng-click="ngCart.removeItemById(item.getId())">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+            </td>
 
             <td>{{ item.getName() }}</td>
-            <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}"
-                      ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp;
+            <td>
+                <span class="cart-remove-item" ng-class="{'disabled':item.getQuantity()== 1 }" ng-click="item.setQuantity(-1, true)">
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+                </span>&nbsp;&nbsp;
+
                 {{ item.getQuantity() | number }}&nbsp;&nbsp;
-                <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
+
+                <span ng-click="item.setQuantity(1, true)">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </span>
+            </td>
+
             <td>{{ item.getPrice() | currency}}</td>
             <td>{{ item.getTotal() | currency }}</td>
         </tr>
@@ -58,7 +71,7 @@
     .ngCart.cart span[ng-click] {
         cursor: pointer;
     }
-    .ngCart.cart .glyphicon.disabled {
+    .ngCart.cart .cart-remove-item.disabled {
         color:#aaa;
     }
 </style>
