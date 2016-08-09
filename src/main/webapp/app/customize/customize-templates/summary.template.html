@@ -8,8 +8,8 @@
     <div class="cps-total"><h3>Total:</h3><span>{{customizeController.rig.totalPrice}}</span></div>
     <p><a href="">Email us about this build</a></p>
 
-    <ngcart-addtocart id="{{customizeController.rig.product.id}}"
-                      name="Your {{customizeController.rig.product.name}}"
+    <ngcart-addtocart id="{{customizeController.rig.product.id}}" quantity-max="10"
+                      name="{{customizeController.rig.product.name}}"
                       quantity="1" price="{{customizeController.rig.totalPrice}}"
                       template-url="app/components/ngcart/addtocart.html" data="customizeController.rig">
         Add to Cart
