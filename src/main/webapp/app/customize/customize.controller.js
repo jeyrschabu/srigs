@@ -28,7 +28,9 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
                 product:            options.product,
                 totalPrice:         options.totalPrice,
                 caseOptions:        options.caseOptions,
-                caseCoolingOptions: options.caseCoolingOptions
+                caseCoolingOptions: options.caseCoolingOptions,
+                caseLedOptions:     options.caseLedOptions,
+                caseCablingOptions: options.caseCablingOptions
             }
         };
 
@@ -47,7 +49,9 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
 
         var specs = marks[0].specs;
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-        // customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
+        customizeController.rig.caseCablingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Cabling' });
         customizeController.totalPrice = totalPrice;
     }
 
