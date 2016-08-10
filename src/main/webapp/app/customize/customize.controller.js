@@ -47,19 +47,8 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
 
         var specs = marks[0].specs;
         customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-        customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+        // customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
         customizeController.totalPrice = totalPrice;
-
-        console.log(customizeController.rig.caseCoolingOptions);
-    }
-
-    function setPriceWatchers() {
-        // case option price watcher
-        $scope.$watch('customizeController.rig.caseOptions', function(newValue, oldValue, scope) {
-            if (newValue) {
-                customizeController.rig.totalPrice = customizeController.totalPrice + newValue['current'].price;
-            }
-        }, true);
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
@@ -93,8 +82,20 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         }
     };
 
+    customizeController.priceWatchers = function() {
+        var options = ['customizeController.rig.caseOptions', 'customizeController.rig.caseCoolingOptions'];
+        options.forEach(function(option) {
+            $scope.$watch(option, function(newValue, oldValue, scope) {
+                if (newValue) {
+                    var newPrice = newValue['current'].price || 0;
+                    customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
+                }
+            }, true);
+        });
+    };
+
     customizeController.initialize($stateParams.productId);
-    setPriceWatchers();
+    customizeController.priceWatchers();
 }
 
 

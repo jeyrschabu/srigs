@@ -13,7 +13,7 @@ describe('Customize', function() {
 
         beforeEach(inject(function($rootScope, $controller, ProductService) {
             scope = $rootScope.$new();
-            mockProductService = ProductService
+            mockProductService = ProductService;
             customizeController = $controller('CustomizeController', {
                 '$scope' : scope,
                 'ProductService' : mockProductService
@@ -62,7 +62,6 @@ describe('Customize', function() {
             expect(customizeController.rig.caseOptions).toBeDefined();
             expect(customizeController.rig.caseOptions.current.name).toBe(product.marks[0].specs[0].name);
             expect(customizeController.rig.caseOptions.current.price).toBe(0);
-
         });
     })
 });
