@@ -87,7 +87,13 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
     };
 
     customizeController.priceWatchers = function() {
-        var options = ['customizeController.rig.caseOptions', 'customizeController.rig.caseCoolingOptions'];
+        var options = [
+            'customizeController.rig.caseOptions',
+            'customizeController.rig.caseLedOptions',
+            'customizeController.rig.caseCoolingOptions',
+            'customizeController.rig.caseCablingOptions'
+        ];
+        
         options.forEach(function(option) {
             $scope.$watch(option, function(newValue, oldValue, scope) {
                 if (newValue) {
