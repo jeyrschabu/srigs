@@ -1,0 +1,37 @@
+<h3 class="cpm-title">Memory</h3>
+<ul class="cpm-list">
+    <li ng-repeat="ram in customizeController.rig.performanceMemoryOptions.items"> <!-- don't know if this is the right name -->
+        <div class="cpm-inner">
+            <div class="cpm-item-wrap">
+                <h4>{{ram.name}}</h4>
+                <p>{{ram.shortDescription}}</p>
+                <span class="cpm-price">
+                    + {{ram.price | currency}}
+                </span>
+            </div>
+
+        </div>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmram1 = !cpmram1"
+               ng-class="cpmram1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmram1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="http://placehold.it/150x150">
+                </div>
+                <div class="col-md-9" ng-show="ram.longDescription">
+                    <p>{{ram.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+</ul>
