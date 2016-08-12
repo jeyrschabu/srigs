@@ -1,0 +1,37 @@
+<h3 class="cpm-title">Motherboard</h3>
+<ul class="cpm-list">
+    <li ng-repeat="motherboard in customizeController.rig.performanceMotherboardOptions.items"> <!-- don't know if this is the right name -->
+        <div class="cpm-inner">
+            <div class="cpm-item-wrap">
+                <h4>{{motherboard.name}}</h4>
+                <p>{{motherboard.shortDescription}}</p>
+                <span class="cpm-price">
+                    + {{motherboard.price | currency}}
+                </span>
+            </div>
+
+        </div>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmmobo1 = !cpmmobo1"
+               ng-class="cpmmobo1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmmobo1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="http://placehold.it/150x150">
+                </div>
+                <div class="col-md-9" ng-show="motherboard.longDescription">
+                    <p>{{motherboard.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+</ul>
