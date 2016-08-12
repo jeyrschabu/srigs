@@ -5,7 +5,7 @@
         <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Rigorous Stress Testing</li>
     </ul>
     <div class="cps-delivery"><h3>EST. Delivery:</h3><span>10-15 Business Days</span></div>
-    <div class="cps-total"><h3>Total:</h3><span>{{customizeController.rig.totalPrice}}</span></div>
+    <div class="cps-total"><h3>Total:</h3><span>{{customizeController.rig.totalPrice | currency}}</span></div>
     <p><a href="">Email us about this build</a></p>
 
     <ngcart-addtocart id="{{customizeController.rig.product.id}}" quantity-max="10"
