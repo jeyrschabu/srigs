@@ -89,3 +89,4 @@ classes
 .sass-cache
 .sass-cache/*
 prepros.cfg
+/src/main/webapp/test/coverage/
