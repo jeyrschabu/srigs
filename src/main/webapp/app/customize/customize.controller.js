@@ -44,13 +44,14 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
                 'brand': $stateParams.brand || 'Intel'
             });
 
-            var totalPrice = marks[0].price;
+            var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
+            var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+
             customizeController.rig = new Rig({
                 product : customizeController.product,
                 totalPrice : totalPrice
             });
 
-            var specs = marks[0].specs;
             customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
             customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
             customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
