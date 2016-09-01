@@ -111,7 +111,14 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
             'customizeController.rig.caseOptions',
             'customizeController.rig.caseLedOptions',
             'customizeController.rig.caseCoolingOptions',
-            'customizeController.rig.caseCablingOptions'
+            'customizeController.rig.caseCablingOptions',
+            'customizeController.rig.performanceCpuOptions',
+            'customizeController.rig.performanceCoolingOptions',
+            'customizeController.rig.performanceMotherboardOptions',
+            'customizeController.rig.performanceMemoryOptions',
+            'customizeController.rig.performanceGraphicsOptions',
+            'customizeController.rig.performanceOverclockOptions',
+            'customizeController.rig.performancePsuOptions'
         ];
 
         options.forEach(function(option) {
