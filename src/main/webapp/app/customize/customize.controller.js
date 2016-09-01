@@ -80,7 +80,7 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
         var current = {};
 
-        if (defaultItem) {
+        if (defaultItem && allItems.length) {
             var startIndex = lodash.findIndex(allItems, function(item) {
                 return item.name === defaultItem.name;
             });
