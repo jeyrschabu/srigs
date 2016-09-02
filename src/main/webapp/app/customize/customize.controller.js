@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService', 'OrderService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService, ngCart) {
+function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService, OrderService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -20,6 +20,22 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
     function finishedWizard() {
         console.log(customizeController.rig);
     }
+
+    function emptyCart() {
+        ngCart.empty(true);
+    }
+
+    function handleError() {
+
+    }
+
+    customizeController.paymentOptions = {
+        onPaymentMethodReceived: function(payload) {
+            angular.merge(payload, ngCart.toObject());
+            payload.total = payload.totalCost;
+            OrderService.placeOrder().then(emptyCart, handleError);
+        }
+    };
 
     var Rig = function(options) {
         return {
