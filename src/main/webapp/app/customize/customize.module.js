@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products'])
+    .constant('clientTokenPath', '/api/v1/payment/clientToken')
     .config(['$stateProvider', function($stateProvider) {
 
         $stateProvider
@@ -23,4 +24,5 @@ angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products'
                 }
             })
         }])
+    .service('OrderService', OrderService)
     .controller('CustomizeController', CustomizeController);

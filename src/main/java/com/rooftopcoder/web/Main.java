@@ -5,10 +5,8 @@ import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
 import com.rooftopcoder.web.configuration.ApplicationConfig;
 import com.rooftopcoder.web.data.MongoConnectionConfig;
-import com.rooftopcoder.web.resources.HomeResource;
-import com.rooftopcoder.web.resources.ProductCategoryResource;
-import com.rooftopcoder.web.resources.ProductResource;
-import com.rooftopcoder.web.resources.SpecResource;
+import com.rooftopcoder.web.resources.*;
+import com.rooftopcoder.web.services.OrderService;
 import com.rooftopcoder.web.services.ProductCategoryService;
 import com.rooftopcoder.web.services.ProductService;
 import com.rooftopcoder.web.services.SpecService;
@@ -52,6 +50,7 @@ public class Main implements SparkApplication {
         final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
         final ProductService productService = new ProductService().setDataProvider(dbCfg);
         final SpecService specService = new SpecService().setDataProvider(dbCfg);
+        final OrderService orderService = new OrderService().setDataProvider(dbCfg);
 
         log.info("Initializing routes");
 
@@ -59,5 +58,7 @@ public class Main implements SparkApplication {
         new ProductCategoryResource(categoryService);
         new SpecResource(specService);
         new HomeResource();
+        new PaymentResource(serverConfig);
+        new OrderResource(orderService);
     }
 }
