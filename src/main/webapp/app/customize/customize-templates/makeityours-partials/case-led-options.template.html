@@ -1,13 +1,18 @@
 <h3 class="cpm-title">Case LED Options</h3>
 <ul class="cpm-list">
-    <li ng-repeat="led in customizeController.rig.caseLedOptions.items"> <!-- unsure if this is right name -->
+    <li ng-repeat="led in customizeController.rig.caseLedOptions.items"> <!--unsure if this is right name -->
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="led.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.caseLedOptions.current"
+                       ng-value="led">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{led.name}}</h4>
                 <p>{{led.shortDescription}}</p>
-                <span class="cpm-price">
-                    + ${{led.price}}
-                </span>
+                    <span class="cpm-price">
+                        + ${{led.price}}
+                    </span>
             </div>
 
         </div>
@@ -33,5 +38,6 @@
                 </div>
             </div>
         </div>
+
     </li>
 </ul>

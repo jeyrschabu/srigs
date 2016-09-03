@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="fan in customizeController.rig.caseCoolingOptions.items">
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="fan.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.caseCoolingOptions.current"
+                       ng-value="Cooling">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{fan.name}}</h4>
                 <p>{{fan.shortDescription}}</p>
