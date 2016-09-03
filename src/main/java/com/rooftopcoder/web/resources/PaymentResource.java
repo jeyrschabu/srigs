@@ -5,6 +5,7 @@ package com.rooftopcoder.web.resources;
  */
 
 import com.braintreegateway.*;
+import com.google.gson.Gson;
 import com.rooftopcoder.web.configuration.ApplicationConfig;
 import spark.Request;
 import spark.Response;
@@ -12,6 +13,7 @@ import spark.Response;
 import java.math.BigDecimal;
 
 import static spark.Spark.get;
+import static spark.Spark.post;
 
 public class PaymentResource extends GeneralResource {
     private BraintreeGateway gateway;
@@ -22,16 +24,16 @@ public class PaymentResource extends GeneralResource {
     }
 
     protected void routes() {
+        post(CONTEXT+"/payment/submit", this::submitPayment);
         get(CONTEXT+"/payment/clientToken", (request, response) -> this.gateway.clientToken().generate());
-        get(CONTEXT+"/payment/checkout", this::checkout);
+
     }
 
-    private Boolean checkout(Request request, Response response) {
-        String nonceFromTheClient = request.queryParams("payment_method_nonce");
-
+    private Boolean submitPayment(Request request, Response response) {
+        PaymentDetail paymentDetail = new Gson().fromJson(request.body(), PaymentDetail.class);
         TransactionRequest transactionRequest = new TransactionRequest()
-                .amount(new BigDecimal("10.00"))
-                .paymentMethodNonce(nonceFromTheClient)
+                .amount(new BigDecimal(paymentDetail.getAmount()))
+                .paymentMethodNonce(paymentDetail.getNonce())
                 .options()
                 .submitForSettlement(true)
                 .done();
@@ -39,5 +41,26 @@ public class PaymentResource extends GeneralResource {
         Result<Transaction> result = gateway.transaction().sale(transactionRequest);
 
         return result.isSuccess();
+    }
+
+    static class PaymentDetail {
+        private String nonce;
+        private Double amount;
+
+        public String getNonce() {
+            return nonce;
+        }
+
+        public void setNonce(String nonce) {
+            this.nonce = nonce;
+        }
+
+        public Double getAmount() {
+            return amount;
+        }
+
+        public void setAmount(Double amount) {
+            this.amount = amount;
+        }
     }
 }
