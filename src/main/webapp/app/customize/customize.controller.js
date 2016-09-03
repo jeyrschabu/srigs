@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService) {
+function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -22,37 +22,43 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
     }
 
     function initializeRigBuilder(response) {
-
-        var Rig = function(options) {
-            return {
-                product:            options.product,
-                totalPrice:         options.totalPrice,
-                caseOptions:        options.caseOptions,
-                caseCoolingOptions: options.caseCoolingOptions,
-                caseLedOptions:     options.caseLedOptions,
-                caseCablingOptions: options.caseCablingOptions
-            }
-        };
-
         customizeController.product = response.data;
+        var rigInProgress = ngCart.getItemById(customizeController.product.id);
+        if (rigInProgress) {
+            customizeController.rig = rigInProgress._data;
+        } else {
+            var Rig = function(options) {
+                return {
+                    product:            options.product,
+                    totalPrice:         options.totalPrice,
+                    caseOptions:        options.caseOptions,
+                    caseCoolingOptions: options.caseCoolingOptions,
+                    caseLedOptions:     options.caseLedOptions,
+                    caseCablingOptions: options.caseCablingOptions
+                }
+            };
 
-        var marks = lodash.filter(customizeController.product.marks, {
-            'name': $stateParams.mark || 'Mark 1',
-            'brand': $stateParams.brand || 'Intel'
-        });
-        
-        var totalPrice = marks[0].price;
-        customizeController.rig = new Rig({
-            product : customizeController.product,
-            totalPrice : totalPrice
-        });
 
-        var specs = marks[0].specs;
-        customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-        customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
-        customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
-        customizeController.rig.caseCablingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Cabling' });
-        customizeController.totalPrice = totalPrice;
+            var marks = lodash.filter(customizeController.product.marks, {
+                'name': $stateParams.mark || 'Mark 1',
+                'brand': $stateParams.brand || 'Intel'
+            });
+
+            var totalPrice = marks[0].price;
+            customizeController.rig = new Rig({
+                product : customizeController.product,
+                totalPrice : totalPrice
+            });
+
+            var specs = marks[0].specs;
+            customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
+            customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
+            customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
+            customizeController.rig.caseCablingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Cabling' });
+            customizeController.totalPrice = totalPrice;
+        }
+
+
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
@@ -93,7 +99,7 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
             'customizeController.rig.caseCoolingOptions',
             'customizeController.rig.caseCablingOptions'
         ];
-        
+
         options.forEach(function(option) {
             $scope.$watch(option, function(newValue, oldValue, scope) {
                 if (newValue) {
