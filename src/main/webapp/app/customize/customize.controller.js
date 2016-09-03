@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'OrderService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService, ngCart) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, OrderService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -21,29 +21,46 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         console.log(customizeController.rig);
     }
 
+    function emptyCart() {
+        ngCart.empty(true);
+        $state('home');
+    }
+
+    function handleError() {
+
+    }
+
+    customizeController.paymentOptions = {
+        onPaymentMethodReceived: function(payload) {
+            console.error('im here stupid');
+            angular.merge(payload, ngCart.toObject());
+            payload.total = payload.totalCost;
+            OrderService.placeOrder().then(emptyCart, handleError);
+        }
+    };
+
+    var Rig = function(options) {
+        return {
+            product:                        options.product,
+            totalPrice:                     options.totalPrice,
+            caseOptions:                    options.caseOptions,
+            caseCoolingOptions:             options.caseCoolingOptions,
+            caseLedOptions:                 options.caseLedOptions,
+            caseCablingOptions:             options.caseCablingOptions,
+            performanceCpuOptions:          options.performanceCpuOptions,
+            performanceCoolingOptions:      options.performanceCoolingOptions,
+            performanceGraphicsOptions:     options.performanceGraphicsOptions,
+            performanceOverclockOptions:    options.performanceOverclockOptions,
+            performancePsuOptions:          options.performancePsuOptions
+        }
+    };
+
     function initializeRigBuilder(response) {
         customizeController.product = response.data;
         var rigInProgress = ngCart.getItemById(customizeController.product.id);
         if (rigInProgress) {
             customizeController.rig = rigInProgress._data;
         } else {
-            var Rig = function(options) {
-                return {
-                    product:                        options.product,
-                    totalPrice:                     options.totalPrice,
-                    caseOptions:                    options.caseOptions,
-                    caseCoolingOptions:             options.caseCoolingOptions,
-                    caseLedOptions:                 options.caseLedOptions,
-                    caseCablingOptions:             options.caseCablingOptions,
-                    performanceCpuOptions:          options.performanceCpuOptions,
-                    performanceCoolingOptions:      options.performanceCoolingOptions,
-                    performanceGraphicsOptions:     options.performanceGraphicsOptions,
-                    performanceOverclockOptions:    options.performanceOverclockOptions,
-                    performancePsuOptions:          options.performancePsuOptions
-                }
-            };
-
-
             var marks = lodash.filter(customizeController.product.marks, {
                 'name': $stateParams.mark || 'Mark 1',
                 'brand': $stateParams.brand || 'Intel'
@@ -53,26 +70,26 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
             var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
 
             customizeController.rig = new Rig({
-                product : customizeController.product,
-                totalPrice : totalPrice
+                product : customizeController.product
             });
 
-            customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
-            customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
-            customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
-            customizeController.rig.caseCablingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Cabling' });
-            customizeController.rig.performanceCpuOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'CPU' });
-            customizeController.rig.performanceCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'System Cooling' });
-            customizeController.rig.performanceMotherboardOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Motherboard' });
-            customizeController.rig.performanceMemoryOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'RAM' });
-            customizeController.rig.performanceGraphicsOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'GPU' });
-            customizeController.rig.performanceOverclockOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Overclocking' });
-            customizeController.rig.performancePsuOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'PSU' });
-
+            initializeBuilderOptions(specs, customizeController.product.specs);
             customizeController.totalPrice = totalPrice;
         }
+    }
 
-
+    function initializeBuilderOptions(defaultSpecs, allSpecs) {
+        customizeController.rig.caseOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case' });
+        customizeController.rig.caseCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case Fans' });
+        customizeController.rig.caseLedOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case LED' });
+        customizeController.rig.caseCablingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Cabling' });
+        customizeController.rig.performanceCpuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'CPU' });
+        customizeController.rig.performanceCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'System Cooling' });
+        customizeController.rig.performanceMotherboardOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Motherboard' });
+        customizeController.rig.performanceMemoryOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'RAM' });
+        customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'GPU' });
+        customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Overclocking' });
+        customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {

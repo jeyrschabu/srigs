@@ -1,3 +1,5 @@
+
+<navbar></navbar>
 <div class="container">
     <div class="row">
         <ngcart-cart template-url="app/components/ngcart/cart.html"></ngcart-cart>
@@ -8,9 +10,11 @@
         <p class="help-block">{{ errors }}</p><br>
         <div class="col-md-6">
             <form>
-                <braintree-dropin options="paymentOptions">Loading...</braintree-dropin>
+                <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
                 <input type="submit" value="Purchase" />
             </form>
         </div>
     </div>
 </div>
+
+<footer></footer>
