@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="overclock in customizeController.rig.performanceOverclockOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="Overclocking.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceOverclockingOptions.current"
+                       ng-value="Overclocking">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{overclock.name}}</h4>
                 <p>{{overclock.shortDescription}}</p>

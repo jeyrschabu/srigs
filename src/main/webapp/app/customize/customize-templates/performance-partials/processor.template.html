@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="cpu in customizeController.rig.performanceCpuOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="Processor.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceProcessorOptions.current"
+                       ng-value="cpu">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{cpu.name}}</h4>
                 <p>{{cpu.shortDescription}}</p>

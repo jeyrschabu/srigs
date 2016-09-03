@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="graphics in customizeController.rig.performanceGraphicsOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="graphics.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceGraphicsOptions.current"
+                       ng-value="Graphics">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{graphics.name}}</h4>
                 <p>{{graphics.shortDescription}}</p>

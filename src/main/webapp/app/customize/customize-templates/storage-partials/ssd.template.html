@@ -1,0 +1,42 @@
+<h3 class="cpm-title">Solid State Drives</h3>
+<ul class="cpm-list">
+    <li ng-repeat="Storage-ssd in customizeController.rig.storageOptions.items"> <!-- don't know if this is the right name -->
+        <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="ssd.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.storageSsdOptions.current"
+                       ng-value="ssd">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{Storage-ssd.name}}</h4>
+                <p>{{Storage-ssd.shortDescription}}</p>
+                <span class="cpm-price">
+                    + {{Storage-ssd.price | currency}}
+                </span>
+            </div>
+
+        </div>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmssd1 = !cpmssd1"
+               ng-class="cpmssd1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmssd1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="http://placehold.it/150x150">
+                </div>
+                <div class="col-md-9" ng-show="Storage-ssd.longDescription">
+                    <p>{{Storage-ssd.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+</ul>

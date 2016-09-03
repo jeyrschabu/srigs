@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="psu in customizeController.rig.performancePsuOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="psu.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performancePsuOptions.current"
+                       ng-value="psu">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{psu.name}}</h4>
                 <p>{{psu.shortDescription}}</p>

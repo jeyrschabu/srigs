@@ -2,6 +2,11 @@
 <ul class="cpm-list">
     <li ng-repeat="cabling in customizeController.rig.caseCablingOptions.items">
         <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="cabling.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.caseCablingOptions.current"
+                       ng-value="Cabling">
+            </div>
             <div class="cpm-item-wrap">
                 <h4>{{cabling.name}}</h4>
                 <p>{{cabling.shortDescription}}</p>
