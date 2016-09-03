@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'OrderService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'PaymentService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, OrderService, ngCart) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, PaymentService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -21,21 +21,25 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         console.log(customizeController.rig);
     }
 
-    function emptyCart() {
+    function displaySuccessMessage() {
+        //TODO: display a message saying an email will be sent to them after with details about the shipping
         ngCart.empty(true);
         $state('home');
     }
 
-    function handleError() {
-
+    function handleError(error) {
+        console.log('an error occured', error);
     }
 
     customizeController.paymentOptions = {
         onPaymentMethodReceived: function(payload) {
-            console.error('im here stupid');
             angular.merge(payload, ngCart.toObject());
             payload.total = payload.totalCost;
-            OrderService.placeOrder().then(emptyCart, handleError);
+
+            PaymentService.submitPayment({
+                'nonce': payload.nonce,
+                'amount': payload.total
+            }).then(displaySuccessMessage, handleError);
         }
     };
 

@@ -1,20 +1,19 @@
-
-<navbar></navbar>
 <div class="container">
     <div class="row">
         <ngcart-cart template-url="app/components/ngcart/cart.html"></ngcart-cart>
     </div>
 
     <div class="row">
+
         <h1>Choose a payment method</h1>
         <p class="help-block">{{ errors }}</p><br>
         <div class="col-md-6">
+
             <form>
-                <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
                 <input type="submit" value="Purchase" />
+                <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
+
             </form>
         </div>
     </div>
 </div>
-
-<footer></footer>
