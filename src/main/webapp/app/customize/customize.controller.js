@@ -29,12 +29,17 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         } else {
             var Rig = function(options) {
                 return {
-                    product:            options.product,
-                    totalPrice:         options.totalPrice,
-                    caseOptions:        options.caseOptions,
-                    caseCoolingOptions: options.caseCoolingOptions,
-                    caseLedOptions:     options.caseLedOptions,
-                    caseCablingOptions: options.caseCablingOptions
+                    product:                        options.product,
+                    totalPrice:                     options.totalPrice,
+                    caseOptions:                    options.caseOptions,
+                    caseCoolingOptions:             options.caseCoolingOptions,
+                    caseLedOptions:                 options.caseLedOptions,
+                    caseCablingOptions:             options.caseCablingOptions,
+                    performanceCpuOptions:          options.performanceCpuOptions,
+                    performanceCoolingOptions:      options.performanceCoolingOptions,
+                    performanceGraphicsOptions:     options.performanceGraphicsOptions,
+                    performanceOverclockOptions:    options.performanceOverclockOptions,
+                    performancePsuOptions:          options.performancePsuOptions
                 }
             };
 
@@ -44,17 +49,26 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
                 'brand': $stateParams.brand || 'Intel'
             });
 
-            var totalPrice = marks[0].price;
+            var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
+            var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+
             customizeController.rig = new Rig({
                 product : customizeController.product,
                 totalPrice : totalPrice
             });
 
-            var specs = marks[0].specs;
             customizeController.rig.caseOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case' });
             customizeController.rig.caseCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case Fans' });
             customizeController.rig.caseLedOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Case LED' });
             customizeController.rig.caseCablingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Cabling' });
+            customizeController.rig.performanceCpuOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'CPU' });
+            customizeController.rig.performanceCoolingOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'System Cooling' });
+            customizeController.rig.performanceMotherboardOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Motherboard' });
+            customizeController.rig.performanceMemoryOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'RAM' });
+            customizeController.rig.performanceGraphicsOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'GPU' });
+            customizeController.rig.performanceOverclockOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'Overclocking' });
+            customizeController.rig.performancePsuOptions = getBuilderOption(specs, customizeController.product.specs, { 'type' : 'PSU' });
+
             customizeController.totalPrice = totalPrice;
         }
 
@@ -66,7 +80,7 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
         var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
         var current = {};
 
-        if (defaultItem) {
+        if (defaultItem && allItems.length) {
             var startIndex = lodash.findIndex(allItems, function(item) {
                 return item.name === defaultItem.name;
             });
@@ -97,7 +111,14 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
             'customizeController.rig.caseOptions',
             'customizeController.rig.caseLedOptions',
             'customizeController.rig.caseCoolingOptions',
-            'customizeController.rig.caseCablingOptions'
+            'customizeController.rig.caseCablingOptions',
+            'customizeController.rig.performanceCpuOptions',
+            'customizeController.rig.performanceCoolingOptions',
+            'customizeController.rig.performanceMotherboardOptions',
+            'customizeController.rig.performanceMemoryOptions',
+            'customizeController.rig.performanceGraphicsOptions',
+            'customizeController.rig.performanceOverclockOptions',
+            'customizeController.rig.performancePsuOptions'
         ];
 
         options.forEach(function(option) {
