@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', 'lodash', 'ProductService', 'OrderService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'OrderService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductService, OrderService, ngCart) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, OrderService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -23,6 +23,7 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
 
     function emptyCart() {
         ngCart.empty(true);
+        $state('home');
     }
 
     function handleError() {
@@ -31,6 +32,7 @@ function CustomizeController($rootScope, $scope, $stateParams, lodash, ProductSe
 
     customizeController.paymentOptions = {
         onPaymentMethodReceived: function(payload) {
+            console.error('im here stupid');
             angular.merge(payload, ngCart.toObject());
             payload.total = payload.totalCost;
             OrderService.placeOrder().then(emptyCart, handleError);

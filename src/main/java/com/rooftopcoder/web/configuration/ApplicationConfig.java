@@ -21,4 +21,12 @@ public interface ApplicationConfig extends Config {
     @Config.Key("config.mongo.host")
     String dbHost();
 
+    @Config.Key("config.braintree.merchantId")
+    String braintreeMerchantId();
+
+    @Config.Key("config.braintree.publicKey")
+    String braintreePublicKey();
+
+    @Config.Key("config.braintree.privateKey")
+    String braintreePrivateKey();
 }
