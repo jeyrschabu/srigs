@@ -35,6 +35,10 @@ public abstract class BaseService <T extends Model> {
 
     }
 
+    public void insert(T model) {
+        modelProvider.insert(model);
+    }
+
     public List<T> findAll() {
         List<T> items =  this.getProvider().findAll();
 

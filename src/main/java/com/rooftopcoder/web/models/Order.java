@@ -3,6 +3,8 @@ package com.rooftopcoder.web.models;
 import lombok.*;
 import org.mongodb.morphia.annotations.Entity;
 
+import java.util.List;
+
 @NoArgsConstructor
 @Getter
 @Setter
@@ -11,5 +13,10 @@ import org.mongodb.morphia.annotations.Entity;
 
 @Entity("orders")
 public class Order extends Model {
-
+    private String paymentInfo;
+    private String username;
+    private Double total;
+    private Address shippingAddress;
+    private Address billingAddress;
+    private List<LineItem> lineItems;
 }

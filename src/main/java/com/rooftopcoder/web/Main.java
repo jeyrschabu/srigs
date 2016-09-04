@@ -58,7 +58,6 @@ public class Main implements SparkApplication {
         new ProductCategoryResource(categoryService);
         new SpecResource(specService);
         new HomeResource();
-        new PaymentResource(serverConfig);
-        new OrderResource(orderService);
+        new PaymentResource(orderService, serverConfig);
     }
 }

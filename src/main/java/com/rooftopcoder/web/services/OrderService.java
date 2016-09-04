@@ -24,8 +24,4 @@ public class OrderService extends BaseService<Order> {
     protected ModelProvider<Order> getProvider() {
         return modelProvider;
     }
-
-    public Order placeOrder(String body) {
-        throw new NotImplementedException();
-    }
 }
