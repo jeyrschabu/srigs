@@ -35,11 +35,41 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         onPaymentMethodReceived: function(payload) {
             angular.merge(payload, ngCart.toObject());
             payload.total = payload.totalCost;
+            PaymentService.submitPayment(new Order(payload.nonce)).then(displaySuccessMessage, handleError);
+        }
+    };
 
-            PaymentService.submitPayment({
-                'nonce': payload.nonce,
-                'amount': payload.total
-            }).then(displaySuccessMessage, handleError);
+    var Order = function(nonce) {
+        return {
+            paymentInfo: nonce,
+            username: 'me@gmail.com',
+            total: 1212,
+            shippingAddress: {
+                street: '405 NW Uptown Terrace',
+                state: 'OR',
+                zip: '97210'
+            },
+
+            billingAddress: {
+                street: '405 NW Uptown Terrace',
+                state: 'OR',
+                zip: '97210'
+            },
+
+            lineItems: [
+                {
+                    name: 'Shade',
+                    quantity: 1,
+                    productId: 'adfasdfsdfsdf',
+                    price: 1200,
+                    specs: [
+                        {
+                            name: 'Corsair 450D',
+                            type: 'case'
+                        }
+                    ]
+                }
+            ]
         }
     };
 

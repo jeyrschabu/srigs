@@ -13,6 +13,7 @@ import java.util.List;
 
 @Entity("orders")
 public class Order extends Model {
+    private String paymentInfo;
     private String username;
     private Double total;
     private Address shippingAddress;
