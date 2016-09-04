@@ -1,17 +1,17 @@
 <h3 class="cpm-title">Internal Wi-Fi</h3>
 <ul class="cpm-list">
-    <li ng-repeat="internal-wifi in customizeController.rig.storageOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="wifi in customizeController.rig.internalWifiOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="Wifi.name" id="{{itemId}}"
-                       ng-model="customizeController.rig.storageWifiOptions.current"
-                       ng-value="Wifi">
+                <input type="radio" name="wifi.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.internalWifiOptions.current"
+                       ng-value="wifi">
             </div>
             <div class="cpm-item-wrap">
-                <h4>{{internal-wifi.name}}</h4>
-                <p>{{internal-wifi.shortDescription}}</p>
+                <h4>{{wifi.name}}</h4>
+                <p>{{wifi.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{internal-wifi.price | currency}}
+                    + {{wifi.price | currency}}
                 </span>
             </div>
 
@@ -26,8 +26,8 @@
                 <div class="col-md-3">
                     <img src="http://placehold.it/150x150">
                 </div>
-                <div class="col-md-9" ng-show="internal-wifi.longDescription">
-                    <p>{{internal-wifi.longDescription}}</p>
+                <div class="col-md-9" ng-show="wifi.longDescription">
+                    <p>{{wifi.longDescription}}</p>
                 </div>
             </div>
 

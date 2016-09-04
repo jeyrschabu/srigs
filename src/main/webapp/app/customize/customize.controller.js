@@ -73,21 +73,6 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         }
     };
 
-    var Rig = function(options) {
-        return {
-            product:                        options.product,
-            totalPrice:                     options.totalPrice,
-            caseOptions:                    options.caseOptions,
-            caseCoolingOptions:             options.caseCoolingOptions,
-            caseLedOptions:                 options.caseLedOptions,
-            caseCablingOptions:             options.caseCablingOptions,
-            performanceCpuOptions:          options.performanceCpuOptions,
-            performanceCoolingOptions:      options.performanceCoolingOptions,
-            performanceGraphicsOptions:     options.performanceGraphicsOptions,
-            performanceOverclockOptions:    options.performanceOverclockOptions,
-            performancePsuOptions:          options.performancePsuOptions
-        }
-    };
 
     function initializeRigBuilder(response) {
         customizeController.product = response.data;
@@ -102,6 +87,12 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
 
             var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
             var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+
+            var Rig = function(options) {
+                return {
+                    product: options.product
+                }
+            };
 
             customizeController.rig = new Rig({
                 product : customizeController.product
@@ -124,6 +115,13 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'GPU' });
         customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Overclocking' });
         customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
+        customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
+        customizeController.rig.storageSsdOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-SSD' });
+        customizeController.rig.storageHddOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-HDD' });
+        customizeController.rig.storageM2Options = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-m2' });
+        customizeController.rig.storageOpticalOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Optical' });
+        customizeController.rig.osOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'OS' });
+        customizeController.rig.internalWifiOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Internal-WiFi' });
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
