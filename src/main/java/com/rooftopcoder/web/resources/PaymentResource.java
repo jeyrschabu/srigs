@@ -39,6 +39,7 @@ public class PaymentResource extends GeneralResource {
     private Result<Transaction> submitPayment(Request request, Response response) throws AppException {
         try {
             log.info("Beginning transaction");
+
             Order order = new Gson().fromJson(request.body(), Order.class);
             TransactionRequest transactionRequest = new TransactionRequest()
                     .amount(new BigDecimal(order.getTotal()))
