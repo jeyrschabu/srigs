@@ -7,6 +7,7 @@ package com.rooftopcoder.web.resources;
 import com.braintreegateway.*;
 import com.google.gson.Gson;
 import com.rooftopcoder.web.configuration.ApplicationConfig;
+import com.rooftopcoder.web.services.OrderService;
 import spark.Request;
 import spark.Response;
 
@@ -17,8 +18,10 @@ import static spark.Spark.post;
 
 public class PaymentResource extends GeneralResource {
     private BraintreeGateway gateway;
+    private OrderService orderService;
 
-    public PaymentResource(ApplicationConfig serverConfig) {
+    public PaymentResource(OrderService orderService, ApplicationConfig serverConfig) {
+        this.orderService = orderService;
         this.gateway = new BraintreeGateway( Environment.SANDBOX,
                 serverConfig.braintreeMerchantId(), serverConfig.braintreePublicKey(), serverConfig.braintreePrivateKey());
     }

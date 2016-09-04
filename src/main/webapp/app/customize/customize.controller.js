@@ -24,7 +24,7 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     function displaySuccessMessage() {
         //TODO: display a message saying an email will be sent to them after with details about the shipping
         ngCart.empty(true);
-        $state('home');
+        $state.go('home');
     }
 
     function handleError(error) {
