@@ -115,7 +115,6 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'GPU' });
         customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Overclocking' });
         customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
-        customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
         customizeController.rig.storageSsdOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-SSD' });
         customizeController.rig.storageHddOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-HDD' });
         customizeController.rig.storageM2Options = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-m2' });
