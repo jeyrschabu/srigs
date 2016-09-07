@@ -24,5 +24,5 @@ angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products'
                 }
             })
         }])
-    .service('OrderService', OrderService)
+    .service('PaymentService', PaymentService)
     .controller('CustomizeController', CustomizeController);

@@ -1,6 +1,6 @@
 <h3 class="cpm-title">Hard Drives</h3>
 <ul class="cpm-list">
-    <li ng-repeat="Storage-hdd in customizeController.rig.storageOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="hdd in customizeController.rig.storageHddOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="hdd.name" id="{{itemId}}"
@@ -8,10 +8,10 @@
                        ng-value="hdd">
             </div>
             <div class="cpm-item-wrap">
-                <h4>{{Storage-hdd.name}}</h4>
-                <p>{{Storage-hdd.shortDescription}}</p>
+                <h4>{{hdd.name}}</h4>
+                <p>{{hdd.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{Storage-hdd.price | currency}}
+                    + {{hdd.price | currency}}
                 </span>
             </div>
 
@@ -26,8 +26,8 @@
                 <div class="col-md-3">
                     <img src="http://placehold.it/150x150">
                 </div>
-                <div class="col-md-9" ng-show="Storage-hdd.longDescription">
-                    <p>{{Storage-hdd.longDescription}}</p>
+                <div class="col-md-9" ng-show="hdd.longDescription">
+                    <p>{{hdd.longDescription}}</p>
                 </div>
             </div>
 

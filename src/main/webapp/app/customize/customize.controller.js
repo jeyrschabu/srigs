@@ -1,8 +1,8 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'OrderService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'PaymentService', 'ngCart'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, OrderService, ngCart) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, PaymentService, ngCart) {
     var customizeController = this;
 
     customizeController.disableSticking = false;
@@ -21,39 +21,58 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         console.log(customizeController.rig);
     }
 
-    function emptyCart() {
+    function displaySuccessMessage() {
+        //TODO: display a message saying an email will be sent to them after with details about the shipping
         ngCart.empty(true);
-        $state('home');
+        $state.go('home');
     }
 
-    function handleError() {
-
+    function handleError(error) {
+        console.log('an error occured', error);
     }
 
     customizeController.paymentOptions = {
         onPaymentMethodReceived: function(payload) {
-            console.error('im here stupid');
             angular.merge(payload, ngCart.toObject());
             payload.total = payload.totalCost;
-            OrderService.placeOrder().then(emptyCart, handleError);
+            PaymentService.submitPayment(new Order(payload.nonce)).then(displaySuccessMessage, handleError);
         }
     };
 
-    var Rig = function(options) {
+    var Order = function(nonce) {
         return {
-            product:                        options.product,
-            totalPrice:                     options.totalPrice,
-            caseOptions:                    options.caseOptions,
-            caseCoolingOptions:             options.caseCoolingOptions,
-            caseLedOptions:                 options.caseLedOptions,
-            caseCablingOptions:             options.caseCablingOptions,
-            performanceCpuOptions:          options.performanceCpuOptions,
-            performanceCoolingOptions:      options.performanceCoolingOptions,
-            performanceGraphicsOptions:     options.performanceGraphicsOptions,
-            performanceOverclockOptions:    options.performanceOverclockOptions,
-            performancePsuOptions:          options.performancePsuOptions
+            paymentInfo: nonce,
+            username: 'me@gmail.com',
+            total: 1212,
+            shippingAddress: {
+                street: '405 NW Uptown Terrace',
+                state: 'OR',
+                zip: '97210'
+            },
+
+            billingAddress: {
+                street: '405 NW Uptown Terrace',
+                state: 'OR',
+                zip: '97210'
+            },
+
+            lineItems: [
+                {
+                    name: 'Shade',
+                    quantity: 1,
+                    productId: 'adfasdfsdfsdf',
+                    price: 1200,
+                    specs: [
+                        {
+                            name: 'Corsair 450D',
+                            type: 'case'
+                        }
+                    ]
+                }
+            ]
         }
     };
+
 
     function initializeRigBuilder(response) {
         customizeController.product = response.data;
@@ -68,6 +87,12 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
 
             var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
             var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+
+            var Rig = function(options) {
+                return {
+                    product: options.product
+                }
+            };
 
             customizeController.rig = new Rig({
                 product : customizeController.product
@@ -90,6 +115,12 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'GPU' });
         customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Overclocking' });
         customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
+        customizeController.rig.storageSsdOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-SSD' });
+        customizeController.rig.storageHddOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-HDD' });
+        customizeController.rig.storageM2Options = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-m2' });
+        customizeController.rig.storageOpticalOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Optical' });
+        customizeController.rig.osOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'OS' });
+        customizeController.rig.internalWifiOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Internal-WiFi' });
     }
 
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
