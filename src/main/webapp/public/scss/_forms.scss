@@ -100,18 +100,68 @@
   min-width: 180px;
 }
 
+.checkout-wrap {
+  padding: 50px 10px;
+}
 
 .customer-info-wrap {
+  background: rgba(0,0,0,.5);
+  border: 1px solid rgba(255,255,255,.4);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  h2 {
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+  }
   .form-line {
-    input {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    input, select {
       display: block;
+      width: 100%;
+      min-height: 34px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      background-color: rgba(255,255,255,.9);
+      margin: 0;
+      border: 1px solid rgba(255,255,255,.3);
+      color: black;
+      font-size: 17px;
+    }
+    label {
+      font-size: 17px;
     }
   }
 }
 
 .billing-info-wrap, .shipping-info-wrap {
-  padding: 50px 10px;
+  padding: 20px 10px;
+  h3 {
+    padding: 10px 15px;
+  }
 }
+
+.shipping-info-wrap {
+  height: 100%;
+  border-right: 1px solid rgba(255,255,255,.3);
+
+}
+
+.billing-info-wrap {
+  .same-as-shipping {
+    float: right;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+
 
 .customer-extra-wrap {
   padding: 50px 10px;
