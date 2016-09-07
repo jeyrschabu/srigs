@@ -99,3 +99,20 @@
 .credit-card-box .panel-heading img {
   min-width: 180px;
 }
+
+
+.customer-info-wrap {
+  .form-line {
+    input {
+      display: block;
+    }
+  }
+}
+
+.billing-info-wrap, .shipping-info-wrap {
+  padding: 50px 10px;
+}
+
+.customer-extra-wrap {
+  padding: 50px 10px;
+}
