@@ -2508,7 +2508,7 @@
     "weight": 0,
     "price": 0,
     "wattage": "",
-    "type": "",
+    "type": "Storage-HDD",
     "shortDescription": "",
     "longDescription": "",
     "coverImage": "",
