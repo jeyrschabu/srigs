@@ -7,7 +7,7 @@ import com.rooftopcoder.web.models.Product;
 import java.util.List;
 
 public class ProductService extends BaseService<Product> {
-    private static final String INITIAL_DATA = "products.json";
+    private static final String INITIAL_DATA = "products.old.json";
 
     public ProductService setDataProvider(MongoConnectionConfig config) {
         super.setDataProvider(config, Product.class);
