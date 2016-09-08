@@ -278,87 +278,87 @@
     "type": "Cabling",
     "shortDescription": "Custom cabling for a truly unique look and feel.",
     "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
-    "coverImage": "src/image.png",
+    "coverImage": "",
     "options" : [
       {
         "name" : "Black",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Small"
       },
       {
         "name" : "Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Green Small"
       },
       {
         "name" : "Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Red Small"
       },
       {
         "name" : "Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Mod Mesh Blue Small"
       },
       {
         "name" : "Orange",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Orange Small"
       },
       {
         "name" : "White",
-        "coverImage" : "img/source.png"
+        "coverImage" : "White Small"
       },
       {
         "name" : "Light Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Light Green Small"
       },
       {
         "name" : "Light Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Light Blue Small"
       },
       {
         "name" : "Carbon",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Carbon Small"
       },
       {
         "name" : "Black/Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Blue Small"
       },
       {
         "name" : "Black/Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Green Small"
       },
       {
         "name" : "Black/Orange",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Orange Small"
       },
       {
         "name" : "Black/Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Red Small"
       },
       {
         "name" : "Black/White",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black White Small"
       },
       {
         "name" : "Black/Yellow",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Yellow Small"
       },
       {
         "name" : "Black/Blood Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black Blood Small"
       },
       {
         "name" : "Black/Orange",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Orange Small"
       },
       {
         "name" : "Black/White",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Black White Small"
       },
       {
         "name" : "White/Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Mod Mesh Blue White Small"
       },
       {
         "name" : "White/Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "Mod Mesh White Red Small"
       }
     ],
     "fullImageLink": ""
@@ -995,51 +995,51 @@
     "wattage": 0,
     "type": "Reservoir",
     "shortDescription": "",
-    "longDescription": "",
+    "longDescription": "Sizes will vary based on case & build.",
     "options" : [
       {
         "name" : "Amber",
-        "coverImage" : ""
+        "coverImage" : "240MM AMBER SMALL"
       },
       {
         "name" : "Red",
-        "coverImage" : ""
+        "coverImage" : "240MM BLOOD RED SMALL"
       },
       {
         "name" : "Blue",
-        "coverImage" : ""
+        "coverImage" : "240MM BLUE SMALL"
       },
       {
         "name" : "Clear",
-        "coverImage" : ""
+        "coverImage" : "240MM CLEAR SMALL"
       },
       {
         "name" : "Frosted",
-        "coverImage" : ""
+        "coverImage" : "240MM FROSTED SMALL"
       },
       {
         "name" : "Green",
-        "coverImage" : ""
+        "coverImage" : "240MM GREEN SMALL"
       },
       {
         "name" : "Purple",
-        "coverImage" : ""
+        "coverImage" : "240MM PURPLE SMALL"
       },
       {
         "name" : "UV Blue",
-        "coverImage" : ""
+        "coverImage" : "240MM BLUE SMALL"
       },
       {
         "name" : "UV Green",
-        "coverImage" : ""
+        "coverImage" : "240MM UV GREEN SMALL"
       },
       {
         "name" : "UV Pink",
-        "coverImage" : ""
+        "coverImage" : "240MM UV PINK SMALL"
       },
       {
         "name" : "Yellow",
-        "coverImage" : ""
+        "coverImage" : "240MM YELLOW SMALL"
       }
     ],
     "fullImageLink": ""
@@ -1197,23 +1197,23 @@
     "options" : [
       {
         "name" : "White",
-        "coverImage" : "img/source.png"
+        "coverImage" : "PASTEL WHITE LARGE"
       },
       {
         "name" : "Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "PASTEL RED LARGE"
       },
       {
         "name" : "Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "PASTEL LIME GREEN LARGE"
       },
       {
         "name" : "Yellow",
-        "coverImage" : "img/source.png"
+        "coverImage" : "PASTEL YELLOW LARGE"
       },
       {
         "name" : "Orange",
-        "coverImage" : "img/source.png"
+        "coverImage" : "PASTEL ORANGE LARGE"
       }
     ],
     "fullImageLink": ""
@@ -1230,51 +1230,51 @@
     "options" : [
       {
         "name" : "Blood Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE BLOOD RED SMALL"
       },
       {
         "name" : "Clear",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE  SMALL"
       },
       {
         "name" : "Clear UV Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE CLEAR UV-BLUE SMALL"
       },
       {
         "name" : "Electric UV Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE UV-BLUE SMALL"
       },
       {
         "name" : "Red",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE UV-RED SMALL"
       },
       {
         "name" : "Steel Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE STEEL BLUE LARGE"
       },
       {
         "name" : "UV Blue",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE UV-BLUE SMALL"
       },
       {
         "name" : "UV Bright Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE UV- SMALL"
       },
       {
         "name" : "UV Green",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE  SMALL"
       },
       {
         "name" : "UV Pink",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE  SMALL"
       },
       {
         "name" : "UV Purple",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE  SMALL"
       },
       {
         "name" : "Yellow",
-        "coverImage" : "img/source.png"
+        "coverImage" : "DYE  SMALL"
       }
     ],
     "fullImageLink": ""
