@@ -189,7 +189,7 @@
 }
 
 .payment-info {
-  padding: 0 10px 50px 10px;
+  padding: 0px 10px 50px 10px;
   h2 {
     border-top: 1px solid rgba(255,255,255,.3);
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -203,7 +203,7 @@
     padding: 10px 20px;
     border: 1px solid $dark-red;
     display: block;
-    margin: 30px auto 0 auto;
+    margin: 50px auto 0 auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -226,22 +226,24 @@
     select {
       width: 49%;
       float: left;
-      #expireMM {
-        margin-right: 1%;
-      }
-      #expireYY {
-        margin-left: 1%;
-      }
+    }
+    #expireMM {
+      margin-right: 1%;
+    }
+    #expireYY {
+      margin-left: 1%;
     }
     @media all and (max-width: 767px) {
-      select {
-        #expireMM {
-          margin-right: 0%;
-        }
-        #expireYY {
-          margin-left: 0%;
-        }
+      #expireMM {
+        margin-right: 0%;
+      }
+      #expireYY {
+        margin-left: 0%;
       }
     }
   }
+}
+
+.table-striped .ngCard {
+  background-color: $offwhite;
 }
