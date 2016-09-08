@@ -804,9 +804,10 @@
         </div><!-- end billing-wrap -->
 
         <div class="row customer-extra-wrap">
+            <div class="clearfix"></div>
+            <h2>Personal Information</h2>
 
             <div class="col-md-6">
-
                 <div class="form-line">
                     <label for="customer-email-1">E-mail Address<span>*</span></label>
                     <input type="text" name="customer-email-1" id="customer-email-1" required>
@@ -824,29 +825,30 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 comments-or-special">
                 <div class="form-line">
-                    <label for="Comments">Comments or Special Instructions</label>
+                    <label for="Comments">Comments, Questions or Special Instructions</label>
                     <textarea name="comments" id="comments"></textarea>
                 </div>
             </div>
 
-            <div class="row">
+        </div><!-- customer-extra-wrap -->
 
-                <h1>Choose a payment method</h1>
+            <div class="row payment-info">
+                <div class="clearfix"></div>
+                <h2>Choose a payment method</h2>
                 <p class="help-block">{{ errors }}</p><br>
                 <div class="col-md-6">
 
-                    <form>
-                        <input type="submit" value="Purchase" />
-                        <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
 
-                    </form>
+                    <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
+
+
                 </div>
 
                 <!-- not sure where this would go -->
 
-                <div class="payment-info-wrap">
+                <div class="col-md-6 cc-info-wrap">
 
                     <div class="form-line">
                         <label for="name-on-card">Name on Card<span>*</span></label>
@@ -858,7 +860,8 @@
                         <input type="text" name="card-number" id="card-number" required>
                     </div>
 
-                    <div class="form-line">
+                    <div class="form-line cc-expire">
+                        <label>Expiration *</label>
                         <select name='expireMM' id='expireMM'>
                             <option value=''>Month</option>
                             <option value='01'>Janaury</option>
@@ -886,6 +889,7 @@
                             <option value='23'>2023</option>
                         </select>
                         <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+                        <div class="clearfix"></div>
                     </div>
 
                     <div class="form-line">
@@ -895,11 +899,11 @@
 
                 </div><!-- end payment-info-wrap -->
 
-                <input type="submit" value="Purchase!">
+                <input type="submit" value="Purchase!" class="purchase-button">
 
             </div>
 
-        </div><!-- end row customer-extra-wrap -->
+        </div><!-- end row payment-info -->
 
     </div><!-- end customer-info-wrap -->
 

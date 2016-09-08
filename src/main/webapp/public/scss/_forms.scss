@@ -111,12 +111,13 @@
   -moz-border-radius: 4px;
   border-radius: 4px;
   h2 {
-    width: 100%;
     border-bottom: 1px solid rgba(255,255,255,.3);
     padding: 20px;
+    font-size: 26px;
+    margin-bottom: 0;
   }
   .form-line {
-    padding: 10px;
+    padding: 10px 5px;
     border-bottom: 1px solid rgba(255,255,255,.05);
     input, select {
       display: block;
@@ -130,9 +131,10 @@
       border: 1px solid rgba(255,255,255,.3);
       color: black;
       font-size: 17px;
+      padding: 0 5px;
     }
     label {
-      font-size: 17px;
+      font-size: 15px;
     }
   }
 }
@@ -155,7 +157,7 @@
     float: right;
     display: inline-block;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
   }
@@ -165,4 +167,81 @@
 
 .customer-extra-wrap {
   padding: 50px 10px;
+  h2 {
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-size: 26px;
+    margin: 0 5px !important;
+  }
+  .comments-or-special {
+    label {
+      display: block;
+    }
+    textarea {
+      width: 100%;
+      min-height: 203px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.payment-info {
+  padding: 0 10px 50px 10px;
+  h2 {
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-size: 26px;
+    margin: 0 5px;
+  }
+  .purchase-button {
+    color: $offwhite;
+    background-color: $red;
+    padding: 10px 20px;
+    border: 1px solid $dark-red;
+    display: block;
+    margin: 30px auto 0 auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+    @include brand-semi;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .3s;
+    &:hover, &:focus {
+      background-color: $dark-red;
+    }
+  }
+}
+
+.cc-info-wrap {
+  .cc-expire {
+    label {
+      display: block;
+    }
+    select {
+      width: 49%;
+      float: left;
+      #expireMM {
+        margin-right: 1%;
+      }
+      #expireYY {
+        margin-left: 1%;
+      }
+    }
+    @media all and (max-width: 767px) {
+      select {
+        #expireMM {
+          margin-right: 0%;
+        }
+        #expireYY {
+          margin-left: 0%;
+        }
+      }
+    }
+  }
 }
