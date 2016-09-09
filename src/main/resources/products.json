@@ -1,10 +1,10 @@
 [
   {
-    "name": "Phantom",
-    "coverImage": "main-phantom.png",
-    "category": "Gaming Desktops",
-    "price": 1060,
-    "specs": [
+    "name" : "Phantom",
+    "coverImage" : "main-phantom.png",
+    "category" : "Gaming Desktops",
+    "price" : 1060,
+    "specs" : [
       {
         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
@@ -2042,11 +2042,11 @@
     ]
   },
   {
-    "name": "Shade",
-    "coverImage": "main-shade.png",
-    "category": "Gaming Desktops",
-    "price": 1658,
-    "specs": [
+    "name" : "Shade",
+    "coverImage" : "main-shade.png",
+    "category" : "Gaming Desktops",
+    "price" : 1658,
+    "specs" : [
       {
         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
@@ -3933,8 +3933,8 @@
   },
   {
     "name" : "Specter",
-    "coverImage": "main-specter.png",
-    "category": "Gaming Desktops",
+    "coverImage" : "main-specter.png",
+    "category" : "Gaming Desktops",
     "price" : 1156,
     "specs" : [
       {
@@ -5643,8 +5643,8 @@
   },
   {
     "name" : "Wraith",
-    "coverImage": "main-wraith.png",
-    "category": "Gaming Desktops",
+    "coverImage" : "main-wraith.png",
+    "category" : "Gaming Desktops",
     "price" : 2474,
     "specs" : [
       {
