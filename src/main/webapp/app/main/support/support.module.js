@@ -32,11 +32,11 @@ angular.module('rigs.support', [])
                     }
                 }
             })
-            .state('faq', {
-                url:'/faq',
+            .state('terms', {
+                url:'/terms',
                 views: {
                     'content':{
-                        templateUrl: '/app/main/support/faq.template.html',
+                        templateUrl: '/app/main/support/terms.template.html',
                         controller: 'SupportController as supportController'
                     }
                 }
