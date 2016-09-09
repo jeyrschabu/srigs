@@ -44,13 +44,42 @@
             </div>
             <nav class="nav header-nav-wrap col-sm-9">
                 <ul>
-                    <li ng-repeat="menuItem in ctrl.menuItems">
-                        <a href="#{{menuItem.link}}">
-                            <span class="fa fa-home" ng-class="{ 'active': ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
-                            {{menuItem.name}}
+                    <li>
+                        <a href="#/">
+                            <span class="fa fa-home"></span>
+                            Home
                         </a>
                     </li>
-
+                    <li>
+                        <a href="#/products/gaming">
+                            <span class="fa fa-desktop"></span>
+                            Gaming Desktops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/products/pro">
+                            <span class="fa fa-desktop"></span>
+                            Workstations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/product/laptop">
+                            <span class="fa fa-laptop"></span>
+                            Laptops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/crew">
+                            <span class="fa fa-users"></span>
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/support">
+                            <span class="fa fa-home"></span>
+                            Support
+                        </a>
+                    </li>
                     <li>
                         <a ui-sref="checkout">
                             <ngcart-summary template-url="app/components/ngcart/summary.html"></ngcart-summary>

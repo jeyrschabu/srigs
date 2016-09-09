@@ -247,3 +247,32 @@
 .table-striped .ngCard {
   background-color: $offwhite;
 }
+
+input.ng-scope {
+  padding: 15px 30px;
+  background-color: #1c9600;
+  border: 1px solid #167500;
+  border-radius: 4px;
+  font-size: 22px;
+  color: white;
+  @include brand-semi;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+ul.steps-indicator {
+  padding: 10px 0 70px 0;
+  li.ng-scope {
+    font-size: 20px;
+    &.current a {
+      color: white;
+    }
+    &.done a {
+      color: white;
+    }
+    a.ng-binding {
+      font-size: 20px;
+    }
+  }
+}
