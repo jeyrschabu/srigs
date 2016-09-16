@@ -3,9 +3,9 @@
     <li ng-repeat="motherboard in customizeController.rig.performanceMotherboardOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="Motherboard.name" id="{{itemId}}"
+                <input type="radio" name="motherboard.name"
                        ng-model="customizeController.rig.performanceMotherboardOptions.current"
-                       ng-value="Motherboard">
+                       ng-value="motherboard">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{motherboard.name}}</h4>

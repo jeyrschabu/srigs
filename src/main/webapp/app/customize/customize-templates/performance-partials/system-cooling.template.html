@@ -3,9 +3,9 @@
     <li ng-repeat="syscooling in customizeController.rig.performanceCoolingOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="Cooling.name" id="{{itemId}}"
+                <input type="radio" name="syscooling.name"
                        ng-model="customizeController.rig.performanceCoolingOptions.current"
-                       ng-value="Cooling">
+                       ng-value="syscooling">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{syscooling.name}}</h4>
@@ -14,7 +14,6 @@
                     + {{syscooling.price | currency}}
                 </span>
             </div>
-
         </div>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmsc1 = !cpmsc1"
