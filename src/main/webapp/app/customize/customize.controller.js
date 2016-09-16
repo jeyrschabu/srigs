@@ -126,7 +126,7 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
         var allItems = lodash.filter(allSpecs, specPredicate);
         var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
-        var current = {};
+        var current = allItems[0];
 
         if (defaultItem && allItems.length) {
             var startIndex = lodash.findIndex(allItems, function(item) {
@@ -166,7 +166,13 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
             'customizeController.rig.performanceMemoryOptions',
             'customizeController.rig.performanceGraphicsOptions',
             'customizeController.rig.performanceOverclockOptions',
-            'customizeController.rig.performancePsuOptions'
+            'customizeController.rig.performancePsuOptions',
+            'customizeController.rig.storageSsdOptions',
+            'customizeController.rig.storageHddOptions',
+            'customizeController.rig.storageM2Options',
+            'customizeController.rig.storageOpticalOptions',
+            'customizeController.rig.osOptions',
+            'customizeController.rig.internalWifiOptions'
         ];
 
         options.forEach(function(option) {

@@ -3,9 +3,9 @@
     <li ng-repeat="overclock in customizeController.rig.performanceOverclockOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="Overclocking.name" id="{{itemId}}"
-                       ng-model="customizeController.rig.performanceOverclockingOptions.current"
-                       ng-value="Overclocking">
+                <input type="radio" name="overclock.name"
+                       ng-model="customizeController.rig.performanceOverclockOptions.current"
+                       ng-value="overclock">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{overclock.name}}</h4>
@@ -14,7 +14,6 @@
                     + {{overclock.price | currency}}
                 </span>
             </div>
-
         </div>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmoc1 = !cpmoc1"

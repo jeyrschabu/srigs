@@ -3,9 +3,9 @@
     <li ng-repeat="ram in customizeController.rig.performanceMemoryOptions.items"> <!-- don't know if this is the right name -->
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="memory.name" id="{{itemId}}"
+                <input type="radio" name="ram.name"
                        ng-model="customizeController.rig.performanceMemoryOptions.current"
-                       ng-value="Memory">
+                       ng-value="ram">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{ram.name}}</h4>
