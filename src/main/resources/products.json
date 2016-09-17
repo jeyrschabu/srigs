@@ -6042,7 +6042,7 @@
         "wattage": 6,
         "type": "System Cooling",
         "shortDescription": "ShadowRigs Custom Water Cooling Solution, Stage 1",
-        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by tansfering the heat form one componnet or componet Group into a radiator effectivly removing heat from the coolant before it enters the next componet within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage one CPU ONLY",
+        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by transferring the heat form one component or component group into a radiator effectively removing heat from the coolant before it enters the next component within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage one is CPU only.",
         "coverImage": "src/image.png",
         "options" : [],
         "fullImageLink": "src/image-full.png"
@@ -6054,7 +6054,7 @@
         "wattage": 6,
         "type": "System Cooling",
         "shortDescription": "ShadowRigs Custom Water Cooling Solution, Stage 2",
-        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by tansfering the heat form one componnet or componet Group into a radiator effectivly removing heat from the coolant before it enters the next componet within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 2 CPU +  GPU (Radiator x1 360mm) (Reservoir x1 120mm)",
+        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by transferring the heat form one component or component group into a radiator effectively removing heat from the coolant before it enters the next component within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 2 CPU +  GPU (Radiator x1 360mm) (Reservoir x1 120mm)",
         "coverImage": "src/image.png",
         "options" : [],
         "fullImageLink": "src/image-full.png"
@@ -6066,7 +6066,7 @@
         "wattage": 6,
         "type": "System Cooling",
         "shortDescription": "ShadowRigs Custom Water Cooling Solution, Stage 3",
-        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by tansfering the heat form one componnet or componet Group into a radiator effectivly removing heat from the coolant before it enters the next componet within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 3 CPU + GPU (Radiators 1x240mm + 1x360mm) (Reservoir 240mm)",
+        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by transferring the heat form one component or component group into a radiator effectively removing heat from the coolant before it enters the next component within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 2 CPU +  GPU (Radiator x1 360mm) (Reservoir x1 120mm)",
         "coverImage": "src/image.png",
         "options" : [],
         "fullImageLink": "src/image-full.png"
@@ -6078,7 +6078,7 @@
         "wattage": 6,
         "type": "System Cooling",
         "shortDescription": "ShadowRigs Custom Water Cooling Solution, Stage 4",
-        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by tansfering the heat form one componnet or componet Group into a radiator effectivly removing heat from the coolant before it enters the next componet within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 4 (900D) ONLY CPU + GPU (Radiators 1x240mm + 1x360mm) (Reservoir x2 240mm) Dual loop PUMP.",
+        "longDescription": "Dark Fusion cooling is designed specifically to give you the best possible cooling performance by dissipating heat from one component before moving to the next component in your cooling system. This is done by transferring the heat form one component or component group into a radiator effectively removing heat from the coolant before it enters the next component within the cooling loop. Our systems are designed from the ground up using the best pumps and radiators on the market, Allowing for maximum flow in your system. Stage 4 (900D) ONLY CPU + GPU (Radiators 1x240mm + 1x360mm) (Reservoir x2 240mm) Dual loop PUMP.",
         "coverImage": "src/image.png",
         "options" : [],
         "fullImageLink": "src/image-full.png"
