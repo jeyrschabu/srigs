@@ -1,30 +1,17 @@
-<div class="container warranty-wrap">
-    <h1>Support</h1>
-    <div class="text-columns-lg-2 text-columns-md-2 text-columns-xs-1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus ac nisi eget tincidunt. Mauris rutrum
-            leo sed lorem posuere sollicitudin. Sed congue est in sollicitudin gravida. Sed ultricies et tortor ac
-            ultrices. Vivamus faucibus quam lectus, at consectetur sapien euismod sed. Quisque purus nisl, volutpat id
-            sapien vel, ornare mattis nisl. Duis vehicula ut nunc quis pretium. Donec quis pharetra orci, sollicitudin
-            fringilla est. Duis ut rutrum dolor. In aliquet malesuada nunc, eu semper lacus elementum sit amet. Cras non
-            erat arcu. Proin eleifend feugiat porttitor.</p>
+<div class="container support-wrap">
 
-        <p>Phasellus ut hendrerit ex, in tincidunt leo. Nulla vulputate tristique urna, et blandit nisl congue sit amet.
-            Vestibulum at est eget justo euismod posuere ac in lacus. Mauris eget neque sit amet ligula posuere egestas
-            vel at purus. Vivamus blandit finibus feugiat. Sed et metus lacinia, vehicula magna vitae, vehicula risus.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent turpis lacus,
-            viverra ac feugiat dictum, hendrerit et urna. Mauris in ante eu massa elementum hendrerit vitae in dui.
-            Morbi pellentesque, ex blandit fringilla maximus, nibh tortor hendrerit justo, non tempor ex ante et libero.
-            Vestibulum fermentum consequat enim, eget commodo risus pharetra sed. Duis tincidunt odio magna, quis
-            dignissim augue vestibulum vitae. Suspendisse potenti. Donec felis nisl, ornare et augue non, venenatis
-            iaculis magna. Integer malesuada, nulla at placerat ullamcorper, mauris lacus convallis neque, vel pulvinar
-            lectus mauris efficitur dolor.</p>
-
-        <p>Aliquam volutpat mauris sed convallis mattis. Nulla ultricies pulvinar ornare. Proin accumsan eleifend velit
-            non sodales. Vestibulum hendrerit orci id bibendum elementum. Vestibulum in fermentum enim. Quisque
-            fringilla, orci eget vehicula interdum, turpis turpis sodales justo, at vulputate purus neque eget enim.
-            Donec scelerisque, magna vel placerat malesuada, tortor sem malesuada ligula, non porttitor nibh lectus at
-            tortor. Suspendisse tincidunt sem et diam posuere faucibus. Proin congue mauris sit amet leo varius, vitae
-            malesuada ipsum vestibulum. Nunc vitae varius nisl, et consequat quam. Nunc maximus dapibus odio, eu
-            convallis ipsum varius nec.</p>
+    <div class="col-md-4 support-col">
+        <h1>Support Information</h1>
+        <p>For all support cases, please refer to our ticketing system so we can better support you & help get you back on track.</p>
+        <a href="http://support.shadowrigs.com/helpdesk/open.php" class="support-new-ticket">Create a new Support Ticket</a>
+        <a href="http://support.shadowrigs.com/helpdesk/view.php" class="support-existing-ticket">Check Existing Support Ticket</a>
+        <a href="#/privacy" class="support-link">Privacy Policy</a>
+        <a href="#/warranty" class="support-link">Warranty Information</a>
     </div>
+
+    <div class="col-md-8 support-faq">
+        <h1>Frequently Asked Questions</h1>
+        <div ng-include="'app/main/support/support-partials/faq.template.html'" class="faq-wrap"></div>
+    </div>
+
 </div>

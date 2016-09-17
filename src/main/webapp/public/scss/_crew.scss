@@ -1,0 +1,39 @@
+.crew-page-wrap {
+  padding: 100px 0;
+}
+
+.mission-statement {
+  h1 {
+    text-align: center;
+    @include brand-semi;
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
+  p {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  margin-bottom: 50px;
+}
+
+.crew-bio-wrap {
+  padding: 30px 10px;
+  .crew-bio {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      @include brand-regular;
+      text-transform: uppercase;
+    }
+  }
+  @media all and (min-width: 767px) {
+    .bio-col {
+      padding-left: 80px;
+    }
+  }
+}
