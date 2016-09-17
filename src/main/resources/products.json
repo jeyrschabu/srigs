@@ -3,7 +3,7 @@
     "name" : "Phantom",
     "coverImage" : "main-phantom.png",
     "category" : "Gaming Desktops",
-    "price" : 1060,
+    "price" : 1100,
     "specs" : [
       {
         "name": "Corsair Obsidian 450D",
@@ -646,9 +646,21 @@
         "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
       },
       {
+        "name": "Nvidia GTX 1060 3GB",
+        "weight": 4,
+        "price": 320,
+        "wattage": 120,
+        "type": "GPU",
+        "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+        "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "coverImage": "EVGA 1060 6GB SMALL",
+        "options" : [],
+        "fullImageLink": "EVGA 1060 6BG LARGE"
+      },
+      {
         "name": "Nvidia GTX 1060 6GB",
         "weight": 4,
-        "price": 325,
+        "price": 390,
         "wattage": 120,
         "type": "GPU",
         "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
@@ -1419,7 +1431,7 @@
         "name": "Mark 1",
         "brand": "AMD",
         "blobDescription": "AMD Mark 1",
-        "price": 1060,
+        "price": 1100,
         "specs": [
           {
             "name": "Corsair Obsidian 450D",
@@ -1523,7 +1535,7 @@
         "name" : "Mark 2",
         "brand" : "AMD",
         "blobDescription" : "AMD Mark 2",
-        "price" : 1360,
+        "price" : 1496,
         "specs" : [
           {
             "name": "Corsair Obsidian 450D",
@@ -1586,16 +1598,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 960 4GB",
+            "name": "Nvidia GTX 1060 3GB",
             "weight": 4,
-            "price": 290,
-            "wattage": 160,
+            "price": 320,
+            "wattage": 120,
             "type": "GPU",
-            "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-            "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 960 SMALL",
-            "options": [],
-            "fullImageLink": "EVGA GTX 960 LARGE"
+            "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+            "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+            "coverImage": "EVGA 1060 6GB SMALL",
+            "options" : [],
+            "fullImageLink": "EVGA 1060 6BG LARGE"
           },
           {
             "name": "650W Platinum-Rated PSU",
@@ -1627,7 +1639,7 @@
         "name" : "Mark 3",
         "brand" : "AMD",
         "blobDescription" : " AMD Mark 3",
-        "price" : 1831,
+        "price" : 2025,
         "specs" : [
           {
             "name": "Corsair Obsidian 450D",
@@ -1690,16 +1702,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 970 4GB",
+            "name": "Nvidia GTX 1060 6GB",
             "weight": 4,
-            "price": 410,
-            "wattage": 170,
+            "price": 390,
+            "wattage": 120,
             "type": "GPU",
-            "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-            "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 970 SMALL",
-            "options": [],
-            "fullImageLink": "EVGA GTX 970 LARGE"
+            "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+            "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+            "coverImage": "EVGA 1060 6GB SMALL",
+            "options" : [],
+            "fullImageLink": "EVGA 1060 6BG LARGE"
           },
           {
             "name": "750W Gold-Rated PSU",
@@ -1731,7 +1743,7 @@
         "name" : "Mark 1",
         "brand" : "Intel",
         "blobDescription" : "Intel Mark 1",
-        "price" : 1209,
+        "price" : 1261,
         "specs" : [
           {
             "name": "Corsair Obsidian 450D",
@@ -1794,16 +1806,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 960 4GB",
+            "name": "Nvidia GTX 1060 3GB",
             "weight": 4,
-            "price": 290,
-            "wattage": 160,
+            "price": 320,
+            "wattage": 120,
             "type": "GPU",
-            "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-            "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 960 SMALL",
-            "options": [],
-            "fullImageLink": "EVGA GTX 960 LARGE"
+            "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+            "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+            "coverImage": "EVGA 1060 6GB SMALL",
+            "options" : [],
+            "fullImageLink": "EVGA 1060 6BG LARGE"
           },
           {
             "name": "550W Gold-Rated PSU",
@@ -1835,7 +1847,7 @@
         "name" : "Mark 2",
         "brand" : "Intel",
         "blobDescription" : "Intel Mark 2",
-        "price" : 1620,
+        "price" : 1656,
         "specs" : [
           {
             "name": "Corsair Obsidian 450D",
@@ -1898,16 +1910,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 970 4GB",
+            "name": "Nvidia GTX 1060 6GB",
             "weight": 4,
-            "price": 410,
-            "wattage": 170,
+            "price": 390,
+            "wattage": 120,
             "type": "GPU",
-            "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-            "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 970 SMALL",
-            "options": [],
-            "fullImageLink": "EVGA GTX 970 LARGE"
+            "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+            "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+            "coverImage": "EVGA 1060 6GB SMALL",
+            "options" : [],
+            "fullImageLink": "EVGA 1060 6BG LARGE"
           },
           {
             "name": "650W Gold-Rated PSU",
@@ -1939,7 +1951,7 @@
         "name" : "Mark 3",
         "brand" : "Intel",
         "blobDescription" : "Intel Mark 3",
-        "price" : 1620,
+        "price" : 2290,
         "specs" : [
           {
             "name": "Corsair Obsidian 450D",
@@ -2045,7 +2057,7 @@
     "name" : "Shade",
     "coverImage" : "main-shade.png",
     "category" : "Gaming Desktops",
-    "price" : 1658,
+    "price" : 1696,
     "specs" : [
       {
         "name": "Corsair Obsidian 450D",
@@ -2580,9 +2592,21 @@
         "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
       },
       {
+        "name": "Nvidia GTX 1060 3GB",
+        "weight": 4,
+        "price": 320,
+        "wattage": 120,
+        "type": "GPU",
+        "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+        "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "coverImage": "EVGA 1060 6GB SMALL",
+        "options" : [],
+        "fullImageLink": "EVGA 1060 6BG LARGE"
+      },
+      {
         "name": "Nvidia GTX 1060 6GB",
         "weight": 4,
-        "price": 325,
+        "price": 390,
         "wattage": 120,
         "type": "GPU",
         "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
@@ -3389,7 +3413,7 @@
         "name": "Mark 1",
         "brand": "Intel",
         "blobDescription": "Mark 1",
-        "price": 1658,
+        "price": 1696,
         "specs": [
           {
             "name": "Corsair Obsidian 450D",
@@ -3452,16 +3476,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 970 4GB",
+            "name": "Nvidia GTX 1060 6GB",
             "weight": 4,
-            "price": 410,
-            "wattage": 170,
+            "price": 390,
+            "wattage": 120,
             "type": "GPU",
-            "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-            "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 970 SMALL",
+            "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+            "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+            "coverImage": "EVGA 1060 6GB SMALL",
             "options" : [],
-            "fullImageLink": "EVGA GTX 970 LARGE"
+            "fullImageLink": "EVGA 1060 6BG LARGE"
           },
           {
             "name": "650W Gold-Rated PSU",
@@ -3493,7 +3517,7 @@
         "name": "Mark 2",
         "brand": "Intel",
         "blobDescription": "Mark 2",
-        "price": 1884,
+        "price": 1906,
         "specs": [
           {
             "name": "Corsair Obsidian 450D",
@@ -3597,7 +3621,7 @@
         "name": "Mark 3",
         "brand": "Intel",
         "blobDescription": "Mark 3",
-        "price": 2432,
+        "price": 2595,
         "specs": [
           {
             "name": "Corsair Obsidian 450D",
@@ -3660,16 +3684,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 980Ti 6GB",
+            "name": "Nvidia GTX 1070 8GB",
             "weight": 4,
-            "price": 650,
-            "wattage": 300,
+            "price": 600,
+            "wattage": 215,
             "type": "GPU",
-            "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-            "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 980TI LARGE NO SMALL",
+            "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
+            "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+            "coverImage": "EVGA 1070 SMALL",
             "options" : [],
-            "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
+            "fullImageLink": "EVGA 1070 LARGE"
           },
           {
             "name": "750W Gold-Rated PSU",
@@ -3701,7 +3725,7 @@
         "name": "Mark 4",
         "brand": "Intel",
         "blobDescription": "Mark 4",
-        "price": 3257,
+        "price": 3290,
         "specs": [
           {
             "name": "Corsair Obsidian 450D",
@@ -3764,16 +3788,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 1070 8GB Two-Way SLI",
-            "weight": 8,
-            "price": 1200,
-            "wattage": 430,
+            "name": "Nvidia GTX 1080 8GB",
+            "weight": 4,
+            "price": 880,
+            "wattage": 215,
             "type": "GPU",
-            "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-            "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
-            "coverImage": "EVGA 1070 SMALL",
+            "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
+            "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+            "coverImage": "EVGA 1080 SMALL",
             "options" : [],
-            "fullImageLink": "EVGA 1070 LARGE"
+            "fullImageLink": "EVGA 1080 LARGE"
           },
           {
             "name": "1000W Gold-Rated PSU",
@@ -3880,16 +3904,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 980Ti 6GB Two-Way SLI",
-            "weight": 8,
-            "price": 1300,
-            "wattage": 600,
+            "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+            "weight": 5,
+            "price": 1760,
+            "wattage": 430,
             "type": "GPU",
-            "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-            "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 980TI LARGE NO SMALL",
+            "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
+            "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+            "coverImage": "EVGA 1080 SMALL",
             "options" : [],
-            "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
+            "fullImageLink": "EVGA 1080 LARGE"
           },
           {
             "name": "1000W Gold-Rated PSU",
@@ -3935,7 +3959,7 @@
     "name" : "Specter",
     "coverImage" : "main-specter.png",
     "category" : "Gaming Desktops",
-    "price" : 1156,
+    "price" : 1183,
     "specs" : [
       {
         "name": "Corsair Obsidian 350D",
@@ -4422,9 +4446,21 @@
         "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
       },
       {
+        "name": "Nvidia GTX 1060 3GB",
+        "weight": 4,
+        "price": 320,
+        "wattage": 120,
+        "type": "GPU",
+        "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+        "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "coverImage": "EVGA 1060 6GB SMALL",
+        "options" : [],
+        "fullImageLink": "EVGA 1060 6BG LARGE"
+      },
+      {
         "name": "Nvidia GTX 1060 6GB",
         "weight": 4,
-        "price": 325,
+        "price": 390,
         "wattage": 120,
         "type": "GPU",
         "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
@@ -5123,7 +5159,7 @@
         "name": "Mark 1",
         "brand": "Intel",
         "blobDescription": "Mark 1",
-        "price": 1156,
+        "price": 1183,
         "specs": [
           {
             "name": "Corsair Obsidian 350D",
@@ -5227,7 +5263,7 @@
         "name": "Mark 2",
         "brand": "Intel",
         "blobDescription": "Mark 2",
-        "price": 1572,
+        "price": 1626,
         "specs": [
           {
             "name": "Corsair Obsidian 350D",
@@ -5331,7 +5367,7 @@
         "name": "Mark 3",
         "brand": "Intel",
         "blobDescription": "Mark 3",
-        "price": 1911,
+        "price": 1816,
         "specs": [
           {
             "name": "Corsair Obsidian 350D",
@@ -5370,16 +5406,16 @@
             "fullImageLink": "H100i Large"
           },
           {
-            "name": "ASUS Maximus VIII GENE",
-            "weight": 4,
-            "price": 260,
-            "wattage": 100,
+            "name": "MSI Z170M Mortar",
+            "weight": 2.6,
+            "price": 150,
+            "wattage": 70,
             "type": "Motherboard",
-            "shortDescription": "Compact and powerful mATX board packed with gaming-oriented features",
-            "longDescription": "LGA1151 socket for 6th-gen Intel Core desktop processors. Dual DDR4 3733 (OC) support. Best gaming performance - 5-Way Optimization with Auto-Tuning, 2nd-generation T-Topology and OC design. Best gaming audio - reinvented SupremeFX 2015 with intuitive Sonic Studio II. Best gaming networking - best-in-class Intel Gigabit Ethernet, LANGuard and GameFirst technology. Best gaming protection - carefully-selected premium components to ensure maximum durability. ROG gives you more - more gaming-oriented utilities, all free!",
-            "coverImage": "MAXIMUS VIII SMALL",
+            "shortDescription": "Intel Z170 MATX Gaming motherboard supporting the latest 6th generation Intel Core i3/i5/i7 processors",
+            "longDescription": "Equip yourself with the MSI Arsenal GAMING Series motherboards to improve your game. MSI Arsenal GAMING Series motherboards are covered in full black camouflage with LED ambient lights and is packed with gaming features, making them the perfect weapon to dominate the battlefield.",
+            "coverImage": "MSI Z170M MORTAR SMALL",
             "options" : [],
-            "fullImageLink": "Maximus VIII Gene LARGE"
+            "fullImageLink": "MSI Z170M MORTAR LARGE"
           },
           {
             "name": "16GB Standard",
@@ -5435,7 +5471,7 @@
         "name": "Mark 4",
         "brand": "Intel",
         "blobDescription": "Mark 4",
-        "price": 2463,
+        "price": 2225,
         "specs": [
           {
             "name": "Corsair Obsidian 350D",
@@ -5474,16 +5510,16 @@
             "fullImageLink": "H100i Large"
           },
           {
-            "name": "ASUS Maximus VIII GENE",
-            "weight": 4,
-            "price": 260,
-            "wattage": 100,
+            "name": "MSI Z170M Mortar",
+            "weight": 2.6,
+            "price": 150,
+            "wattage": 70,
             "type": "Motherboard",
-            "shortDescription": "Compact and powerful mATX board packed with gaming-oriented features",
-            "longDescription": "LGA1151 socket for 6th-gen Intel Core desktop processors. Dual DDR4 3733 (OC) support. Best gaming performance - 5-Way Optimization with Auto-Tuning, 2nd-generation T-Topology and OC design. Best gaming audio - reinvented SupremeFX 2015 with intuitive Sonic Studio II. Best gaming networking - best-in-class Intel Gigabit Ethernet, LANGuard and GameFirst technology. Best gaming protection - carefully-selected premium components to ensure maximum durability. ROG gives you more - more gaming-oriented utilities, all free!",
-            "coverImage": "MAXIMUS VIII SMALL",
+            "shortDescription": "Intel Z170 MATX Gaming motherboard supporting the latest 6th generation Intel Core i3/i5/i7 processors",
+            "longDescription": "Equip yourself with the MSI Arsenal GAMING Series motherboards to improve your game. MSI Arsenal GAMING Series motherboards are covered in full black camouflage with LED ambient lights and is packed with gaming features, making them the perfect weapon to dominate the battlefield.",
+            "coverImage": "MSI Z170M MORTAR SMALL",
             "options" : [],
-            "fullImageLink": "Maximus VIII Gene LARGE"
+            "fullImageLink": "MSI Z170M MORTAR LARGE"
           },
           {
             "name": "32GB Standard",
@@ -5498,16 +5534,16 @@
             "fullImageLink": "VENGEACNCE LPX RAM LARGE"
           },
           {
-            "name": "Nvidia GTX 980Ti 6GB",
+            "name": "Nvidia GTX 1070 8GB",
             "weight": 4,
-            "price": 650,
-            "wattage": 300,
+            "price": 600,
+            "wattage": 215,
             "type": "GPU",
-            "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-            "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-            "coverImage": "EVGA GTX 980TI LARGE NO SMALL",
+            "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
+            "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+            "coverImage": "EVGA 1070 SMALL",
             "options" : [],
-            "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
+            "fullImageLink": "EVGA 1070 LARGE"
           },
           {
             "name": "750W Gold-Rated PSU",
@@ -5539,7 +5575,7 @@
         "name": "Mark 5",
         "brand": "Intel",
         "blobDescription": "Mark 5",
-        "price": 3371,
+        "price": 2573,
         "specs": [
           {
             "name": "Corsair Obsidian 350D",
@@ -5578,16 +5614,16 @@
             "fullImageLink": "H100i Large"
           },
           {
-            "name": "ASUS Maximus VIII GENE",
-            "weight": 4,
-            "price": 260,
-            "wattage": 100,
+            "name": "MSI Z170M Mortar",
+            "weight": 2.6,
+            "price": 150,
+            "wattage": 70,
             "type": "Motherboard",
-            "shortDescription": "Compact and powerful mATX board packed with gaming-oriented features",
-            "longDescription": "LGA1151 socket for 6th-gen Intel Core desktop processors. Dual DDR4 3733 (OC) support. Best gaming performance - 5-Way Optimization with Auto-Tuning, 2nd-generation T-Topology and OC design. Best gaming audio - reinvented SupremeFX 2015 with intuitive Sonic Studio II. Best gaming networking - best-in-class Intel Gigabit Ethernet, LANGuard and GameFirst technology. Best gaming protection - carefully-selected premium components to ensure maximum durability. ROG gives you more - more gaming-oriented utilities, all free!",
-            "coverImage": "MAXIMUS VIII SMALL",
+            "shortDescription": "Intel Z170 MATX Gaming motherboard supporting the latest 6th generation Intel Core i3/i5/i7 processors",
+            "longDescription": "Equip yourself with the MSI Arsenal GAMING Series motherboards to improve your game. MSI Arsenal GAMING Series motherboards are covered in full black camouflage with LED ambient lights and is packed with gaming features, making them the perfect weapon to dominate the battlefield.",
+            "coverImage": "MSI Z170M MORTAR SMALL",
             "options" : [],
-            "fullImageLink": "Maximus VIII Gene LARGE"
+            "fullImageLink": "MSI Z170M MORTAR LARGE"
           },
           {
             "name": "32GB Standard",
@@ -6617,7 +6653,7 @@
       {
         "name": "Nvidia GTX 1060 6GB",
         "weight": 4,
-        "price": 325,
+        "price": 390,
         "wattage": 120,
         "type": "GPU",
         "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",

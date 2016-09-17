@@ -1712,9 +1712,21 @@
     "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
   },
   {
+    "name": "Nvidia GTX 1060 3GB",
+    "weight": 4,
+    "price": 320,
+    "wattage": 120,
+    "type": "GPU",
+    "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+    "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+    "coverImage": "EVGA 1060 6GB SMALL",
+    "options" : [],
+    "fullImageLink": "EVGA 1060 6BG LARGE"
+  },
+  {
     "name": "Nvidia GTX 1060 6GB",
     "weight": 4,
-    "price": 325,
+    "price": 390,
     "wattage": 120,
     "type": "GPU",
     "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
