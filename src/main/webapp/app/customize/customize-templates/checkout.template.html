@@ -21,16 +21,6 @@
                 </div>
 
                 <div class="form-line col-md-12">
-                    <label for="shipping-company">Company <span>*</span></label>
-                    <input type="text" name="shipping-company">
-                </div>
-
-                <div class="form-line col-md-12">
-                    <label for="shipping-company">Company</label>
-                    <input type="text" name="shipping-company" id="shipping-company">
-                </div>
-
-                <div class="form-line col-md-12">
                     <label for="shipping-address-1">Address 1 <span>*</span></label>
                     <input type="text" name="shipping-address-1" id="shipping-address-1" required>
                 </div>
@@ -402,12 +392,14 @@
         </div><!-- end shipping-wrap -->
 
         <div class="col-sm-12 col-md-6 billing-info-wrap">
-            <h3>Billing Address</h3>
+            <h3>Billing Address
             <span class="same-as-shipping">
                 <!-- autofill if same as shipping -->
                 <input type="checkbox" name="same-as-shipping" id="same-as-shipping">
                 <label for="same-as-shipping">Same As Shipping</label>
             </span>
+            </h3>
+
 
             <div class="container">
                 <div class="form-line col-md-6">
@@ -421,16 +413,6 @@
                 </div>
 
                 <div class="form-line col-md-12">
-                    <label for="billing-company">Company <span>*</span></label>
-                    <input type="text" name="billing-company">
-                </div>
-
-                <div class="form-line col-md-12">
-                    <label for="billing-company">Company</label>
-                    <input type="text" name="billing-company" id="billing-company">
-                </div>
-
-                <div class="form-line col-md-12">
                     <label for="billing-address-1">Address 1 <span>*</span></label>
                     <input type="text" name="billing-address-1" id="billing-address-1" required>
                 </div>
@@ -441,7 +423,7 @@
                 </div>
 
                 <div class="form-line col-md-6">
-                    <label for="billing-phone">Phone <span>*</span></label>
+                    <label for="billing-phone">Phone <swapan>*</swapan></label>
                     <input type="text" name="billing-phone" id="billing-phone" required>
                 </div>
 
@@ -801,105 +783,108 @@
 
         </div><!-- end billing-wrap -->
 
-        
-    </div><!-- end billing-info-wrap -->
+        <div class="row customer-extra-wrap">
+            <div class="clearfix"></div>
+            <h2>Personal Information</h2>
 
-    <div class="row customer-extra-wrap">
+            <div class="col-md-6">
+                <div class="form-line">
+                    <label for="customer-email-1">E-mail Address<span>*</span></label>
+                    <input type="text" name="customer-email-1" id="customer-email-1" required>
+                </div>
 
-        <div class="col-md-6">
+                <div class="form-line">
+                    <label for="customer-email-2">Confirm E-mail Address<span>*</span></label>
+                    <input type="text" name="customer-email-2" id="customer-email-2" required>
+                </div>
 
-            <div class="form-line">
-                <label for="customer-email-1">E-mail Address<span>*</span></label>
-                <input type="text" name="customer-email-1" id="customer-email-1" required>
+                <div class="form-line">
+                    <label for="coupon-code">Coupon Code</label>
+                    <input type="text" name="coupon-code" id="coupon-code">
+                </div>
+
             </div>
 
-            <div class="form-line">
-                <label for="customer-email-2">Confirm E-mail Address<span>*</span></label>
-                <input type="text" name="customer-email-2" id="customer-email-2" required>
+            <div class="col-md-6 comments-or-special">
+                <div class="form-line">
+                    <label for="Comments">Comments, Questions or Special Instructions</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
             </div>
 
-            <div class="form-line">
-                <label for="coupon-code">Coupon Code</label>
-                <input type="text" name="coupon-code" id="coupon-code">
+        </div><!-- customer-extra-wrap -->
+
+            <div class="row payment-info">
+                <div class="clearfix"></div>
+                <h2>Choose a payment method</h2>
+                <p class="help-block">{{ errors }}</p><br>
+                <div class="col-md-6">
+
+
+                    <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
+
+
+                </div>
+
+                <!-- not sure where this would go -->
+
+                <div class="col-md-6 cc-info-wrap">
+
+                    <div class="form-line">
+                        <label for="name-on-card">Name on Card<span>*</span></label>
+                        <input type="text" name="name-on-card" id="name-on-card" required>
+                    </div>
+
+                    <div class="form-line">
+                        <label for="card-number">Card Number<span>*</span></label>
+                        <input type="text" name="card-number" id="card-number" required>
+                    </div>
+
+                    <div class="form-line cc-expire">
+                        <label>Expiration *</label>
+                        <select name='expireMM' id='expireMM'>
+                            <option value=''>Month</option>
+                            <option value='01'>Janaury</option>
+                            <option value='02'>February</option>
+                            <option value='03'>March</option>
+                            <option value='04'>April</option>
+                            <option value='05'>May</option>
+                            <option value='06'>June</option>
+                            <option value='07'>July</option>
+                            <option value='08'>August</option>
+                            <option value='09'>September</option>
+                            <option value='10'>October</option>
+                            <option value='11'>November</option>
+                            <option value='12'>December</option>
+                        </select>
+                        <select name='expireYY' id='expireYY'>
+                            <option value=''>Year</option>
+                            <option value='16'>2016</option>
+                            <option value='17'>2017</option>
+                            <option value='18'>2018</option>
+                            <option value='19'>2019</option>
+                            <option value='20'>2020</option>
+                            <option value='21'>2021</option>
+                            <option value='22'>2022</option>
+                            <option value='23'>2023</option>
+                        </select>
+                        <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="form-line cc-cvv">
+                        <label for="cvv2">CVV2 Code<span>*</span></label>
+                        <input type="text" name="cvv2" id="cvv2" required>
+                    </div>
+
+                </div><!-- end payment-info-wrap -->
+
+                <input type="submit" value="Purchase!" class="purchase-button">
+
             </div>
 
-        </div>
+        </div><!-- end row payment-info -->
 
-        <div class="col-md-6">
-            <div class="form-line">
-                <label for="Comments">Comments or Special Instructions</label>
-                <textarea name="comments" id="comments">
-            </div>
-        </div>
+    </div><!-- end customer-info-wrap -->
 
-    </div><!-- end row customer-extra-wrap -->
-
-
-    <div class="row">
-
-        <h1>Choose a payment method2</h1>
-        <p class="help-block">{{ errors }}</p><br>
-        <div class="col-md-6">
-
-            <form>
-                <input type="submit" value="Purchase" />
-                <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
-
-            </form>
-        </div>
-
-        <!-- not sure where this would go -->
-
-        <div class="payment-info-wrap">
-
-            <div class="form-line">
-                <label for="name-on-card">Name on Card<span>*</span></label>
-                <input type="text" name="name-on-card" id="name-on-card" required>
-            </div>
-            
-            <div class="form-line">
-                <label for="name-on-card">Card Number<span>*</span></label>
-                <input type="text" name="name-on-card" id="name-on-card" required>
-            </div>
-
-            <div class="form-line">
-                <select name='expireMM' id='expireMM'>
-                    <option value=''>Month</option>
-                    <option value='01'>Janaury</option>
-                    <option value='02'>February</option>
-                    <option value='03'>March</option>
-                    <option value='04'>April</option>
-                    <option value='05'>May</option>
-                    <option value='06'>June</option>
-                    <option value='07'>July</option>
-                    <option value='08'>August</option>
-                    <option value='09'>September</option>
-                    <option value='10'>October</option>
-                    <option value='11'>November</option>
-                    <option value='12'>December</option>
-                </select>
-                <select name='expireYY' id='expireYY'>
-                    <option value=''>Year</option>
-                    <option value='16'>2016</option>
-                    <option value='17'>2017</option>
-                    <option value='18'>2018</option>
-                    <option value='19'>2019</option>
-                    <option value='20'>2020</option>
-                    <option value='21'>2021</option>
-                    <option value='22'>2022</option>
-                    <option value='23'>2023</option>
-                </select>
-                <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
-            </div>
-
-            <div class="form-line">
-                <label for="cvv2">CVV2 Code<span>*</span></label>
-                <input type="text" name="cvv2" id="cvv2" required>
-            </div>
-
-        </div><!-- end payment-info-wrap -->
-
-        <input type="submit" value="Purchase!">
-
-    </div>
-</div>
+</div> <!-- end container checkout-wrap -->

@@ -1,0 +1,42 @@
+<h3 class="cpm-title">Keyboards</h3>
+<ul class="cpm-list">
+    <li ng-repeat="keyboard in customizeController.rig.accessoriesHddOptions.items"> <!-- don't know if this is the right name -->
+        <div class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="hdd.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.accessoriesHddOptions.current"
+                       ng-value="keyboard">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{keyboard.name}}</h4>
+                <p>{{keyboard.shortDescription}}</p>
+                <span class="cpm-price">
+                    + {{keyboard.price | currency}}
+                </span>
+            </div>
+
+        </div>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmkb1 = !cpmkb1"
+               ng-class="cpmkb1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmkb1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="http://placehold.it/150x150">
+                </div>
+                <div class="col-md-9" ng-show="keyboard.longDescription">
+                    <p>{{keyboard.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+</ul>
