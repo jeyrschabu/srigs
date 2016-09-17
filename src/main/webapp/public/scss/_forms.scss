@@ -100,19 +100,179 @@
   min-width: 180px;
 }
 
+.checkout-wrap {
+  padding: 50px 10px;
+}
 
 .customer-info-wrap {
+  background: rgba(0,0,0,.5);
+  border: 1px solid rgba(255,255,255,.4);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  h2 {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
   .form-line {
-    input {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    input, select {
       display: block;
+      width: 100%;
+      min-height: 34px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      background-color: rgba(255,255,255,.9);
+      margin: 0;
+      border: 1px solid rgba(255,255,255,.3);
+      color: black;
+      font-size: 17px;
+      padding: 0 5px;
+    }
+    label {
+      font-size: 15px;
     }
   }
 }
 
 .billing-info-wrap, .shipping-info-wrap {
-  padding: 50px 10px;
+  padding: 20px 10px;
+  h3 {
+    padding: 10px 15px;
+  }
 }
+
+.shipping-info-wrap {
+  height: 100%;
+  border-right: 1px solid rgba(255,255,255,.3);
+
+}
+
+.billing-info-wrap {
+  .same-as-shipping {
+    float: right;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+
 
 .customer-extra-wrap {
   padding: 50px 10px;
+  h2 {
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-size: 26px;
+    margin: 0 5px !important;
+  }
+  .comments-or-special {
+    label {
+      display: block;
+    }
+    textarea {
+      width: 100%;
+      min-height: 203px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.payment-info {
+  padding: 0px 10px 50px 10px;
+  h2 {
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    font-size: 26px;
+    margin: 0 5px;
+  }
+  .purchase-button {
+    color: $offwhite;
+    background-color: $red;
+    padding: 10px 20px;
+    border: 1px solid $dark-red;
+    display: block;
+    margin: 50px auto 0 auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+    @include brand-semi;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .3s;
+    &:hover, &:focus {
+      background-color: $dark-red;
+    }
+  }
+}
+
+.cc-info-wrap {
+  .cc-expire {
+    label {
+      display: block;
+    }
+    select {
+      width: 49%;
+      float: left;
+    }
+    #expireMM {
+      margin-right: 1%;
+    }
+    #expireYY {
+      margin-left: 1%;
+    }
+    @media all and (max-width: 767px) {
+      #expireMM {
+        margin-right: 0%;
+      }
+      #expireYY {
+        margin-left: 0%;
+      }
+    }
+  }
+}
+
+.table-striped .ngCard {
+  background-color: $offwhite;
+}
+
+input.ng-scope {
+  padding: 15px 30px;
+  background-color: #1c9600;
+  border: 1px solid #167500;
+  border-radius: 4px;
+  font-size: 22px;
+  color: white;
+  @include brand-semi;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+ul.steps-indicator {
+  padding: 10px 0 70px 0;
+  li.ng-scope {
+    font-size: 20px;
+    &.current a {
+      color: white;
+    }
+    &.done a {
+      color: white;
+    }
+    a.ng-binding {
+      font-size: 20px;
+    }
+  }
 }
