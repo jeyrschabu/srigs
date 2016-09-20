@@ -91,13 +91,17 @@ npmSetup {
     outputs.upToDateWhen { false }
 }
 
-npm_install.dependsOn(npm_cache_clean)
-grunt_build.dependsOn 'npmInstall'
-grunt_build.dependsOn 'nodeSetup'
-grunt_build.dependsOn 'installGrunt'
+task cleanNodeModules(type: Exec) {
+    commandLine 'rm', '-rf', './node_modules'
+}
 
-// runs "grunt build" as part of your gradle build
-build.dependsOn grunt_build
+tasks.withType( NodeTask ) { dependsOn npmInstall }
+
+npmInstall.dependsOn(cleanNodeModules, installGrunt)
+
+grunt_build.dependsOn npmInstall
+
+
 
 configurations {
     remoteSources {
@@ -106,8 +110,10 @@ configurations {
 }
 
 war {
-    dependsOn 'cleanNodeModules'
-    baseName = 'shadow-rigs'
+    dependsOn grunt_build
+
+    baseName   = 'shadow-rigs'
+    classifier = ''
 }
 
 dependencies {
@@ -128,8 +134,4 @@ task prepareWebRunner(type: Copy) {
     rename {
         'web-runner.jar'
     }
-}
-
-task cleanNodeModules(type: Exec) {
-    commandLine 'rm', '-rf', './node_modules'
 }
