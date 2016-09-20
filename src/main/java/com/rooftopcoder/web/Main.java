@@ -32,15 +32,15 @@ public class Main implements SparkApplication {
 
         String database  = serverConfig.db() == null ? DEFAULT_DB : serverConfig.db();
         String mongoHost = serverConfig.dbHost() == null ? DEFAULT_HOST : serverConfig.dbHost();
-        String userName  = serverConfig.dbUser();
-        String password  = serverConfig.dbPass();
+        String userName  = serverConfig.dbUser() == null ? System.getProperty("MONGO_USERNAME"): serverConfig.dbUser();
+        String password  = serverConfig.dbPass() == null ? System.getProperty("MONGO_PASSWORD"): serverConfig.dbPass();;
 
         MongoClient mongoClient = new MongoClient();
 
         if (!StringUtils.isEmpty(userName) && !StringUtils.isEmpty(password)) {
             MongoCredential credential = MongoCredential.createCredential(userName,
                     database, password.toCharArray());
-            mongoClient = new MongoClient(new ServerAddress(mongoHost), Arrays.asList(credential));
+            mongoClient = new MongoClient(new ServerAddress(System.getProperty("MONGO_HOST")), Arrays.asList(credential));
         }
 
         log.info("Initializing services");
