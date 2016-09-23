@@ -97,9 +97,9 @@
         "type": "Case Fans",
         "shortDescription": "",
         "longDescription": "",
-        "coverImage": "STOCK FAN SMALL",
+        "coverImage": "FANS/STOCK FAN SMALL.png",
         "options": [],
-        "fullImageLink": "STOCK FAN LARGE"
+        "fullImageLink": "FANS/STOCK FAN LARGE.png"
       },
       {
         "name": "LED Fans",
@@ -109,7 +109,7 @@
         "type": "Case Fans",
         "shortDescription": "Superior cooling performance and LED illumination.",
         "longDescription": "",
-        "coverImage": "FAN LED WHITE SMALL",
+        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png",
         "options": [
           {
             "name": "White",
@@ -132,7 +132,7 @@
             "coverImage": "FAN LED BLUE SMALL"
           }
         ],
-        "fullImageLink": ""
+        "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
       },
       {
         "name": "Performance Fans",
