@@ -63,8 +63,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.moowork.gradle:gradle-grunt-plugin:0.10'
-        classpath 'com.moowork.gradle:gradle-node-plugin:0.8'
+        classpath 'com.moowork.gradle:gradle-grunt-plugin:0.13'
+        classpath 'com.moowork.gradle:gradle-node-plugin:0.13'
         classpath 'com.sourcemuse.gradle.plugin:gradle-mongo-plugin:0.8.0'
     }
 }
@@ -91,7 +91,17 @@ npmSetup {
     outputs.upToDateWhen { false }
 }
 
-grunt_build.dependsOn 'nodeSetup', 'installGrunt', 'npmInstall'
+task cleanNodeModules(type: Exec) {
+    commandLine 'rm', '-rf', './node_modules'
+}
+
+tasks.withType( NodeTask ) { dependsOn npmInstall }
+
+npmInstall.dependsOn(cleanNodeModules, installGrunt)
+
+grunt_build.dependsOn npmInstall
+
+
 
 configurations {
     remoteSources {
@@ -101,7 +111,9 @@ configurations {
 
 war {
     dependsOn grunt_build
-    baseName = 'shadow-rigs'
+
+    baseName   = 'shadow-rigs'
+    classifier = ''
 }
 
 dependencies {
@@ -111,10 +123,10 @@ dependencies {
 node {
     version = '4.4.3'
     npmVersion = '2.15.1'
+    download = true
 }
 
-
-task stage(dependsOn: ['cleanNodeModules','prepareWebRunner','war'])
+task stage(dependsOn: ['prepareWebRunner','build'])
 
 task prepareWebRunner(type: Copy) {
     from configurations.remoteSources
@@ -123,8 +135,3 @@ task prepareWebRunner(type: Copy) {
         'web-runner.jar'
     }
 }
-
-task cleanNodeModules(type: Exec) {
-    commandLine 'rm', '-rf', './node_modules'
-}
-

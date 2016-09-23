@@ -31,13 +31,16 @@ public class Main implements SparkApplication {
         log.info("Initializing database");
 
         String database  = serverConfig.db() == null ? DEFAULT_DB : serverConfig.db();
-        String mongoHost = serverConfig.dbHost() == null ? DEFAULT_HOST : serverConfig.dbHost();
-        String userName  = serverConfig.dbUser();
-        String password  = serverConfig.dbPass();
+        String mongoHost = serverConfig.dbHost() == null ? System.getProperty(MONGO_HOST) : serverConfig.dbHost();
+        String userName  = serverConfig.dbUser() == null ? System.getProperty(MONGO_USERNAME): serverConfig.dbUser();
+        String password  = serverConfig.dbPass() == null ? System.getProperty(MONGO_PASSWORD): serverConfig.dbPass();;
+
+        log.info("Connecting to {}", database);
 
         MongoClient mongoClient = new MongoClient();
 
-        if (!StringUtils.isEmpty(userName) && !StringUtils.isEmpty(password)) {
+        if (StringUtils.isNotEmpty(userName) && StringUtils.isNotEmpty(password)) {
+            log.info("DB username provided");
             MongoCredential credential = MongoCredential.createCredential(userName,
                     database, password.toCharArray());
             mongoClient = new MongoClient(new ServerAddress(mongoHost), Arrays.asList(credential));
