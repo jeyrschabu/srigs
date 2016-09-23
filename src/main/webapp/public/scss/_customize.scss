@@ -278,11 +278,18 @@
 
 .cpm-description {
   color: white;
-  @include gradient-vertical($start-color: #1e1e1e, $end-color: #0b0b0b, $start-percent: 0%, $end-percent: 100%);
+  //@include gradient-vertical($start-color: #1e1e1e, $end-color: #0b0b0b, $start-percent: 0%, $end-percent: 100%);
+  background-color: rgba(0,0,0,.8);
   border-bottom: 1px solid $offwhite;
   padding: 10px 10px 10px 40px;
-@include transition(max-height 1s);
+@include transition(all 1s);
   overflow: hidden;
+  .col-md-4 {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
 
 .cpm-desc-hide {
