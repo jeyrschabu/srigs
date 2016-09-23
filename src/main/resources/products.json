@@ -109,7 +109,7 @@
         "type": "Case Fans",
         "shortDescription": "Superior cooling performance and LED illumination.",
         "longDescription": "",
-        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.jpg",
+        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png",
         "options": [
           {
             "name": "White",
@@ -132,7 +132,7 @@
             "coverImage": "FAN LED BLUE SMALL"
           }
         ],
-        "fullImageLink": ""
+        "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
       },
       {
         "name": "Performance Fans",
