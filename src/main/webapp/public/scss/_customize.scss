@@ -102,17 +102,15 @@
 
 
 .cp-module {
-  @include border-radius(8px 8px 0px 0px);
-
   color: $offblack;
   text-align: left;
   margin-bottom: 30px;
   margin-top: 10px;
-  @include box-shadow(0 0 3px 3px rgba(0,0,0,.3));
   h3.cpm-title {
     border: 1px inset rgba(255,255,255,.3);
     border-bottom: 0;
-    @include gradient-vertical($start-color: $dark-red, $end-color: $darker-red, $start-percent: 0%, $end-percent: 100%);
+    bacgkround-color: $dark-red;
+    //@include gradient-vertical($start-color: $dark-red, $end-color: $darker-red, $start-percent: 0%, $end-percent: 100%);
     border-bottom: 1px solid $offwhite;
     padding: 7px;
     color: rgba(255,255,255,.9);
@@ -253,11 +251,11 @@
     bottom: -3px;
   }
   i {
-    -webkit-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    transition: all .6s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
   }
 }
 .cpm-expand-desc-active {
@@ -313,6 +311,10 @@
     &:last-of-type {
       border-right: 0;
     }
+  }
+  label {
+    display: block;
+    margin-bottom: 0;
   }
   .cpm-item-wrap {
     margin: 10px;
