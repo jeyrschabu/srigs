@@ -3,48 +3,48 @@
         <img src="public/images/shadow-rigs-logo.png" class="img-fluid sidebar-logo" />
         <ul class="sidebar-nav-wrap">
             <li class="sidebar-li">
-                <a href="#/">
+                <a href="#/" ng-click="sidebarshow = !sidebarshow">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-home" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Home</div>
                 </a>
             </li>
             <li class="sidebar-li">
-                <a href="#/products/gaming">
+                <a href="#/products/gaming" ng-click="sidebarshow = !sidebarshow">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-desktop" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Gaming Desktops</div>
                 </a>
             </li>
             <li class="sidebar-li">
-                <a href="#/products/pro">
+                <a href="#/products/pro" ng-click="sidebarshow = !sidebarshow">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-desktop" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Workstations</div>
                 </a>
             </li>
             <li class="sidebar-li">
-                <a href="#/product/laptop">
+                <a href="#/product/laptop" ng-click="sidebarshow = !sidebarshow">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-laptop" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Laptops</div>
                 </a>
             </li>
-            <li class="sidebar-li">
+            <li class="sidebar-li" ng-click="sidebarshow = !sidebarshow">
                 <a href="#/crew">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-users" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">About Us</div>
                 </a>
             </li>
-            <li class="sidebar-li">
+            <li class="sidebar-li" ng-click="sidebarshow = !sidebarshow">
                 <a href="#/support">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-question-circle" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
                     </div><div class="sidebar-nav-right" ng-class="sidebarshow ? 'animated sidebar-fadeInRight' : 'defaultState'">Support</div>
                 </a>
             </li>
-            <li class="sidebar-li">
+            <li class="sidebar-li" ng-click="sidebarshow = !sidebarshow">
                 <a ui-sref="checkout">
                     <div class="sidebar-nav-left" ng-class="sidebarshow ? 'animated sidebar-fadeInLeft' : 'defaultState'">
                         <span class="fa fa-shopping-cart" ng-class="{ active: ctrl.currentTab(menuItem.link)}" aria-defaultState="true"></span>
