@@ -1,9 +1,10 @@
 <h3 class="cpm-title">Cabling</h3>
 <ul class="cpm-list">
-    <li ng-repeat="cabling in customizeController.rig.caseCablingOptions.items">
-        <div class="cpm-inner">
+    <li ng-repeat="cabling in customizeController.rig.caseCablingOptions.items"
+            ng-init="itemId=customizeController.slugify(cabling.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="cabling.name"
+                <input type="radio" name="cabling.name" id="{{itemId}}"
                        ng-model="customizeController.rig.caseCablingOptions.current"
                        ng-value="cabling">
             </div>
@@ -14,8 +15,7 @@
                     + ${{cabling.price}}
                 </span>
             </div>
-
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcabling1 = !cpmcabling1"
                ng-class="cpmcabling1 ? 'cpm-expand-desc-active' : 'default'"></i>
@@ -23,10 +23,12 @@
 
         <div class="cpm-description" ng-class="cpmcabling1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                <div class="col-md-4">
+                    <a href="http://cdn.shadowrigs.com/images/PERIPHERALS/EVGACables/{{cable.fullImageLink}}">
+                        <img ng-src="http://cdn.shadowrigs.com/images/COOLING/FANS/LEDFANS/{{cable.coverImage}}">
+                    </a>
                 </div>
-                <div class="col-md-9" ng-show="fan.cablingDescription">
+                <div class="col-md-8" ng-show="cabling.cablingDescription">
                     <p>{{cabling.longDescription}}</p>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 <h3 class="cpm-title">Power Supply</h3>
 <ul class="cpm-list">
-    <li ng-repeat="psu in customizeController.rig.performancePsuOptions.items"> <!-- don't know if this is the right name -->
-        <div class="cpm-inner">
+    <li ng-repeat="psu in customizeController.rig.performancePsuOptions.items"
+        ng-init="itemId=customizeController.slugify(psu.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="psu.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performancePsuOptions.current"
@@ -15,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmpsu1 = !cpmpsu1"
                ng-class="cpmpsu1 ? 'cpm-expand-desc-active' : 'default'"></i>

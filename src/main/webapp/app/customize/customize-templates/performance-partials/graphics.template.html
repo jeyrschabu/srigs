@@ -1,9 +1,10 @@
 <h3 class="cpm-title">Graphics</h3>
 <ul class="cpm-list">
-    <li ng-repeat="graphics in customizeController.rig.performanceGraphicsOptions.items"> <!-- don't know if this is the right name -->
-        <div class="cpm-inner">
+    <li ng-repeat="graphics in customizeController.rig.performanceGraphicsOptions.items"
+        ng-init="itemId=customizeController.slugify(graphics.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="graphics.name"
+                <input type="radio" name="graphics.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performanceGraphicsOptions.current"
                        ng-value="graphics">
             </div>
@@ -15,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmgfx1 = !cpmgfx1"
                ng-class="cpmgfx1 ? 'cpm-expand-desc-active' : 'default'"></i>

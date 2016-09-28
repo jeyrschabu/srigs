@@ -1,7 +1,8 @@
 <h3 class="cpm-title">Case LED Options</h3>
 <ul class="cpm-list">
-    <li ng-repeat="led in customizeController.rig.caseLedOptions.items"> <!--unsure if this is right name -->
-        <div class="cpm-inner">
+    <li ng-repeat="led in customizeController.rig.caseLedOptions.items"
+        ng-init="itemId=customizeController.slugify(led.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="led.name" id="{{itemId}}"
                        ng-model="customizeController.rig.caseLedOptions.current"
@@ -15,7 +16,7 @@
                     </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmled1 = !cpmled1"
                ng-class="cpmled1 ? 'cpm-expand-desc-active' : 'default'"></i>
@@ -23,10 +24,12 @@
 
         <div class="cpm-description" ng-class="cpmled1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                <div class="col-md-4">
+                    <a href="http://cdn.shadowrigs.com/images/COOLING/FANS/LEDFANS/{{led.fullImageLink}}">
+                        <img ng-src="http://cdn.shadowrigs.com/images/COOLING/FANS/LEDFANS/{{led.coverImage}}">
+                    </a>
                 </div>
-                <div class="col-md-9" ng-show="led.longDescription">
+                <div class="col-md-8" ng-show="led.longDescription">
                     <p>{{led.longDescription}}</p>
                 </div>
             </div>

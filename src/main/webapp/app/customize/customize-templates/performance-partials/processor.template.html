@@ -1,9 +1,10 @@
 <h3 class="cpm-title">Processor</h3>
 <ul class="cpm-list">
-    <li ng-repeat="cpu in customizeController.rig.performanceCpuOptions.items"> <!-- don't know if this is the right name -->
-        <div class="cpm-inner">
+    <li ng-repeat="cpu in customizeController.rig.performanceCpuOptions.items"
+        ng-init="itemId=customizeController.slugify(cpu.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="cpu.name"
+                <input type="radio" name="cpu.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performanceCpuOptions.current"
                        ng-value="cpu">
             </div>
@@ -15,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcpu1 = !cpmcpu1"
                ng-class="cpmcpu1 ? 'cpm-expand-desc-active' : 'default'"></i>
