@@ -1,9 +1,10 @@
 <h3 class="cpm-title">Motherboard</h3>
 <ul class="cpm-list">
-    <li ng-repeat="motherboard in customizeController.rig.performanceMotherboardOptions.items"> <!-- don't know if this is the right name -->
-        <div class="cpm-inner">
+    <li ng-repeat="motherboard in customizeController.rig.performanceMotherboardOptions.items"
+        ng-init="itemId=customizeController.slugify(motherboard.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="motherboard.name"
+                <input type="radio" name="motherboard.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performanceMotherboardOptions.current"
                        ng-value="motherboard">
             </div>
@@ -15,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmmobo1 = !cpmmobo1"
                ng-class="cpmmobo1 ? 'cpm-expand-desc-active' : 'default'"></i>

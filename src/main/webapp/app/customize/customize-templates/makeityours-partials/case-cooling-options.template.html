@@ -1,7 +1,8 @@
 <h3 class="cpm-title">Case Cooling Options</h3>
 <ul class="cpm-list">
-    <li ng-repeat="fan in customizeController.rig.caseCoolingOptions.items">
-        <div class="cpm-inner">
+    <li ng-repeat="fan in customizeController.rig.caseCoolingOptions.items"
+        ng-init="itemId=customizeController.slugify(fan.name);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="fan.name" id="{{itemId}}"
                        ng-model="customizeController.rig.caseCoolingOptions.current"
@@ -14,8 +15,7 @@
                     + {{fan.price | currency}}
                 </span>
             </div>
-
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmcco1 = !cpmcco1"
                ng-class="cpmcco1 ? 'cpm-expand-desc-active' : 'default'"></i>

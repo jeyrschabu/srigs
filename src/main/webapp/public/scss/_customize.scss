@@ -157,6 +157,7 @@
   color: $offblack;
   overflow: hidden;
   cursor: pointer;
+  margin: 0;
   //@include gradient-vertical($start-color: white, $end-color: #d0d0d0, $start-percent: 0%, $end-percent: 100%);
   background-color: $offwhite;
   transition: all .3s;
