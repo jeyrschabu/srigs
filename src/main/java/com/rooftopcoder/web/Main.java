@@ -30,10 +30,10 @@ public class Main implements SparkApplication {
 
         log.info("Initializing database");
 
-        String database  = serverConfig.db()     == null ? System.getProperty(MONGO_DB) : serverConfig.db();
-        String mongoHost = serverConfig.dbHost() == null ? System.getProperty(MONGO_HOST) : serverConfig.dbHost();
-        String userName  = serverConfig.dbUser() == null ? System.getProperty(MONGO_USERNAME): serverConfig.dbUser();
-        String password  = serverConfig.dbPass() == null ? System.getProperty(MONGO_PASSWORD): serverConfig.dbPass();;
+        String database  = serverConfig.db()     == null ? System.getenv(MONGO_DB) : serverConfig.db();
+        String mongoHost = serverConfig.dbHost() == null ? System.getenv(MONGO_HOST) : serverConfig.dbHost();
+        String userName  = serverConfig.dbUser() == null ? System.getenv(MONGO_USERNAME): serverConfig.dbUser();
+        String password  = serverConfig.dbPass() == null ? System.getenv(MONGO_PASSWORD): serverConfig.dbPass();
 
         log.info("Connecting to {}", database);
 
