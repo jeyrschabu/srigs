@@ -13,11 +13,14 @@
 
 </head>
 <body  class="{{bodyClass}}">
-<div class="home-maint-splash">
-    <div class="home-maint-inner">
+<!-- TODO move this to partial -->
+<div class="maint-splash" ng-class="maintshow ? 'maint-splash-hide' : 'defaultState'">
+    <div class="maint-inner">
         <h2>We're In Progress!</h2>
         <p>Thanks for stopping by, we're still in the process of preparing our site for launch. We're very close, and very excited to bring our work to you. Check back soon - its not long now!</p>
-        <p>Call us at 971.206.4202 or email <a href="mailto:info@shadowrigs.com">info@shadowrigs.com</a></p>
+        <p>If you are interested in purchasing a PC, or have any questions at all please contact us at 971.206.4202 or email <a href="mailto:info@shadowrigs.com">info@shadowrigs.com</a></p>
+        <p>You can still preview our customizable builder, everything you see is a work in progress and subject to change</p>
+        <a class="maint-show-me" ng-click="maintshow = !maintshow">Show me the builder!</a>
     </div>
 </div>
 
@@ -30,7 +33,7 @@
 <div ui-view="categories">
 
 </div>
-
+<!-- TODO move news to partial -->
 
 
 <footer class="footer" ng-include="'app/common/footer.template.html'"></footer>
@@ -95,6 +98,17 @@
 
 <!-- app -->
 <script src="app/app.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76809565-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
 
 </body>
 </html>
