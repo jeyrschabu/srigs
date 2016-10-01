@@ -27,16 +27,12 @@ public class Main implements SparkApplication {
     }
 
     private static void initWithRoutes() {
-
         log.info("Initializing database");
-
-        String database  = serverConfig.db()     == null ? System.getenv(MONGO_DB) : serverConfig.db();
-        String mongoHost = serverConfig.dbHost() == null ? System.getenv(MONGO_HOST) : serverConfig.dbHost();
-        String userName  = serverConfig.dbUser() == null ? System.getenv(MONGO_USERNAME): serverConfig.dbUser();
-        String password  = serverConfig.dbPass() == null ? System.getenv(MONGO_PASSWORD): serverConfig.dbPass();
-
+        String database  = StringUtils.isEmpty(serverConfig.db()) ? System.getenv(MONGO_DB) : serverConfig.db();
+        String mongoHost = StringUtils.isEmpty(serverConfig.dbHost()) ? System.getenv(MONGO_HOST) : serverConfig.dbHost();
+        String userName  = StringUtils.isEmpty(serverConfig.dbUser()) ? System.getenv(MONGO_USERNAME): serverConfig.dbUser();
+        String password  = StringUtils.isEmpty(serverConfig.dbPass()) ? System.getenv(MONGO_PASSWORD): serverConfig.dbPass();
         log.info("Connecting to {}", database);
-
         MongoClient mongoClient = new MongoClient();
 
         if (StringUtils.isNotEmpty(userName) && StringUtils.isNotEmpty(password)) {
@@ -47,16 +43,12 @@ public class Main implements SparkApplication {
         }
 
         log.info("Initializing services");
-
         final MongoConnectionConfig dbCfg = new MongoConnectionConfig(mongoClient, database);
-
         final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
         final ProductService productService = new ProductService().setDataProvider(dbCfg);
         final SpecService specService = new SpecService().setDataProvider(dbCfg);
         final OrderService orderService = new OrderService().setDataProvider(dbCfg);
-
         log.info("Initializing routes");
-
         new ProductResource(productService, categoryService);
         new ProductCategoryResource(categoryService);
         new SpecResource(specService);
