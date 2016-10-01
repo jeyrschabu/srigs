@@ -343,8 +343,7 @@ body.phantom .product-highlight {
   transition: transform 0.15s ease 0s;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-  height: 100%;
-  width: 100%;
+
 }
 
 .product-gallery ul li a:hover img {
@@ -369,6 +368,11 @@ body.phantom .product-highlight {
       padding: 0;
       margin: 0px;
       border: 1px solid rgba(0,0,0,.8);
+      background-color: white;
+      img {
+        max-height: 267px;
+        width: auto;
+      }
     }
   }
 }
