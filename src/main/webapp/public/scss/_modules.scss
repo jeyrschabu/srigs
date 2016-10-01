@@ -42,6 +42,16 @@
       height: 170px;
     }
 */
+    &.content-module-large {
+      @include media-breakpoint-down(xs) {
+        overflow: hidden;
+        img {
+          height: 355px;
+          width: 170%; //TODO this better
+          max-width: 170%;
+        }
+      }
+    }
     > img {
       max-width: 100%;
       height: auto;
@@ -88,7 +98,26 @@
       font-size: 12px;
     }
   }
-
+  @include media-breakpoint-down(xs) {
+    height: 18%;
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  &.module-overlay-large {
+    @include media-breakpoint-down(xs) {
+      height: 18%;
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        display: none;
+      }
+    }
+  }
   &:hover, &:focus {
     background-color: rgba(0,0,0,.95);
     height: 35%;
@@ -97,6 +126,9 @@
 
     @include media-breakpoint-down(md) {
       height: 40%;
+    }
+    @include media-breakpoint-down(xs) {
+      height: 25%;
     }
   }
 }
