@@ -7,6 +7,7 @@
 @import "animate"; /* TODO remove unused animations */
 
 // Site styling
+@import "homepage";
 @import "typography.scss";
 @import "page.scss";
 @import "header.scss";
@@ -21,6 +22,7 @@
 @import "crew";
 @import "support";
 @import "terms";
+@import "gallery";
 
 // Output to /styles/main.css
 // Written by Adam Schlabach

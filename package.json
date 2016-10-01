@@ -38,5 +38,8 @@
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }

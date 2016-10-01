@@ -9,7 +9,7 @@
     </div>
     <div class="content page-content product-content">
         <div class="container">
-            <div class="col-xl-6 col-sm-12" ng-repeat="product in productController.products">
+            <div class="col-xl-6 col-sm-12" ng-repeat="product in productController.products | limitTo:4">
                 <a href="#" ui-sref="product-detail({productId: product.id, name: productController.sanitizeString(product.name)})" class="product-module-list">
                     <img ng-src="/public/images/products/{{product.coverImage}}" class="img-fluid">
                     <h2>{{product.name}}</h2>
