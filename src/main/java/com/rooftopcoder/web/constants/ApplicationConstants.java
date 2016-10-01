@@ -7,5 +7,5 @@ public interface ApplicationConstants {
     String MONGO_HOST = "MONGO_HOST";
     String MONGO_USERNAME = "MONGO_USERNAME";
     String MONGO_PASSWORD = "MONGO_PASSWORD";
-    String DEFAULT_DB = "shadow-rigs";
+    String MONGO_DB = "MONGO_DB";
 }
