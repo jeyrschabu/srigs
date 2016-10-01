@@ -1,6 +1,7 @@
 <h3 class="cpm-title">Optical Drives</h3>
 <ul class="cpm-list">
-    <li ng-repeat="optical in customizeController.rig.storageOpticalOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="optical in customizeController.rig.storageOpticalOptions.items"
+        ng-init="itemId=customizeController.slugify(optical.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="optical.name" id="{{itemId}}"

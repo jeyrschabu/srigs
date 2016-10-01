@@ -1,6 +1,7 @@
 <h3 class="cpm-title">Internal Wi-Fi</h3>
 <ul class="cpm-list">
-    <li ng-repeat="wifi in customizeController.rig.internalWifiOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="wifi in customizeController.rig.internalWifiOptions.items"
+        ng-init="itemId=customizeController.slugify(wifi.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="wifi.name" id="{{itemId}}"

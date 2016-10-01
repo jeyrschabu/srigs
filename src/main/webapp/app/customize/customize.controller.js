@@ -1,192 +1,205 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state','lodash', 'ProductService', 'PaymentService', 'ngCart'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state', 'lodash', 'ProductService', 'PaymentService', 'ngCart', 'CacheFactory'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, PaymentService, ngCart) {
-    var customizeController = this;
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, PaymentService, ngCart, CacheFactory) {
+  var customizeController = this;
 
-    customizeController.disableSticking = false;
-    customizeController.pageTitle = 'Customize';
-    $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
+  customizeController.disableSticking = false;
+  customizeController.pageTitle = 'Customize';
+  $rootScope.bodyClass = customizeController.pageTitle.toLocaleLowerCase();
+  customizeController.totalPrice = 0;
 
-    /** all parts to build a rig more coming soon **/
-    customizeController.rig = {};
-    customizeController.totalPrice = 0;
-    customizeController.product = {};
+  /** all parts to build a rig more coming soon **/
+  customizeController.rig = {};
+  customizeController.product = {};
+  var rigCache = {};
+  customizeController.finishedWizard = finishedWizard;
 
-    customizeController.finishedWizard = finishedWizard;
+  function finishedWizard() {
+    console.log(customizeController.rig);
+  }
 
+  function displaySuccessMessage() {
+    //TODO: display a message saying an email will be sent to them after with details about the shipping
+    ngCart.empty(true);
+    $state.go('home');
+  }
 
-    function finishedWizard() {
-        console.log(customizeController.rig);
+  function handleError(error) {
+    console.log('an error occured', error);
+  }
+
+  customizeController.paymentOptions = {
+    onPaymentMethodReceived: function (payload) {
+      angular.merge(payload, ngCart.toObject());
+      payload.total = payload.totalCost;
+      PaymentService.submitPayment(new Order(payload.nonce)).then(displaySuccessMessage, handleError);
     }
+  };
 
-    function displaySuccessMessage() {
-        //TODO: display a message saying an email will be sent to them after with details about the shipping
-        ngCart.empty(true);
-        $state.go('home');
-    }
+  var Order = function (nonce) {
+    return {
+      paymentInfo: nonce,
+      username: 'me@gmail.com',
+      total: 1212,
+      shippingAddress: {
+        street: '405 NW Uptown Terrace',
+        state: 'OR',
+        zip: '97210'
+      },
 
-    function handleError(error) {
-        console.log('an error occured', error);
-    }
+      billingAddress: {
+        street: '405 NW Uptown Terrace',
+        state: 'OR',
+        zip: '97210'
+      },
 
-    customizeController.paymentOptions = {
-        onPaymentMethodReceived: function(payload) {
-            angular.merge(payload, ngCart.toObject());
-            payload.total = payload.totalCost;
-            PaymentService.submitPayment(new Order(payload.nonce)).then(displaySuccessMessage, handleError);
+      lineItems: [
+        {
+          name: 'Shade',
+          quantity: 1,
+          productId: 'adfasdfsdfsdf',
+          price: 1200,
+          specs: [
+            {
+              name: 'Corsair 450D',
+              type: 'case'
+            }
+          ]
         }
-    };
+      ]
+    }
+  };
 
-    var Order = function(nonce) {
+
+  function initializeRigBuilder(response) {
+    customizeController.product = response.data;
+    var cachedRig = rigCache.get(customizeController.product.id);
+
+    if (cachedRig && cachedRig.status === 'IN_PROGRESS') {
+      customizeController.totalPrice = cachedRig.totalPrice;
+      customizeController.rig = cachedRig;
+    } else {
+      var Rig = function (options) {
         return {
-            paymentInfo: nonce,
-            username: 'me@gmail.com',
-            total: 1212,
-            shippingAddress: {
-                street: '405 NW Uptown Terrace',
-                state: 'OR',
-                zip: '97210'
-            },
-
-            billingAddress: {
-                street: '405 NW Uptown Terrace',
-                state: 'OR',
-                zip: '97210'
-            },
-
-            lineItems: [
-                {
-                    name: 'Shade',
-                    quantity: 1,
-                    productId: 'adfasdfsdfsdf',
-                    price: 1200,
-                    specs: [
-                        {
-                            name: 'Corsair 450D',
-                            type: 'case'
-                        }
-                    ]
-                }
-            ]
+          product: options.product
         }
-    };
+      };
+      
+      var marks = lodash.filter(customizeController.product.marks, {
+        'name': $stateParams.mark || 'Mark 1',
+        'brand': $stateParams.brand || 'Intel'
+      });
 
+      var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
+      var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
 
-    function initializeRigBuilder(response) {
-        customizeController.product = response.data;
-        var rigInProgress = ngCart.getItemById(customizeController.product.id);
-        if (rigInProgress) {
-            customizeController.rig = rigInProgress._data;
-        } else {
-            var marks = lodash.filter(customizeController.product.marks, {
-                'name': $stateParams.mark || 'Mark 1',
-                'brand': $stateParams.brand || 'Intel'
-            });
+      customizeController.rig = new Rig({
+        product: customizeController.product
+      });
 
-            var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
-            var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+      customizeController.totalPrice = totalPrice;
+      customizeController.rig.status = 'INITIAL';
+      rigCache.put(customizeController.product.id, customizeController.rig);
+      initializeBuilderOptions(specs, customizeController.product.specs);
+    }
+  }
 
-            var Rig = function(options) {
-                return {
-                    product: options.product
-                }
-            };
+  function initializeBuilderOptions(defaultSpecs, allSpecs) {
+    customizeController.rig.caseOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Case'});
+    customizeController.rig.caseCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Case Fans'});
+    customizeController.rig.caseLedOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Case LED'});
+    customizeController.rig.caseCablingOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Cabling'});
+    customizeController.rig.performanceCpuOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'CPU'});
+    customizeController.rig.performanceCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'System Cooling'});
+    customizeController.rig.performanceMotherboardOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Motherboard'});
+    customizeController.rig.performanceMemoryOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'RAM'});
+    customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'GPU'});
+    customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Overclocking'});
+    customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'PSU'});
+    customizeController.rig.storageSsdOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Storage-SSD'});
+    customizeController.rig.storageHddOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Storage-HDD'});
+    customizeController.rig.storageM2Options = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Storage-m2'});
+    customizeController.rig.storageOpticalOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Optical'});
+    customizeController.rig.osOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'OS'});
+    customizeController.rig.internalWifiOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Internal-WiFi'});
+  }
 
-            customizeController.rig = new Rig({
-                product : customizeController.product
-            });
+  function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
+    var allItems = lodash.filter(allSpecs, specPredicate);
+    var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
+    var current = allItems[0];
 
-            initializeBuilderOptions(specs, customizeController.product.specs);
-            customizeController.totalPrice = totalPrice;
-        }
+    if (defaultItem && allItems.length) {
+      var startIndex = lodash.findIndex(allItems, function (item) {
+        return item.name === defaultItem.name;
+      });
+
+      current = allItems[startIndex];
+      current.price = 0; //reset because price is included
+      allItems = allItems.slice(startIndex, allItems.length)
     }
 
-    function initializeBuilderOptions(defaultSpecs, allSpecs) {
-        customizeController.rig.caseOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case' });
-        customizeController.rig.caseCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case Fans' });
-        customizeController.rig.caseLedOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Case LED' });
-        customizeController.rig.caseCablingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Cabling' });
-        customizeController.rig.performanceCpuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'CPU' });
-        customizeController.rig.performanceCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'System Cooling' });
-        customizeController.rig.performanceMotherboardOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Motherboard' });
-        customizeController.rig.performanceMemoryOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'RAM' });
-        customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'GPU' });
-        customizeController.rig.performanceOverclockOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Overclocking' });
-        customizeController.rig.performancePsuOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'PSU' });
-        customizeController.rig.storageSsdOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-SSD' });
-        customizeController.rig.storageHddOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-HDD' });
-        customizeController.rig.storageM2Options = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Storage-m2' });
-        customizeController.rig.storageOpticalOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Optical' });
-        customizeController.rig.osOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'OS' });
-        customizeController.rig.internalWifiOptions = getBuilderOption(defaultSpecs, allSpecs, { 'type' : 'Internal-WiFi' });
+    return {
+      current: current,
+      items: allItems
     }
+  }
 
-    function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
-        var allItems = lodash.filter(allSpecs, specPredicate);
-        var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
-        var current = allItems[0];
+  customizeController.slugify = function (str) {
+    return str.toLowerCase().trim().replace(/\s+/g, '-');
+  };
 
-        if (defaultItem && allItems.length) {
-            var startIndex = lodash.findIndex(allItems, function(item) {
-                return item.name === defaultItem.name;
-            });
-
-            current = allItems[startIndex];
-            current.price = 0; //reset because price is included
-            allItems = allItems.slice(startIndex, allItems.length)
-        }
-
-        return {
-            current: current,
-            items: allItems
-        }
+  customizeController.initialize = function (productId) {
+    if (!CacheFactory.get('rigCache')) {
+      CacheFactory.createCache('rigCache', {
+        deleteOnExpire: 'aggressive',
+        recycleFreq: 60000
+      });
     }
-    
-    customizeController.slugify = function(str) {
-        return str.toLowerCase().trim().replace(/\s+/g, '-');
-    };
+    rigCache = CacheFactory.get('rigCache');
 
-    customizeController.initialize = function(productId) {
-        if (productId) {
-            ProductService.findById(productId).then(initializeRigBuilder);
+    if (productId) {
+      ProductService.findById(productId).then(initializeRigBuilder);
+    }
+  };
+
+  customizeController.priceWatchers = function () {
+    var options = [
+      'customizeController.rig.caseOptions',
+      'customizeController.rig.caseLedOptions',
+      'customizeController.rig.caseCoolingOptions',
+      'customizeController.rig.caseCablingOptions',
+      'customizeController.rig.performanceCpuOptions',
+      'customizeController.rig.performanceCoolingOptions',
+      'customizeController.rig.performanceMotherboardOptions',
+      'customizeController.rig.performanceMemoryOptions',
+      'customizeController.rig.performanceGraphicsOptions',
+      'customizeController.rig.performanceOverclockOptions',
+      'customizeController.rig.performancePsuOptions',
+      'customizeController.rig.storageSsdOptions',
+      'customizeController.rig.storageHddOptions',
+      'customizeController.rig.storageM2Options',
+      'customizeController.rig.storageOpticalOptions',
+      'customizeController.rig.osOptions',
+      'customizeController.rig.internalWifiOptions'
+    ];
+
+    options.forEach(function (option) {
+      $scope.$watch(option, function (newValue, oldValue, scope) {
+        if (newValue) {
+          var newPrice = newValue['current'].price || 0;
+          customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
+          customizeController.rig.status = 'IN_PROGRESS';
+          rigCache.put(customizeController.product.id, customizeController.rig);
         }
-    };
+      }, true);
+    });
+  };
 
-    customizeController.priceWatchers = function() {
-        var options = [
-            'customizeController.rig.caseOptions',
-            'customizeController.rig.caseLedOptions',
-            'customizeController.rig.caseCoolingOptions',
-            'customizeController.rig.caseCablingOptions',
-            'customizeController.rig.performanceCpuOptions',
-            'customizeController.rig.performanceCoolingOptions',
-            'customizeController.rig.performanceMotherboardOptions',
-            'customizeController.rig.performanceMemoryOptions',
-            'customizeController.rig.performanceGraphicsOptions',
-            'customizeController.rig.performanceOverclockOptions',
-            'customizeController.rig.performancePsuOptions',
-            'customizeController.rig.storageSsdOptions',
-            'customizeController.rig.storageHddOptions',
-            'customizeController.rig.storageM2Options',
-            'customizeController.rig.storageOpticalOptions',
-            'customizeController.rig.osOptions',
-            'customizeController.rig.internalWifiOptions'
-        ];
-
-        options.forEach(function(option) {
-            $scope.$watch(option, function(newValue, oldValue, scope) {
-                if (newValue) {
-                    var newPrice = newValue['current'].price || 0;
-                    customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
-                }
-            }, true);
-        });
-    };
-
-    customizeController.initialize($stateParams.productId);
-    customizeController.priceWatchers();
+  customizeController.initialize($stateParams.productId);
+  customizeController.priceWatchers();
 }
 
 

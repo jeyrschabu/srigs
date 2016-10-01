@@ -1,6 +1,7 @@
 <h3 class="cpm-title">Hard Drives</h3>
 <ul class="cpm-list">
-    <li ng-repeat="hdd in customizeController.rig.storageHddOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="hdd in customizeController.rig.storageHddOptions.items"
+        ng-init="itemId=customizeController.slugify(hdd.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="hdd.name" id="{{itemId}}"
