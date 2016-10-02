@@ -1,6 +1,7 @@
 <h3 class="cpm-title">Operating System</h3>
 <ul class="cpm-list">
-    <li ng-repeat="os in customizeController.rig.osOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="os in customizeController.rig.osOptions.items"
+        ng-init="itemId=customizeController.slugify(os.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="os.name" id="{{itemId}}"

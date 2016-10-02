@@ -1,6 +1,7 @@
 <h3 class="cpm-title">m.2 Solid State Drives</h3>
 <ul class="cpm-list">
-    <li ng-repeat="ssdM2 in customizeController.rig.storageM2Options.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="ssdM2 in customizeController.rig.storageM2Options.items"
+        ng-init="itemId=customizeController.slugify(ssdM2.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="ssdM2.name" id="{{itemId}}"

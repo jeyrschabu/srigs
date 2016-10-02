@@ -1,6 +1,7 @@
 <h3 class="cpm-title">Mice</h3>
 <ul class="cpm-list">
-    <li ng-repeat="speaker in customizeController.rig.accessoriesHddOptions.items"> <!-- don't know if this is the right name -->
+    <li ng-repeat="speaker in customizeController.rig.accessoriesHddOptions.items"
+        ng-init="itemId=customizeController.slugify(speaker.name);">
         <div class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="hdd.name" id="{{itemId}}"

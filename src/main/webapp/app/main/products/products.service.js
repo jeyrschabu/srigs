@@ -1,33 +1,27 @@
 'use strict';
 
 angular.module('rigs.services.products', [])
-    .service('ProductService', function($http, API_PREFIX) {
-        var service = this;
+  .service('ProductService', function ($http, CacheFactory, API_PREFIX) {
+    if (!CacheFactory.get('productCache')) {
+      CacheFactory.createCache('productCache', {
+        deleteOnExpire: 'aggressive',
+        recycleFreq: 60000
+      });
+    }
 
-        function getProducts() {
-            return $http({
-                url: API_PREFIX +'/products',
-                method: 'GET'
-            });
-        }
+    var productCache = CacheFactory.get('productCache');
+    return {
+      list: function() {
+        return $http.get(API_PREFIX + '/products', { cache: productCache});
+      },
 
-        function getProductsByCategory(category) {
-            return $http({
-                url: API_PREFIX + '/products/categories/'+ category,
-                method: 'GET'
-            });
-        }
+      listByCategory: function(category) {
+        return $http.get(API_PREFIX + '/products/categories/' + category, { cache: productCache});
+      },
 
-        function findById(productId) {
-            return $http({
-                url: API_PREFIX + '/products/'+ productId,
-                method: 'GET'
-            });
-        }
-
-        service.list = getProducts;
-        service.listByCategory = getProductsByCategory;
-        service.findById = findById;
-        
-    });
+      findById: function(productId) {
+        return $http.get(API_PREFIX + '/products/' + productId, { cache: productCache});
+      }
+    };
+  });
 

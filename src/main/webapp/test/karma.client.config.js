@@ -23,7 +23,8 @@ module.exports = function (karma) {
         './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
         './../../webapp/bower_components/ngcart/dist/ngCart.min.js',
         './../../webapp/bower_components/braintree-angular/dist/braintree-angular.js',
-        
+        './../../webapp/bower_components/angular-cache/dist/angular-cache.min.js',
+
         './../../webapp/app/**/*.service.js',
         './../../webapp/app/**/*.controller.js',
         './../../webapp/app/**/*.module.js',
@@ -32,7 +33,7 @@ module.exports = function (karma) {
     ],
 
     preprocessors: {
-    },    
+    },
 
 
     // list of files to exclude
