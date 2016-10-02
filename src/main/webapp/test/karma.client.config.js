@@ -8,37 +8,38 @@ module.exports = function (karma) {
     frameworks: ['jasmine'],
 
     files: [
-        './../../webapp/bower_components/angular/angular.js',
-        './../../webapp/bower_components/angular-mocks/angular-mocks.js',
-        './../../webapp/bower_components/angular-route/angular-route.js',
-        './../../webapp/bower_components/angular-ui-router/release/angular-ui-router.min.js',
-        './../../webapp/bower_components/angular-animate/angular-animate.js',
-        './../../webapp/bower_components/angular-sanitize/angular-sanitize.js',
-        './../../webapp/bower_components/ng-lodash/build/ng-lodash.min.js',
-        './../../webapp/bower_components/jquery/dist/jquery.min.js',
-        './../../webapp/bower_components/tether/dist/js/tether.min.js',
-        './../../webapp/bower_components/bootstrap/dist/js/bootstrap.min.js',
-        './../../webapp/bower_components/ngSticky/lib/sticky.js',
-        './../../webapp/bower_components/ngGallery/src/js/ngGallery.js',
-        './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
-        './../../webapp/bower_components/ngcart/dist/ngCart.min.js',
-        './../../webapp/bower_components/braintree-angular/dist/braintree-angular.js',
-        './../../webapp/bower_components/angular-cache/dist/angular-cache.min.js',
 
-        './../../webapp/app/**/*.service.js',
-        './../../webapp/app/**/*.controller.js',
-        './../../webapp/app/**/*.module.js',
-        './../../webapp/app/app.js',
-        './../../webapp/app/**/*.spec.js'
+      './../../webapp/bower_components/angular/angular.js',
+      './../../webapp/bower_components/angular-mocks/angular-mocks.js',
+      './../../webapp/bower_components/angular-route/angular-route.js',
+      './../../webapp/bower_components/angular-ui-router/release/angular-ui-router.min.js',
+      './../../webapp/bower_components/angular-animate/angular-animate.js',
+      './../../webapp/bower_components/angular-sanitize/angular-sanitize.js',
+      './../../webapp/bower_components/ng-lodash/build/ng-lodash.min.js',
+      './../../webapp/bower_components/jquery/dist/jquery.min.js',
+      './../../webapp/bower_components/tether/dist/js/tether.min.js',
+      './../../webapp/bower_components/bootstrap/dist/js/bootstrap.min.js',
+      './../../webapp/bower_components/ngSticky/lib/sticky.js',
+      './../../webapp/bower_components/ngGallery/src/js/ngGallery.js',
+      './../../webapp/bower_components/angular-wizard/dist/angular-wizard.min.js',
+      './../../webapp/bower_components/ngcart/dist/ngCart.min.js',
+      './../../webapp/bower_components/braintree-angular/dist/braintree-angular.js',
+      './../../webapp/bower_components/angular-cache/dist/angular-cache.min.js',
+      './../../webapp/bower_components/api-check/dist/api-check.min.js',
+      './../../webapp/bower_components/angular-formly/dist/formly.min.js',
+      './../../webapp/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.js',
+      './../../webapp/app/**/*.service.js',
+      './../../webapp/app/**/*.controller.js',
+      './../../webapp/app/**/*.module.js',
+      './../../webapp/app/app.js',
+      './../../webapp/app/**/*.spec.js'
     ],
 
-    preprocessors: {
-    },
+    preprocessors: {},
 
 
     // list of files to exclude
-    exclude: [
-    ],
+    exclude: [],
 
     // use dots reporter, as travis terminal does not support escaping sequences
     // possible values: 'dots', 'progress'
@@ -67,10 +68,10 @@ module.exports = function (karma) {
     browsers: ['chrome_without_security'],
 
     customLaunchers: {
-        chrome_without_security: {
-            base: 'Chrome',
-            flags: ['--disable-web-security']
-        }
+      chrome_without_security: {
+        base: 'Chrome',
+        flags: ['--disable-web-security']
+      }
     },
     // If browser does not capture in given timeout [ms], kill it
     captureTimeout: 60000,
