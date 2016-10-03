@@ -1,6 +1,5 @@
 'use strict';
 
-
 angular
   .module('Rigs', [
     'ui.router',
@@ -11,17 +10,19 @@ angular
     'ngCart',
     'braintree-angular',
     'angular-cache',
+    'formly',
+    'formlyBootstrap',
     'rigs.common',
     'rigs.home',
     'rigs.products',
     'rigs.crew',
     'rigs.support',
-    'rigs.customize'
-
+    'rigs.customize',
+    'rigs.checkout'
   ])
   .constant('API_PREFIX', '/api/v1')
-  .config(function(CacheFactoryProvider) {
-    angular.extend(CacheFactoryProvider.defaults,  { maxAge: 15 * 60 * 1000 });
+  .config(function (CacheFactoryProvider) {
+    angular.extend(CacheFactoryProvider.defaults, {maxAge: 15 * 60 * 1000});
   })
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
