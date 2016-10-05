@@ -20,6 +20,7 @@ public class ProductResource extends GeneralResource {
         //READ BY CATEGORY
         get(CONTEXT+"/products/categories/:category", (request, response) -> {
             ProductCategory productCategory = this.categoryService.find("shortName", request.params("category"));
+            response.header("Content-Encoding", "gzip");
             return this.productService.findByCategory(productCategory.getName());
         }, json());
 
