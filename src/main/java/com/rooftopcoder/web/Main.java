@@ -6,10 +6,7 @@ import com.mongodb.ServerAddress;
 import com.rooftopcoder.web.configuration.ApplicationConfig;
 import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.resources.*;
-import com.rooftopcoder.web.services.OrderService;
-import com.rooftopcoder.web.services.ProductCategoryService;
-import com.rooftopcoder.web.services.ProductService;
-import com.rooftopcoder.web.services.SpecService;
+import com.rooftopcoder.web.services.*;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.commons.lang3.StringUtils;
 import spark.servlet.SparkApplication;
@@ -48,8 +45,11 @@ public class Main implements SparkApplication {
     productService.loadCache();
     final SpecService specService = new SpecService().setDataProvider(dbCfg);
     final OrderService orderService = new OrderService().setDataProvider(dbCfg);
+    final BuildService buildService = new BuildService().setDataProvider(dbCfg);
+
     log.info("Initializing routes");
     new ProductResource(productService, categoryService);
+    new BuildResource(buildService);
     new ProductCategoryResource(categoryService);
     new SpecResource(specService);
     new HomeResource();

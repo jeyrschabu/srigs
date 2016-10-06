@@ -1,36 +1,28 @@
 <section class="content-wrap">
-    <div class="product-main-highlight">
+  <div class="product-main-highlight">
 
-        <div class="product-title-wrap">
-            <h1 class="animated fadeInDown">Choose Your Rig</h1>
-            <h2 class="animated fadeInUp">View our selection of powerful Gaming Desktops. Small form to full tower, Fully Customizable. </h2>
+    <div class="product-title-wrap">
+      <h1 class="animated fadeInDown">Choose Your Rig</h1>
+      <h2 class="animated fadeInUp">View our selection of powerful Gaming Desktops. Small form to full tower, Fully
+        Customizable. </h2>
 
-        </div>
     </div>
-    <div class="content page-content product-content">
-        <div class="container">
-            <div class="col-xl-6 col-sm-12" ng-repeat="product in productController.products | limitTo:4">
-                <a href="#" ui-sref="product-detail({productId: product.id, name: productController.sanitizeString(product.name)})" class="product-module-list">
-                    <img ng-src="/public/images/products/{{product.coverImage}}" class="img-fluid">
-                    <h2>{{product.name}}</h2>
-                    <p>{{product.blobDescription}}</p>
-                </a>
-                <div class="product-expanded-module">
-                    <h3>ShadowRigs {{product.name}}</h3>
-                    <h4>SPECS AT-A-GLANCE</h4>
+  </div>
+  <div class="content page-content product-content">
+    <div class="container">
+      <div class="col-xl-6 col-sm-12" ng-repeat="product in productController.products | limitTo:4">
+        <a href="#"
+           ui-sref="product-detail({productId: product.id, name: productController.sanitizeString(product.name)})"
+           class="product-module-list">
+          <img ng-src="/public/images/products/{{product.coverImage}}" class="img-fluid">
+          <h2>{{product.name}}</h2>
+          <p>{{product.blobDescription}}</p>
+        </a>
 
-                    <div ng-repeat="mark in product.marks">
-                        <h5>{{mark.name}}</h5>
-                        <ul ng-repeat="spec in mark.specs | filter: productController.byGlance">
-                            <li>{{spec.type}}: {{spec.name}}</li>
-                        </ul>
-                    </div>
-
-                    <a ui-sref="customize({productId : product.id, mark: 'Mark 1', brand: 'Intel'})">Customize <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
+        <div class="product-expanded-module" ng-include="'app/main/products/build-highlights.template.html'"></div>
+      </div>
     </div>
+  </div>
 </section>
 
 

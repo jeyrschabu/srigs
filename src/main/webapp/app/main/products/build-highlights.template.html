@@ -1,0 +1,12 @@
+<h3>ShadowRigs {{product.name}}</h3>
+<h4>SPECS AT-A-GLANCE</h4>
+
+<div ng-repeat="mark in productController.builds | filter: { product : product.name }">
+  <h5>{{mark.name}}</h5>
+  <ul ng-repeat="spec in mark.specs | filter: productController.byGlance">
+    <li>{{spec.type}}: {{spec.name}}</li>
+  </ul>
+</div>
+
+<a ui-sref="customize({productId : product.id, mark: 'Mark 1', brand: 'Intel'})">
+  Customize <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
