@@ -23,6 +23,4 @@ public class Product extends Model {
     private String coverImage;
     private Double price;
     private List<Spec> specs;
-    private List<Mark> marks;
-
 }

@@ -15,6 +15,7 @@ public class BuildResource extends GeneralResource {
     get(CONTEXT+"/builds", (request, response) -> buildService.findAll(), json());
 
     //READ ONE BY NAME
-    get(CONTEXT+"/builds/:productName", (request, response) -> buildService.find(request.params(":productName")), json());
+    get(CONTEXT+"/builds/:productName", (request, response)
+      -> buildService.find("product", request.params(":productName")), json());
   }
 }
