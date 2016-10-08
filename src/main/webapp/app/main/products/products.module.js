@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rigs.products', ['rigs.services.products'])
+angular.module('rigs.products', ['rigs.services.products', 'rigs.services.builds'])
   .config(['$stateProvider', function ($stateProvider) {
     $stateProvider
       .state('products', {
@@ -23,6 +23,5 @@ angular.module('rigs.products', ['rigs.services.products'])
       }
     });
   }])
-  .service('BuildService', BuildService)
   .controller('ProductController', ProductController)
   .controller('ProductDetailController', ProductDetailController);

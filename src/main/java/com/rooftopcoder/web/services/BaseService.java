@@ -58,6 +58,9 @@ public abstract class BaseService<T extends Model> {
     return getProvider().findById(id);
   }
 
+  public List<T> find(Map<String, Object> filter) {
+    return getProvider().find(filter);
+  }
   public List<T> findMany(String key, String value) {
     List<T> items = getProvider().findMany(key, value);
     log.info("fetched {} items", items.size());

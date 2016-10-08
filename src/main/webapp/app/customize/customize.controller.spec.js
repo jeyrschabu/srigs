@@ -5,18 +5,21 @@
 describe('Customize', function () {
   var scope,
     customizeController,
-    mockProductService;
+    mockProductService,
+    mockBuildService;
 
   beforeEach(module('Rigs'));
 
   describe('CustomizeController', function () {
 
-    beforeEach(inject(function ($rootScope, $controller, ProductService) {
+    beforeEach(inject(function ($rootScope, $controller, ProductService, BuildService) {
       scope = $rootScope.$new();
       mockProductService = ProductService;
+      mockBuildService = BuildService;
       customizeController = $controller('CustomizeController', {
         '$scope': scope,
-        'ProductService': mockProductService
+        'ProductService': mockProductService,
+        'BuildService': mockBuildService
       });
     }));
 
@@ -37,20 +40,29 @@ describe('Customize', function () {
         specs: [
           {name: 'Corsair Obsidian 450D', type: 'Case'},
           {name: 'Corsair Vengeance C70 Military Green', type: 'Case'}
-        ],
-        marks: [
-          {
-            price: 1060,
-            name: 'Mark 1',
-            brand: 'Intel',
-            specs: [
-              {name: 'Corsair Obsidian 450D', type: 'Case', price: 100},
-              {name: 'Intel FX-6300', type: 'CPU', price: 120}
-            ]
-          }
         ]
-
       };
+
+      var  marks = [
+        {
+          price: 1060,
+          name: 'Mark 1',
+          brand: 'Intel',
+          product: product.name,
+          specs: [
+            {name: 'Corsair Obsidian 450D', type: 'Case', price: 100},
+            {name: 'Intel FX-6300', type: 'CPU', price: 120}
+          ]
+        }
+      ];
+
+      spyOn(mockBuildService, 'findByProduct').and.callFake(function () {
+        return {
+          then: function (callback) {
+            return callback({data: marks});
+          }
+        };
+      });
 
       spyOn(mockProductService, 'findById').and.callFake(function () {
         return {
@@ -63,7 +75,7 @@ describe('Customize', function () {
       customizeController.initialize('id');
       expect(mockProductService.findById).toHaveBeenCalled();
       expect(customizeController.rig.caseOptions).toBeDefined();
-      expect(customizeController.rig.caseOptions.current.name).toBe(product.marks[0].specs[0].name);
+      expect(customizeController.rig.caseOptions.current.name).toBe(marks[0].specs[0].name);
       expect(customizeController.rig.caseOptions.current.price).toBe(0);
     });
   })
