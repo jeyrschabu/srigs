@@ -1,8 +1,9 @@
 'use strict';
 
-CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state', 'lodash', 'ProductService', 'CacheFactory'];
+CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state', 'lodash', 'ProductService',
+  'BuildService', 'CacheFactory'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, CacheFactory) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, BuildService, CacheFactory) {
   var customizeController = this;
 
   customizeController.disableSticking = false;
@@ -34,22 +35,24 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         }
       };
 
-      var marks = lodash.filter(customizeController.product.marks, {
+      BuildService.findByProduct(customizeController.product.name, {
         'name': $stateParams.mark || 'Mark 1',
         'brand': $stateParams.brand || 'Intel'
+      }).then(function(response) {
+        var marks = response.data;
+        
+        var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
+        var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
+
+        customizeController.rig = new Rig({
+          product: customizeController.product
+        });
+
+        customizeController.totalPrice = totalPrice;
+        customizeController.rig.status = 'INITIAL';
+        rigCache.put(customizeController.product.id, customizeController.rig);
+        initializeBuilderOptions(specs, customizeController.product.specs);
       });
-
-      var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
-      var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
-
-      customizeController.rig = new Rig({
-        product: customizeController.product
-      });
-
-      customizeController.totalPrice = totalPrice;
-      customizeController.rig.status = 'INITIAL';
-      rigCache.put(customizeController.product.id, customizeController.rig);
-      initializeBuilderOptions(specs, customizeController.product.specs);
     }
   }
 

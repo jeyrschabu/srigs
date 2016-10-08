@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products'])
+angular.module('rigs.customize', ['mgo-angular-wizard', 'rigs.services.products', 'rigs.services.builds'])
     .config(['$stateProvider', function($stateProvider) {
 
         $stateProvider
