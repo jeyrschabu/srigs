@@ -12,6 +12,7 @@ angular
     'angular-cache',
     'formly',
     'formlyBootstrap',
+    'rx',
     'rigs.common',
     'rigs.home',
     'rigs.products',
