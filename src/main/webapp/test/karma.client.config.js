@@ -28,6 +28,9 @@ module.exports = function (karma) {
       './../../webapp/bower_components/api-check/dist/api-check.min.js',
       './../../webapp/bower_components/angular-formly/dist/formly.min.js',
       './../../webapp/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.js',
+      './../../webapp/bower_components/rxjs/modules/rx-lite/rx.lite.min.js',
+      './../../webapp/bower_components/angular-rx/modules/rx.lite.angular/rx.lite.angular.js',
+
       './../../webapp/app/**/*.service.js',
       './../../webapp/app/**/*.controller.js',
       './../../webapp/app/**/*.module.js',

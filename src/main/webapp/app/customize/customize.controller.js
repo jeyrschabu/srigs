@@ -1,9 +1,9 @@
 'use strict';
 
 CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state', 'lodash', 'ProductService',
-  'BuildService', 'CacheFactory'];
+  'BuildService', 'CacheFactory', 'observeOnScope'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, BuildService, CacheFactory) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, BuildService, CacheFactory, observeOnScope) {
   var customizeController = this;
 
   customizeController.disableSticking = false;
@@ -40,7 +40,7 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         'brand': $stateParams.brand || 'Intel'
       }).then(function(response) {
         var marks = response.data;
-        
+
         var totalPrice = (marks.length) ? marks[0].price : customizeController.product.price;
         var specs = (marks.length) ? marks[0].specs : customizeController.product.specs;
 
@@ -116,7 +116,7 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
   };
 
   customizeController.priceWatchers = function () {
-    var options = [
+    [
       'customizeController.rig.caseOptions',
       'customizeController.rig.caseLedOptions',
       'customizeController.rig.caseCoolingOptions',
@@ -134,17 +134,17 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       'customizeController.rig.storageOpticalOptions',
       'customizeController.rig.osOptions',
       'customizeController.rig.internalWifiOptions'
-    ];
 
-    options.forEach(function (option) {
-      $scope.$watch(option, function (newValue, oldValue, scope) {
-        if (newValue) {
-          var newPrice = newValue['current'].price || 0;
-          customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
-          customizeController.rig.status = 'IN_PROGRESS';
-          rigCache.put(customizeController.product.id, customizeController.rig);
-        }
-      }, true);
+    ].forEach(function (option) {
+      observeOnScope($scope, option, true)
+        .subscribe(function(change) {
+          if (change.newValue) {
+            var newPrice = change.newValue['current'].price || 0;
+            customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
+            customizeController.rig.status = 'IN_PROGRESS';
+            rigCache.put(customizeController.product.id, customizeController.rig);
+          }
+        });
     });
   };
 
