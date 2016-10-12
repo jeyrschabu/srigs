@@ -42,7 +42,6 @@ public class Main implements SparkApplication {
     final MongoConnectionConfig dbCfg = new MongoConnectionConfig(mongoClient, database);
     final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
     final ProductService productService = new ProductService().setDataProvider(dbCfg);
-    productService.loadCache();
     final SpecService specService = new SpecService().setDataProvider(dbCfg);
     final OrderService orderService = new OrderService().setDataProvider(dbCfg);
     final BuildService buildService = new BuildService().setDataProvider(dbCfg);
