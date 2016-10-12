@@ -9,6 +9,7 @@ import com.rooftopcoder.web.data.MongoConnectionConfig;
 import com.rooftopcoder.web.models.Model;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,10 +22,8 @@ import java.util.Map;
 public abstract class BaseService<T extends Model> {
 
   protected abstract String getInitialJsonData();
-
   protected ModelProvider<T> modelProvider;
   private Class<T> clazz;
-
 
   protected ModelProvider<T> getProvider() {
     return this.modelProvider;
@@ -43,7 +42,7 @@ public abstract class BaseService<T extends Model> {
   public List<T> findAll() {
     List<T> items = this.getProvider().findAll();
 
-    if (items.isEmpty()) {
+    if (items.isEmpty() && shouldPopulateOnStartUp()) {
       initialDataLoad();
     }
 
@@ -65,7 +64,7 @@ public abstract class BaseService<T extends Model> {
     List<T> items = getProvider().findMany(key, value);
     log.info("fetched {} items", items.size());
 
-    if (items.isEmpty()) {
+    if (items.isEmpty() && shouldPopulateOnStartUp()) {
       initialDataLoad();
     }
 
@@ -89,5 +88,10 @@ public abstract class BaseService<T extends Model> {
     } finally {
       IOUtils.closeQuietly(stream);
     }
+  }
+
+  private boolean shouldPopulateOnStartUp() {
+    String populateOnStartUp = System.getenv("POPULATE_ON_START_UP");
+    return !(StringUtils.isEmpty(populateOnStartUp) || populateOnStartUp.equalsIgnoreCase("disabled"));
   }
 }
