@@ -365,9 +365,9 @@
         "type": "CPU",
         "shortDescription": "Total power zero compromise.",
         "longDescription": "The Intel Core i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across eight software threads, the Intel Core i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's a gaming experience so perfect, you just might lose yourself in the action.",
-        "coverImage": "4690K SMALL",
+        "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4690K LARGE"
+        "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
         "name": "Intel i5-4590",
@@ -377,9 +377,9 @@
         "type": "CPU",
         "shortDescription": "Haswell core-based processors offer advanced power management and improved integrated graphics.",
         "longDescription": "The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.",
-        "coverImage": "4690K SMALL",
+        "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4690K LARGE"
+        "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
         "name": "Intel i5-4790K Devil's Canyon",
@@ -389,9 +389,9 @@
         "type": "CPU",
         "shortDescription": "The Intel Core I7-4790 4.4 GHz Processor is engineered to deliver performance and power efficiency",
         "longDescription": "The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials",
-        "coverImage": "4790K SMALL",
+        "coverImage": "INTEL/4790K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4790K LARGE"
+        "fullImageLink": "INTEL/4790K LARGE.jpg"
       },
       {
         "name": "AMD FX-6300",
@@ -401,9 +401,9 @@
         "type": "CPU",
         "shortDescription": "Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
         "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
-        "coverImage": "AMD FX CPUS SMALL",
+        "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
-        "fullImageLink": "AMD FX CPUS LARGE"
+        "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
         "name": "AMD FX-8320",
@@ -413,9 +413,9 @@
         "type": "CPU",
         "shortDescription": "AMD FX processor unlocks maximum, unrestrained processing performance for extreme responsiveness you can see and feel.",
         "longDescription": "Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.",
-        "coverImage": "AMD FX CPUS SMALL",
+        "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
-        "fullImageLink": "AMD FX CPUS LARGE"
+        "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
         "name": "AMD FX-8350",
@@ -485,9 +485,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI 970A SLI Krait",
@@ -497,9 +497,9 @@
         "type": "Motherboard",
         "shortDescription": "AMD FX/ Processors, and Intel Phenom II/ Athlon II and Sempron",
         "longDescription": "MSI 970A SLI KRAIT EDITION Socket AM3+/ AMD 970/ DDR3/ 2-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ A&GbE/ ATX Motherboard",
-        "coverImage": "MSI 970A SLI KRAIT EDITION SMALL",
+        "coverImage": "MSI 970A SLI KRAIT EDITION SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE"
+        "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE.jpg"
       },
       {
         "name": "MSI 990FX Gaming",
@@ -509,9 +509,9 @@
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
         "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
-        "coverImage": "MSI 990FX SMALL",
+        "coverImage": "MSI 990FX SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI 990FXA GAMING ONLY"
+        "fullImageLink": "MSI 990FXA GAMING ONLY.jpg"
       },
       {
         "name": "MSI Z97 Gaming 5",
@@ -521,9 +521,9 @@
         "type": "Motherboard",
         "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
         "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
-        "coverImage": "MSI Z97 GAMING 5 SMALL",
+        "coverImage": "MSI Z97 GAMING 5 SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI Z97 GAMING 5 LARGE"
+        "fullImageLink": "MSI Z97 GAMING 5 LARGE.jpg"
       },
       {
         "name": "8GB Standard",
@@ -1793,9 +1793,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI Z170 Gaming M5",
@@ -3101,9 +3101,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI Z170M Mortar",
@@ -4373,9 +4373,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "Dark Fusion Stage One",
