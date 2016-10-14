@@ -353,9 +353,9 @@
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
         "longDescription": "The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.",
-        "coverImage": "6100 SMALL",
+        "coverImage": "INTEL/6100 SMALL.jpg",
         "options": [],
-        "fullImageLink": "6100 LARGE"
+        "fullImageLink": "INTEL/6100 LARGE.jpg"
       },
       {
         "name": "Intel i5-4690K Devil's Canyon",
@@ -473,9 +473,9 @@
         "type": "System Cooling",
         "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
         "longDescription": "The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
-        "coverImage": "CORSAIR H80I SMALL",
+        "coverImage": "CLOSEDLOOP/CORSAIR H80I SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CORSAIR H80I LARGE"
+        "fullImageLink": "CLOSEDLOOP/CORSAIR H80I LARGE.jpg"
       },
       {
         "name": "H100i GTX Liquid CPU Cooler",
@@ -1441,9 +1441,9 @@
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
         "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
-        "coverImage": "CORSAIR 450D SMALL",
+        "coverImage": "CORSAIR 450D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CORSAIR 450D LARGE"
+        "fullImageLink": "CORSAIR 450D LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 600C",
@@ -1453,9 +1453,9 @@
         "type": "Case",
         "shortDescription": "Quiet. Cool. Gorgeous.",
         "longDescription": "600C allows you to create a beautifully minimal modern PC layout, in full view through the giant transparent side panel.600C's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
-        "coverImage": "CARBIDE CLEAR 600C SMALL",
+        "coverImage": "CARBIDE CLEAR 600C SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CARBIDE CLEAR 600C LARGE"
+        "fullImageLink": "CARBIDE CLEAR 600C LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 600Q",
@@ -1465,9 +1465,9 @@
         "type": "Case",
         "shortDescription": "Quiet. Cool. Gorgeous.",
         "longDescription": "600Q allows you to create a beautifully minimal modern PC layout. 600Q's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
-        "coverImage": "CARBIDE 600Q SMALL",
+        "coverImage": "CARBIDE 600Q SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CARBIDE 600Q LARGE"
+        "fullImageLink": "CARBIDE 600Q LARGE.jpg"
       },
       {
         "name": "Corsair Obsidian 750D",
@@ -1477,9 +1477,9 @@
         "type": "Case",
         "shortDescription": "The full tower Obsidian case for great-looking high performance PCs.",
         "longDescription": "The Obsidian Series 750D full tower PC case combines generous expansion flexibility, room for advanced cooling options. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.",
-        "coverImage": "750D SMALL",
+        "coverImage": "750D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "750D LARGE"
+        "fullImageLink": "750D LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 750D Airflow Edition",
@@ -1489,9 +1489,9 @@
         "type": "Case",
         "shortDescription": "The high airflow full tower Obsidian Series case for great-looking high performance PCs",
         "longDescription": "The 750D Airflow has a clean, elegant exterior that dispenses with arbitrary plastic add-ons in exchange for the beauty of brushed aluminum and solid steel. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.\n\nThe front panel is what makes the 750D Airflow different than the original 750D. Dual 140mm front intake fans and a low-resistance mesh panel provide quiet, efficient air cooling performance for GPUs and DRAM.\n\nThe tool-free drive bays can be moved and removed, so you can use only what you need for your particular storage requirements. In turn, you'll get increased space for components and better airflow potential.\n\nSmart design features and an optimized interior make this a true builder's PC case. That's because we believe building a system should be straightforward, trouble-free, and even fun.\n\nCorsair Obsidian Series cases are designed by system builders, for system builders, for the sole purpose of building truly extraordinary PCs. Rugged steel meets the subtle elegance of brushed aluminum in these world-class PC cases designed to be the foundations of amazing systems.",
-        "coverImage": "750D AIRFLOW SMALL",
+        "coverImage": "750D AIRFLOW SMALL.jpg",
         "options" : [],
-        "fullImageLink": "750D AIRFLOW LARGE"
+        "fullImageLink": "750D AIRFLOW LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 900D",
@@ -1501,9 +1501,9 @@
         "type": "Case",
         "shortDescription": "Do you want to design your ultimate dream PC? Add state-of-the-art liquid cooling or air cooling",
         "longDescription": "A cooling-optimized case design requires three things: good passive ventilation, flexible fan mounting options for good airflow, and the room to add sophisticated active cooling systems. Obsidian Series 900D is built on a steel and cast aluminum frame, with solid steel panels and a fully painted interior. The brushed aluminum fascia resists scratches and fingerprints, and it's just plain fun to put your hands on it.",
-        "coverImage": "900D SMALL",
+        "coverImage": "900D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "900D LARGE"
+        "fullImageLink": "900D LARGE.jpg"
       },
       {
         "name": "Stock Fans",
@@ -1513,9 +1513,9 @@
         "type": "Case Fans",
         "shortDescription": "",
         "longDescription": "",
-        "coverImage": "STOCK FAN SMALL",
+        "coverImage": "FANS/STOCK FAN SMALL.png",
         "options" : [],
-        "fullImageLink": "STOCK FAN LARGE"
+        "fullImageLink": "FANS/STOCK FAN LARGE.jpg"
       },
       {
         "name": "LED Fans",
@@ -1525,30 +1525,30 @@
         "type": "Case Fans",
         "shortDescription": "Superior cooling performance and LED illumination.",
         "longDescription": "",
-        "coverImage": "FAN LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "FAN LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png"
           },
           {
-            "name" : "Red",
-            "coverImage" : "FAN LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FAN LED RED SMALL.png"
           },
           {
-            "name" : "Green",
-            "coverImage" : "FAN LED GREEN LARGE"
+            "name": "Green",
+            "coverImage": "FAN LED GREEN LARGE.png"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "FAN LED PURPLE SMALL"
+            "name": "Purple",
+            "coverImage": "FAN LED PURPLE SMALL.png"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "FAN LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FAN LED BLUE SMALL.png"
           }
         ],
-        "fullImageLink": ""
+        "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
       },
       {
         "name": "Performance Fans",
@@ -1558,9 +1558,9 @@
         "type": "Case Fans",
         "shortDescription": "Excellent performance at a moderate price point.",
         "longDescription": "The wide body, low-pitch blades of the SP120 fans combined with the custom housing provides outstanding static pressure and airflow through heatsinks or radiators. With rubberized corners, a quiet and reliable Advanced Hydraulic Bearing, and an included step-down resistor for even quieter operation, the SP120 truly is the strong, silent type.\n\nIncluded in the box are the three user-replaceable colored rings, in red, blue, and white, so you can customize your fan to match your case's components. Each fan also features blacked-out wires and connectors, so your build looks elegant and clean when done.",
-        "coverImage": "PRO HIGH STATIC SMALL",
-        "options" : [],
-        "fullImageLink": "PRO HIGH STATIC LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/PRO HIGH STATIC SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/PERFORMANCE/PRO HIGH STATIC LARGE.png"
       },
       {
         "name": "Performance Magnetic Fans",
@@ -1570,9 +1570,9 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "AIR ML120 COOLING FAN SMALL",
-        "options" : [],
-        "fullImageLink": "AIR ML120 COOLING FAN LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN LARGE.png"
       },
       {
         "name": "Performance LED Magnetic Fans",
@@ -1582,19 +1582,19 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "ML120 LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "ML120 LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "ML120 LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED RED SMALL.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "ML120 LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED BLUE SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -1608,7 +1608,7 @@
         "shortDescription": "",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -1619,27 +1619,27 @@
         "type": "Case LED",
         "shortDescription": "Internal lighting. Show your style.",
         "longDescription": "",
-        "coverImage": "src/image.png",
-        "options" : [
+        "coverImage": "MAG LED WHITE.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "MAG LED WHITE"
+            "name": "White",
+            "coverImage": "MAG LED WHITE.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "MAG LED RED"
+            "name": "Red",
+            "coverImage": "MAG LED RED.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "MAG LED GREEN"
+            "name": "Green",
+            "coverImage": "MAG LED GREEN.jpg"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "MAG LED PURPLE"
+            "name": "Purple",
+            "coverImage": "MAG LED PURPLE.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "MAG LED BLUE"
+            "name": "Blue",
+            "coverImage": "MAG LED BLUE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -1653,7 +1653,7 @@
         "shortDescription": "Modular cabling for a clean look.",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -1665,86 +1665,86 @@
         "shortDescription": "Custom cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
-        "options" : [
+        "options": [
           {
-            "name" : "Black",
-            "coverImage" : "Black Small"
+            "name": "Black",
+            "coverImage": "Black Small.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "Green Small"
+            "name": "Green",
+            "coverImage": "Green Small.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "Black Red Small"
+            "name": "Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "Mod Mesh Blue Small"
+            "name": "Blue",
+            "coverImage": "Mod Mesh Blue Small.jpg"
           },
           {
-            "name" : "Orange",
-            "coverImage" : "Orange Small"
+            "name": "Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "White",
-            "coverImage" : "White Small"
+            "name": "White",
+            "coverImage": "White Small.jpg"
           },
           {
-            "name" : "Light Green",
-            "coverImage" : "Light Green Small"
+            "name": "Light Green",
+            "coverImage": "Light Green Small.jpg"
           },
           {
-            "name" : "Light Blue",
-            "coverImage" : "Light Blue Small"
+            "name": "Light Blue",
+            "coverImage": "Light Blue Small.jpg"
           },
           {
-            "name" : "Carbon",
-            "coverImage" : "Carbon Small"
+            "name": "Carbon",
+            "coverImage": "Carbon Small.jpg"
           },
           {
-            "name" : "Black/Blue",
-            "coverImage" : "Black Blue Small"
+            "name": "Black/Blue",
+            "coverImage": "Black Blue Small.jpg"
           },
           {
-            "name" : "Black/Green",
-            "coverImage" : "Black Green Small"
+            "name": "Black/Green",
+            "coverImage": "Black Green Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Black Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Black Orange Small.jpg"
           },
           {
-            "name" : "Black/Red",
-            "coverImage" : "Black Red Small"
+            "name": "Black/Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "Black/Yellow",
-            "coverImage" : "Black Yellow Small"
+            "name": "Black/Yellow",
+            "coverImage": "Black Yellow Small.jpg"
           },
           {
-            "name" : "Black/Blood Red",
-            "coverImage" : "Black Blood Small"
+            "name": "Black/Blood Red",
+            "coverImage": "Black Blood Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "White/Blue",
-            "coverImage" : "Mod Mesh Blue White Small"
+            "name": "White/Blue",
+            "coverImage": "Mod Mesh Blue White Small.jpg"
           },
           {
-            "name" : "White/Red",
-            "coverImage" : "Mod Mesh White Red Small"
+            "name": "White/Red",
+            "coverImage": "Mod Mesh White Red Small.jpg"
           }
         ],
         "fullImageLink": ""
@@ -1757,9 +1757,9 @@
         "type": "CPU",
         "shortDescription": "With a 6th Generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC.",
         "longDescription": "The unlocked Intel Core i5-6600k processor features Intel Turbo Boost Technology which gives you an automatic burst of speed whenever you need it. With overclocking enabled, it allows flexibility to set your system specs the way you like. Take control with our 6th gen Intel Core unlocked i5 processor.",
-        "coverImage": "6600k Small",
+        "coverImage": "INTEL/6600k Small.jpg",
         "options" : [],
-        "fullImageLink": "6600k Large"
+        "fullImageLink": "INTEL/6600k Large.jpg"
       },
       {
         "name": "Intel i7-6700K",
@@ -1769,9 +1769,9 @@
         "type": "CPU",
         "shortDescription": "With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an incredible breakthrough in PC performance.",
         "longDescription": "The new standard for PC performance has arrived6th Generation Intel Core processors! Our blazing fast, feature packed processor family with built-in security is ready to take your productivity, creativity and 3D gaming to the next level.",
-        "coverImage": "6700K SMALL",
+        "coverImage": "INTEL/6700K SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6700K LARGE"
+        "fullImageLink": "INTEL/6700K LARGE.jpg"
       },
       {
         "name": "H80i GT Liquid CPU Cooler",
@@ -1781,9 +1781,9 @@
         "type": "System Cooling",
         "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
         "longDescription": "The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
-        "coverImage": "CORSAIR H80I SMALL",
+        "coverImage": "CLOSEDLOOP/CORSAIR H80I SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CORSAIR H80I LARGE"
+        "fullImageLink": "CLOSEDLOOP/CORSAIR H80I LARGE.jpg"
       },
       {
         "name": "H100i GTX Liquid CPU Cooler",
@@ -1805,9 +1805,9 @@
         "type": "Motherboard",
         "shortDescription": "Enthusiast level gaming motherboard from MSI",
         "longDescription": "To master the game you need a masterful system. The MSI Enthusiast GAMING motherboards are honored with the suffixM for Master to cite its truly outstanding design, ready to guide you to the next level in gaming. MSI Z170A GAMING M5 LGA1151/ Intel Z170/ DDR4/ 3-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ M.2&SATA Express/ A&GbE/ ATX Motherboard",
-        "coverImage": "MSI Z170 GAMING M5 SMALL best i could do",
+        "coverImage": "MSI Z170 GAMING M5 SMALL.png",
         "options" : [],
-        "fullImageLink": "MSI z170 Gaming m5 Large"
+        "fullImageLink": "MSI z170 Gaming m5 Large.jpg"
       },
       {
         "name": "MSI Z170 Gaming M7",
@@ -1817,9 +1817,9 @@
         "type": "Motherboard",
         "shortDescription": "A more feature-filled enthusiast level gaming motherboard from MSI",
         "longDescription": "To master the game you need a masterful system. The MSI Enthusiast GAMING motherboards are honored with the suffix M for Master to cite its truly outstanding design, ready to guide you to the next level in gaming. Two m.2 slots for performance storage. MSI Z170A GAMING M7 LGA1151/ Intel Z170/ DDR4/ 3-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ M.2&SATA Express/ A&GbE/ ATX Motherboard",
-        "coverImage": "MSI Z170 GAMING M7 SMALL",
+        "coverImage": "MSI Z170 GAMING M7 SMALL.jpg",
         "options" : [],
-        "fullImageLink": "MSI Z170 GAMING M7 LARGE"
+        "fullImageLink": "MSI Z170 GAMING M7 LARGE.jpg"
       },
       {
         "name": "MSI Z170 Gaming M9 ACK",
@@ -1829,9 +1829,9 @@
         "type": "Motherboard",
         "shortDescription": "The ultimate level of the Gaming M series. Excellent feature support and overclocking capability.",
         "longDescription": "The ultimate level of the Gaming M series. To master the game you need a masterful system. The MSI Enthusiast GAMING motherboards are honored with the suffix M for Master to cite its truly outstanding design, ready to guide you to the next level in gaming. MSI Z170A GAMING M9 ACK LGA1151/ Intel Z170/ DDR4/ 3-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ M.2&SATA Express/ Wi-Fi/ A&GbE/ ATX Motherboard",
-        "coverImage": "MSI Z170 GAMING M9 ACK SMALL",
+        "coverImage": "MSI Z170 GAMING M9 ACK SMALL.jpg",
         "options" : [],
-        "fullImageLink": "MSI Z170 GAMING M9 ACK LARGE"
+        "fullImageLink": "MSI Z170 GAMING M9 ACK LARGE.jpg"
       },
       {
         "name": "8GB Standard",
@@ -2225,9 +2225,9 @@
         "type": "PSU",
         "shortDescription": "Quiet and Intelligent Auto Fan for near-silent operation\nHigh Amperage Single-Rail Design for maximum power and efficiency\nOver Power/Under Power/Over Voltage/Short Circuit protection built in",
         "longDescription": "The EVGA SuperNOVA 1000 G2 has arrived! This power supply is 80 PLUS Gold rated, offers 1000 W of continuous power, exceptional efficiency and is fully modular. Designed with enthusiast needs in mind the EVGA SuperNOVA 1000 G2 power supply is the best choice to power this and next generation enthusiast computers. Take your system to the next level and power up with the EVGA SuperNOVA 1000 G2!",
-        "coverImage": "EVGA 1000W G2 PSU SMALL",
+        "coverImage": "G2/EVGA 1000W G2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1000W G2 PSU LARGE"
+        "fullImageLink": "G2/EVGA 1000W G2 PSU LARGE.jpg"
       },
       {
         "name": "650W Platinum-Rated PSU",
@@ -2273,9 +2273,9 @@
         "type": "PSU",
         "shortDescription": "EVGA 1000 P2 - \"Unrivaled Performance\"\nEVGA's 24/7 Technical Support\n80 PLUS Platinum high efficiency power supply certified - 50% load (92% Efficiency)",
         "longDescription": "EVGA has gone Platinum with the new SuperNOVA 1000 P2 Power Supply. This Power supply is 80 PLUS Platinum rated with an efficiency of 92% under typical loads. The new ECO Thermal Control Fan System offers Fan RPM modes to provide zero fan noise during low load operations. This provides improved efficiency for longer operation, less power consumption, reduced energy costs and minimal heat dissipation. Backed by a 10year warranty, gain peace of mind from the heart of your system and power up with the EVGA SuperNOVA 1000 P2!",
-        "coverImage": "EVGA 1000W P2 PSU SMALL",
+        "coverImage": "P2/EVGA 1000W P2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1000W P2 PSU LARGE"
+        "fullImageLink": "P2/EVGA 1000W P2 PSU LARGE.jpg"
       },
       {
         "name": "1200W Platinum-Rated PSU",
@@ -2285,9 +2285,9 @@
         "type": "PSU",
         "shortDescription": "Introducing the EVGA SuperNOVA 1200 P2 power supply. This power supply raises the bar with 1200W of continuous power delivery and 92% efficiency. A fully modular design reduces case clutter and 100% Japanese Capacitors ensures that only the absolute best components are used.",
         "longDescription": "This power supply raises the bar with 1200 W of continuous power delivery and 92% (115 VAC) / 94% (220 VAC - 240 VAC) efficiency. A fully modular design reduces case clutter and 100% Japanese capacitors ensures that only the absolute best components are used. What does that mean The best stability, reliability, overclockability and unparalleled control. The EVGA SuperNOVA 1200 P2 is the ultimate tool to eliminate all system bottlenecks and achieve unrivaled performance.",
-        "coverImage": "EVGA 1200W P2 PSU SMALL",
+        "coverImage": "P2/EVGA 1200W P2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1200W P2 PSU LARGE"
+        "fullImageLink": "P2/EVGA 1200W P2 PSU LARGE.jpg"
       },
       {
         "name": "None",
@@ -2797,9 +2797,9 @@
         "type": "Case",
         "shortDescription": "The Micro ATX case for high-performance",
         "longDescription": "The Obsidian Series 350D Micro ATX PC case is designed  for compact high-performance systems with Micro ATX motherboards. The compact size is ideal if space is limited, but there's plenty of room inside for liquid CPU cooling, dual hard drives, dual SSDs, and dual full-length graphics cards.",
-        "coverImage": "350D SMALL",
+        "coverImage": "350D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "350D LARGE"
+        "fullImageLink": "350D LARGE.jpg"
       },
       {
         "name": "Stock Fans",
@@ -2809,9 +2809,9 @@
         "type": "Case Fans",
         "shortDescription": "",
         "longDescription": "",
-        "coverImage": "STOCK FAN SMALL",
+        "coverImage": "FANS/STOCK FAN SMALL.png",
         "options" : [],
-        "fullImageLink": "STOCK FAN LARGE"
+        "fullImageLink": "FANS/STOCK FAN LARGE.jpg"
       },
       {
         "name": "LED Fans",
@@ -2821,30 +2821,30 @@
         "type": "Case Fans",
         "shortDescription": "Superior cooling performance and LED illumination.",
         "longDescription": "",
-        "coverImage": "FAN LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "FAN LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png"
           },
           {
-            "name" : "Red",
-            "coverImage" : "FAN LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FAN LED RED SMALL.png"
           },
           {
-            "name" : "Green",
-            "coverImage" : "FAN LED GREEN LARGE"
+            "name": "Green",
+            "coverImage": "FAN LED GREEN LARGE.png"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "FAN LED PURPLE SMALL"
+            "name": "Purple",
+            "coverImage": "FAN LED PURPLE SMALL.png"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "FAN LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FAN LED BLUE SMALL.png"
           }
         ],
-        "fullImageLink": ""
+        "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
       },
       {
         "name": "Performance Fans",
@@ -2854,9 +2854,9 @@
         "type": "Case Fans",
         "shortDescription": "Excellent performance at a moderate price point.",
         "longDescription": "The wide body, low-pitch blades of the SP120 fans combined with the custom housing provides outstanding static pressure and airflow through heatsinks or radiators. With rubberized corners, a quiet and reliable Advanced Hydraulic Bearing, and an included step-down resistor for even quieter operation, the SP120 truly is the strong, silent type.\n\nIncluded in the box are the three user-replaceable colored rings, in red, blue, and white, so you can customize your fan to match your case's components. Each fan also features blacked-out wires and connectors, so your build looks elegant and clean when done.",
-        "coverImage": "PRO HIGH STATIC SMALL",
-        "options" : [],
-        "fullImageLink": "PRO HIGH STATIC LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/PRO HIGH STATIC SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/PERFORMANCE/PRO HIGH STATIC LARGE.png"
       },
       {
         "name": "Performance Magnetic Fans",
@@ -2866,9 +2866,9 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "AIR ML120 COOLING FAN SMALL",
-        "options" : [],
-        "fullImageLink": "AIR ML120 COOLING FAN LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN LARGE.png"
       },
       {
         "name": "Performance LED Magnetic Fans",
@@ -2878,19 +2878,19 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "ML120 LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "ML120 LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "ML120 LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED RED SMALL.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "ML120 LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED BLUE SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -2904,7 +2904,7 @@
         "shortDescription": "",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -2915,27 +2915,27 @@
         "type": "Case LED",
         "shortDescription": "Internal lighting. Show your style.",
         "longDescription": "",
-        "coverImage": "src/image.png",
-        "options" : [
+        "coverImage": "MAG LED WHITE.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "MAG LED WHITE"
+            "name": "White",
+            "coverImage": "MAG LED WHITE.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "MAG LED RED"
+            "name": "Red",
+            "coverImage": "MAG LED RED.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "MAG LED GREEN"
+            "name": "Green",
+            "coverImage": "MAG LED GREEN.jpg"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "MAG LED PURPLE"
+            "name": "Purple",
+            "coverImage": "MAG LED PURPLE.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "MAG LED BLUE"
+            "name": "Blue",
+            "coverImage": "MAG LED BLUE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -2949,7 +2949,7 @@
         "shortDescription": "Modular cabling for a clean look.",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -2961,86 +2961,86 @@
         "shortDescription": "Custom cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
-        "options" : [
+        "options": [
           {
-            "name" : "Black",
-            "coverImage" : "Black Small"
+            "name": "Black",
+            "coverImage": "Black Small.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "Green Small"
+            "name": "Green",
+            "coverImage": "Green Small.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "Black Red Small"
+            "name": "Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "Mod Mesh Blue Small"
+            "name": "Blue",
+            "coverImage": "Mod Mesh Blue Small.jpg"
           },
           {
-            "name" : "Orange",
-            "coverImage" : "Orange Small"
+            "name": "Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "White",
-            "coverImage" : "White Small"
+            "name": "White",
+            "coverImage": "White Small.jpg"
           },
           {
-            "name" : "Light Green",
-            "coverImage" : "Light Green Small"
+            "name": "Light Green",
+            "coverImage": "Light Green Small.jpg"
           },
           {
-            "name" : "Light Blue",
-            "coverImage" : "Light Blue Small"
+            "name": "Light Blue",
+            "coverImage": "Light Blue Small.jpg"
           },
           {
-            "name" : "Carbon",
-            "coverImage" : "Carbon Small"
+            "name": "Carbon",
+            "coverImage": "Carbon Small.jpg"
           },
           {
-            "name" : "Black/Blue",
-            "coverImage" : "Black Blue Small"
+            "name": "Black/Blue",
+            "coverImage": "Black Blue Small.jpg"
           },
           {
-            "name" : "Black/Green",
-            "coverImage" : "Black Green Small"
+            "name": "Black/Green",
+            "coverImage": "Black Green Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Black Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Black Orange Small.jpg"
           },
           {
-            "name" : "Black/Red",
-            "coverImage" : "Black Red Small"
+            "name": "Black/Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "Black/Yellow",
-            "coverImage" : "Black Yellow Small"
+            "name": "Black/Yellow",
+            "coverImage": "Black Yellow Small.jpg"
           },
           {
-            "name" : "Black/Blood Red",
-            "coverImage" : "Black Blood Small"
+            "name": "Black/Blood Red",
+            "coverImage": "Black Blood Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "White/Blue",
-            "coverImage" : "Mod Mesh Blue White Small"
+            "name": "White/Blue",
+            "coverImage": "Mod Mesh Blue White Small.jpg"
           },
           {
-            "name" : "White/Red",
-            "coverImage" : "Mod Mesh White Red Small"
+            "name": "White/Red",
+            "coverImage": "Mod Mesh White Red Small.jpg"
           }
         ],
         "fullImageLink": ""
@@ -3053,9 +3053,9 @@
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
         "longDescription": "The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.",
-        "coverImage": "6100 SMALL",
+        "coverImage": "INTEL/6100 SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6100 LARGE"
+        "fullImageLink": "INTEL/6100 LARGE.jpg"
       },
       {
         "name": "Intel i5-6600k",
@@ -3065,9 +3065,9 @@
         "type": "CPU",
         "shortDescription": "With a 6th Generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC.",
         "longDescription": "The unlocked Intel Core i5-6600k processor features Intel Turbo Boost Technology which gives you an automatic burst of speed whenever you need it. With overclocking enabled, it allows flexibility to set your system specs the way you like. Take control with our 6th gen Intel Core unlocked i5 processor.",
-        "coverImage": "6600k Small",
+        "coverImage": "INTEL/6600k Small.jpg",
         "options" : [],
-        "fullImageLink": "6600k Large"
+        "fullImageLink": "INTEL/6600k Large.jpg"
       },
       {
         "name": "Intel i7-6700K",
@@ -3077,9 +3077,9 @@
         "type": "CPU",
         "shortDescription": "With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an incredible breakthrough in PC performance.",
         "longDescription": "The new standard for PC performance has arrived6th Generation Intel Core processors! Our blazing fast, feature packed processor family with built-in security is ready to take your productivity, creativity and 3D gaming to the next level.",
-        "coverImage": "6700K SMALL",
+        "coverImage": "INTEL/6700K SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6700K LARGE"
+        "fullImageLink": "INTEL/6700K LARGE.jpg"
       },
       {
         "name": "H80i GT Liquid CPU Cooler",
@@ -3089,9 +3089,9 @@
         "type": "System Cooling",
         "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
         "longDescription": "The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
-        "coverImage": "CORSAIR H80I SMALL",
+        "coverImage": "CLOSEDLOOP/CORSAIR H80I SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CORSAIR H80I LARGE"
+        "fullImageLink": "CLOSEDLOOP/CORSAIR H80I LARGE.jpg"
       },
       {
         "name": "H100i GTX Liquid CPU Cooler",
@@ -3113,9 +3113,9 @@
         "type": "Motherboard",
         "shortDescription": "Intel Z170 MATX Gaming motherboard supporting the latest 6th generation Intel Core i3/i5/i7 processors",
         "longDescription": "Equip yourself with the MSI Arsenal GAMING Series motherboards to improve your game. MSI Arsenal GAMING Series motherboards are covered in full black camouflage with LED ambient lights and is packed with gaming features, making them the perfect weapon to dominate the battlefield.",
-        "coverImage": "MSI Z170M MORTAR SMALL",
+        "coverImage": "MSI Z170M MORTAR LARGE.jpg",
         "options" : [],
-        "fullImageLink": "MSI Z170M MORTAR LARGE"
+        "fullImageLink": "MSI Z170M MORTAR LARGE.jpg"
       },
       {
         "name": "ASUS Maximus VIII GENE",
@@ -3125,9 +3125,9 @@
         "type": "Motherboard",
         "shortDescription": "Compact and powerful mATX board packed with gaming-oriented features",
         "longDescription": "LGA1151 socket for 6th-gen Intel Core desktop processors. Dual DDR4 3733 (OC) support. Best gaming performance - 5-Way Optimization with Auto-Tuning, 2nd-generation T-Topology and OC design. Best gaming audio - reinvented SupremeFX 2015 with intuitive Sonic Studio II. Best gaming networking - best-in-class Intel Gigabit Ethernet, LANGuard and GameFirst technology. Best gaming protection - carefully-selected premium components to ensure maximum durability. ROG gives you more - more gaming-oriented utilities, all free!",
-        "coverImage": "MAXIMUS VIII SMALL",
+        "coverImage": "MAXIMUS VIII SMALL.jpg",
         "options" : [],
-        "fullImageLink": "Maximus VIII Gene LARGE"
+        "fullImageLink": "Maximus VIII Gene LARGE.jpg"
       },
       {
         "name": "8GB Standard",
@@ -3997,9 +3997,9 @@
         "type": "Case",
         "shortDescription": "The full tower Obsidian case for great-looking high performance PCs.",
         "longDescription": "The Obsidian Series 750D full tower PC case combines generous expansion flexibility, room for advanced cooling options. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.",
-        "coverImage": "750D SMALL",
+        "coverImage": "750D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "750D LARGE"
+        "fullImageLink": "750D LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 750D Airflow Edition",
@@ -4009,9 +4009,9 @@
         "type": "Case",
         "shortDescription": "The high airflow full tower Obsidian Series case for great-looking high performance PCs",
         "longDescription": "The 750D Airflow has a clean, elegant exterior that dispenses with arbitrary plastic add-ons in exchange for the beauty of brushed aluminum and solid steel. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.\n\nThe front panel is what makes the 750D Airflow different than the original 750D. Dual 140mm front intake fans and a low-resistance mesh panel provide quiet, efficient air cooling performance for GPUs and DRAM.\n\nThe tool-free drive bays can be moved and removed, so you can use only what you need for your particular storage requirements. In turn, you'll get increased space for components and better airflow potential.\n\nSmart design features and an optimized interior make this a true builder's PC case. That's because we believe building a system should be straightforward, trouble-free, and even fun.\n\nCorsair Obsidian Series cases are designed by system builders, for system builders, for the sole purpose of building truly extraordinary PCs. Rugged steel meets the subtle elegance of brushed aluminum in these world-class PC cases designed to be the foundations of amazing systems.",
-        "coverImage": "750D AIRFLOW SMALL",
+        "coverImage": "750D AIRFLOW SMALL.jpg",
         "options" : [],
-        "fullImageLink": "750D AIRFLOW LARGE"
+        "fullImageLink": "750D AIRFLOW LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 900D",
@@ -4021,9 +4021,9 @@
         "type": "Case",
         "shortDescription": "Do you want to design your ultimate dream PC? Add state-of-the-art liquid cooling or air cooling",
         "longDescription": "A cooling-optimized case design requires three things: good passive ventilation, flexible fan mounting options for good airflow, and the room to add sophisticated active cooling systems. Obsidian Series 900D is built on a steel and cast aluminum frame, with solid steel panels and a fully painted interior. The brushed aluminum fascia resists scratches and fingerprints, and it's just plain fun to put your hands on it.",
-        "coverImage": "900D SMALL",
+        "coverImage": "900D SMALL.jpg",
         "options" : [],
-        "fullImageLink": "900D LARGE"
+        "fullImageLink": "900D LARGE.jpg"
       },
       {
         "name": "Stock Fans",
@@ -4033,9 +4033,9 @@
         "type": "Case Fans",
         "shortDescription": "",
         "longDescription": "",
-        "coverImage": "STOCK FAN SMALL",
+        "coverImage": "FANS/STOCK FAN SMALL.png",
         "options" : [],
-        "fullImageLink": "STOCK FAN LARGE"
+        "fullImageLink": "FANS/STOCK FAN LARGE.jpg"
       },
       {
         "name": "LED Fans",
@@ -4045,30 +4045,30 @@
         "type": "Case Fans",
         "shortDescription": "Superior cooling performance and LED illumination.",
         "longDescription": "",
-        "coverImage": "FAN LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "FAN LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png"
           },
           {
-            "name" : "Red",
-            "coverImage" : "FAN LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FAN LED RED SMALL.png"
           },
           {
-            "name" : "Green",
-            "coverImage" : "FAN LED GREEN LARGE"
+            "name": "Green",
+            "coverImage": "FAN LED GREEN LARGE.png"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "FAN LED PURPLE SMALL"
+            "name": "Purple",
+            "coverImage": "FAN LED PURPLE SMALL.png"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "FAN LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FAN LED BLUE SMALL.png"
           }
         ],
-        "fullImageLink": ""
+        "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
       },
       {
         "name": "Performance Fans",
@@ -4078,9 +4078,9 @@
         "type": "Case Fans",
         "shortDescription": "Excellent performance at a moderate price point.",
         "longDescription": "The wide body, low-pitch blades of the SP120 fans combined with the custom housing provides outstanding static pressure and airflow through heatsinks or radiators. With rubberized corners, a quiet and reliable Advanced Hydraulic Bearing, and an included step-down resistor for even quieter operation, the SP120 truly is the strong, silent type.\n\nIncluded in the box are the three user-replaceable colored rings, in red, blue, and white, so you can customize your fan to match your case's components. Each fan also features blacked-out wires and connectors, so your build looks elegant and clean when done.",
-        "coverImage": "PRO HIGH STATIC SMALL",
-        "options" : [],
-        "fullImageLink": "PRO HIGH STATIC LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/PRO HIGH STATIC SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/PERFORMANCE/PRO HIGH STATIC LARGE.png"
       },
       {
         "name": "Performance Magnetic Fans",
@@ -4090,9 +4090,9 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "AIR ML120 COOLING FAN SMALL",
-        "options" : [],
-        "fullImageLink": "AIR ML120 COOLING FAN LARGE"
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN SMALL.png",
+        "options": [],
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN LARGE.png"
       },
       {
         "name": "Performance LED Magnetic Fans",
@@ -4102,19 +4102,19 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "ML120 LED WHITE SMALL",
-        "options" : [
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "ML120 LED WHITE SMALL"
+            "name": "White",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "ML120 LED RED SMALL"
+            "name": "Red",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED RED SMALL.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "ML120 LED BLUE SMALL"
+            "name": "Blue",
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED BLUE SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -4128,7 +4128,7 @@
         "shortDescription": "",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -4139,27 +4139,27 @@
         "type": "Case LED",
         "shortDescription": "Internal lighting. Show your style.",
         "longDescription": "",
-        "coverImage": "src/image.png",
-        "options" : [
+        "coverImage": "MAG LED WHITE.jpg",
+        "options": [
           {
-            "name" : "White",
-            "coverImage" : "MAG LED WHITE"
+            "name": "White",
+            "coverImage": "MAG LED WHITE.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "MAG LED RED"
+            "name": "Red",
+            "coverImage": "MAG LED RED.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "MAG LED GREEN"
+            "name": "Green",
+            "coverImage": "MAG LED GREEN.jpg"
           },
           {
-            "name" : "Purple",
-            "coverImage" : "MAG LED PURPLE"
+            "name": "Purple",
+            "coverImage": "MAG LED PURPLE.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "MAG LED BLUE"
+            "name": "Blue",
+            "coverImage": "MAG LED BLUE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -4173,7 +4173,7 @@
         "shortDescription": "Modular cabling for a clean look.",
         "longDescription": "",
         "coverImage": "",
-        "options" : [],
+        "options": [],
         "fullImageLink": ""
       },
       {
@@ -4185,86 +4185,86 @@
         "shortDescription": "Custom cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
-        "options" : [
+        "options": [
           {
-            "name" : "Black",
-            "coverImage" : "Black Small"
+            "name": "Black",
+            "coverImage": "Black Small.jpg"
           },
           {
-            "name" : "Green",
-            "coverImage" : "Green Small"
+            "name": "Green",
+            "coverImage": "Green Small.jpg"
           },
           {
-            "name" : "Red",
-            "coverImage" : "Black Red Small"
+            "name": "Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Blue",
-            "coverImage" : "Mod Mesh Blue Small"
+            "name": "Blue",
+            "coverImage": "Mod Mesh Blue Small.jpg"
           },
           {
-            "name" : "Orange",
-            "coverImage" : "Orange Small"
+            "name": "Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "White",
-            "coverImage" : "White Small"
+            "name": "White",
+            "coverImage": "White Small.jpg"
           },
           {
-            "name" : "Light Green",
-            "coverImage" : "Light Green Small"
+            "name": "Light Green",
+            "coverImage": "Light Green Small.jpg"
           },
           {
-            "name" : "Light Blue",
-            "coverImage" : "Light Blue Small"
+            "name": "Light Blue",
+            "coverImage": "Light Blue Small.jpg"
           },
           {
-            "name" : "Carbon",
-            "coverImage" : "Carbon Small"
+            "name": "Carbon",
+            "coverImage": "Carbon Small.jpg"
           },
           {
-            "name" : "Black/Blue",
-            "coverImage" : "Black Blue Small"
+            "name": "Black/Blue",
+            "coverImage": "Black Blue Small.jpg"
           },
           {
-            "name" : "Black/Green",
-            "coverImage" : "Black Green Small"
+            "name": "Black/Green",
+            "coverImage": "Black Green Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Black Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Black Orange Small.jpg"
           },
           {
-            "name" : "Black/Red",
-            "coverImage" : "Black Red Small"
+            "name": "Black/Red",
+            "coverImage": "Black Red Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "Black/Yellow",
-            "coverImage" : "Black Yellow Small"
+            "name": "Black/Yellow",
+            "coverImage": "Black Yellow Small.jpg"
           },
           {
-            "name" : "Black/Blood Red",
-            "coverImage" : "Black Blood Small"
+            "name": "Black/Blood Red",
+            "coverImage": "Black Blood Small.jpg"
           },
           {
-            "name" : "Black/Orange",
-            "coverImage" : "Orange Small"
+            "name": "Black/Orange",
+            "coverImage": "Orange Small.jpg"
           },
           {
-            "name" : "Black/White",
-            "coverImage" : "Black White Small"
+            "name": "Black/White",
+            "coverImage": "Black White Small.jpg"
           },
           {
-            "name" : "White/Blue",
-            "coverImage" : "Mod Mesh Blue White Small"
+            "name": "White/Blue",
+            "coverImage": "Mod Mesh Blue White Small.jpg"
           },
           {
-            "name" : "White/Red",
-            "coverImage" : "Mod Mesh White Red Small"
+            "name": "White/Red",
+            "coverImage": "Mod Mesh White Red Small.jpg"
           }
         ],
         "fullImageLink": ""
@@ -4313,9 +4313,9 @@
         "type": "CPU",
         "shortDescription": "These Intel Core i7 processors support quadchannel DDR4 memory, boast up to 25MB of Intel Smart Cache, and are fullyunlocked for unleashed performance.",
         "longDescription": "The Intel Core i7-6800K processor enables simultaneous, compute intensive, multi-threaded workloads, powered by 6 cores and 12 threads. Emerse yourself in the delivery of platform scalability to meet exacting demands with up to 28 PCIe 3.0 lanes and support for high speed storage, up to 4 discrete graphics cards, and Thunderbolt technology. This Core i7 processor support quad channel DDR4 memory, boast up to 15MB of Intel Smart Cache, and is fully unlocked for unleashed performance. Finally, the Intel Core i7-69xx/68xx processor family is the first to feature the NEW Intel Turbo Boost Max Technology 3.0, dynamically boosting the processor frequency to deliver maximum application performance.",
-        "coverImage": "6700K SMALL",
+        "coverImage": "INTEL/6700K SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6700K LARGE"
+        "fullImageLink": "INTEL/6700K LARGE.jpg"
       },
       {
         "name": "Intel i7-6850K",
@@ -4325,9 +4325,9 @@
         "type": "CPU",
         "shortDescription": "With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an incredible breakthrough in PC performance.",
         "longDescription": "The Intel Core i7-6850K processor enables simultaneous, compute intensive, multi-threaded workloads, powered by 6 cores and 12 threads. Emerse yourself in the delivery of platform scalability to meet exacting demands with up to 40 PCIe 3.0 lanes and support for high speed storage, up to 4 discrete graphics cards, and Thunderbolt technology. This Core i7 processor support quad channel DDR4 memory, boast up to 15MB of Intel Smart Cache, and is fully unlocked for unleashed performance. Finally, the Intel Core i7-69xx/68xx processor family is the first to feature the NEW Intel Turbo Boost Max Technology 3.0, dynamically boosting the processor frequency to deliver maximum application performance.",
-        "coverImage": "6700K SMALL",
+        "coverImage": "INTEL/6700K SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6700K LARGE"
+        "fullImageLink": "INTEL/6700K LARGE.jpg"
       },
       {
         "name": "Intel i7-6900K",
@@ -4337,9 +4337,9 @@
         "type": "CPU",
         "shortDescription": "With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an incredible breakthrough in PC performance.",
         "longDescription": "The Intel Core i7-6900K processor enables simultaneous, compute intensive, multi-threaded workloads, powered by 8 cores and 16 threads. Emerse yourself in the delivery of platform scalability to meet exacting demands with up to 40 PCIe 3.0 lanes and support for high speed storage, up to 4 discrete graphics cards, and Thunderbolt technology. This Core i7 processor support quad channel DDR4 memory, boast up to 20MB of Intel Smart Cache, and is fully unlocked for unleashed performance. Finally, the Intel Core i7-69xx/68xx processor family is the first to feature the NEW Intel Turbo Boost Max Technology 3.0, dynamically boosting the processor frequency to deliver maximum application performance.",
-        "coverImage": "6700K SMALL",
+        "coverImage": "INTEL/6700K SMALL.jpg",
         "options" : [],
-        "fullImageLink": "6700K LARGE"
+        "fullImageLink": "INTEL/6700K LARGE.jpg"
       },
       {
         "name": "Intel i7-6950X",
@@ -4361,9 +4361,9 @@
         "type": "System Cooling",
         "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
         "longDescription": "The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
-        "coverImage": "CORSAIR H80I SMALL",
+        "coverImage": "CLOSEDLOOP/CORSAIR H80I SMALL.jpg",
         "options" : [],
-        "fullImageLink": "CORSAIR H80I LARGE"
+        "fullImageLink": "CLOSEDLOOP/CORSAIR H80I LARGE.jpg"
       },
       {
         "name": "H100i GTX Liquid CPU Cooler",
@@ -5192,9 +5192,9 @@
         "type": "PSU",
         "shortDescription": "Quiet and Intelligent Auto Fan for near-silent operation\nHigh Amperage Single-Rail Design for maximum power and efficiency\nOver Power/Under Power/Over Voltage/Short Circuit protection built in",
         "longDescription": "The EVGA SuperNOVA 1000 G2 has arrived! This power supply is 80 PLUS Gold rated, offers 1000 W of continuous power, exceptional efficiency and is fully modular. Designed with enthusiast needs in mind the EVGA SuperNOVA 1000 G2 power supply is the best choice to power this and next generation enthusiast computers. Take your system to the next level and power up with the EVGA SuperNOVA 1000 G2!",
-        "coverImage": "EVGA 1000W G2 PSU SMALL",
+        "coverImage": "G2/EVGA 1000W G2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1000W G2 PSU LARGE"
+        "fullImageLink": "G2/EVGA 1000W G2 PSU LARGE.jpg"
       },
       {
         "name": "1300W Gold-Rated PSU",
@@ -5264,9 +5264,9 @@
         "type": "PSU",
         "shortDescription": "EVGA 1000 P2 - \"Unrivaled Performance\"\nEVGA's 24/7 Technical Support\n80 PLUS Platinum high efficiency power supply certified - 50% load (92% Efficiency)",
         "longDescription": "EVGA has gone Platinum with the new SuperNOVA 1000 P2 Power Supply. This Power supply is 80 PLUS Platinum rated with an efficiency of 92% under typical loads. The new ECO Thermal Control Fan System offers Fan RPM modes to provide zero fan noise during low load operations. This provides improved efficiency for longer operation, less power consumption, reduced energy costs and minimal heat dissipation. Backed by a 10year warranty, gain peace of mind from the heart of your system and power up with the EVGA SuperNOVA 1000 P2!",
-        "coverImage": "EVGA 1000W P2 PSU SMALL",
+        "coverImage": "P2/EVGA 1000W P2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1000W P2 PSU LARGE"
+        "fullImageLink": "P2/EVGA 1000W P2 PSU LARGE.jpg"
       },
       {
         "name": "1200W Platinum-Rated PSU",
@@ -5276,9 +5276,9 @@
         "type": "PSU",
         "shortDescription": "Introducing the EVGA SuperNOVA 1200 P2 power supply. This power supply raises the bar with 1200W of continuous power delivery and 92% efficiency. A fully modular design reduces case clutter and 100% Japanese Capacitors ensures that only the absolute best components are used.",
         "longDescription": "This power supply raises the bar with 1200 W of continuous power delivery and 92% (115 VAC) / 94% (220 VAC - 240 VAC) efficiency. A fully modular design reduces case clutter and 100% Japanese capacitors ensures that only the absolute best components are used. What does that mean The best stability, reliability, overclockability and unparalleled control. The EVGA SuperNOVA 1200 P2 is the ultimate tool to eliminate all system bottlenecks and achieve unrivaled performance.",
-        "coverImage": "EVGA 1200W P2 PSU SMALL",
+        "coverImage": "P2/EVGA 1200W P2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1200W P2 PSU LARGE"
+        "fullImageLink": "P2/EVGA 1200W P2 PSU LARGE.jpg"
       },
       {
         "name": "1600W Platinum-Rated PSU",
@@ -5288,9 +5288,9 @@
         "type": "PSU",
         "shortDescription": "Superior vertical double layer main transformer increases power output\n100% highest quality Japanese Nippon Chemi-Con solid state capacitors ensure long-term reliability",
         "longDescription": "The EVGA SuperNOVA 1600 P2 power supply raises the bar with 1600 W of continuous power delivery and 92% (115 VAC) / 94% (220 VAC~240 VAC) efficiency. A fully modular design reduces case clutter and 100% Japanese Capacitors ensures that only the absolute best components are used. The best stability, reliability, overclockability and unparalleled control. The EVGA SuperNOVA 1600 P2 is the ultimate tool to eliminate all system bottlenecks and achieve unrivaled performance.",
-        "coverImage": "EVGA 1600W P2 PSU SMALL",
+        "coverImage": "P2/EVGA 1600W P2 PSU SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA 1600W P2 PSU LARGE"
+        "fullImageLink": "P2/EVGA 1600W P2 PSU LARGE.jpg"
       },
       {
         "name": "None",
