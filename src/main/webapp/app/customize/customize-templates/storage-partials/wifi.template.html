@@ -24,8 +24,10 @@
 
         <div class="cpm-description" ng-class="cpmwifi1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                <div class="col-md-4">
+                    <a href="http://cdn.shadowrigs.com/images/PERIPHERALS/WIFI/{{wifi.fullImageLink}}">
+                        <img ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/WIFI/{{wifi.coverImage}}">
+                    </a>
                 </div>
                 <div class="col-md-9" ng-show="wifi.longDescription">
                     <p>{{wifi.longDescription}}</p>

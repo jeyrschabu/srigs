@@ -24,10 +24,12 @@
 
         <div class="cpm-description" ng-class="cpmpsu1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                <div class="col-md-4">
+                    <a href="http://cdn.shadowrigs.com/images/PSU/{{psu.fullImageLink}}">
+                      <img ng-src="http://cdn.shadowrigs.com/images/PSU/{{psu.coverImage}}">
+                    </a>
                 </div>
-                <div class="col-md-9" ng-show="psu.longDescription">
+                <div class="col-md-8" ng-show="psu.longDescription">
                     <p>{{psu.longDescription}}</p>
                 </div>
             </div>
