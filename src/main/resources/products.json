@@ -25,9 +25,9 @@
         "type": "Case",
         "shortDescription": "Battle Ready.",
         "longDescription": "When it's time to take your competitive gaming on the road, the Vengeance C70 mid-tower PC case is a great choice. It's crafted out of solid steel and made to survive trips with less wear and tear, and the ergonomic carry handles help you move your gear with confidence.",
-        "coverImage": "VENGEANCE C70 GREEN SMALL",
+        "coverImage": "VENGEANCE C70 GREEN SMALL.jpg",
         "options": [],
-        "fullImageLink": "VENGEANCE C70 GREEN LARGE"
+        "fullImageLink": "VENGEANCE C70 GREEN LARGE.jpg"
       },
       {
         "name": "Corsair Vengeance C70 Black",
@@ -37,9 +37,9 @@
         "type": "Case",
         "shortDescription": "Battle Ready.",
         "longDescription": "When it's time to take your competitive gaming on the road, the Vengeance C70 mid-tower PC case is a great choice. It's crafted out of solid steel and made to survive trips with less wear and tear, and the ergonomic carry handles help you move your gear with confidence.",
-        "coverImage": "VENGEANCE C70 BLACK SMALL",
+        "coverImage": "VENGEANCE C70 BLACK SMALL.jpg",
         "options": [],
-        "fullImageLink": "VENGEANCE C70 BLACK LARGE"
+        "fullImageLink": "VENGEANCE C70 BLACK LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 600C",
@@ -49,9 +49,9 @@
         "type": "Case",
         "shortDescription": "Quiet. Cool. Gorgeous.",
         "longDescription": "600C allows you to create a beautifully minimal modern PC layout, in full view through the giant transparent side panel.600C's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
-        "coverImage": "CARBIDE CLEAR 600C SMALL",
+        "coverImage": "CARBIDE CLEAR 600C SMALL.jpg",
         "options": [],
-        "fullImageLink": "CARBIDE CLEAR 600C LARGE"
+        "fullImageLink": "CARBIDE CLEAR 600C LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 600Q",
@@ -61,9 +61,9 @@
         "type": "Case",
         "shortDescription": "Quiet. Cool. Gorgeous.",
         "longDescription": "600Q allows you to create a beautifully minimal modern PC layout. 600Q's inverse ATX case design brings cool air directly to the components by eliminating obstruction from extra, unused drive bays. Direct air flow keeps fan noise to a minimum.",
-        "coverImage": "CARBIDE 600Q SMALL",
+        "coverImage": "CARBIDE 600Q SMALL.jpg",
         "options": [],
-        "fullImageLink": "CARBIDE 600Q LARGE"
+        "fullImageLink": "CARBIDE 600Q LARGE.jpg"
       },
       {
         "name": "Corsair Obsidian 750D",
@@ -73,9 +73,9 @@
         "type": "Case",
         "shortDescription": "The full tower Obsidian case for great-looking high performance PCs.",
         "longDescription": "The Obsidian Series 750D full tower PC case combines generous expansion flexibility, room for advanced cooling options. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.",
-        "coverImage": "750D SMALL",
+        "coverImage": "750D SMALL.jpg",
         "options": [],
-        "fullImageLink": "750D LARGE"
+        "fullImageLink": "750D LARGE.jpg"
       },
       {
         "name": "Corsair Carbide 750D Airflow Edition",
@@ -85,9 +85,9 @@
         "type": "Case",
         "shortDescription": "The high airflow full tower Obsidian Series case for great-looking high performance PCs",
         "longDescription": "The 750D Airflow has a clean, elegant exterior that dispenses with arbitrary plastic add-ons in exchange for the beauty of brushed aluminum and solid steel. This rigid, rugged exterior surrounds a frame that has ample room for high-performance components and the sophisticated cooling you'll need if you're going to push those components to their limits.\n\nThe front panel is what makes the 750D Airflow different than the original 750D. Dual 140mm front intake fans and a low-resistance mesh panel provide quiet, efficient air cooling performance for GPUs and DRAM.\n\nThe tool-free drive bays can be moved and removed, so you can use only what you need for your particular storage requirements. In turn, you'll get increased space for components and better airflow potential.\n\nSmart design features and an optimized interior make this a true builder's PC case. That's because we believe building a system should be straightforward, trouble-free, and even fun.\n\nCorsair Obsidian Series cases are designed by system builders, for system builders, for the sole purpose of building truly extraordinary PCs. Rugged steel meets the subtle elegance of brushed aluminum in these world-class PC cases designed to be the foundations of amazing systems.",
-        "coverImage": "750D AIRFLOW SMALL",
+        "coverImage": "750D AIRFLOW SMALL.jpg",
         "options": [],
-        "fullImageLink": "750D AIRFLOW LARGE"
+        "fullImageLink": "750D AIRFLOW LARGE.jpg"
       },
       {
         "name": "Stock Fans",
@@ -113,23 +113,23 @@
         "options": [
           {
             "name": "White",
-            "coverImage": "FAN LED WHITE SMALL"
+            "coverImage": "FANS/LEDFANS/FAN LED WHITE SMALL.png"
           },
           {
             "name": "Red",
-            "coverImage": "FAN LED RED SMALL"
+            "coverImage": "FAN LED RED SMALL.png"
           },
           {
             "name": "Green",
-            "coverImage": "FAN LED GREEN LARGE"
+            "coverImage": "FAN LED GREEN LARGE.png"
           },
           {
             "name": "Purple",
-            "coverImage": "FAN LED PURPLE SMALL"
+            "coverImage": "FAN LED PURPLE SMALL.png"
           },
           {
             "name": "Blue",
-            "coverImage": "FAN LED BLUE SMALL"
+            "coverImage": "FAN LED BLUE SMALL.png"
           }
         ],
         "fullImageLink": "FANS/LEDFANS/FAN LED WHITE LARGE.png"
@@ -142,9 +142,9 @@
         "type": "Case Fans",
         "shortDescription": "Excellent performance at a moderate price point.",
         "longDescription": "The wide body, low-pitch blades of the SP120 fans combined with the custom housing provides outstanding static pressure and airflow through heatsinks or radiators. With rubberized corners, a quiet and reliable Advanced Hydraulic Bearing, and an included step-down resistor for even quieter operation, the SP120 truly is the strong, silent type.\n\nIncluded in the box are the three user-replaceable colored rings, in red, blue, and white, so you can customize your fan to match your case's components. Each fan also features blacked-out wires and connectors, so your build looks elegant and clean when done.",
-        "coverImage": "PRO HIGH STATIC SMALL",
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/PRO HIGH STATIC SMALL.png",
         "options": [],
-        "fullImageLink": "PRO HIGH STATIC LARGE"
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/PERFORMANCE/PRO HIGH STATIC LARGE.png"
       },
       {
         "name": "Performance Magnetic Fans",
@@ -154,9 +154,9 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "AIR ML120 COOLING FAN SMALL",
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN SMALL.png",
         "options": [],
-        "fullImageLink": "AIR ML120 COOLING FAN LARGE"
+        "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN LARGE.png"
       },
       {
         "name": "Performance LED Magnetic Fans",
@@ -166,19 +166,19 @@
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
-        "coverImage": "ML120 LED WHITE SMALL",
+        "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
           {
             "name": "White",
-            "coverImage": "ML120 LED WHITE SMALL"
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg"
           },
           {
             "name": "Red",
-            "coverImage": "ML120 LED RED SMALL"
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED RED SMALL.jpg"
           },
           {
             "name": "Blue",
-            "coverImage": "ML120 LED BLUE SMALL"
+            "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED BLUE SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -203,27 +203,27 @@
         "type": "Case LED",
         "shortDescription": "Internal lighting. Show your style.",
         "longDescription": "",
-        "coverImage": "src/image.png",
+        "coverImage": "MAG LED WHITE.jpg",
         "options": [
           {
             "name": "White",
-            "coverImage": "MAG LED WHITE"
+            "coverImage": "MAG LED WHITE.jpg"
           },
           {
             "name": "Red",
-            "coverImage": "MAG LED RED"
+            "coverImage": "MAG LED RED.jpg"
           },
           {
             "name": "Green",
-            "coverImage": "MAG LED GREEN"
+            "coverImage": "MAG LED GREEN.jpg"
           },
           {
             "name": "Purple",
-            "coverImage": "MAG LED PURPLE"
+            "coverImage": "MAG LED PURPLE.jpg"
           },
           {
             "name": "Blue",
-            "coverImage": "MAG LED BLUE"
+            "coverImage": "MAG LED BLUE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -252,83 +252,83 @@
         "options": [
           {
             "name": "Black",
-            "coverImage": "Black Small"
+            "coverImage": "Black Small.jpg"
           },
           {
             "name": "Green",
-            "coverImage": "Green Small"
+            "coverImage": "Green Small.jpg"
           },
           {
             "name": "Red",
-            "coverImage": "Black Red Small"
+            "coverImage": "Black Red Small.jpg"
           },
           {
             "name": "Blue",
-            "coverImage": "Mod Mesh Blue Small"
+            "coverImage": "Mod Mesh Blue Small.jpg"
           },
           {
             "name": "Orange",
-            "coverImage": "Orange Small"
+            "coverImage": "Orange Small.jpg"
           },
           {
             "name": "White",
-            "coverImage": "White Small"
+            "coverImage": "White Small.jpg"
           },
           {
             "name": "Light Green",
-            "coverImage": "Light Green Small"
+            "coverImage": "Light Green Small.jpg"
           },
           {
             "name": "Light Blue",
-            "coverImage": "Light Blue Small"
+            "coverImage": "Light Blue Small.jpg"
           },
           {
             "name": "Carbon",
-            "coverImage": "Carbon Small"
+            "coverImage": "Carbon Small.jpg"
           },
           {
             "name": "Black/Blue",
-            "coverImage": "Black Blue Small"
+            "coverImage": "Black Blue Small.jpg"
           },
           {
             "name": "Black/Green",
-            "coverImage": "Black Green Small"
+            "coverImage": "Black Green Small.jpg"
           },
           {
             "name": "Black/Orange",
-            "coverImage": "Black Orange Small"
+            "coverImage": "Black Orange Small.jpg"
           },
           {
             "name": "Black/Red",
-            "coverImage": "Black Red Small"
+            "coverImage": "Black Red Small.jpg"
           },
           {
             "name": "Black/White",
-            "coverImage": "Black White Small"
+            "coverImage": "Black White Small.jpg"
           },
           {
             "name": "Black/Yellow",
-            "coverImage": "Black Yellow Small"
+            "coverImage": "Black Yellow Small.jpg"
           },
           {
             "name": "Black/Blood Red",
-            "coverImage": "Black Blood Small"
+            "coverImage": "Black Blood Small.jpg"
           },
           {
             "name": "Black/Orange",
-            "coverImage": "Orange Small"
+            "coverImage": "Orange Small.jpg"
           },
           {
             "name": "Black/White",
-            "coverImage": "Black White Small"
+            "coverImage": "Black White Small.jpg"
           },
           {
             "name": "White/Blue",
-            "coverImage": "Mod Mesh Blue White Small"
+            "coverImage": "Mod Mesh Blue White Small.jpg"
           },
           {
             "name": "White/Red",
-            "coverImage": "Mod Mesh White Red Small"
+            "coverImage": "Mod Mesh White Red Small.jpg"
           }
         ],
         "fullImageLink": ""
@@ -365,9 +365,9 @@
         "type": "CPU",
         "shortDescription": "Total power zero compromise.",
         "longDescription": "The Intel Core i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across eight software threads, the Intel Core i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's a gaming experience so perfect, you just might lose yourself in the action.",
-        "coverImage": "4690K SMALL",
+        "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4690K LARGE"
+        "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
         "name": "Intel i5-4590",
@@ -377,9 +377,9 @@
         "type": "CPU",
         "shortDescription": "Haswell core-based processors offer advanced power management and improved integrated graphics.",
         "longDescription": "The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.",
-        "coverImage": "4690K SMALL",
+        "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4690K LARGE"
+        "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
         "name": "Intel i5-4790K Devil's Canyon",
@@ -389,9 +389,9 @@
         "type": "CPU",
         "shortDescription": "The Intel Core I7-4790 4.4 GHz Processor is engineered to deliver performance and power efficiency",
         "longDescription": "The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials",
-        "coverImage": "4790K SMALL",
+        "coverImage": "INTEL/4790K SMALL.jpg",
         "options": [],
-        "fullImageLink": "4790K LARGE"
+        "fullImageLink": "INTEL/4790K LARGE.jpg"
       },
       {
         "name": "AMD FX-6300",
@@ -401,9 +401,9 @@
         "type": "CPU",
         "shortDescription": "Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
         "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
-        "coverImage": "AMD FX CPUS SMALL",
+        "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
-        "fullImageLink": "AMD FX CPUS LARGE"
+        "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
         "name": "AMD FX-8320",
@@ -413,9 +413,9 @@
         "type": "CPU",
         "shortDescription": "AMD FX processor unlocks maximum, unrestrained processing performance for extreme responsiveness you can see and feel.",
         "longDescription": "Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.",
-        "coverImage": "AMD FX CPUS SMALL",
+        "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
-        "fullImageLink": "AMD FX CPUS LARGE"
+        "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
         "name": "AMD FX-8350",
@@ -485,9 +485,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI 970A SLI Krait",
@@ -497,9 +497,9 @@
         "type": "Motherboard",
         "shortDescription": "AMD FX/ Processors, and Intel Phenom II/ Athlon II and Sempron",
         "longDescription": "MSI 970A SLI KRAIT EDITION Socket AM3+/ AMD 970/ DDR3/ 2-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ A&GbE/ ATX Motherboard",
-        "coverImage": "MSI 970A SLI KRAIT EDITION SMALL",
+        "coverImage": "MSI 970A SLI KRAIT EDITION SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE"
+        "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE.jpg"
       },
       {
         "name": "MSI 990FX Gaming",
@@ -509,9 +509,9 @@
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
         "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
-        "coverImage": "MSI 990FX SMALL",
+        "coverImage": "MSI 990FX SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI 990FXA GAMING ONLY"
+        "fullImageLink": "MSI 990FXA GAMING ONLY.jpg"
       },
       {
         "name": "MSI Z97 Gaming 5",
@@ -521,9 +521,9 @@
         "type": "Motherboard",
         "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
         "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
-        "coverImage": "MSI Z97 GAMING 5 SMALL",
+        "coverImage": "MSI Z97 GAMING 5 SMALL.jpg",
         "options": [],
-        "fullImageLink": "MSI Z97 GAMING 5 LARGE"
+        "fullImageLink": "MSI Z97 GAMING 5 LARGE.jpg"
       },
       {
         "name": "8GB Standard",
@@ -1793,9 +1793,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI Z170 Gaming M5",
@@ -3101,9 +3101,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "MSI Z170M Mortar",
@@ -4373,9 +4373,9 @@
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
         "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
-        "coverImage": "H100i Small",
+        "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
-        "fullImageLink": "H100i Large"
+        "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
       },
       {
         "name": "Dark Fusion Stage One",

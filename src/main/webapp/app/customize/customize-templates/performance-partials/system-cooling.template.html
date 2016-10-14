@@ -23,10 +23,12 @@
 
         <div class="cpm-description" ng-class="cpmsc1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
-                </div>
-                <div class="col-md-9" ng-show="syscooling.longDescription">
+              <div class="col-md-4">
+                <a href="http://cdn.shadowrigs.com/images/COOLING/{{syscooling.fullImageLink}}">
+                  <img ng-src="http://cdn.shadowrigs.com/images/COOLING/{{syscooling.coverImage}}">
+                </a>
+              </div>
+                <div class="col-md-8" ng-show="syscooling.longDescription">
                     <p>{{syscooling.longDescription}}</p>
                 </div>
             </div>
