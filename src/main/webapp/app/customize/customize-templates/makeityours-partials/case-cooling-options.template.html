@@ -12,7 +12,7 @@
                 <h4>{{fan.name}}</h4>
                 <p>{{fan.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{fan.price | currency}}
+                        {{fan.priceDiff > 0 ? '+' : ''}}{{fan.priceDiff | currency}}
                 </span>
             </div>
         </label>

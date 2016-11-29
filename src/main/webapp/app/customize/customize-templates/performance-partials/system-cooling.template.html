@@ -12,7 +12,7 @@
                 <h4>{{syscooling.name}}</h4>
                 <p>{{syscooling.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{syscooling.price | currency}}
+                        {{syscooling.priceDiff > 0 ? '+' : ''}}{{syscooling.priceDiff | currency}}
                 </span>
             </div>
         </label>

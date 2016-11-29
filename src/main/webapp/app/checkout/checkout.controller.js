@@ -66,6 +66,11 @@ function CheckoutController($stateParams, ngCart, CacheFactory, PaymentService) 
     var cache = CacheFactory.get("rigCache");
     if (productId && cache) {
       var rig = cache.get(productId);
+      var cartItem = ngCart.getItemById(productId);
+
+      if (cartItem) {
+        ngCart.removeItem(cartItem.getId());
+      }
       ngCart.addItem(
         rig.product.id,
         rig.product.name,

@@ -12,7 +12,7 @@
                 <h4>{{cabling.name}}</h4>
                 <p>{{cabling.shortDescription}}</p>
                 <span class="cpm-price">
-                    + ${{cabling.price}}
+                        {{cabling.priceDiff > 0 ? '+' : ''}}{{cabling.priceDiff | currency}}
                 </span>
             </div>
         </label>

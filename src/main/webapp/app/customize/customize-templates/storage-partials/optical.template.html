@@ -12,7 +12,7 @@
                 <h4>{{optical.name}}</h4>
                 <p>{{optical.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{optical.price | currency}}
+                        {{optical.priceDiff > 0 ? '+' : ''}}{{optical.priceDiff | currency}}
                 </span>
             </div>
 

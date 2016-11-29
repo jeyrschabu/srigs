@@ -12,7 +12,7 @@
                 <h4>{{led.name}}</h4>
                 <p>{{led.shortDescription}}</p>
                     <span class="cpm-price">
-                        + ${{led.price}}
+                        {{led.priceDiff > 0 ? '+' : ''}}{{led.priceDiff | currency}}
                     </span>
             </div>
 

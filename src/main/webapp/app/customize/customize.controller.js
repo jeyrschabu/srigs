@@ -26,8 +26,11 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     var cachedRig = rigCache.get(customizeController.product.id);
 
     if (cachedRig && cachedRig.status === 'IN_PROGRESS') {
-      customizeController.totalPrice = cachedRig.totalPrice;
+      customizeController.totalPrice = cachedRig.originalPrice;
       customizeController.rig = cachedRig;
+      customizeController.calcTotalPrice();
+      rigCache.put(customizeController.product.id, customizeController.rig);
+
     } else {
       var Rig = function (options) {
         return {
@@ -50,7 +53,8 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
 
         customizeController.totalPrice = totalPrice;
         customizeController.rig.status = 'INITIAL';
-        rigCache.put(customizeController.product.id, customizeController.rig);
+         customizeController.rig.originalPrice = totalPrice;
+       rigCache.put(customizeController.product.id, customizeController.rig);
         initializeBuilderOptions(specs, customizeController.product.specs);
       });
     }
@@ -87,7 +91,13 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       });
 
       current = allItems[startIndex];
-      current.price = 0; //reset because price is included
+      var currentPrice = allItems[startIndex].price;
+      lodash.map(allItems, function(item) {
+        item.priceDiff = item.price - currentPrice;
+      })
+
+      current.priceDiff = 0; //reset because price is included
+//      current.price = 0; //reset because price is included
       allItems = allItems.slice(startIndex, allItems.length)
     }
 
@@ -140,11 +150,42 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         .subscribe(function(change) {
           if (change.newValue) {
             var newPrice = change.newValue['current'].price || 0;
-            customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
+//            customizeController.rig.totalPrice = customizeController.totalPrice + newPrice;
+            lodash.map(change.newValue.items, function(item) {
+              item.priceDiff = item.price - newPrice;
+            })
+
+            customizeController.calcTotalPrice();
             customizeController.rig.status = 'IN_PROGRESS';
             rigCache.put(customizeController.product.id, customizeController.rig);
           }
         });
+    });
+  };
+
+  customizeController.calcTotalPrice = function () {
+    customizeController.rig.totalPrice = customizeController.totalPrice;
+    [
+      'caseOptions',
+      'caseLedOptions',
+      'caseCoolingOptions',
+      'caseCablingOptions',
+      'performanceCpuOptions',
+      'performanceCoolingOptions',
+      'performanceMotherboardOptions',
+      'performanceMemoryOptions',
+      'performanceGraphicsOptions',
+      'performanceOverclockOptions',
+      'performancePsuOptions',
+      'storageSsdOptions',
+      'storageHddOptions',
+      'storageM2Options',
+      'storageOpticalOptions',
+      'osOptions',
+      'internalWifiOptions'
+
+    ].forEach(function (option) {
+      customizeController.rig.totalPrice += customizeController.rig[option]['current'].price;
     });
   };
 

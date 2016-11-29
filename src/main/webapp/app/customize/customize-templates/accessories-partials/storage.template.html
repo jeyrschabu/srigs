@@ -12,7 +12,7 @@
                 <h4>{{extstorage.name}}</h4>
                 <p>{{extstorage.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{extstorage.price | currency}}
+                        {{extstorage.priceDiff > 0 ? '+' : ''}}{{extstorage.priceDiff | currency}}
                 </span>
             </div>
 

@@ -12,7 +12,7 @@
                 <h4>{{keyboard.name}}</h4>
                 <p>{{keyboard.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{keyboard.price | currency}}
+                        {{keyboard.priceDiff > 0 ? '+' : ''}}{{keyboard.priceDiff | currency}}
                 </span>
             </div>
 

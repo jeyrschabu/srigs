@@ -12,7 +12,7 @@
                 <h4>{{headset.name}}</h4>
                 <p>{{headset.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{headset.price | currency}}
+                        {{headset.priceDiff > 0 ? '+' : ''}}{{headset.priceDiff | currency}}
                 </span>
             </div>
 

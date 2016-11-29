@@ -12,7 +12,7 @@
                 <h4>{{wifi.name}}</h4>
                 <p>{{wifi.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{wifi.price | currency}}
+                        {{wifi.priceDiff > 0 ? '+' : ''}}{{wifi.priceDiff | currency}}
                 </span>
             </div>
 

@@ -11,7 +11,7 @@
                 <h4>{{ssd.name}}</h4>
                 <p>{{ssd.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{ssd.price | currency}}
+                        {{ssd.priceDiff > 0 ? '+' : ''}}{{ssd.priceDiff | currency}}
                 </span>
             </div>
 

@@ -12,7 +12,7 @@
                 <h4>{{flash.name}}</h4>
                 <p>{{flash.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{flash.price | currency}}
+                        {{flash.priceDiff > 0 ? '+' : ''}}{{flash.priceDiff | currency}}
                 </span>
             </div>
 

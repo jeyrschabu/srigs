@@ -12,7 +12,7 @@
                 <h4>{{overclock.name}}</h4>
                 <p>{{overclock.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{overclock.price | currency}}
+                        {{overclock.priceDiff > 0 ? '+' : ''}}{{overclock.priceDiff | currency}}
                 </span>
             </div>
         </label>

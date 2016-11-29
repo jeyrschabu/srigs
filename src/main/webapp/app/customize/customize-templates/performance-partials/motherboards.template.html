@@ -12,7 +12,7 @@
                 <h4>{{motherboard.name}}</h4>
                 <p>{{motherboard.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{motherboard.price | currency}}
+                        {{motherboard.priceDiff > 0 ? '+' : ''}}{{motherboard.priceDiff | currency}}
                 </span>
             </div>
 

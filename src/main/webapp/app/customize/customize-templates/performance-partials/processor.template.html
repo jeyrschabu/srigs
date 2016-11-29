@@ -12,7 +12,7 @@
                 <h4>{{cpu.name}}</h4>
                 <p>{{cpu.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{cpu.price | currency}}
+                        {{cpu.priceDiff > 0 ? '+' : ''}}{{cpu.priceDiff | currency}}
                 </span>
             </div>
 

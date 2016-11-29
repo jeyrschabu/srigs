@@ -12,7 +12,7 @@
                 <h4>{{hdd.name}}</h4>
                 <p>{{hdd.shortDescription}}</p>
                 <span class="cpm-price">
-                    + {{hdd.price | currency}}
+                        {{hdd.priceDiff > 0 ? '+' : ''}}{{hdd.priceDiff | currency}}
                 </span>
             </div>
 
