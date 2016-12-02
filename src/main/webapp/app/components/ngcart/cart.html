@@ -3,6 +3,8 @@
     Your cart is empty
 </div>
 
+
+
 <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
 
     <table class="table table-striped ngCart cart" style="font-weight: bold; color: black; background-color: white;">
@@ -39,9 +41,8 @@
             <td>{{ ngCart.totalCost() | currency }}</td>
         </tr>
         </tfoot>
-        <tbody>
-        <tr ng-repeat="item in ngCart.getCart().items track by $index">
-
+        <tbody ng-repeat="item in ngCart.getCart().items track by $index">
+        <tr>
             <td>
                 <span ng-click="ngCart.removeItemById(item.getId())">
                     <i class="fa fa-times" aria-hidden="true"></i>
@@ -64,6 +65,125 @@
             <td>{{ item.getPrice() | currency}}</td>
             <td>{{ item.getTotal() | currency }}</td>
         </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Case: {{ item.getData().caseOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().caseOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Case Cooling: {{ item.getData().caseCoolingOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().caseCoolingOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Case Led: {{ item.getData().caseLedOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().caseLedOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Cabling: {{ item.getData().caseCablingOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().caseCablingOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Processor: {{ item.getData().performanceCpuOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceCpuOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>System Cooling: {{ item.getData().performanceCoolingOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceCoolingOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Motherboard: {{ item.getData().performanceMotherboardOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceMotherboardOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Memory: {{ item.getData().performanceMemoryOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceMemoryOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Graphics: {{ item.getData().performanceGraphicsOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceGraphicsOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Overclocking: {{ item.getData().performanceOverclockOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performanceOverclockOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Power Supply: {{ item.getData().performancePsuOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().performancePsuOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Solid State Drive: {{ item.getData().storageSsdOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().storageSsdOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>M.2 Solid State Drive: {{ item.getData().storageM2Options.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().storageM2Options.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Hard Drive: {{ item.getData().storageHddOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().storageHddOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Optical Drive: {{ item.getData().storageOpticalOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().storageOpticalOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Operating System: {{ item.getData().osOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().osOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Internal Wi-Fi: {{ item.getData().internalWifiOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().internalWifiOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
         </tbody>
     </table>
 </div>
@@ -73,5 +193,10 @@
     }
     .ngCart.cart .cart-remove-item.disabled {
         color:#aaa;
+    }
+
+    .cartSubItem {
+      font-weight:normal;
+      font-size:11px;
     }
 </style>

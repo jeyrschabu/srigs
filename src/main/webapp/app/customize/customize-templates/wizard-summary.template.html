@@ -5,13 +5,13 @@
     <div class="summary-header row">
         <div class="col-md-6">
             <h2>Build:</h2>
-            <span>Phantom</span> <!-- build name -->
+            <span>{{customizeController.rig.product.name}}</span> <!-- build name -->
         </div>
         <div class="col-md-6">
             <h2>Total</h2>
-            <span>$1000</span>
-            <h2>Shipping</h2>
-            <p>100 lbs.</p>
+            <span>{{customizeController.rig.totalPrice | currency}}</span>
+            <h2 style="margin-top:10px">Shipping</h2>
+            <p>{{customizeController.rig.totalWeight.toFixed(1)}} lbs.</p>
         </div>
     </div>
 
@@ -19,24 +19,52 @@
 
         <h3 class="summary-product-header">Make it yours</h3>
         <ul>
-            <li>repeat make it yours</li>
+            <li>Case: {{customizeController.rig.caseOptions.current.name}} <span>${{customizeController.rig.caseOptions.current.price}}</span></li>
+            <li>Case Cooling: {{customizeController.rig.caseCoolingOptions.current.name}} <span>${{customizeController.rig.caseCoolingOptions.current.price}}</span></li>
+            <li>Case Led: {{customizeController.rig.caseLedOptions.current.name}} <span>${{customizeController.rig.caseLedOptions.current.price}}</span></li>
+            <li>Cabling: {{customizeController.rig.caseCablingOptions.current.name}} <span>${{customizeController.rig.caseCablingOptions.current.price}}</span></li>
         </ul>
 
         <h3 class="summary-product-header">Performance</h3>
         <ul>
-            <li>repeat performance options</li>
+          <li>Processor: {{customizeController.rig.performanceCpuOptions.current.name}}  <span>${{customizeController.rig.performanceCpuOptions.current.price}}</span></li>
+          <li>System Cooling: {{customizeController.rig.performanceCoolingOptions.current.name}}   <span>${{customizeController.rig.performanceCoolingOptions.current.price}}</span></li>
+          <li>Motherboard: {{customizeController.rig.performanceMotherboardOptions.current.name}} <span>${{customizeController.rig.performanceMotherboardOptions.current.price}}</span></li>
+          <li>Memory: {{customizeController.rig.performanceMemoryOptions.current.name}} <span>${{customizeController.rig.performanceMemoryOptions.current.price}}</span></li>
+          <li>Graphics: {{customizeController.rig.performanceGraphicsOptions.current.name}} <span>${{customizeController.rig.performanceGraphicsOptions.current.price}}</span></li>
+          <li>Overclocking: {{customizeController.rig.performanceOverclockOptions.current.name}} <span>${{customizeController.rig.performanceOverclockOptions.current.price}}</span></li>
+          <li>Power Supply: {{customizeController.rig.performancePsuOptions.current.name}} <span>${{customizeController.rig.performancePsuOptions.current.price}}</span></li>
         </ul>
 
         <h3 class="summary-product-header">Storage, Optical & Extras</h3>
         <ul>
-            <li>repeat storage options</li>
+          <li>Solid State Drive: {{customizeController.rig.storageSsdOptions.current.name}}  <span>${{customizeController.rig.storageSsdOptions.current.price}}</span></li>
+          <li>M.2 Solid State Drive: {{customizeController.rig.storageM2Options.current.name}} <span>${{customizeController.rig.storageM2Options.current.price}}</span></li>
+          <li>Hard Drive: {{customizeController.rig.storageHddOptions.current.name}} <span>${{customizeController.rig.storageHddOptions.current.price}}</span></li>
+          <li>Optical Drive: {{customizeController.rig.storageOpticalOptions.current.name}} <span>${{customizeController.rig.storageOpticalOptions.current.price}}</span></li>
+          <li>Operating System: {{customizeController.rig.osOptions.current.name}} <span>${{customizeController.rig.osOptions.current.price}}</span></li>
         </ul>
 
         <h3 class="summary-product-header">Accessories</h3>
         <ul>
-            <li>repeat accessories</li>
+          <li>Internal Wi-Fi: {{customizeController.rig.internalWifiOptions.current.name}} <span>${{customizeController.rig.internalWifiOptions.current.price}}</span></li>
         </ul>
 
     </div>
 
 </div>
+
+<style>
+  .summary-product-info ul {
+    padding: 0 11vw;
+  }
+
+  .summary-product-info ul li {
+    text-align: left;
+  }
+  .summary-product-info ul li span {
+    float:right;
+  }
+
+
+</style>

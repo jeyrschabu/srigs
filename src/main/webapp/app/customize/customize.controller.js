@@ -164,7 +164,9 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
   };
 
   customizeController.calcTotalPrice = function () {
-    customizeController.rig.totalPrice = customizeController.totalPrice;
+    // customizeController.rig.totalPrice = customizeController.totalPrice;
+    customizeController.rig.totalPrice = 0;
+    customizeController.rig.totalWeight = 0;
     [
       'caseOptions',
       'caseLedOptions',
@@ -186,12 +188,10 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
 
     ].forEach(function (option) {
       customizeController.rig.totalPrice += customizeController.rig[option]['current'].price;
+      customizeController.rig.totalWeight += customizeController.rig[option]['current'].weight;
     });
   };
 
   customizeController.initialize($stateParams.productId);
   customizeController.priceWatchers();
 }
-
-
-

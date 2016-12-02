@@ -75,8 +75,11 @@ function CheckoutController($stateParams, ngCart, CacheFactory, PaymentService) 
         rig.product.id,
         rig.product.name,
         rig.totalPrice,
-        1
+        1,
+        rig
       );
+
+      checkoutController.rig = rig;
     }
   }
 
