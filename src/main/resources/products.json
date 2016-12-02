@@ -103,7 +103,7 @@
       },
       {
         "name": "LED Fans",
-        "weight": 3,
+        "weight": 0,
         "price": 65,
         "wattage": 0,
         "type": "Case Fans",
@@ -1519,7 +1519,7 @@
       },
       {
         "name": "LED Fans",
-        "weight": 3,
+        "weight": 0,
         "price": 65,
         "wattage": 0,
         "type": "Case Fans",
@@ -2815,7 +2815,7 @@
       },
       {
         "name": "LED Fans",
-        "weight": 3,
+        "weight": 0,
         "price": 65,
         "wattage": 0,
         "type": "Case Fans",
@@ -4039,7 +4039,7 @@
       },
       {
         "name": "LED Fans",
-        "weight": 3,
+        "weight": 0,
         "price": 65,
         "wattage": 0,
         "type": "Case Fans",
