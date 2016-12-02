@@ -472,7 +472,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -483,8 +483,19 @@
         "price": 115,
         "wattage": 70,
         "type": "Motherboard",
-        "shortDescription": "AMD FX/ Processors, and Intel Phenom II/ Athlon II and Sempron",
-        "longDescription": "MSI 970A SLI KRAIT EDITION Socket AM3+/ AMD 970/ DDR3/ 2-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ A&GbE/ ATX Motherboard",
+        "shortDescription": "ATX · Socket AM3+ · AMD Chipset · Ethernet · Gigabit Ethernet · Multiple GPU Support",
+        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li>
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Military Class 4: Top Quality & Stability</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>Multi-GPU: AMD CrossFire Support</li>
+<li>Command Center: Control & Customize Your PC Settings</li>
+<li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li>
+<li>M-Flash: Simply Update & Backup Your BIOS</li>
+<li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
         "coverImage": "MSI 970A SLI KRAIT EDITION SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE.jpg"
@@ -496,7 +507,16 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage": "MSI 990FX SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI 990FXA GAMING ONLY.jpg"
@@ -508,7 +528,20 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
-        "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>When connecting multiple USB devices, most motherboards will be unable to deliver a strong 5V power signal to all USB ports. This is highly noticeable with high-quality external USB DACs where sound quality degrades as the motherboard is unable to deliver a perfect USB signal. Only MSI USB Audio Power continuously delivers a stable 5V to the USB ports on motherboards, making sure you can continue to enjoy the crystal clear audio standard you expect.</p> <ul><li>Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket
+<li>Supports DDR3-3300(OC) Memory</li>
+<li>M.2 + USB 3.0 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>USB Audio Power: Surve Stable 5V Power & Better Signal Transmission over USB</li>
+<li>XSplit Gamecaster: Show off Your Skills and Achievements</li>
+<li>Guard-Pro: Improved Protection and Power Efficiency</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Gaming App: Boost Your Frame Rate</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>Multi-GPU: NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul>",
         "coverImage": "MSI Z97 GAMING 5 SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI Z97 GAMING 5 LARGE.jpg"
@@ -1780,7 +1813,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -3088,7 +3121,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -4360,7 +4393,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
