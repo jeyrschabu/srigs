@@ -547,13 +547,13 @@
         "fullImageLink": "MSI Z97 GAMING 5 LARGE.jpg"
       },
       {
-        "name": "8GB Standard",
+        "name": "8GB DDR3 Standard",
         "weight": 0.5,
         "price": 60,
         "wattage": 15,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 8GB",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>  ",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -565,7 +565,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -577,7 +577,7 @@
         "wattage": 40,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 32GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -589,7 +589,7 @@
         "wattage": 30,
         "type": "RAM",
         "shortDescription": "CORSAIR Dominator Platinum 16GB Dual Channel",
-        "longDescription": "Corsair Dominator Platinum builds on the legacy of the world's most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.",
+        "longDescription": "<p>Corsair Dominator Platinum builds on the legacy of the world’s most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.</p> <p>Dominator Platinum memory modules are assembled using a “best of the best” IC screening process. Individual ICs are hand-screened to our highest performance threshold, and then the assembled modules undergo more rounds of rigorous screening and stability testing. The result is reliable performance under extreme pressure.</p> <p>Excess heat limits overclocking potential, reduces performance, and can even lead to shorter component life. Our patented dual-channel DHX cooling system pulls heat away from the modules and allows Dominator Platinum to run at cooler temperatures than lesser memory kits. This advanced cooling technology, combined with our relentless screening, delivers phenomenal overclocking potential.</p>",
         "coverImage": "DOMINATOR PLATINUM RAM SMALL.jpg",
         "options": [],
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
@@ -601,7 +601,7 @@
         "wattage": 30,
         "type": "RAM",
         "shortDescription": "CORSAIR Dominator Platinum 32GB Dual Channel",
-        "longDescription": "Corsair Dominator Platinum builds on the legacy of the world's most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit",
+        "longDescription": "<p>Corsair Dominator Platinum builds on the legacy of the world’s most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.</p> <p>Dominator Platinum memory modules are assembled using a “best of the best” IC screening process. Individual ICs are hand-screened to our highest performance threshold, and then the assembled modules undergo more rounds of rigorous screening and stability testing. The result is reliable performance under extreme pressure.</p> <p>Excess heat limits overclocking potential, reduces performance, and can even lead to shorter component life. Our patented dual-channel DHX cooling system pulls heat away from the modules and allows Dominator Platinum to run at cooler temperatures than lesser memory kits. This advanced cooling technology, combined with our relentless screening, delivers phenomenal overclocking potential.</p>",
         "coverImage": "DOMINATOR PLATINUM RAM SMALL.jpg",
         "options": [],
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
