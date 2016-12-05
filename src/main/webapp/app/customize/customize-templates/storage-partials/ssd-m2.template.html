@@ -1,8 +1,8 @@
 <h3 class="cpm-title">m.2 Solid State Drives</h3>
 <ul class="cpm-list">
     <li ng-repeat="ssdM2 in customizeController.rig.storageM2Options.items"
-        ng-init="itemId=customizeController.slugify(ssdM2.name);">
-        <div class="cpm-inner">
+        ng-init="itemId=customizeController.slugify(ssdM2.$$hashKey);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="ssdM2.name" id="{{itemId}}"
                        ng-model="customizeController.rig.storageM2Options.current"
@@ -16,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmm21 = !cpmm21"
                ng-class="cpmm21 ? 'cpm-expand-desc-active' : 'default'"></i>
@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmm21 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
               <div class="col-md-4">
-                  <a href="http://cdn.shadowrigs.com/images/STORAGE/M2/{{ssdM2.fullImageLink}}">
-                      <img ng-src="http://cdn.shadowrigs.com/images/STORAGE/M2/{{ssdM2.coverImage}}">
-                  </a>
+                      <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/STORAGE/M2/' + ssdM2.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/STORAGE/M2/{{ssdM2.coverImage}}">
               </div>
                 <div class="col-md-8" ng-show="ssdM2.longDescription">
                     <p>{{ssdM2.longDescription}}</p>

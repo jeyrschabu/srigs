@@ -306,7 +306,6 @@
 }
 
 .cpm-desc-open {
-  max-height: 300px;
   position: relative;
 }
 
@@ -491,4 +490,27 @@
   border-right: none;
   @include gradient-horizontal-three-colors($start-color: rgba(255,255,255,.002), $mid-color: rgba(255,255,255,.09), $color-stop: 50%, $end-color: rgba(255,255,255,.002))
 
+}
+
+.cpm-description {
+   .description {
+     margin-bottom: 10px;
+   }
+
+   .options {
+      img {
+         width: 100%;
+         margin-bottom: 5px;
+         cursor: pointer;
+      }
+
+      input[type="radio"] {
+        margin-right: 1px;
+      }
+
+      label {
+        cursor: pointer;
+      }
+
+   }
 }

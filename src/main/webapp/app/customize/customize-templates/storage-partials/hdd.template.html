@@ -1,8 +1,8 @@
 <h3 class="cpm-title">Hard Drives</h3>
 <ul class="cpm-list">
     <li ng-repeat="hdd in customizeController.rig.storageHddOptions.items"
-        ng-init="itemId=customizeController.slugify(hdd.name);">
-        <div class="cpm-inner">
+        ng-init="itemId=customizeController.slugify(hdd.$$hashKey);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="hdd.name" id="{{itemId}}"
                        ng-model="customizeController.rig.storageHddOptions.current"
@@ -16,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmhdd1 = !cpmhdd1"
                ng-class="cpmhdd1 ? 'cpm-expand-desc-active' : 'default'"></i>
@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmhdd1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="http://cdn.shadowrigs.com/images/STORAGE/HDD/{{hdd.fullImageLink}}">
-                       <img ng-src="http://cdn.shadowrigs.com/images/STORAGE/HDD/{{hdd.coverImage}}">
-                    </a>
+                       <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/STORAGE/HDD/' + hdd.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/STORAGE/HDD/{{hdd.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="hdd.longDescription">
                     <p>{{hdd.longDescription}}</p>

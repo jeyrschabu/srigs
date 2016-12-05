@@ -17,27 +17,33 @@
             </div>
 
         </label>
-        <a class="cpm-expand-desc">
+        <a class="cpm-expand-desc" ng-show="led.name != 'None'">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmled1 = !cpmled1"
                ng-class="cpmled1 ? 'cpm-expand-desc-active' : 'default'"></i>
         </a>
 
-        <div class="cpm-description" ng-class="cpmled1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/{{led.fullImageLink}}">
-                        <img ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/{{led.coverImage}}">
-                    </a>
-                </div>
-                <div class="col-md-8" ng-show="led.longDescription">
+        <div class="cpm-description" ng-show="led.name != 'None'" ng-class="cpmled1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row description">
+                <!-- <div class="col-md-4">
+                        <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/' + led.coverImage)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/{{led.coverImage}}">
+                </div> -->
+                <div class="col-md-12" ng-show="led.longDescription">
                     <p>{{led.longDescription}}</p>
                 </div>
             </div>
 
-            <div class="row" ng-show="led.options.length">
+            <div class="row options" ng-show="led.options.length">
                 <div class="col-xs-4 col-md-2" ng-repeat="option in led.options">
-                    <a href="#" class="cpm-color"></a>
-                    <p>{{option.name}}</p>
+                    <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/' + option.coverImage)"  ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/{{option.coverImage}}">
+                    <p>
+                      <label for="{{option.coverImage}}">
+                        <input type="radio" name="{{led.name}}" id="{{option.coverImage}}"
+                              ng-click="customizeController.selectSubOption('caseLedOptions', led, option)"
+                               ng-model="customizeController.rig.caseLedOptions.current.currentOption"
+                               ng-value="option">
+                        {{option.name}}
+                      </label>
+                    </p>
                 </div>
             </div>
         </div>

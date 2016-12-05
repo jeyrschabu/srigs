@@ -1,0 +1,43 @@
+<h3 class="cpm-title">Surges</h3>
+<ul class="cpm-list">
+    <li ng-repeat="surge in customizeController.rig.accSurgeOptions.items"
+        ng-init="itemId=customizeController.slugify(surge.name);">
+        <label for="{{surge.$$hashKey}}" class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="surge.name" id="{{surge.$$hashKey}}"
+                       ng-model="customizeController.rig.accSurgeOptions.current"
+                       ng-value="surge">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{surge.name}}</h4>
+                <p>{{surge.shortDescription}}</p>
+                <span class="cpm-price">
+                        {{surge.priceDiff > 0 ? '+' : ''}}{{surge.priceDiff | currency}}
+                </span>
+            </div>
+
+        </label>
+        <a class="cpm-expand-desc" ng-show="surge.name != 'None'">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmspkr1 = !cpmspkr1"
+               ng-class="cpmspkr1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-show="surge.name != 'None'" ng-class="cpmspkr1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+                <div class="col-md-3">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/POWERSTRIPS/' + display.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/POWERSTRIPS/{{display.coverImage}}">
+                </div>
+                <div class="col-md-9" ng-show="surge.longDescription">
+                    <p>{{surge.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+</ul>

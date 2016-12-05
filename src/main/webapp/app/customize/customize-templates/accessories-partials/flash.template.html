@@ -1,11 +1,11 @@
 <h3 class="cpm-title">Flash Drives</h3>
 <ul class="cpm-list">
-    <li ng-repeat="flash in customizeController.rig.accessoriesHddOptions.items"
+    <li ng-repeat="flash in customizeController.rig.accFlashOptions.items"
         ng-init="itemId=customizeController.slugify(flash.name);">
-        <div class="cpm-inner">
+        <label for="{{flash.$$hashKey}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="hdd.name" id="{{itemId}}"
-                       ng-model="customizeController.rig.accessoriesHddOptions.current"
+                <input type="radio" name="flash.name" id="{{flash.$$hashKey}}"
+                       ng-model="customizeController.rig.accFlashOptions.current"
                        ng-value="flash">
             </div>
             <div class="cpm-item-wrap">
@@ -16,16 +16,16 @@
                 </span>
             </div>
 
-        </div>
-        <a class="cpm-expand-desc">
+        </label>
+        <a class="cpm-expand-desc" ng-show="flash.name != 'None'">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmflash1 = !cpmflash1"
                ng-class="cpmflash1 ? 'cpm-expand-desc-active' : 'default'"></i>
         </a>
 
-        <div class="cpm-description" ng-class="cpmflash1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+        <div class="cpm-description" ng-show="flash.name != 'None'" ng-class="cpmflash1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/MONITORS/' + display.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/MONITORS/{{display.coverImage}}">
                 </div>
                 <div class="col-md-9" ng-show="flash.longDescription">
                     <p>{{flash.longDescription}}</p>

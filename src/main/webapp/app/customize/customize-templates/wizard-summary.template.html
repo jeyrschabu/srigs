@@ -20,9 +20,9 @@
         <h3 class="summary-product-header">Make it yours</h3>
         <ul>
             <li>Case: {{customizeController.rig.caseOptions.current.name}} <span>${{customizeController.rig.caseOptions.current.price}}</span></li>
-            <li>Case Cooling: {{customizeController.rig.caseCoolingOptions.current.name}} <span>${{customizeController.rig.caseCoolingOptions.current.price}}</span></li>
-            <li>Case Led: {{customizeController.rig.caseLedOptions.current.name}} <span>${{customizeController.rig.caseLedOptions.current.price}}</span></li>
-            <li>Cabling: {{customizeController.rig.caseCablingOptions.current.name}} <span>${{customizeController.rig.caseCablingOptions.current.price}}</span></li>
+            <li>Case Cooling: {{customizeController.rig.caseCoolingOptions.current.name}} {{ customizeController.rig.caseCoolingOptions.current.currentOption ? '('+customizeController.rig.caseCoolingOptions.current.currentOption.name+')' : '' }}<span>${{customizeController.rig.caseCoolingOptions.current.price}}</span></li>
+            <li>Case Led: {{customizeController.rig.caseLedOptions.current.name}}  {{ customizeController.rig.caseLedOptions.current.currentOption ? '('+customizeController.rig.caseLedOptions.current.currentOption.name+')' : '' }}<span>${{customizeController.rig.caseLedOptions.current.price}}</span></li>
+            <li>Cabling: {{customizeController.rig.caseCablingOptions.current.name}}  {{ customizeController.rig.caseCablingOptions.current.currentOption ? '('+customizeController.rig.caseCablingOptions.current.currentOption.name+')' : '' }}<span>${{customizeController.rig.caseCablingOptions.current.price}}</span></li>
         </ul>
 
         <h3 class="summary-product-header">Performance</h3>
@@ -43,11 +43,18 @@
           <li>Hard Drive: {{customizeController.rig.storageHddOptions.current.name}} <span>${{customizeController.rig.storageHddOptions.current.price}}</span></li>
           <li>Optical Drive: {{customizeController.rig.storageOpticalOptions.current.name}} <span>${{customizeController.rig.storageOpticalOptions.current.price}}</span></li>
           <li>Operating System: {{customizeController.rig.osOptions.current.name}} <span>${{customizeController.rig.osOptions.current.price}}</span></li>
+          <li>Internal Wi-Fi: {{customizeController.rig.internalWifiOptions.current.name}} <span>${{customizeController.rig.internalWifiOptions.current.price}}</span></li>
         </ul>
 
-        <h3 class="summary-product-header">Accessories</h3>
+        <h3 class="summary-product-header">Peripherals</h3>
         <ul>
-          <li>Internal Wi-Fi: {{customizeController.rig.internalWifiOptions.current.name}} <span>${{customizeController.rig.internalWifiOptions.current.price}}</span></li>
+          <li>Display: {{customizeController.rig.accDisplayOptions.current.name}} <span>${{customizeController.rig.accDisplayOptions.current.price}}</span></li>
+          <li>Headset: {{customizeController.rig.accHeadsetOptions.current.name}} <span>${{customizeController.rig.accHeadsetOptions.current.price}}</span></li>
+          <li>Speaker: {{customizeController.rig.accSpeakerOptions.current.name}} <span>${{customizeController.rig.accSpeakerOptions.current.price}}</span></li>
+          <li>Keyboard: {{customizeController.rig.accKeyboardOptions.current.name}} <span>${{customizeController.rig.accKeyboardOptions.current.price}}</span></li>
+          <li>Mice: {{customizeController.rig.accMiceOptions.current.name}} <span>${{customizeController.rig.accMiceOptions.current.price}}</span></li>
+          <li>Flash: {{customizeController.rig.accFlashOptions.current.name}} <span>${{customizeController.rig.accFlashOptions.current.price}}</span></li>
+          <li>Surge: {{customizeController.rig.accSurgeOptions.current.name}} <span>${{customizeController.rig.accSurgeOptions.current.price}}</span></li>
         </ul>
 
     </div>

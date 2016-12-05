@@ -74,14 +74,14 @@
         </tr>
         <tr class="cartSubItem">
             <td></td>
-            <td>Case Cooling: {{ item.getData().caseCoolingOptions.current.name }}</td>
+            <td>Case Cooling: {{ item.getData().caseCoolingOptions.current.name }} {{ item.getData().caseCoolingOptions.current.currentOption ? '('+item.getData().caseCoolingOptions.current.currentOption.name+')' : '' }}</td>
             <td></td>
             <td>{{ item.getData().caseCoolingOptions.current.price | currency}}</td>
             <td></td>
         </tr>
         <tr class="cartSubItem">
             <td></td>
-            <td>Case Led: {{ item.getData().caseLedOptions.current.name }}</td>
+            <td>Case Led: {{ item.getData().caseLedOptions.current.name }}  {{ item.getData().caseLedOptions.current.currentOption ? '('+item.getData().caseLedOptions.current.currentOption.name+')' : '' }}</td>
             <td></td>
             <td>{{ item.getData().caseLedOptions.current.price | currency}}</td>
             <td></td>
@@ -182,6 +182,55 @@
             <td>Internal Wi-Fi: {{ item.getData().internalWifiOptions.current.name }}</td>
             <td></td>
             <td>{{ item.getData().internalWifiOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Display: {{ item.getData().accDisplayOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accDisplayOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Headset: {{ item.getData().accHeadsetOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accHeadsetOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Speaker: {{ item.getData().accSpeakerOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accSpeakerOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Keyboard: {{ item.getData().accKeyboardOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accKeyboardOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Mice: {{ item.getData().accMiceOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accMiceOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Flash: {{ item.getData().accFlashOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accFlashOptions.current.price | currency}}</td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem">
+            <td></td>
+            <td>Surge: {{ item.getData().accSurgeOptions.current.name }}</td>
+            <td></td>
+            <td>{{ item.getData().accSurgeOptions.current.price | currency}}</td>
             <td></td>
         </tr>
         </tbody>

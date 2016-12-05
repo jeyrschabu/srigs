@@ -9,6 +9,7 @@ angular
     'ngLodash',
     'ngCart',
     'braintree-angular',
+    'ui.bootstrap',
     'angular-cache',
     'formly',
     'formlyBootstrap',

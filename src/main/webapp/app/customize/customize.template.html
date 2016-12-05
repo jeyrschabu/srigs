@@ -17,6 +17,11 @@
                     <input type="submit" wz-previous value="Previous" />
                     <input type="submit" wz-next value="Next" />
                 </wz-step>
+                <wz-step wz-title="Peripherals">
+                    <div ng-include="'app/customize/customize-templates/accessories.template.html'"></div>
+                    <input type="submit" wz-previous value="Previous" />
+                    <input type="submit" wz-next value="Next" />
+                </wz-step>
                 <wz-step wz-title="Done">
                     <div ng-include="'app/customize/customize-templates/wizard-summary.template.html'"></div>
                     <input type="submit" wz-previous value="Previous" />
@@ -27,3 +32,10 @@
         <div class="col-sm-12 col-md-4" ng-include="'app/customize/customize-templates/summary.template.html'"></div>
     </div>
 </section>
+
+<script type="text/ng-template" id="myModalContent.html">
+    <div class="modal-body">
+      <button type="button" class="close" ng-click="closeModal()" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+      <img style="width:100%" ng-src="{{imageSrc}}"/>
+    </div>
+</script>

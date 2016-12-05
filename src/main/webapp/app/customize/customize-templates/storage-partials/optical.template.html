@@ -1,8 +1,8 @@
 <h3 class="cpm-title">Optical Drives</h3>
 <ul class="cpm-list">
     <li ng-repeat="optical in customizeController.rig.storageOpticalOptions.items"
-        ng-init="itemId=customizeController.slugify(optical.name);">
-        <div class="cpm-inner">
+        ng-init="itemId=customizeController.slugify(optical.$$hashKey);">
+        <label for="{{itemId}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
                 <input type="radio" name="optical.name" id="{{itemId}}"
                        ng-model="customizeController.rig.storageOpticalOptions.current"
@@ -16,7 +16,7 @@
                 </span>
             </div>
 
-        </div>
+        </label>
         <a class="cpm-expand-desc">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmopt1 = !cpmopt1"
                ng-class="cpmopt1 ? 'cpm-expand-desc-active' : 'default'"></i>
@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmopt1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="http://cdn.shadowrigs.com/images/PERIPHERALS/OPTICALDRIVE/{{optical.fullImageLink}}">
-                        <img ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/OPTICALDRIVE/{{optical.coverImage}}">
-                    </a>
+                        <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/OPTICALDRIVE/' + optical.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/OPTICALDRIVE/{{optical.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="optical.longDescription">
                     <p>{{optical.longDescription}}</p>

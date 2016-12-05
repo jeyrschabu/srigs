@@ -1,9 +1,9 @@
 'use strict';
 
 CustomizeController.$inject = ['$rootScope', '$scope', '$stateParams', '$state', 'lodash', 'ProductService',
-  'BuildService', 'CacheFactory', 'observeOnScope'];
+  'BuildService', 'CacheFactory', 'observeOnScope', '$uibModal'];
 
-function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, BuildService, CacheFactory, observeOnScope) {
+function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, ProductService, BuildService, CacheFactory, observeOnScope, $uibModal) {
   var customizeController = this;
 
   customizeController.disableSticking = false;
@@ -78,12 +78,21 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     customizeController.rig.storageOpticalOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Optical'});
     customizeController.rig.osOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'OS'});
     customizeController.rig.internalWifiOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Internal-WiFi'});
+    customizeController.rig.accDisplayOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Display'});
+    customizeController.rig.accFlashOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Flash'});
+    customizeController.rig.accHeadsetOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Headset'});
+    customizeController.rig.accKeyboardOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Keyboard'});
+    customizeController.rig.accMiceOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Mice'});
+    customizeController.rig.accSpeakerOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Speaker'});
+    customizeController.rig.accSurgeOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Surge'});
   }
 
   function getBuilderOption(defaultSpecs, allSpecs, specPredicate) {
     var allItems = lodash.filter(allSpecs, specPredicate);
     var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
     var current = allItems[0];
+
+    var type = specPredicate['type']
 
     if (defaultItem && allItems.length) {
       var startIndex = lodash.findIndex(allItems, function (item) {
@@ -94,6 +103,10 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       var currentPrice = allItems[startIndex].price;
       lodash.map(allItems, function(item) {
         item.priceDiff = item.price - currentPrice;
+        if (type == 'PSU') {
+          item.psuWattage = parseInt(item.name.substr(0, item.name.indexOf('W')));
+        }
+
       })
 
       current.priceDiff = 0; //reset because price is included
@@ -143,7 +156,14 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       'customizeController.rig.storageM2Options',
       'customizeController.rig.storageOpticalOptions',
       'customizeController.rig.osOptions',
-      'customizeController.rig.internalWifiOptions'
+      'customizeController.rig.internalWifiOptions',
+      'customizeController.rig.accDisplayOptions',
+      'customizeController.rig.accHeadsetOptions',
+      'customizeController.rig.accSpeakerOptions',
+      'customizeController.rig.accKeyboardOptions',
+      'customizeController.rig.accMiceOptions',
+      'customizeController.rig.accFlashOptions',
+      'customizeController.rig.accSurgeOptions'
 
     ].forEach(function (option) {
       observeOnScope($scope, option, true)
@@ -155,7 +175,25 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
               item.priceDiff = item.price - newPrice;
             })
 
+            if (change.newValue['current'].options && change.newValue['current'].options.length >1) {
+              if (!change.newValue['current'].currentOption) {
+                change.newValue['current'].currentOption = change.newValue['current'].options[0];
+
+              }
+            }
+            else {
+              if (change.newValue['current'].currentOption) {
+                if ((change.oldValue['current'].currentOption && change.newValue['current'].currentOption.name != change.oldValue['current'].currentOption.name) || !change.oldValue['current'].currentOption) {
+                  // alert('Please select the parent option first');
+                }
+              }
+              // change.newValue['current'].currentOption = null;
+
+            }
+
+            customizeController.calcTotalWattage();
             customizeController.calcTotalPrice();
+
             customizeController.rig.status = 'IN_PROGRESS';
             rigCache.put(customizeController.product.id, customizeController.rig);
           }
@@ -163,10 +201,23 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     });
   };
 
+  customizeController.calcTotalWattage = function () {
+    if (customizeController.rig.totalWattage > customizeController.rig.performancePsuOptions.current.psuWattage*0.8) {
+      lodash.forEach(customizeController.rig.performancePsuOptions.items, function(item) {
+        if (item.psuWattage*0.8 > customizeController.rig.totalWattage) {
+          customizeController.rig.performancePsuOptions.current = item;
+          return false;
+        }
+      })
+    }
+
+  }
+
   customizeController.calcTotalPrice = function () {
     // customizeController.rig.totalPrice = customizeController.totalPrice;
     customizeController.rig.totalPrice = 0;
     customizeController.rig.totalWeight = 0;
+    customizeController.rig.totalWattage = 0;
     [
       'caseOptions',
       'caseLedOptions',
@@ -184,13 +235,52 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       'storageM2Options',
       'storageOpticalOptions',
       'osOptions',
-      'internalWifiOptions'
+      'internalWifiOptions',
+      'accDisplayOptions',
+      'accHeadsetOptions',
+      'accSpeakerOptions',
+      'accKeyboardOptions',
+      'accMiceOptions',
+      'accFlashOptions',
+      'accSurgeOptions'
 
     ].forEach(function (option) {
       customizeController.rig.totalPrice += customizeController.rig[option]['current'].price;
       customizeController.rig.totalWeight += customizeController.rig[option]['current'].weight;
+      customizeController.rig.totalWattage += customizeController.rig[option]['current'].wattage;
     });
+
   };
+
+  customizeController.selectSubOption = function(parentOption, item, option) {
+    if (customizeController.rig[parentOption]['current'].name != item.name) {
+      customizeController.rig[parentOption]['current'].currentOption = null;
+      customizeController.rig[parentOption]['current'] = item;
+      customizeController.rig[parentOption]['current'].currentOption = option;
+    }
+  }
+
+  $scope.imageSrc = '';
+
+  $scope.openImageModal = function(imageSrc) {
+    $scope.imageSrc = imageSrc;
+    var modal = $uibModal.open({
+        templateUrl: 'myModalContent.html',
+        backdrop: true,
+        windowClass: 'modal',
+        controller: function ($scope, $modalInstance) {
+            $scope.imageSrc = imageSrc;
+            $scope.closeModal = function () {
+                $modalInstance.dismiss('cancel');
+            };
+        }
+    });
+
+    modal.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+    });
+  }
 
   customizeController.initialize($stateParams.productId);
   customizeController.priceWatchers();

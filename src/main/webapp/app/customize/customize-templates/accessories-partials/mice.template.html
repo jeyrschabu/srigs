@@ -1,34 +1,34 @@
 <h3 class="cpm-title">Mice</h3>
 <ul class="cpm-list">
-    <li ng-repeat="speaker in customizeController.rig.accessoriesHddOptions.items"
-        ng-init="itemId=customizeController.slugify(speaker.name);">
-        <div class="cpm-inner">
+    <li ng-repeat="mice in customizeController.rig.accMiceOptions.items"
+        ng-init="itemId=customizeController.slugify(mice.name);">
+        <label for="{{mice.$$hashKey}}" class="cpm-inner">
             <div class="cpm-radio-wrap">
-                <input type="radio" name="hdd.name" id="{{itemId}}"
-                       ng-model="customizeController.rig.accessoriesHddOptions.current"
-                       ng-value="speaker">
+                <input type="radio" name="mice.name" id="{{mice.$$hashKey}}"
+                       ng-model="customizeController.rig.accMiceOptions.current"
+                       ng-value="mice">
             </div>
             <div class="cpm-item-wrap">
-                <h4>{{speaker.name}}</h4>
-                <p>{{speaker.shortDescription}}</p>
+                <h4>{{mice.name}}</h4>
+                <p>{{mice.shortDescription}}</p>
                 <span class="cpm-price">
-                        {{speaker.priceDiff > 0 ? '+' : ''}}{{speaker.priceDiff | currency}}
+                        {{mice.priceDiff > 0 ? '+' : ''}}{{mice.priceDiff | currency}}
                 </span>
             </div>
 
-        </div>
-        <a class="cpm-expand-desc">
+        </label>
+        <a class="cpm-expand-desc" ng-show="mice.name != 'None'">
             <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmmice1 = !cpmmice1"
                ng-class="cpmmice1 ? 'cpm-expand-desc-active' : 'default'"></i>
         </a>
 
-        <div class="cpm-description" ng-class="cpmmice1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+        <div class="cpm-description" ng-show="mice.name != 'None'" ng-class="cpmmice1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="http://placehold.it/150x150">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/MICE/' + display.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/MICE/{{display.coverImage}}">
                 </div>
                 <div class="col-md-9" ng-show="speaker.longDescription">
-                    <p>{{speaker.longDescription}}</p>
+                    <p>{{mice.longDescription}}</p>
                 </div>
             </div>
 

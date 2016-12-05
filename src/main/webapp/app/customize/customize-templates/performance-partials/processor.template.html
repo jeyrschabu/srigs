@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmcpu1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
               <div class="col-md-4">
-                <a href="http://cdn.shadowrigs.com/images/CPU/{{cpu.fullImageLink}}">
-                  <img ng-src="http://cdn.shadowrigs.com/images/CPU/{{cpu.coverImage}}">
-                </a>
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/CPU/' + cpu.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/CPU/{{cpu.coverImage}}">
               </div>
                 <div class="col-md-8" ng-show="cpu.longDescription">
                     <p>{{cpu.longDescription}}</p>

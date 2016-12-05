@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmram1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-4">
-                  <a href="http://cdn.shadowrigs.com/images/MEMORY/{{ram.fullImageLink}}">
-                    <img ng-src="http://cdn.shadowrigs.com/images/MEMORY/{{ram.coverImage}}">
-                  </a>
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/MEMORY/' + ram.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/MEMORY/{{ram.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="ram.longDescription">
                     <p>{{ram.longDescription}}</p>

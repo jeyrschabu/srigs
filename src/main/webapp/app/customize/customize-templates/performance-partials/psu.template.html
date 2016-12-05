@@ -6,7 +6,7 @@
             <div class="cpm-radio-wrap">
                 <input type="radio" name="psu.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performancePsuOptions.current"
-                       ng-value="psu">
+                       ng-value="psu" ng-disabled="psu.psuWattage*0.8 < customizeController.rig.totalWattage">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{psu.name}}</h4>
@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmpsu1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="http://cdn.shadowrigs.com/images/PSU/{{psu.fullImageLink}}">
-                      <img ng-src="http://cdn.shadowrigs.com/images/PSU/{{psu.coverImage}}">
-                    </a>
+                      <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PSU/' + psu.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PSU/{{psu.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="psu.longDescription">
                     <p>{{psu.longDescription}}</p>

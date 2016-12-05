@@ -25,9 +25,7 @@
         <div class="cpm-description" ng-class="cpmgfx1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="http://cdn.shadowrigs.com/images/GPU/{{graphics.fullImageLink}}">
-                        <img ng-src="http://cdn.shadowrigs.com/images/GPU/{{graphics.coverImage}}">
-                    </a>
+                    <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/GPU/' + graphics.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/GPU/{{graphics.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="graphics.longDescription">
                     <p>{{graphics.longDescription}}</p>
