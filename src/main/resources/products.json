@@ -164,7 +164,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
@@ -246,7 +246,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Cabling",
-        "shortDescription": "Custom cabling for a truly unique look and feel.",
+        "shortDescription": "Custom colored cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
         "options": [
@@ -334,19 +334,7 @@
         "fullImageLink": ""
       },
       {
-        "name": "Intel i3-4170",
-        "weight": 1,
-        "price": 136,
-        "wattage": 54,
-        "type": "CPU",
-        "shortDescription": "The Intel Core i3 processor is the perfect entry point for a fast, responsive PC experience.",
-        "longDescription": "The Intel 4th generation Core i3-4170 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensures enhanced performance per cycle.  Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.",
-        "coverImage": "4170 SMALL",
-        "options": [],
-        "fullImageLink": "4170 LARGE"
-      },
-      {
-        "name": "Intel i3-6100",
+        "name": "Intel Dual Core i3-6100 3.7GHz",
         "weight": 1,
         "price": 138,
         "wattage": 51,
@@ -358,7 +346,7 @@
         "fullImageLink": "INTEL/6100 LARGE.jpg"
       },
       {
-        "name": "Intel i5-4690K Devil's Canyon",
+        "name": "Intel Quad Core i5-4690K 3.5GHz Devil's Canyon",
         "weight": 1,
         "price": 300,
         "wattage": 88,
@@ -370,7 +358,7 @@
         "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
-        "name": "Intel i5-4590",
+        "name": "Intel Quad Core i5-4590 3.30GHz",
         "weight": 1,
         "price": 250,
         "wattage": 84,
@@ -382,7 +370,7 @@
         "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
-        "name": "Intel i5-4790K Devil's Canyon",
+        "name": "Intel Quad Core i5-4790K 4.0GHz Devil's Canyon",
         "weight": 1,
         "price": 435,
         "wattage": 88,
@@ -394,7 +382,7 @@
         "fullImageLink": "INTEL/4790K LARGE.jpg"
       },
       {
-        "name": "AMD FX-6300",
+        "name": "AMD 6 Core FX-6300 3.5GHz",
         "weight": 1,
         "price": 130,
         "wattage": 105,
@@ -406,7 +394,7 @@
         "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
-        "name": "AMD FX-8320",
+        "name": "AMD 8 Core FX-8320 3.5GHz",
         "weight": 1,
         "price": 185,
         "wattage": 125,
@@ -418,7 +406,7 @@
         "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
       },
       {
-        "name": "AMD FX-8350",
+        "name": "AMD 8 Core FX-8350 4.0GHz",
         "weight": 1,
         "price": 210,
         "wattage": 125,
@@ -430,7 +418,7 @@
         "fullImageLink": "AMD FX CPUS LARGE"
       },
       {
-        "name": "AMD FX-8370",
+        "name": "AMD 8 Core FX-8370 4.0GHz",
         "weight": 1,
         "price": 230,
         "wattage": 125,
@@ -442,25 +430,25 @@
         "fullImageLink": "AMD FX CPUS LARGE"
       },
       {
-        "name": "AMD FX-9370",
+        "name": "AMD 8 Core FX-9370 4.4GHz",
         "weight": 1,
         "price": 260,
         "wattage": 220,
         "type": "CPU",
         "shortDescription": "Transform your PC into a multimedia powerhouse, Take your PC's mega tasking abilities to extreme levels with the first native 8-core desktop processor.",
-        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "longDescription": "We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most.",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
       },
       {
-        "name": "AMD FX-9590",
+        "name": "AMD 8 Core FX-9590 4.7GHz",
         "weight": 1,
         "price": 380,
         "wattage": 230,
         "type": "CPU",
-        "shortDescription": "Transform your PC into a multimedia powerhouse. Take your PC?s megatasking abilities to extreme levels with the first native 8-core desktop processor.",
-        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "shortDescription": "Take your PC’s megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "longDescription": "Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
@@ -484,7 +472,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -495,8 +483,19 @@
         "price": 115,
         "wattage": 70,
         "type": "Motherboard",
-        "shortDescription": "AMD FX/ Processors, and Intel Phenom II/ Athlon II and Sempron",
-        "longDescription": "MSI 970A SLI KRAIT EDITION Socket AM3+/ AMD 970/ DDR3/ 2-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ A&GbE/ ATX Motherboard",
+        "shortDescription": "ATX · Socket AM3+ · AMD Chipset · Ethernet · Gigabit Ethernet · Multiple GPU Support",
+        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li>
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Military Class 4: Top Quality & Stability</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>Multi-GPU: AMD CrossFire Support</li>
+<li>Command Center: Control & Customize Your PC Settings</li>
+<li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li>
+<li>M-Flash: Simply Update & Backup Your BIOS</li>
+<li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
         "coverImage": "MSI 970A SLI KRAIT EDITION SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI 970A SLI KRAIT EDITION LARGE.jpg"
@@ -508,7 +507,16 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage": "MSI 990FX SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI 990FXA GAMING ONLY.jpg"
@@ -520,19 +528,32 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
-        "longDescription": "MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>When connecting multiple USB devices, most motherboards will be unable to deliver a strong 5V power signal to all USB ports. This is highly noticeable with high-quality external USB DACs where sound quality degrades as the motherboard is unable to deliver a perfect USB signal. Only MSI USB Audio Power continuously delivers a stable 5V to the USB ports on motherboards, making sure you can continue to enjoy the crystal clear audio standard you expect.</p> <ul><li>Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket
+<li>Supports DDR3-3300(OC) Memory</li>
+<li>M.2 + USB 3.0 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>USB Audio Power: Surve Stable 5V Power & Better Signal Transmission over USB</li>
+<li>XSplit Gamecaster: Show off Your Skills and Achievements</li>
+<li>Guard-Pro: Improved Protection and Power Efficiency</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Gaming App: Boost Your Frame Rate</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>Multi-GPU: NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul>",
         "coverImage": "MSI Z97 GAMING 5 SMALL.jpg",
         "options": [],
         "fullImageLink": "MSI Z97 GAMING 5 LARGE.jpg"
       },
       {
-        "name": "8GB Standard",
+        "name": "8GB DDR3 Standard",
         "weight": 0.5,
         "price": 60,
         "wattage": 15,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 8GB",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>  ",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -544,7 +565,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -556,7 +577,7 @@
         "wattage": 40,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 32GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL.png",
         "options": [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE.png"
@@ -568,7 +589,7 @@
         "wattage": 30,
         "type": "RAM",
         "shortDescription": "CORSAIR Dominator Platinum 16GB Dual Channel",
-        "longDescription": "Corsair Dominator Platinum builds on the legacy of the world's most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.",
+        "longDescription": "<p>Corsair Dominator Platinum builds on the legacy of the world’s most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.</p> <p>Dominator Platinum memory modules are assembled using a “best of the best” IC screening process. Individual ICs are hand-screened to our highest performance threshold, and then the assembled modules undergo more rounds of rigorous screening and stability testing. The result is reliable performance under extreme pressure.</p> <p>Excess heat limits overclocking potential, reduces performance, and can even lead to shorter component life. Our patented dual-channel DHX cooling system pulls heat away from the modules and allows Dominator Platinum to run at cooler temperatures than lesser memory kits. This advanced cooling technology, combined with our relentless screening, delivers phenomenal overclocking potential.</p>",
         "coverImage": "DOMINATOR PLATINUM RAM SMALL.jpg",
         "options": [],
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
@@ -580,7 +601,7 @@
         "wattage": 30,
         "type": "RAM",
         "shortDescription": "CORSAIR Dominator Platinum 32GB Dual Channel",
-        "longDescription": "Corsair Dominator Platinum builds on the legacy of the world's most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit",
+        "longDescription": "<p>Corsair Dominator Platinum builds on the legacy of the world’s most awarded high-performance memory, adding a striking new industrial design and LED lighting effects.  Like all Dominator memory modules, they are built using only select memory ICs, highly-screened for performance and stability, and feature our patented DHX (Dual-path Heat eXchange) cooling technology, so you can push them to the limit.</p> <p>Dominator Platinum memory modules are assembled using a “best of the best” IC screening process. Individual ICs are hand-screened to our highest performance threshold, and then the assembled modules undergo more rounds of rigorous screening and stability testing. The result is reliable performance under extreme pressure.</p> <p>Excess heat limits overclocking potential, reduces performance, and can even lead to shorter component life. Our patented dual-channel DHX cooling system pulls heat away from the modules and allows Dominator Platinum to run at cooler temperatures than lesser memory kits. This advanced cooling technology, combined with our relentless screening, delivers phenomenal overclocking potential.</p>",
         "coverImage": "DOMINATOR PLATINUM RAM SMALL.jpg",
         "options": [],
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
@@ -1580,7 +1601,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
@@ -1662,7 +1683,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Cabling",
-        "shortDescription": "Custom cabling for a truly unique look and feel.",
+        "shortDescription": "Custom colored cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
         "options": [
@@ -1792,7 +1813,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -2876,7 +2897,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
@@ -2958,7 +2979,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Cabling",
-        "shortDescription": "Custom cabling for a truly unique look and feel.",
+        "shortDescription": "Custom colord cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
         "options": [
@@ -3046,7 +3067,7 @@
         "fullImageLink": ""
       },
       {
-        "name": "Intel i3-6100",
+        "name": "Intel Dual Core i3-6100 3.7GHz",
         "weight": 1,
         "price": 138,
         "wattage": 51,
@@ -3100,7 +3121,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
@@ -4100,7 +4121,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
         "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
@@ -4182,7 +4203,7 @@
         "price": 180,
         "wattage": 0,
         "type": "Cabling",
-        "shortDescription": "Custom cabling for a truly unique look and feel.",
+        "shortDescription": "Custom colord cabling for a truly unique look and feel.",
         "longDescription": "High quality nylon sleeving to give your system a clean and polished look any enthusiast would be envious of.",
         "coverImage": "",
         "options": [
@@ -4372,7 +4393,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.",
         "coverImage": "CLOSEDLOOP/H100i Small.jpg",
         "options" : [],
         "fullImageLink": "CLOSEDLOOP/H100i Large.jpg"
