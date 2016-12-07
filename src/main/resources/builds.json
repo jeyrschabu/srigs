@@ -7,13 +7,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -21,7 +32,7 @@
         "fullImageLink":"CORSAIR 450D LARGE"
       },
       {
-        "name":"AMD FX-6300",
+        "name": "AMD 6 Core FX-6300 3.5GHz",
         "weight":1,
         "price":130,
         "wattage":105,
@@ -49,13 +60,24 @@
         "fullImageLink":"CORSAIR H80I LARGE"
       },
       {
-        "name":"MSI 970A SLI Krait",
-        "weight":3.1,
-        "price":115,
-        "wattage":70,
-        "type":"Motherboard",
-        "shortDescription":"AMD FX/ Processors, and Intel Phenom II/ Athlon II and Sempron",
-        "longDescription":"MSI 970A SLI KRAIT EDITION Socket AM3+/ AMD 970/ DDR3/ 2-Way CrossFireX & 2-Way SLI/ SATA3&USB3.1/ A&GbE/ ATX Motherboard",
+        "name": "MSI 970A SLI Krait",
+        "weight": 3.1,
+        "price": 115,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "ATX · Socket AM3+ · AMD Chipset · Ethernet · Gigabit Ethernet · Multiple GPU Support",
+        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li>
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Military Class 4: Top Quality & Stability</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>Multi-GPU: AMD CrossFire Support</li>
+<li>Command Center: Control & Customize Your PC Settings</li>
+<li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li>
+<li>M-Flash: Simply Update & Backup Your BIOS</li>
+<li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
         "coverImage":"MSI 970A SLI KRAIT EDITION SMALL",
         "options":[
 
@@ -63,13 +85,13 @@
         "fullImageLink":"MSI 970A SLI KRAIT EDITION LARGE"
       },
       {
-        "name":"8GB Standard",
-        "weight":0.5,
-        "price":60,
-        "wattage":15,
-        "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 8GB",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "name": "8GB DDR3 Standard",
+        "weight": 0.5,
+        "price": 60,
+        "wattage": 15,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 8GB",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>  ",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -77,18 +99,24 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 950 2GB",
-        "weight":4,
-        "price":235,
-        "wattage":410,
-        "type":"GPU",
-        "shortDescription":"The EVGA GeForce GTX 950 features a true gaming GPU designed for every PC gamer.",
-        "longDescription":"The GeForce GTX 950 is a true gaming GPU designed for every PC gamer. Transform your PC into a gaming rig that rivals any game console to enjoy fast and responsive MOBA gaming and the latest games in 1080p. Powered by NVIDIA Maxwell architecture and delivers 3x the performance of previous-generation cards.",
-        "coverImage":"EVGA GTX 950 ONLY",
+        "name": "Nvidia GTX 1050 TI 4GB",
+        "weight": 4,
+        "price": 204,
+        "wattage": 75,
+        "type": "GPU",
+        "shortDescription": "The ASUS DUAL-GTX1050TI-4G comes equipped with a dual-fan design for greater air flow - and exclusive Auto-Extreme technology with Super Alloy Power II components for superior stability.",
+        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li>
+<li>Classic and modern games at 1080p @ 60 FPS</li>
+<li>Supports the latest DirectX™ 12 and GeForce gaming features</li>
+<li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li>
+<li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li>
+<li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li>
+<li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li></ul>",
+        "coverImage":"NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg",
         "options":[
 
         ],
-        "fullImageLink":"EVGA GTX 950 ONLY"
+        "fullImageLink":"NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
       },
       {
         "name":"550W Gold-Rated PSU",
@@ -128,13 +156,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -170,13 +209,22 @@
         "fullImageLink":"H100i Large"
       },
       {
-        "name":"MSI 990FX Gaming",
-        "weight":5,
-        "price":185,
-        "wattage":70,
-        "type":"Motherboard",
-        "shortDescription":"MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription":"MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "name": "MSI 990FX Gaming",
+        "weight": 5,
+        "price": 185,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage":"MSI 990FX SMALL",
         "options":[
 
@@ -184,13 +232,13 @@
         "fullImageLink":"MSI 990FXA GAMING ONLY"
       },
       {
-        "name":"16GB Standard",
-        "weight":0.5,
-        "price":110,
-        "wattage":20,
-        "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "name": "16GB Standard",
+        "weight": 0.5,
+        "price": 110,
+        "wattage": 20,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -249,13 +297,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -291,13 +350,22 @@
         "fullImageLink":"H100i Large"
       },
       {
-        "name":"MSI 990FX Gaming",
-        "weight":5,
-        "price":185,
-        "wattage":70,
-        "type":"Motherboard",
-        "shortDescription":"MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription":"MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "name": "MSI 990FX Gaming",
+        "weight": 5,
+        "price": 185,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
+<li>Supports DDR3-2133(OC) Memory</li>
+<li>USB 3.1 + SATA 6Gb/s</li>
+<li>Audio Boost 2: Reward Your Ears with True Quality</li>
+<li>Killer Ethernet: Kill Your Lag</li>
+<li>OC Genie 4: Overclock in 1 Second</li>
+<li>Click BIOS 4: Easily Fine-tune Your System</li>
+<li>NVIDIA SLI & AMD CrossFire Support</li>
+<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
+<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage":"MSI 990FX SMALL",
         "options":[
 
@@ -370,13 +438,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -384,18 +463,18 @@
         "fullImageLink":"CORSAIR 450D LARGE"
       },
       {
-        "name":"Intel i3-4170",
-        "weight":1,
-        "price":136,
-        "wattage":54,
-        "type":"CPU",
-        "shortDescription":"The Intel Core i3 processor is the perfect entry point for a fast, responsive PC experience.",
-        "longDescription":"The Intel 4th generation Core i3-4170 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensures enhanced performance per cycle.  Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.",
-        "coverImage":"4170 SMALL",
+        "name": "Intel Dual Core i3-6100 3.7GHz",
+        "weight": 1,
+        "price": 138,
+        "wattage": 51,
+        "type": "CPU",
+        "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
+        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p> <ul><li>",
+        "coverImage":"INTEL/6100 SMALL.jpg",
         "options":[
 
         ],
-        "fullImageLink":"4170 LARGE"
+        "fullImageLink":"INTEL/6100 LARGE.jpg"
       },
       {
         "name":"H80i GT Liquid CPU Cooler",
@@ -426,13 +505,13 @@
         "fullImageLink":"MSI Z97 GAMING 5 LARGE"
       },
       {
-        "name":"16GB Standard",
-        "weight":0.5,
-        "price":110,
-        "wattage":20,
-        "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "name": "16GB Standard",
+        "weight": 0.5,
+        "price": 110,
+        "wattage": 20,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -491,13 +570,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -547,13 +637,13 @@
         "fullImageLink":"MSI Z97 GAMING 5 LARGE"
       },
       {
-        "name":"16GB Standard",
-        "weight":0.5,
-        "price":110,
-        "wattage":20,
-        "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "name": "16GB Standard",
+        "weight": 0.5,
+        "price": 110,
+        "wattage": 20,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -612,13 +702,24 @@
     "product":"Phantom",
     "specs":[
       {
-        "name":"Corsair Obsidian 450D",
-        "weight":15.43,
-        "price":140,
-        "wattage":0,
-        "type":"Case",
-        "shortDescription":"Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription":"Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -733,13 +834,24 @@
     "product": "Shade",
     "specs": [
       {
-        "name": "Corsair Obsidian 450D",
+         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
         "price": 140,
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -787,7 +899,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
@@ -838,13 +950,24 @@
     "product": "Shade",
     "specs": [
       {
-        "name": "Corsair Obsidian 450D",
+         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
         "price": 140,
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -892,7 +1015,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
@@ -943,13 +1066,24 @@
     "product": "Shade",
     "specs": [
       {
-        "name": "Corsair Obsidian 450D",
+         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
         "price": 140,
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1048,13 +1182,24 @@
     "product": "Shade",
     "specs": [
       {
-        "name": "Corsair Obsidian 450D",
+         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
         "price": 140,
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1165,13 +1310,24 @@
     "product": "Shade",
     "specs": [
       {
-        "name": "Corsair Obsidian 450D",
+         "name": "Corsair Obsidian 450D",
         "weight": 15.43,
         "price": 140,
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that's optimized for efficient, high-volume airflow. But don't let its mid-tower size fool you - the 450D can also house some serious gear.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
+<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
+<li>Full side panel window to view your components</li>
+<li>Tool-free SSD, hard drive, and optical drive installation</li>
+<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
+<li>Tool-free SSD cages hidden behind the motherboard tray</li>
+<li>Designed for fast and straightforward builds</li>
+<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
+<li>Easily accessed front, top, and PSU dust filters</li>
+<li>Excellent cable routing with rubber grommets for clean builds</li>
+<li>Maximum CPU Cooler Height: 165mm</li>
+<li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1441,7 +1597,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
@@ -1546,7 +1702,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
@@ -1861,7 +2017,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
@@ -1978,7 +2134,7 @@
         "wattage": 20,
         "type": "RAM",
         "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
-        "longDescription": "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage": "VENGEACNCE LPX RAM SMALL",
         "options" : [],
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
