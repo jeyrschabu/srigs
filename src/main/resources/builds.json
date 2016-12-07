@@ -13,18 +13,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -66,18 +55,7 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "ATX · Socket AM3+ · AMD Chipset · Ethernet · Gigabit Ethernet · Multiple GPU Support",
-        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li>
-<li>Supports DDR3-2133(OC) Memory</li>
-<li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li>
-<li>USB 3.1 + SATA 6Gb/s</li>
-<li>Military Class 4: Top Quality & Stability</li>
-<li>OC Genie 4: Overclock in 1 Second</li>
-<li>Click BIOS 4: Easily Fine-tune Your System</li>
-<li>Multi-GPU: AMD CrossFire Support</li>
-<li>Command Center: Control & Customize Your PC Settings</li>
-<li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li>
-<li>M-Flash: Simply Update & Backup Your BIOS</li>
-<li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
+        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li><li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li><li>USB 3.1 + SATA 6Gb/s</li><li>Military Class 4: Top Quality & Stability</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>Multi-GPU: AMD CrossFire Support</li><li>Command Center: Control & Customize Your PC Settings</li><li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li><li>M-Flash: Simply Update & Backup Your BIOS</li><li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
         "coverImage":"MSI 970A SLI KRAIT EDITION SMALL",
         "options":[
 
@@ -105,13 +83,7 @@
         "wattage": 75,
         "type": "GPU",
         "shortDescription": "The ASUS DUAL-GTX1050TI-4G comes equipped with a dual-fan design for greater air flow - and exclusive Auto-Extreme technology with Super Alloy Power II components for superior stability.",
-        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li>
-<li>Classic and modern games at 1080p @ 60 FPS</li>
-<li>Supports the latest DirectX™ 12 and GeForce gaming features</li>
-<li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li>
-<li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li>
-<li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li>
-<li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li></ul>",
+        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li><li>Classic and modern games at 1080p @ 60 FPS</li><li>Supports the latest DirectX™ 12 and GeForce gaming features</li><li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li><li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li><li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li><li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li></ul>",
         "coverImage":"NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg",
         "options":[
 
@@ -162,18 +134,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -215,16 +176,7 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
-<li>Supports DDR3-2133(OC) Memory</li>
-<li>USB 3.1 + SATA 6Gb/s</li>
-<li>Audio Boost 2: Reward Your Ears with True Quality</li>
-<li>Killer Ethernet: Kill Your Lag</li>
-<li>OC Genie 4: Overclock in 1 Second</li>
-<li>Click BIOS 4: Easily Fine-tune Your System</li>
-<li>NVIDIA SLI & AMD CrossFire Support</li>
-<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
-<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket<li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage":"MSI 990FX SMALL",
         "options":[
 
@@ -303,18 +255,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -356,16 +297,7 @@
         "wattage": 70,
         "type": "Motherboard",
         "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
-        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket
-<li>Supports DDR3-2133(OC) Memory</li>
-<li>USB 3.1 + SATA 6Gb/s</li>
-<li>Audio Boost 2: Reward Your Ears with True Quality</li>
-<li>Killer Ethernet: Kill Your Lag</li>
-<li>OC Genie 4: Overclock in 1 Second</li>
-<li>Click BIOS 4: Easily Fine-tune Your System</li>
-<li>NVIDIA SLI & AMD CrossFire Support</li>
-<li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li>
-<li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket<li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
         "coverImage":"MSI 990FX SMALL",
         "options":[
 
@@ -444,18 +376,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -576,18 +497,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -708,18 +618,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage":"CORSAIR 450D SMALL",
         "options":[
 
@@ -740,7 +639,7 @@
         ],
         "fullImageLink":"4790K LARGE"
       },
-      {
+</li>      {
         "name":"H100i GTX Liquid CPU Cooler",
         "weight":4,
         "price":160,
@@ -840,18 +739,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -956,18 +844,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1072,18 +949,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1188,18 +1054,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
@@ -1316,18 +1171,7 @@
         "wattage": 0,
         "type": "Case",
         "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
-        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li>
-<li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li>
-<li>Full side panel window to view your components</li>
-<li>Tool-free SSD, hard drive, and optical drive installation</li>
-<li>Includes two AF140L intake fans, and a rear AF120L exhaust</li>
-<li>Tool-free SSD cages hidden behind the motherboard tray</li>
-<li>Designed for fast and straightforward builds</li>
-<li>Two USB 3.0 front panel connectors, plus headphone and microphone</li>
-<li>Easily accessed front, top, and PSU dust filters</li>
-<li>Excellent cable routing with rubber grommets for clean builds</li>
-<li>Maximum CPU Cooler Height: 165mm</li>
-<li>Maximum GPU Length: 430mm</li>",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
         "coverImage": "CORSAIR 450D SMALL",
         "options": [],
         "fullImageLink": "CORSAIR 450D LARGE"
