@@ -5759,47 +5759,47 @@
         "options" : [
           {
             "name" : "Amber",
-            "coverImage" : "240MM AMBER SMALL"
+            "coverImage" : "240MM AMBER SMALL.jpg"
           },
           {
             "name" : "Red",
-            "coverImage" : "240MM BLOOD RED SMALL"
+            "coverImage" : "240MM BLOOD RED SMALL.jpg"
           },
           {
             "name" : "Blue",
-            "coverImage" : "240MM BLUE SMALL"
+            "coverImage" : "240MM BLUE SMALL.jpg"
           },
           {
             "name" : "Clear",
-            "coverImage" : "240MM CLEAR SMALL"
+            "coverImage" : "240MM CLEAR SMALL.jpg"
           },
           {
             "name" : "Frosted",
-            "coverImage" : "240MM FROSTED SMALL"
+            "coverImage" : "240MM FROSTED SMALL.jpg"
           },
           {
             "name" : "Green",
-            "coverImage" : "240MM GREEN SMALL"
+            "coverImage" : "240MM GREEN SMALL.jpg"
           },
           {
             "name" : "Purple",
-            "coverImage" : "240MM PURPLE SMALL"
+            "coverImage" : "240MM PURPLE SMALL.jpg"
           },
           {
             "name" : "UV Blue",
-            "coverImage" : "240MM BLUE SMALL"
+            "coverImage" : "240MM BLUE SMALL.jpg"
           },
           {
             "name" : "UV Green",
-            "coverImage" : "240MM UV GREEN SMALL"
+            "coverImage" : "240MM UV GREEN SMALL.jpg"
           },
           {
             "name" : "UV Pink",
-            "coverImage" : "240MM UV PINK SMALL"
+            "coverImage" : "240MM UV PINK SMALL.jpg"
           },
           {
             "name" : "Yellow",
-            "coverImage" : "240MM YELLOW SMALL"
+            "coverImage" : "240MM YELLOW SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -5816,47 +5816,47 @@
         "options" : [
           {
             "name" : "Black",
-            "coverImage" : "BLACK SMALL"
+            "coverImage" : "Flex/BLACK SMALL.jpg"
           },
           {
             "name" : "Copper",
-            "coverImage" : "COOPER SMALL"
+            "coverImage" : "Flex/COOPER SMALL.jpg"
           },
           {
             "name" : "Blue",
-            "coverImage" : "BLUE SMALL"
+            "coverImage" : "Flex/BLUE SMALL.jpg"
           },
           {
             "name" : "Gold",
-            "coverImage" : "GOLD SMALL"
+            "coverImage" : "Flex/GOLD SMALL.jpg"
           },
           {
             "name" : "White",
-            "coverImage" : "WHITE SMALL"
+            "coverImage" : "Flex/WHITE SMALL.jpg"
           },
           {
             "name" : "Red",
-            "coverImage" : "RED SMALL"
+            "coverImage" : "Flex/RED SMALL.jpg"
           },
           {
             "name" : "Nickel",
-            "coverImage" : "NICKEL SMALL"
+            "coverImage" : "Flex/NICKEL SMALL.jpg"
           },
           {
             "name" : "Black Nickel",
-            "coverImage" : "BLACK NICKELS SMALL"
+            "coverImage" : "Flex/BLACK NICKELS SMALL.jpg"
           },
           {
             "name" : "Matte Black",
-            "coverImage" : "ELOX BLACK SMALL"
+            "coverImage" : "Flex/ELOX BLACK SMALL.jpg"
           },
           {
             "name" : "Green",
-            "coverImage" : "GREEN SMALL"
+            "coverImage" : "Flex/GREEN SMALL.jpg"
           },
           {
             "name" : "Purple",
-            "coverImage" : "PURPLE SMALL"
+            "coverImage" : "Flex/PURPLE SMALL.jpg"
           }
         ],
         "fullImageLink": ""
@@ -5873,75 +5873,75 @@
         "options" : [
           {
             "name" : "Candy Copper",
-            "coverImage" : "FITTINGS CANDY COPPER LARGE"
+            "coverImage" : "Rigid/FITTINGS CANDY COPPER LARGE.jpg"
           },
           {
             "name" : "Candy Gold",
-            "coverImage" : "FITTINGS CANDY GOLD LARGE"
+            "coverImage" : "Rigid/FITTINGS CANDY GOLD LARGE.jpg"
           },
           {
             "name" : "Candy Pink",
-            "coverImage" : "FITTINGS CANDY PINK LARGE"
+            "coverImage" : "Rigid/FITTINGS CANDY PINK LARGE.jpg"
           },
           {
             "name" : "Candy Purple",
-            "coverImage" : "FITTINGS CANDY PURPLE LARGE"
+            "coverImage" : "Rigid/FITTINGS CANDY PURPLE LARGE.jpg"
           },
           {
             "name" : "Candy Red",
-            "coverImage" : "FITTINGS CANDY RED LARGE"
+            "coverImage" : "Rigid/FITTINGS CANDY RED LARGE.jpg"
           },
           {
             "name" : "Dark Nickel",
-            "coverImage" : "FITTINGS DARK NIKEL LARGE"
+            "coverImage" : "Rigid/FITTINGS DARK NIKEL LARGE.jpg"
           },
           {
             "name" : "Razor Red",
-            "coverImage" : "FITTINGS RAZER RED LARGE"
+            "coverImage" : "Rigid/FITTINGS RAZER RED LARGE.jpg"
           },
           {
             "name" : "Satin Black",
-            "coverImage" : "FITTINGS SATIN BLACK LARGE"
+            "coverImage" : "Rigid/FITTINGS SATIN BLACK LARGE.jpg"
           },
           {
             "name" : "Silver Nickel",
-            "coverImage" : "FITTINGS SILVER NICKEL LARGE"
+            "coverImage" : "Rigid/FITTINGS SILVER NICKEL LARGE.jpg"
           },
           {
             "name" : "Sky Blue",
-            "coverImage" : "FITTINGS SKY BLUE LARGE"
+            "coverImage" : "Rigid/FITTINGS SKY BLUE LARGE.jpg"
           },
           {
             "name" : "Sky White",
-            "coverImage" : "FITTINGS SKY WHITE LARGE"
+            "coverImage" : "Rigid/FITTINGS SKY WHITE LARGE.jpg"
           },
           {
             "name" : "Toxic Candy (Green)",
-            "coverImage" : "FITTINGS TOXIC CANDY LARGE"
+            "coverImage" : "Rigid/FITTINGS TOXIC CANDY LARGE.jpg"
           },
           {
             "name" : "True Blue",
-            "coverImage" : "FITTINGS TRUE BLUE LARGE"
+            "coverImage" : "Rigid/FITTINGS TRUE BLUE LARGE.jpg"
           },
           {
             "name" : "Matte Black",
-            "coverImage" : "FITTINGS MATTE BLACK LARGE"
+            "coverImage" : "Rigid/FITTINGS MATTE BLACK LARGE.jpg"
           },
           {
             "name" : "UV Green",
-            "coverImage" : "FITTINGS UV GREEN LARGE"
+            "coverImage" : "Rigid/FITTINGS UV GREEN LARGE.jpg"
           },
           {
             "name" : "UV Orange",
-            "coverImage" : "FITTINGS UV ORANGE LARGE"
+            "coverImage" : "Rigid/FITTINGS UV ORANGE LARGE.jpg"
           },
           {
             "name" : "UV Red",
-            "coverImage" : "FITTINGS UV RED LARGE"
+            "coverImage" : "Rigid/FITTINGS UV RED LARGE.jpg"
           },
           {
             "name" : "UV silver Blue",
-            "coverImage" : "FITTINGS UV SILVER BLUE LARGE"
+            "coverImage" : "Rigid/FITTINGS UV SILVER BLUE LARGE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -5957,23 +5957,23 @@
         "options" : [
           {
             "name" : "White",
-            "coverImage" : "PASTEL WHITE LARGE"
+            "coverImage" : "Pastel/PASTEL WHITE LARGE.jpg"
           },
           {
             "name" : "Red",
-            "coverImage" : "PASTEL RED LARGE"
+            "coverImage" : "Pastel/PASTEL RED LARGE.jpg"
           },
           {
             "name" : "Green",
-            "coverImage" : "PASTEL LIME GREEN LARGE"
+            "coverImage" : "Pastel/PASTEL LIME GREEN LARGE.jpg"
           },
           {
             "name" : "Yellow",
-            "coverImage" : "PASTEL YELLOW LARGE"
+            "coverImage" : "Pastel/PASTEL YELLOW LARGE.jpg"
           },
           {
             "name" : "Orange",
-            "coverImage" : "PASTEL ORANGE LARGE"
+            "coverImage" : "Pastel/PASTEL ORANGE LARGE.jpg"
           }
         ],
         "fullImageLink": ""
@@ -5990,51 +5990,51 @@
         "options" : [
           {
             "name" : "Blood Red",
-            "coverImage" : "DYE BLOOD RED SMALL"
+            "coverImage" : "Transparent/DYE BLOOD RED SMALL.jpg"
           },
           {
             "name" : "Clear",
-            "coverImage" : "DYE  SMALL"
+            "coverImage" : "Transparent/DYE  SMALL"
           },
           {
             "name" : "Clear UV Blue",
-            "coverImage" : "DYE CLEAR UV-BLUE SMALL"
+            "coverImage" : "Transparent/DYE CLEAR UV-BLUE SMALL.jpg"
           },
           {
             "name" : "Electric UV Blue",
-            "coverImage" : "DYE UV-BLUE SMALL"
+            "coverImage" : "Transparent/DYE UV-BLUE SMALL.jpg"
           },
           {
             "name" : "Red",
-            "coverImage" : "DYE UV-RED SMALL"
+            "coverImage" : "Transparent/DYE UV-RED SMALL.jpg"
           },
           {
             "name" : "Steel Blue",
-            "coverImage" : "DYE STEEL BLUE LARGE"
+            "coverImage" : "Transparent/DYE STEEL BLUE LARGE.jpg"
           },
           {
             "name" : "UV Blue",
-            "coverImage" : "DYE UV-BLUE SMALL"
+            "coverImage" : "Transparent/DYE UV-BLUE SMALL.jpg"
           },
           {
             "name" : "UV Bright Green",
-            "coverImage" : "DYE UV- SMALL"
+            "coverImage" : "Transparent/DYE UV- SMALL.jpg"
           },
           {
             "name" : "UV Green",
-            "coverImage" : "DYE  SMALL"
+            "coverImage" : "Transparent/DYE  SMALL.jpg"
           },
           {
             "name" : "UV Pink",
-            "coverImage" : "DYE  SMALL"
+            "coverImage" : "Transparent/DYE  SMALL.jpg"
           },
           {
             "name" : "UV Purple",
-            "coverImage" : "DYE  SMALL"
+            "coverImage" : "Transparent/DYE  SMALL.jpg"
           },
           {
             "name" : "Yellow",
-            "coverImage" : "DYE  SMALL"
+            "coverImage" : "Transparent/DYE  SMALL.jpg"
           }
         ],
         "fullImageLink": ""
