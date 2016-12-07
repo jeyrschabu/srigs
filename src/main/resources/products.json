@@ -340,7 +340,7 @@
         "wattage": 51,
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.",
+        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p> <ul><li>",
         "coverImage": "INTEL/6100 SMALL.jpg",
         "options": [],
         "fullImageLink": "INTEL/6100 LARGE.jpg"
@@ -607,64 +607,22 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 950 2GB",
+        "name": "Nvidia GTX 1050 TI 4GB",
         "weight": 4,
-        "price": 235,
-        "wattage": 410,
+        "price": 204,
+        "wattage": 75,
         "type": "GPU",
-        "shortDescription": "The EVGA GeForce GTX 950 features a true gaming GPU designed for every PC gamer.",
-        "longDescription": "The GeForce GTX 950 is a true gaming GPU designed for every PC gamer. Transform your PC into a gaming rig that rivals any game console to enjoy fast and responsive MOBA gaming and the latest games in 1080p. Powered by NVIDIA Maxwell architecture and delivers 3x the performance of previous-generation cards.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 950 ONLY.jpg",
+        "shortDescription": "The ASUS DUAL-GTX1050TI-4G comes equipped with a dual-fan design for greater air flow - and exclusive Auto-Extreme technology with Super Alloy Power II components for superior stability.",
+        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li>
+<li>Classic and modern games at 1080p @ 60 FPS</li>
+<li>Supports the latest DirectX™ 12 and GeForce gaming features</li>
+<li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li>
+<li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li>
+<li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li>
+<li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li><ul>",
+        "coverImage": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg",
         "options": [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 950 ONLY.jpg"
-      },
-      {
-        "name": "Nvidia GTX 960 4GB",
-        "weight": 4,
-        "price": 290,
-        "wattage": 160,
-        "type": "GPU",
-        "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-        "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 960 SMALL.jpg",
-        "options": [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 960 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 970 4GB",
-        "weight": 4,
-        "price": 410,
-        "wattage": 170,
-        "type": "GPU",
-        "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-        "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 970 SMALL.jpg",
-        "options": [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 970 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB",
-        "weight": 4,
-        "price": 650,
-        "wattage": 300,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options": [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB Two-Way SLI",
-        "weight": 8,
-        "price": 1300,
-        "wattage": 600,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options": [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
+        "fullImageLink": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
       },
       {
         "name": "Nvidia GTX 1060 3GB",
@@ -1939,54 +1897,6 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 960 4GB",
-        "weight": 4,
-        "price": 290,
-        "wattage": 160,
-        "type": "GPU",
-        "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-        "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 960 SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 960 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 970 4GB",
-        "weight": 4,
-        "price": 410,
-        "wattage": 170,
-        "type": "GPU",
-        "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-        "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 970 SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 970 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB",
-        "weight": 4,
-        "price": 650,
-        "wattage": 300,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB Two-Way SLI",
-        "weight": 8,
-        "price": 1300,
-        "wattage": 600,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
-      },
-      {
         "name": "Nvidia GTX 1060 3GB",
         "weight": 4,
         "price": 320,
@@ -3247,52 +3157,22 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 950 2GB",
+        "name": "Nvidia GTX 1050 TI 4GB",
         "weight": 4,
         "price": 235,
-        "wattage": 410,
+        "wattage": 75,
         "type": "GPU",
-        "shortDescription": "The EVGA GeForce GTX 950 features a true gaming GPU designed for every PC gamer.",
-        "longDescription": "The GeForce GTX 950 is a true gaming GPU designed for every PC gamer. Transform your PC into a gaming rig that rivals any game console to enjoy fast and responsive MOBA gaming and the latest games in 1080p. Powered by NVIDIA Maxwell architecture and delivers 3x the performance of previous-generation cards.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 950 ONLY.jpg",
+        "shortDescription": "The ASUS DUAL-GTX1050TI-4G comes equipped with a dual-fan design for greater air flow - and exclusive Auto-Extreme technology with Super Alloy Power II components for superior stability.",
+        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li>
+<li>Classic and modern games at 1080p @ 60 FPS</li>
+<li>Supports the latest DirectX™ 12 and GeForce gaming features</li>
+<li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li>
+<li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li>
+<li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li>
+<li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li><ul>",
+        "coverImage": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg",
         "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 950 ONLY.jpg"
-      },
-      {
-        "name": "Nvidia GTX 960 4GB",
-        "weight": 4,
-        "price": 290,
-        "wattage": 160,
-        "type": "GPU",
-        "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-        "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 960 SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 960 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 970 4GB",
-        "weight": 4,
-        "price": 410,
-        "wattage": 170,
-        "type": "GPU",
-        "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-        "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 970 SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 970 LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB",
-        "weight": 4,
-        "price": 650,
-        "wattage": 300,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
+        "fullImageLink": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
       },
       {
         "name": "Nvidia GTX 1060 3GB",
@@ -4940,42 +4820,6 @@
         "coverImage": "DOMINATOR PLATINUM RAM SMALL.jpg",
         "options" : [],
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB",
-        "weight": 4,
-        "price": 650,
-        "wattage": 300,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB Two-Way SLI",
-        "weight": 8,
-        "price": 1300,
-        "wattage": 600,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
-      },
-      {
-        "name": "Nvidia GTX 980Ti 6GB Three-Way SLI",
-        "weight": 12,
-        "price": 1950,
-        "wattage": 900,
-        "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "NVIDIA/GTX/EVGA GTX 980TI LARGE NO SMALL.jpg"
       },
       {
         "name": "Nvidia GTX 1060 6GB",
