@@ -153,7 +153,7 @@
         "wattage": 0,
         "type": "Case Fans",
         "shortDescription": "If NASA Designed a Computer Case Fan - This Would Be It.",
-        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience. Delivers the perfect balance between high static pressure and high airflow, operating flawlessly in the most challenging environments.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN SMALL.png",
         "options": [],
         "fullImageLink": "FANS/PERFORMANCEFANS/PERFORMANCE/AIR ML120 COOLING FAN LARGE.png"
@@ -164,8 +164,8 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
-        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to personalize your rig.",
+        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience. With a 2,000 RPM PWM control range, The ML Series fans deliver total control between low noise and airflow without compromise. Replaceable corners mounted to anti-vibration rubber dampers ensure quieter operation at higher speeds and are available in Red, White or Blue, the ultra-bright center-mounted LEDs output a blast of light and color which allow you to match your fans with the rest of your build.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
           {
@@ -340,7 +340,7 @@
         "wattage": 51,
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p> <ul><li>",
+        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p><p>Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity. With 6th generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC. Get smoother multitasking, faster start-up times, and better management tools on a Windows 10 PC powered by Intel.</p> ",
         "coverImage": "INTEL/6100 SMALL.jpg",
         "options": [],
         "fullImageLink": "INTEL/6100 LARGE.jpg"
@@ -351,8 +351,8 @@
         "price": 300,
         "wattage": 88,
         "type": "CPU",
-        "shortDescription": "Total power zero compromise.",
-        "longDescription": "The Intel Core i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across eight software threads, the Intel Core i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's a gaming experience so perfect, you just might lose yourself in the action.",
+        "shortDescription": "Raise the bar on your PC experience with rich visuals plus an automatic burst of speed when you need it. The 4th generation Intel Core i5 processor delivers amazing performance, stunning visuals, and built-in security for deeper protection.",
+        "longDescription": "<p>The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.</p> <p>The new Microarchitecture (code name Haswell) has full integrated voltage regulator (FIVR) for simplified motherboard design. It delivers improved CPU performance and enhanced overclocking over its previous generation Microarchitecture.</p> <p> More intelligent, energy-efficient, and dynamic than previous generation, Intel Turbo Boost Technology 2.0 gives you accelerating performance when you need it. It delivers an even greater automatic speed increase by allowing processor cores to run faster than the base operating frequency for demanding applications if the processor is operating below power, current, and temperature specification limits.</p>",
         "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
         "fullImageLink": "INTEL/4690K LARGE.jpg"
@@ -363,20 +363,20 @@
         "price": 250,
         "wattage": 84,
         "type": "CPU",
-        "shortDescription": "Haswell core-based processors offer advanced power management and improved integrated graphics.",
-        "longDescription": "The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.",
+        "shortDescription": "With intelligent performance that accelerates in response to demanding tasks, such as playing games and editing photos, the Intel Core i5 processor moves faster when you do.",
+        "longDescription": "<p>The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.</p> <p>The new Microarchitecture (code name Haswell) has full integrated voltage regulator (FIVR) for simplified motherboard design. It delivers improved CPU performance and enhanced overclocking over its previous generation Microarchitecture.</p> <p> More intelligent, energy-efficient, and dynamic than previous generation, Intel Turbo Boost Technology 2.0 gives you accelerating performance when you need it. It delivers an even greater automatic speed increase by allowing processor cores to run faster than the base operating frequency for demanding applications if the processor is operating below power, current, and temperature specification limits.</p>",
         "coverImage": "INTEL/4690K SMALL.jpg",
         "options": [],
         "fullImageLink": "INTEL/4690K LARGE.jpg"
       },
       {
-        "name": "Intel Quad Core i5-4790K 4.0GHz Devil's Canyon",
+        "name": "Intel Quad Core i7-4790K 4.0GHz Devil's Canyon",
         "weight": 1,
         "price": 435,
         "wattage": 88,
         "type": "CPU",
-        "shortDescription": "The Intel Core I7-4790 4.4 GHz Processor is engineered to deliver performance and power efficiency",
-        "longDescription": "The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials",
+        "shortDescription": "The Intel Core I7-4790K 4.4 GHz Processor is engineered to deliver performance and power efficiency",
+        "longDescription": "<p>The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials.</p> <p>The Intel® i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across twelve soft ware threads, the Intel® Core™ i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's gaming experience so perfect, you just might lose yourself in the action.</p><p>Whether you're casually checking e-mail and surfing the Web or multitasking compute-intensive applications such as HD video encoding, you want a processor that enables maximum PC performance. With the Intel® Core™ i7 processor, you'll get just that. An unprecedented six-core, twelve-thread design with Intel® Hyper-Threading Technology ensures incredible performance, no matter what your computing needs.</p><p>It's time for digital content creation that's limited only by your imagination. Expierence total creative freedom with the power to encode video up to 40% faster. And enjoy incredible performance on other multimedia tasks like image rendering, photo retouching ,and editing.</p>",
         "coverImage": "INTEL/4790K SMALL.jpg",
         "options": [],
         "fullImageLink": "INTEL/4790K LARGE.jpg"
@@ -388,7 +388,7 @@
         "wattage": 105,
         "type": "CPU",
         "shortDescription": "Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
-        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ - 6300 Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ - 6300 Series processors have special system requirements including a robust liquid cooling system.</p> <p>The native 6-core desktop processor ensures breathtaking 3D modeling and HD video edition as well as maximum multitasking with the new Piledriver microarchitecture. 32 nanometer die shrink was designed to reduce leakage for improved efficiency, increased clock rate headroom and better thermals. The AMD unlocked technology offers more headroom for your overclocking (AMD’s product warranty does not cover damage caused by overclocking even when overclocking is enabled via AMD Overdrive software.)</p>",
         "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
@@ -400,7 +400,7 @@
         "wattage": 125,
         "type": "CPU",
         "shortDescription": "AMD FX processor unlocks maximum, unrestrained processing performance for extreme responsiveness you can see and feel.",
-        "longDescription": "Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.",
+        "longDescription": "<p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p> <p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive™ technology and AMD Catalyst™ Control Center™ software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself what competition? in no time.AMD FX Processors unlock maximum, unrestrained processing performance for extreme responsiveness you can see and feel.</p> <p>The native 8-core desktop processor delivers unrivaled multitasking and pure core performance with the new Piledriver microarchitecture. 32 nanometer die shrink was designed to reduce leakage for improved efficiency, increased clock rate headroom and better thermals. The AMD unlocked technology offers more headroom for your overclocking (AMD’s product warranty does not cover damage caused by overclocking even when overclocking is enabled via AMD Overdrive software.).</p>",
         "coverImage": "AMD/AMD FX CPUS SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/AMD FX CPUS LARGE.jpg"
@@ -412,7 +412,7 @@
         "wattage": 125,
         "type": "CPU",
         "shortDescription": "Stay on the path to glory with an Amd Fx processor in your system.",
-        "longDescription": "We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure. Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive technology and AMD Catalyst Control Center software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself 'what competition?' in no time.",
+        "longDescription": "<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ Series processors have special system requirements including a robust liquid cooling system.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure. Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive technology and AMD Catalyst Control Center software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself 'what competition?' in no time.</p><p>Like Bulldozer, Piledriver has some amazing instruction capabilities. Advanced Vector Extensions (AVX) increase parallelism tailored for scientific and 3D applications that use heavy floating point calculations. Floating Point Vector Multiply-Accumulate improves throughput and performance on many vector functions (integer and floating point). Advanced Encryption Standard noticeably increases performance on the latest encryption applications like TrueCrypt and benchmarks like PCMark.</p>",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
@@ -424,7 +424,7 @@
         "wattage": 125,
         "type": "CPU",
         "shortDescription": "AMD FX processor unlocks maximum, unrestrained processing performance for extreme responsiveness you can see and feel.",
-        "longDescription": "Piledriver microarchitecture, a tuned-up Bulldozer, has finally reached the flagship AMD FX processors (the new FX series processors are codenamed Vishera) for improved performance and better energy-efficiency. Eight Piledriver cores ensure rich, crisp video and seamless multitasking. The AMD Turbo Core technology pushes your core frequencies to the most when you need it most. To top it off, like all other AMD's Black Edition processors, the new AMD FX eight-core Vishera processor is fully unlocked for fabulous overclocking* capability. Great performance is not the only trick AMD has up their sleeve. Vishera processors are at a reasonable price point.",
+        "longDescription": "<p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p><p>Piledriver microarchitecture, a tuned-up Bulldozer, has finally reached the flagship AMD FX processors (the new FX series processors are codenamed Vishera) for improved performance and better energy-efficiency. Eight Piledriver cores ensure rich, crisp video and seamless multitasking. The AMD Turbo Core technology pushes your core frequencies to the most when you need it most. To top it off, like all other AMD's Black Edition processors, the new AMD FX eight-core Vishera processor is fully unlocked for fabulous overclocking* capability. Great performance is not the only trick AMD has up their sleeve. Vishera processors are at a reasonable price point.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive™ technology and AMD Catalyst™ Control Center™ software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself what competition, in no time.AMD FX Processors unlock maximum, unrestrained processing performance for extreme responsiveness you can see and feel.</p>",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
@@ -436,7 +436,7 @@
         "wattage": 220,
         "type": "CPU",
         "shortDescription": "Transform your PC into a multimedia powerhouse, Take your PC's mega tasking abilities to extreme levels with the first native 8-core desktop processor.",
-        "longDescription": "We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most.",
+        "longDescription": "<p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most.</p><p>Take your PC’s megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.</p><p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p><p>Silicon feature-set enhancements are designed to improve the performance, reliability, and security of existing and future virtualization environments by allowing virtualized applications with direct and rapid access to their allocated memory. IOMMU is an extension to AMD64 architecture to support address translation and access protection on DMA transfers. An array of security options delivers the maximum protection for user-level applications and virtual machine guest operating systems, including address translation and access control, device isolation, device assignment in virtualized systems, security and trusted boot support, and unified interrupt management.</p>",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
@@ -448,7 +448,7 @@
         "wattage": 230,
         "type": "CPU",
         "shortDescription": "Take your PC’s megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
-        "longDescription": "Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.",
+        "longDescription": "<p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive™ technology and AMD Catalyst™ Control Center™ software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself what competition, in no time.AMD FX Processors unlock maximum, unrestrained processing performance for extreme responsiveness you can see and feel.</p><p>One 16-bit link at up to 5600MTps, up to 8.0GBps HyperTransport I/O bandwidth, up to 16GBps in HyperTransport Generation 3.0 mode, and up to 37GBps total delivered processor-to-system bandwidth (HyperTransport bus + memory bus). Benefit: Quick access times to system I/O for better performance.</p>",
         "coverImage": "AMD FX CPUS SMALL",
         "options": [],
         "fullImageLink": "AMD FX CPUS LARGE"
@@ -2009,8 +2009,8 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
-        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to personalize your rig.",
+        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience. With a 2,000 RPM PWM control range, The ML Series fans deliver total control between low noise and airflow without compromise. Replaceable corners mounted to anti-vibration rubber dampers ensure quieter operation at higher speeds and are available in Red, White or Blue, the ultra-bright center-mounted LEDs output a blast of light and color which allow you to match your fans with the rest of your build.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
           {
@@ -3746,8 +3746,8 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
-        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to personalize your rig.",
+        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience. With a 2,000 RPM PWM control range, The ML Series fans deliver total control between low noise and airflow without compromise. Replaceable corners mounted to anti-vibration rubber dampers ensure quieter operation at higher speeds and are available in Red, White or Blue, the ultra-bright center-mounted LEDs output a blast of light and color which allow you to match your fans with the rest of your build.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
           {
@@ -3922,7 +3922,7 @@
         "wattage": 51,
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.",
+        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p><p>Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity. With 6th generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC. Get smoother multitasking, faster start-up times, and better management tools on a Windows 10 PC powered by Intel.</p> ",
         "coverImage": "INTEL/6100 SMALL.jpg",
         "options" : [],
         "fullImageLink": "INTEL/6100 LARGE.jpg"
@@ -5423,8 +5423,8 @@
         "price": 180,
         "wattage": 0,
         "type": "Case Fans",
-        "shortDescription": "Same awesome magnetic fans with LED lighting to presonalize your rig - This Would Be It.",
-        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience.",
+        "shortDescription": "Same awesome magnetic fans with LED lighting to personalize your rig.",
+        "longDescription": "Corsair ML Series of fans magnetic levitation technology and custom engineered rotors provide unrivaled performance and low noise. Thanks to its innovative design, the ML Series fans delivers both high static pressure and high air flow for a superior fan experience. With a 2,000 RPM PWM control range, The ML Series fans deliver total control between low noise and airflow without compromise. Replaceable corners mounted to anti-vibration rubber dampers ensure quieter operation at higher speeds and are available in Red, White or Blue, the ultra-bright center-mounted LEDs output a blast of light and color which allow you to match your fans with the rest of your build.",
         "coverImage": "FANS/PERFORMANCEFANS/PERFORMANCELED/ML120 LED WHITE SMALL.jpg",
         "options": [
           {
