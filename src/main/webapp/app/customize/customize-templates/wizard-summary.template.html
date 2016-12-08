@@ -29,6 +29,9 @@
         <ul>
           <li>Processor: {{customizeController.rig.performanceCpuOptions.current.name}}  <span>${{customizeController.rig.performanceCpuOptions.current.price}}</span></li>
           <li>System Cooling: {{customizeController.rig.performanceCoolingOptions.current.name}}   <span>${{customizeController.rig.performanceCoolingOptions.current.price}}</span></li>
+          <li ng-show="customizeController.rig.darkFusionSelected">Reservoir: {{customizeController.rig.performanceReservoirOptions.current.name}}  {{ customizeController.rig.performanceReservoirOptions.current.currentOption ? '('+customizeController.rig.performanceReservoirOptions.current.currentOption.name+')' : '' }}</li>
+          <li ng-show="customizeController.rig.darkFusionSelected">Fittings: {{customizeController.rig.performanceFittingsOptions.current.name}}  {{ customizeController.rig.performanceFittingsOptions.current.currentOption ? '('+customizeController.rig.performanceFittingsOptions.current.currentOption.name+')' : '' }}</li>
+          <li ng-show="customizeController.rig.darkFusionSelected">Coolant: {{customizeController.rig.performanceCoolantOptions.current.name}}  {{ customizeController.rig.performanceCoolantOptions.current.currentOption ? '('+customizeController.rig.performanceCoolantOptions.current.currentOption.name+')' : '' }}</li>
           <li>Motherboard: {{customizeController.rig.performanceMotherboardOptions.current.name}} <span>${{customizeController.rig.performanceMotherboardOptions.current.price}}</span></li>
           <li>Memory: {{customizeController.rig.performanceMemoryOptions.current.name}} <span>${{customizeController.rig.performanceMemoryOptions.current.price}}</span></li>
           <li>Graphics: {{customizeController.rig.performanceGraphicsOptions.current.name}} <span>${{customizeController.rig.performanceGraphicsOptions.current.price}}</span></li>

@@ -54,6 +54,7 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
         customizeController.totalPrice = totalPrice;
         customizeController.rig.status = 'INITIAL';
          customizeController.rig.originalPrice = totalPrice;
+         customizeController.rig.darkFusionSelected = false;
        rigCache.put(customizeController.product.id, customizeController.rig);
         initializeBuilderOptions(specs, customizeController.product.specs);
       });
@@ -67,6 +68,9 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     customizeController.rig.caseCablingOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Cabling'});
     customizeController.rig.performanceCpuOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'CPU'});
     customizeController.rig.performanceCoolingOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'System Cooling'});
+    customizeController.rig.performanceReservoirOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Reservoir'});
+    customizeController.rig.performanceFittingsOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Fittings'});
+    customizeController.rig.performanceCoolantOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Coolant'});
     customizeController.rig.performanceMotherboardOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'Motherboard'});
     customizeController.rig.performanceMemoryOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'RAM'});
     customizeController.rig.performanceGraphicsOptions = getBuilderOption(defaultSpecs, allSpecs, {'type': 'GPU'});
@@ -92,7 +96,11 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
     var defaultItem = lodash.filter(defaultSpecs, specPredicate)[0];
     var current = allItems[0];
 
-    var type = specPredicate['type']
+    var type = specPredicate['type'];
+
+    if (!defaultItem && allItems && allItems.length > 0) {
+      defaultItem = allItems[0];
+    }
 
     if (defaultItem && allItems.length) {
       var startIndex = lodash.findIndex(allItems, function (item) {
@@ -146,6 +154,9 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       'customizeController.rig.caseCablingOptions',
       'customizeController.rig.performanceCpuOptions',
       'customizeController.rig.performanceCoolingOptions',
+      'customizeController.rig.performanceReservoirOptions',
+      'customizeController.rig.performanceFittingsOptions',
+      'customizeController.rig.performanceCoolantOptions',
       'customizeController.rig.performanceMotherboardOptions',
       'customizeController.rig.performanceMemoryOptions',
       'customizeController.rig.performanceGraphicsOptions',
@@ -175,20 +186,36 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
               item.priceDiff = item.price - newPrice;
             })
 
+            // First option selected by default
             if (change.newValue['current'].options && change.newValue['current'].options.length >1) {
               if (!change.newValue['current'].currentOption) {
                 change.newValue['current'].currentOption = change.newValue['current'].options[0];
 
               }
             }
-            else {
-              if (change.newValue['current'].currentOption) {
-                if ((change.oldValue['current'].currentOption && change.newValue['current'].currentOption.name != change.oldValue['current'].currentOption.name) || !change.oldValue['current'].currentOption) {
-                  // alert('Please select the parent option first');
+
+            // Dark Fusion
+            if (change.newValue['current'].type == 'System Cooling') {
+              if (change.newValue['current'].name.indexOf('Dark Fusion Stage') >= 0) {
+                customizeController.rig.darkFusionSelected = true;
+              } else {
+                customizeController.rig.darkFusionSelected = false;
+
+                // Reset overclocking option
+                if (customizeController.rig.performanceOverclockOptions.current.name == 'Overclocking Stage Three (Dark Fusion Required)') {
+                  customizeController.rig.performanceOverclockOptions = getBuilderOption(null, customizeController.rig.performanceOverclockOptions.items, {'type': 'Overclocking'});
+                }
+
+              }
+            }
+
+            // Case only Corsair Carbide 900D enables Dark Fusion Four
+            if (change.newValue['current'].type == 'Case') {
+              if (change.newValue['current'].name != 'Corsair Carbide 900D') {
+                if (customizeController.rig.performanceCoolingOptions.current.name == 'Dark Fusion Stage Four') {
+                  customizeController.rig.performanceCoolingOptions = getBuilderOption(null, customizeController.rig.performanceCoolingOptions.items, {'type': 'System Cooling'});
                 }
               }
-              // change.newValue['current'].currentOption = null;
-
             }
 
             customizeController.calcTotalWattage();
