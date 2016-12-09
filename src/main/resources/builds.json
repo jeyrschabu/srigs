@@ -1,6 +1,369 @@
 [
   {
     "name":"Mark 1",
+    "brand":"AMD",
+    "blobDescription":"AMD Mark 1",
+    "price":1100,
+    "product":"Phantom",
+    "specs":[
+      {
+        "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
+        "coverImage":"CORSAIR 450D SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"CORSAIR 450D LARGE"
+      },
+      {
+        "name": "AMD 6 Core FX-6300 3.5GHz",
+        "weight":1,
+        "price":130,
+        "wattage":105,
+        "type":"CPU",
+        "shortDescription": "Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
+        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ - 6300 Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ - 6300 Series processors have special system requirements including a robust liquid cooling system.</p> <p>The native 6-core desktop processor ensures breathtaking 3D modeling and HD video edition as well as maximum multitasking with the new Piledriver microarchitecture. 32 nanometer die shrink was designed to reduce leakage for improved efficiency, increased clock rate headroom and better thermals. The AMD unlocked technology offers more headroom for your overclocking (AMD’s product warranty does not cover damage caused by overclocking even when overclocking is enabled via AMD Overdrive software.)</p>",
+        "coverImage":"AMD FX CPUS SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"AMD FX CPUS LARGE"
+      },
+      {
+        "name":"H80i GT Liquid CPU Cooler",
+        "weight":4,
+        "price":120,
+        "wattage":15,
+        "type":"System Cooling",
+        "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
+        "longDescription": "<p>The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.</p><p>Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. No additional hardware is necessary – just connect the included Corsair Link cable to a USB header on your motherboard and download the free Corsair Link Dashboard software. You can monitor coolant temperature and adjust cooling performance directly from your desktop.</p><ul><li>Corsair Hydro Series H80i High Performance Liquid CPU Cooler</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link™ Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011, 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Radiator dimensions: 120mm x 152mm x 38mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
+        "coverImage":"CORSAIR H80I SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"CORSAIR H80I LARGE"
+      },
+      {
+        "name": "MSI 970A SLI Krait",
+        "weight": 3.1,
+        "price": 115,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "ATX · Socket AM3+ · AMD Chipset · Ethernet · Gigabit Ethernet · Multiple GPU Support",
+        "longDescription": "<p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a AMD® CrossFire™ gaming setup.</p> <p>USB 3.1 allows for speeds up to 10 Gbps, doubling the speed compared to USB 3.0 and 20x faster than legacy USB 2.0. USB 3.1 is even faster than SATAIII! Transferring your favorite games, music and movies over USB has never been faster.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket</li><li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1: Delivering speeds up to 10Gb/s, USB 3.1 offers performance twice as fast as a regular USB 3.0 connection</li><li>USB 3.1 + SATA 6Gb/s</li><li>Military Class 4: Top Quality & Stability</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>Multi-GPU: AMD CrossFire Support</li><li>Command Center: Control & Customize Your PC Settings</li><li>Fast Boot: Quickly Boot Up & Enter OS in A Few Seconds</li><li>M-Flash: Simply Update & Backup Your BIOS</li><li>Live Update 6: Easily Update The Latest BIOS & Drivers</li></ul>",
+        "coverImage":"MSI 970A SLI KRAIT EDITION SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"MSI 970A SLI KRAIT EDITION LARGE"
+      },
+      {
+        "name": "8GB DDR3 Standard",
+        "weight": 0.5,
+        "price": 60,
+        "wattage": 15,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 8GB",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>  ",
+        "coverImage":"VENGEACNCE LPX RAM SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"VENGEACNCE LPX RAM LARGE"
+      },
+      {
+        "name": "ASUS GTX 1050 TI 4GB",
+        "weight": 4,
+        "price": 204,
+        "wattage": 75,
+        "type": "GPU",
+        "shortDescription": "The ASUS DUAL-GTX1050TI-4G comes equipped with a dual-fan design for greater air flow - and exclusive Auto-Extreme technology with Super Alloy Power II components for superior stability.",
+        "longDescription": "<p>ASUS Dual series of GeForce® GTX 1050 Ti comes equipped with dual fan design for 2X greater air flow. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and real-time streaming. It provides best experience in games such as Overwatch, Dota 2, CS Go and League of Legend.</p> <p>ASUS Dual series of GeForce® GTX 1050 TI graphics card and ASUS Z170 motherboards share perfectly matching color themes and are ready for Windows 10. Dual series of GeForce® GTX 1050 TI is equipped with DirectX 12 to squeeze more graphics performance from the CPU and prevent GPU bottlenecks.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p><ul><li>New NVIDIA Pascal™ architecture delivers improved performance and power efficiency for fast, smooth gaming</li><li>Classic and modern games at 1080p @ 60 FPS</li><li>Supports the latest DirectX™ 12 and GeForce gaming features</li><li>Plug and play design requires no PCIe power connectors for easy graphics upgrade</li><li>Dual-fan Cooling provides double the airflow with 3x quieter performance</li><li>Auto-Extreme Technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run faster and last longer than reference</li><li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li></ul>",
+        "coverImage":"NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg",
+        "options":[
+
+        ],
+        "fullImageLink":"NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
+      },
+      {
+        "name":"550W Gold-Rated PSU",
+        "weight":6.2,
+        "price":104,
+        "wattage":0,
+        "type":"PSU",
+        "shortDescription":"These power supplies take the award-winning features of the EVGA \"GS\" lineup and provide them at an extremely affordable price.",
+        "longDescription":"The unbeatable performance of the SVGA SuperNOVA G2 power supply line is now available in 550 watt. Based on the award winning G2 power supplies, these units feature 80 Plus Gold rated efficiency, and clean, continuous power to every component. The ECO control fan system offers fan modes to provide absolutely zero fan noise during load to medium load operations. Backed by 100% Japanese capacitor design, the SVGA SuperNOVA 550 G2 power supplies offer unbeatable performance at an unbeatable value.",
+        "coverImage":"EVGA 550W G2 PSU SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVGA 550W G2 PSU LARGE"
+      },
+      {
+        "name":"Samsung EVO 120GB SSD",
+        "weight":0.4,
+        "price":69,
+        "wattage":10,
+        "type":"Storage-SSD",
+        "shortDescription":"Innovation V-NAND Technology\nIncredible Read/Write Performance\nEnhanced Endurance and Reliability",
+        "longDescription":"Samsung's innovative 3D V-NAND flash memory architecture breaks through density, performance, and endurance limitations of today's conventional planar NAND architecture. Samsung 3D V-NAND stacks 32 cell layers vertically resulting in higher density and better performance utilizing a smaller footprint.\n\nINCREDIBLE READ/WRITE SPEEDS\nAchieve incredible read/write performance to maximize your everyday computing experience with Samsung's TurboWrite technology. You can obtain up to 1.9x faster performance than the award-winning Samsung 840 EVO. The 850 EVO delivers class-leading performance* in sequential read (540MB/s) and write (520MB/s) speeds. Plus, gain optimized random performance in all QD for better real-world performance. \n\n* Performance compared to 3-Bit MLC-class SSD drives\n\nENHANCED RAPID MODE\nSamsung's Magician software enables RAPID Mode for up to 2x faster performance* by utilizing unused PC memory (DRAM) as a high-speed cache. The newest version of Samsung Magician supports up to a 4 GB cache on a system with 16 GB of DRAM.\n\n* Compared to same drive w/out RAPID enabled. Performance enhancement may vary depending on system hardware & configuration.\n\nGUARANTEED ENDURANCE AND RELIABILITY\nThe 850 EVO doubles the endurance* and reliability** compared to the previous generation 840 EVO** and features a class-leading*** 5 year warranty. With enhanced long-term reliability, the 850 EVO assures longterm dependable performance of up to 30% longer than the previous generation 840 EVO. \n\n* Measured by Terrabytes Written (TBW)\n** Measured with Sustained Performance 12hr Random Write Test\n*** Highest among 3-Bit MLC-class SSD drives\n\nIMPROVED ENERGY EFFICIENCY\nThe 850 EVO delivers significantly longer battery life on your notebook* with a controller designed and optimized for 3D V-NAND that supports Device Sleep for Windows at a highly efficient 2mW. The 850 EVO supports 25% better power efficiency than the 840 EVO during write operations thanks to ultra-efficient 3D V-NAND only consuming half the energy than that of traditional Planar 2D NAND. \n\n* Compared to standard hard drive & previous generation SSDs\n\nSECURE DATA THROUGH ADVANCED AES 256 ENCRYPTION\nThe 850 EVO comes fortified with the latest hardware-based full disk encryption engine. The AES 256-bit hardware encryption secures data without any performance degradation and complies with TCG Opal 2.0. Easily integrate into Windows with Microsoft e-drive IEEE1667 to keep your data protected at all times.\n\nDYNAMIC THERMAL GUARD PROTECTION\nThe 850 EVO's Dynamic Thermal Guard constantly monitors and maintains ideal temperatures for the drive to operate in optimal conditions to ensure the integrity of your data. The Thermal Guard automatically throttles temperatures down when temperatures rise above optimal critical threshold. This protects your data while maintaining responsiveness to help ensure your computer is always safe from overheating.\n\nONE-STOP INSTALL NAVIGATOR SOFTWARE\nIn three simple steps, the Samsung One-stop Install Navigator software easily allows you to migrate all the data and applications from your existing drive to the 850 EVO. The included Samsung Magician software also allows you to setup, optimize, and manage your system for peak SSD performance.\n\nEND-TO-END INTEGRATION SOLUTION\nSamsung is the only brand to design and manufacture all its components inhouse allowing complete optimized integration. The result - the rock-solid EVO 850, with enhanced performance, lower power consumption with an up to 1 GB LPDDR2 DRAM cache memory and improved energy-efficiency with the MEX/MGX controller - all from the #1 memory manufacturer in the world.",
+        "coverImage":"EVO SSD SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVO SSD LARGE"
+      }
+    ]
+  },
+  {
+    "name":"Mark 2",
+    "brand":"AMD",
+    "blobDescription":"AMD Mark 2",
+    "price":1496,
+    "product":"Phantom",
+    "specs":[
+      {
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
+        "coverImage":"CORSAIR 450D SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"CORSAIR 450D LARGE"
+      },
+      {
+        "name":"AMD FX-8350",
+        "weight":1,
+        "price":210,
+        "wattage":125,
+        "type":"CPU",
+        "shortDescription": "Stay on the path to glory with an Amd Fx processor in your system.",
+        "longDescription": "<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ Series processors have special system requirements including a robust liquid cooling system.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure. Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive technology and AMD Catalyst Control Center software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself 'what competition?' in no time.</p><p>Like Bulldozer, Piledriver has some amazing instruction capabilities. Advanced Vector Extensions (AVX) increase parallelism tailored for scientific and 3D applications that use heavy floating point calculations. Floating Point Vector Multiply-Accumulate improves throughput and performance on many vector functions (integer and floating point). Advanced Encryption Standard noticeably increases performance on the latest encryption applications like TrueCrypt and benchmarks like PCMark.</p>",
+        "coverImage":"AMD FX CPUS SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"AMD FX CPUS LARGE"
+      },
+      {
+        "name":"H100i GTX Liquid CPU Cooler",
+        "weight":4,
+        "price":160,
+        "wattage":15,
+        "type":"System Cooling",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
+        "coverImage":"H100i Small",
+        "options":[
+
+        ],
+        "fullImageLink":"H100i Large"
+      },
+      {
+        "name": "MSI 990FX Gaming",
+        "weight": 5,
+        "price": 185,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket<li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
+        "coverImage":"MSI 990FX SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"MSI 990FXA GAMING ONLY"
+      },
+      {
+        "name": "16GB DDR3 Standard",
+        "weight": 0.5,
+        "price": 110,
+        "wattage": 20,
+        "type": "RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 16GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
+        "coverImage":"VENGEACNCE LPX RAM SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"VENGEACNCE LPX RAM LARGE"
+      },
+      {
+        "name":"ASUS GTX 1060 3GB",
+        "weight":4,
+        "price":320,
+        "wattage":120,
+        "type":"GPU",
+        "shortDescription":"GTX 1060 is the perfect blend of price, performance and style.",
+        "longDescription":"Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "coverImage":"EVGA 1060 6GB SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVGA 1060 6BG LARGE"
+      },
+      {
+        "name":"650W Platinum-Rated PSU",
+        "weight":6.5,
+        "price":141,
+        "wattage":0,
+        "type":"PSU",
+        "shortDescription":"Advanced performance of the EVGA SuperNOVA P2 power supply provides clean and continuous power to every component.",
+        "longDescription":"The unbeatable performance of the EVGA SuperNOVA P2 power supply line is now available in 850, 750 and 650 watt versions. Based on the award winning P2 power supplies, these units feature 80 Plus Platinum rated efficiency, and clean, continuous power to every component. The ECO Control Fan system offers fan modes to provide absolutely zero fan noise during low to medium load operations. Backed by an award winning 10 year warranty, and 100% Japanese capacitor design, the EVGA SuperNOVA 850, 750 and 650 P2 power supplies offer unbeatable performance at an unbeatable value.",
+        "coverImage":"EVGA 650W P2 PSU SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVGA 650W P2 PSU LARGE"
+      },
+      {
+        "name":"Samsung EVO 250GB SSD",
+        "weight":0.4,
+        "price":122,
+        "wattage":10,
+        "type":"Storage-SSD",
+        "shortDescription":"Innovation V-NAND Technology\nIncredible Read/Write Performance\nEnhanced Endurance and Reliability",
+        "longDescription":"Samsung's innovative 3D V-NAND flash memory architecture breaks through density, performance, and endurance limitations of today's conventional planar NAND architecture. Samsung 3D V-NAND stacks 32 cell layers vertically resulting in higher density and better performance utilizing a smaller footprint.\n\nINCREDIBLE READ/WRITE SPEEDS\nAchieve incredible read/write performance to maximize your everyday computing experience with Samsung's TurboWrite technology. You can obtain up to 1.9x faster performance than the award-winning Samsung 840 EVO. The 850 EVO delivers class-leading performance* in sequential read (540MB/s) and write (520MB/s) speeds. Plus, gain optimized random performance in all QD for better real-world performance. \n\n* Performance compared to 3-Bit MLC-class SSD drives\n\nENHANCED RAPID MODE\nSamsung's Magician software enables RAPID Mode for up to 2x faster performance* by utilizing unused PC memory (DRAM) as a high-speed cache. The newest version of Samsung Magician supports up to a 4 GB cache on a system with 16 GB of DRAM.\n\n* Compared to same drive w/out RAPID enabled. Performance enhancement may vary depending on system hardware & configuration.\n\nGUARANTEED ENDURANCE AND RELIABILITY\nThe 850 EVO doubles the endurance* and reliability** compared to the previous generation 840 EVO** and features a class-leading*** 5 year warranty. With enhanced long-term reliability, the 850 EVO assures longterm dependable performance of up to 30% longer than the previous generation 840 EVO. \n\n* Measured by Terrabytes Written (TBW)\n** Measured with Sustained Performance 12hr Random Write Test\n*** Highest among 3-Bit MLC-class SSD drives\n\nIMPROVED ENERGY EFFICIENCY\nThe 850 EVO delivers significantly longer battery life on your notebook* with a controller designed and optimized for 3D V-NAND that supports Device Sleep for Windows at a highly efficient 2mW. The 850 EVO supports 25% better power efficiency than the 840 EVO during write operations thanks to ultra-efficient 3D V-NAND only consuming half the energy than that of traditional Planar 2D NAND. \n\n* Compared to standard hard drive & previous generation SSDs\n\nSECURE DATA THROUGH ADVANCED AES 256 ENCRYPTION\nThe 850 EVO comes fortified with the latest hardware-based full disk encryption engine. The AES 256-bit hardware encryption secures data without any performance degradation and complies with TCG Opal 2.0. Easily integrate into Windows with Microsoft e-drive IEEE1667 to keep your data protected at all times.\n\nDYNAMIC THERMAL GUARD PROTECTION\nThe 850 EVO's Dynamic Thermal Guard constantly monitors and maintains ideal temperatures for the drive to operate in optimal conditions to ensure the integrity of your data. The Thermal Guard automatically throttles temperatures down when temperatures rise above optimal critical threshold. This protects your data while maintaining responsiveness to help ensure your computer is always safe from overheating.\n\nONE-STOP INSTALL NAVIGATOR SOFTWARE\nIn three simple steps, the Samsung One-stop Install Navigator software easily allows you to migrate all the data and applications from your existing drive to the 850 EVO. The included Samsung Magician software also allows you to setup, optimize, and manage your system for peak SSD performance.\n\nEND-TO-END INTEGRATION SOLUTION\nSamsung is the only brand to design and manufacture all its components inhouse allowing complete optimized integration. The result - the rock-solid EVO 850, with enhanced performance, lower power consumption with an up to 1 GB LPDDR2 DRAM cache memory and improved energy-efficiency with the MEX/MGX controller - all from the #1 memory manufacturer in the world.",
+        "coverImage":"EVO SSD SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVO SSD LARGE"
+      }
+    ]
+  },
+  {
+    "name":"Mark 3",
+    "brand":"AMD",
+    "blobDescription":" AMD Mark 3",
+    "price":2025,
+    "product":"Phantom",
+    "specs":[
+      {
+         "name": "Corsair Obsidian 450D",
+        "weight": 15.43,
+        "price": 140,
+        "wattage": 0,
+        "type": "Case",
+        "shortDescription": "Mid-tower size, with a roomy interior that's optimized for airflow.",
+        "longDescription": "<p>Obsidian Series 450D has an elegant brushed aluminum front panel and a solid steel body, with an interior that’s optimized for efficient, high-volume airflow. But don’t let its mid-tower size fool you – the 450D can also house some serious watercooling gear. The included dual front AF140L intake fans provide direct GPU cooling, and there’s a total of seven fan mounts for your extremely high volume airflow projects. All air intakes are protected with removable dust filters.</p> <p>The interior is designed for superior cooling efficiency, with a modular removable drive cage system and dual SSD bays that mount behind the motherboard tray and out of the airflow path. The extra-large, flush mounted side window puts your system-building expertise on display while keeping with the sleek and refined Obsidian Series design.</p> <ul><li>Generous expansion room for building high-performance systems</li><li>Beautiful brushed aluminum fascia with mesh cutouts makes an elegant design statement</li><li>Full side panel window to view your components</li><li>Tool-free SSD, hard drive, and optical drive installation</li><li>Includes two AF140L intake fans, and a rear AF120L exhaust</li><li>Tool-free SSD cages hidden behind the motherboard tray</li><li>Designed for fast and straightforward builds</li><li>Two USB 3.0 front panel connectors, plus headphone and microphone</li><li>Easily accessed front, top, and PSU dust filters</li><li>Excellent cable routing with rubber grommets for clean builds</li><li>Maximum CPU Cooler Height: 165mm</li><li>Maximum GPU Length: 430mm</li>",
+        "coverImage":"CORSAIR 450D SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"CORSAIR 450D LARGE"
+      },
+      {
+        "name":"AMD FX-9590",
+        "weight":1,
+        "price":380,
+        "wattage":230,
+        "type":"CPU",
+        "shortDescription": "Take your PC’s megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "longDescription": "<p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive™ technology and AMD Catalyst™ Control Center™ software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself what competition, in no time.AMD FX Processors unlock maximum, unrestrained processing performance for extreme responsiveness you can see and feel.</p><p>One 16-bit link at up to 5600MTps, up to 8.0GBps HyperTransport I/O bandwidth, up to 16GBps in HyperTransport Generation 3.0 mode, and up to 37GBps total delivered processor-to-system bandwidth (HyperTransport bus + memory bus). Benefit: Quick access times to system I/O for better performance.</p>",
+        "coverImage":"AMD FX CPUS SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"AMD FX CPUS LARGE"
+      },
+      {
+        "name":"H100i GTX Liquid CPU Cooler",
+        "weight":4,
+        "price":160,
+        "wattage":15,
+        "type":"System Cooling",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
+        "coverImage":"H100i Small",
+        "options":[
+
+        ],
+        "fullImageLink":"H100i Large"
+      },
+      {
+        "name": "MSI 990FX Gaming",
+        "weight": 5,
+        "price": 185,
+        "wattage": 70,
+        "type": "Motherboard",
+        "shortDescription": "MSI MSI Gaming 990FXA-GAMING AM3+/ AM3 AMD 990FX & SB950 SATA 6Gb/s USB 3.1 ATX AMD Motherboard",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>Get up to 2 PCI-Express 2.0 x16 slots, with optimal placement for better fitting and airflow. That way, you can enjoy the best graphics at the highest framerate jumping off from your screen when running a NVIDIA® SLI™ or AMD® CrossFire™ gaming setup.</p> <ul><li>Supports AMD FX / Phenom™ II / Athlon™ II / Sempron™ processors for AM3+ socket<li>Supports DDR3-2133(OC) Memory</li><li>USB 3.1 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>OC Genie 4: Overclock in 1 Second</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul> ",
+        "coverImage":"MSI 990FX SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"MSI 990FXA GAMING ONLY"
+      },
+      {
+        "name":"32GB DDR3 Standard",
+        "weight":0.5,
+        "price":240,
+        "wattage":40,
+        "type":"RAM",
+        "shortDescription": "CORSAIR Vengeance LPX 32GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
+        "coverImage":"VENGEACNCE LPX RAM SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"VENGEACNCE LPX RAM LARGE"
+      },
+      {
+        "name":"ASUS GTX 1060 6GB",
+        "weight":4,
+        "price":390,
+        "wattage":120,
+        "type":"GPU",
+        "shortDescription": "GTX 1060 6GB is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ROG Strix GeForce® GTX 1060 gaming graphics cards are packed with exclusive ASUS technologies, including DirectCU III Technology with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance, and Industry-only Auto-Extreme Technology for premium quality and the best reliability. Aura RGB Lighting enables a gaming system personalization and VR-friendly HDMI ports let gamers easily enjoy immersive virtual reality experiences. ROG Strix GeForce® GTX 1060 also has GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p><p>Exclusive DirectCU III cooling technology features direct-GPU contact heatpipes that transports more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance. DirectCU III features triple 0dB fans engineered with a patented wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games in complete silence and make DirectCU III the coolest and quietest graphics card in the market.</p><p>NVIDIA G-SYNC™ synchronizes the ROG Swift gaming monitor's refresh rate to the GPU in your GeForce® GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag. With ROG Strix gaming graphics cards and ROG Swift gaming monitors, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.</p>ROG Strix is the newest recruit into the Republic of Gamers. A series of specialized gaming gear designed for the rebel in all of us, Strix exemplifies ROG's premier performance, innovative technology, and leading quality, but with its own confident and dynamic attitude. Featuring bold designs and bright colors, this exciting new series possesses a spirit of fierce individualism that charges every gaming experience with thrilling energy. ROG Strix equips players with the necessary speed and agility to dominate their game. A new generation of force has arrived. Join the Republic and experience the power of ROG Strix.</p><ul><li>1873 MHz boost clock in OC mode for outstanding performance and gaming experience.</li><li>DirectCU III with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance.</li><li>ASUS FanConnect features 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.</li><li>Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Aura RGB Lighting to express personalized gaming style.</li><li>VR-friendly HDMI ports for immersive virtual reality experiences.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li><li>NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots.</li><li>NVIDIA GameWorks™ provides an interactive and cinematic experience, as well as incredibly smooth gameplay.</li></ul>",
+        "coverImage":"EVGA 1060 6GB SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVGA 1060 6BG LARGE"
+      },
+      {
+        "name":"750W Gold-Rated PSU",
+        "weight":7.6,
+        "price":145,
+        "wattage":0,
+        "type":"PSU",
+        "shortDescription":"Designed with enthusiast needs in mind the SuperNOVA series are the best choice to power next generation enthusiast computers.",
+        "longDescription":"Unleash the next generation in power with the EVGA SuperNOVA 750 G2 power supply. Based on the award winning G2 series power supplies from EVGA, this PSU features 80 PLUS Gold rated efficiency, and clean, continuous power to every component. This provides improved efficiency for longer operation, less power consumption, reduced energy costs and minimal heat dissipation. The ECO thermal control fan system offers fan modes to provide zero fan noise during low load operations.",
+        "coverImage":"EVGA 750W G2 PSU SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVGA 750W G2 PSU LARGE"
+      },
+      {
+        "name":"Samsung EVO 500GB SSD",
+        "weight":0.4,
+        "price":258,
+        "wattage":10,
+        "type":"Storage-SSD",
+        "shortDescription":"Innovation V-NAND Technology\nIncredible Read/Write Performance\nEnhanced Endurance and Reliability",
+        "longDescription":"Samsung's innovative 3D V-NAND flash memory architecture breaks through density, performance, and endurance limitations of today's conventional planar NAND architecture. Samsung 3D V-NAND stacks 32 cell layers vertically resulting in higher density and better performance utilizing a smaller footprint.\n\nINCREDIBLE READ/WRITE SPEEDS\nAchieve incredible read/write performance to maximize your everyday computing experience with Samsung's TurboWrite technology. You can obtain up to 1.9x faster performance than the award-winning Samsung 840 EVO. The 850 EVO delivers class-leading performance* in sequential read (540MB/s) and write (520MB/s) speeds. Plus, gain optimized random performance in all QD for better real-world performance. \n\n* Performance compared to 3-Bit MLC-class SSD drives\n\nENHANCED RAPID MODE\nSamsung's Magician software enables RAPID Mode for up to 2x faster performance* by utilizing unused PC memory (DRAM) as a high-speed cache. The newest version of Samsung Magician supports up to a 4 GB cache on a system with 16 GB of DRAM.\n\n* Compared to same drive w/out RAPID enabled. Performance enhancement may vary depending on system hardware & configuration.\n\nGUARANTEED ENDURANCE AND RELIABILITY\nThe 850 EVO doubles the endurance* and reliability** compared to the previous generation 840 EVO** and features a class-leading*** 5 year warranty. With enhanced long-term reliability, the 850 EVO assures longterm dependable performance of up to 30% longer than the previous generation 840 EVO. \n\n* Measured by Terrabytes Written (TBW)\n** Measured with Sustained Performance 12hr Random Write Test\n*** Highest among 3-Bit MLC-class SSD drives\n\nIMPROVED ENERGY EFFICIENCY\nThe 850 EVO delivers significantly longer battery life on your notebook* with a controller designed and optimized for 3D V-NAND that supports Device Sleep for Windows at a highly efficient 2mW. The 850 EVO supports 25% better power efficiency than the 840 EVO during write operations thanks to ultra-efficient 3D V-NAND only consuming half the energy than that of traditional Planar 2D NAND. \n\n* Compared to standard hard drive & previous generation SSDs\n\nSECURE DATA THROUGH ADVANCED AES 256 ENCRYPTION\nThe 850 EVO comes fortified with the latest hardware-based full disk encryption engine. The AES 256-bit hardware encryption secures data without any performance degradation and complies with TCG Opal 2.0. Easily integrate into Windows with Microsoft e-drive IEEE1667 to keep your data protected at all times.\n\nDYNAMIC THERMAL GUARD PROTECTION\nThe 850 EVO's Dynamic Thermal Guard constantly monitors and maintains ideal temperatures for the drive to operate in optimal conditions to ensure the integrity of your data. The Thermal Guard automatically throttles temperatures down when temperatures rise above optimal critical threshold. This protects your data while maintaining responsiveness to help ensure your computer is always safe from overheating.\n\nONE-STOP INSTALL NAVIGATOR SOFTWARE\nIn three simple steps, the Samsung One-stop Install Navigator software easily allows you to migrate all the data and applications from your existing drive to the 850 EVO. The included Samsung Magician software also allows you to setup, optimize, and manage your system for peak SSD performance.\n\nEND-TO-END INTEGRATION SOLUTION\nSamsung is the only brand to design and manufacture all its components inhouse allowing complete optimized integration. The result - the rock-solid EVO 850, with enhanced performance, lower power consumption with an up to 1 GB LPDDR2 DRAM cache memory and improved energy-efficiency with the MEX/MGX controller ' all from the #1 memory manufacturer in the world.",
+        "coverImage":"EVO SSD SMALL",
+        "options":[
+
+        ],
+        "fullImageLink":"EVO SSD LARGE"
+      }
+    ]
+  },
+  {
+    "name":"Mark 1",
     "brand":"Intel",
     "blobDescription":"Intel Mark 1",
     "price":1261,
