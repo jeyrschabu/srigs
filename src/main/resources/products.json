@@ -574,7 +574,7 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1050 TI 4GB",
+        "name": "ASUS GTX 1050 TI 4GB",
         "weight": 4,
         "price": 204,
         "wattage": 75,
@@ -586,7 +586,7 @@
         "fullImageLink": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 3GB",
+        "name": "ASUS GTX 1060 3GB",
         "weight": 4,
         "price": 300,
         "wattage": 120,
@@ -598,7 +598,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
@@ -610,7 +610,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -622,7 +622,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
@@ -634,7 +634,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -646,7 +646,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
@@ -658,79 +658,79 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 380X OC",
+        "name": "ASUS STRIX AMD Radeon R9 380X OC",
         "weight": 4,
         "price": 315,
         "wattage": 190,
         "type": "GPU",
         "shortDescription": "R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "G1 GAMING graphics car s are forged with only the top-notch GPU via the very own GPU Gauntlet and Ultra Durable VGA components to ensure high performance without compromising system reliability. Combined with the WINDFORCE cooling system and Ultra HD support, gamers can immerse themselves in the most enriched gaming environment than ever before.",
+        "longDescription": "<p>ASUS STRIX R9 380X gaming graphics cards packed with exclusive ASUS technologies, including DirectCU II with Dual Wing-Blade 0dB Fan Design for maximum air flow up to 30% cooler and 3X quieter performance. This card features exclusive Super Alloy Power II ensures heightened stability and durability, It also has GPU Tweak II with Xsplit Gamecaster, provides intuitive performance tweaking and lets you stream your gameplay instantly.</p><p>ASUS engineers have integrated premium alloy components into their graphics card designs to reinforce overall reliability. Super Alloy Power II components greatly enhance efficiency, reduce power loss, provide 2X reduced component buzzing while under full load, and achieve thermal levels that are approximately 50% cooler than previous designs.</p><p>Redesigned with an intuitive, all-new UI, GPU Tweak II makes overclocking easier and more visual than ever, while still retaining advanced options for seasoned overclockers. With one click, the new Gaming Booster function maximizes system performance by removing redundant processes and allocating all available resources automatically. XSplit Gamecaster lets you easily stream or record your gameplay right from a convenient, in-game overlay.</p><ul><li>1030 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU II with 0dB fan technology lets you enjoy complete silence whenidle, and up to 30%-cooler with 3X-quieter performance in hardcore gaming.</li><li>Super Alloy Power II uses premium alloy components to reinforce overall graphics card reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li></ul>",
         "coverImage": "AMD/R9 380X OC SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/R9 380X OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390",
+        "name": "ASUS STRIX AMD Radeon R9 390",
         "weight": 4,
         "price": 425,
         "wattage": 275,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 390 Two-Way Crossfire",
         "weight": 8,
         "price": 850,
         "wattage": 550,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480",
+        "name": "ASUS STRIX AMD Radeon RX 480",
         "weight": 4,
         "price": 310,
         "wattage": 150,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon RX 480 Two-Way Crossfire",
         "weight": 8,
         "price": 620,
         "wattage": 300,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury",
+        "name": "ASUS STRIX AMD Radeon R9 Fury",
         "weight": 4,
         "price": 635,
         "wattage": 275,
         "type": "GPU",
-        "shortDescription": "ASUS engineers have integrated premium components into their graphics card designs to reinforce overall reliability.",
-        "longDescription": "The ASUS STRIX R9 Fury graphics card is packed with exclusive ASUS technologies, including DirectCU III with Patented Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance. This card features exclusive ASUS AUTO-EXTREME Technology with Super Alloy Power II for premium quality and best reliability. It also has GPU Tweak II with Xsplit Gamecaster, provides intuitive performance tweaking and lets you stream your gameplay instantly.\nFEATURES AT A GLANCE\nDirectCU III with Patented Triple Wing-Blade 0dB Fan Designdelivers maximum air flow with 30% cooler and 3X quieter performance.\nAuto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.\nPulsating STRIX LED makes a statement while adding style to your system.\nSTRIX GPU-Fortifier relieves physical stress around the GPU in order to protect it.\nGPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.\n4GB 4096-bit high-bandwidth memory for higher bandwidth performance and less power consumption.\nRADEON VR READY PREMIUM\n\nREADY FOR THE NEXT GENERATION OF GAMING\nASUS Radeon  VR Ready Premium graphics cards are designed to work seamlessly with leading VR headsets for an amazingly rich, immersive, and interactive virtual reality experience. ASUS graphics cards feature unique PCB designs, augmented by superior components and a world-class thermal solution, perfectly fitting the requirement for performance, image quality, latency, and durability, so you can game on, fully immersed in VR, without interruption.\nFEATURES\nEnlarge Image\nGAME COOL\nExclusive DirectCU III cooling technology features two exclusive 10 mm direct-GPU contact heat-pipes that transports 40% more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance.\nEnlarge Image\nPLAY SILENT\nDirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends and StarCraft in complete silence - because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.\nEnlarge Image\nGAME SMOOTH\nASUS engineers have integrated premium components into their graphics card designs to reinforce overall reliability. Super Alloy Power II components greatly enhance efficiency, reduce power loss, provide 2X reduced component buzzing while under full load, and achieve thermal levels that are approximately 50% cooler than previous designs.\nEnlarge Image\nGAME YOUR WAY\nRedesigned with an intuitive, all-new UI, GPU Tweak II makes overclocking easier and more visual than ever, while still retaining advanced options for seasoned overclockers. With one click, the new Gaming Booster function maximizes system performance by removing redundant processes and allocating all available resources automatically. XSplit Gamecaster lets you easily stream or record your gameplay right from a convenient, in-game overlay.\nEnlarge Image\nASUS AUTO EXTREME TECHNOLOGY\nThe ASUS exclusive Auto Extreme component assembly process removes the variables of a human production line and replaces it with the precision of a fully automated assembly system. The resulting graphics cards are more reliable than hand built alternatives.\nIncreases component reliability and longevity from the get-go of manufacturing\nEnvironmentally friendly process, no harsh chemicals and 50% less power usage",
+        "shortDescription": "ASUS STRIX R9",
+        "longDescription": "<p>ASUS STRIX R9 Fury gaming graphics card packed with exclusive ASUS technologies, including DirectCU III with Patented Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance. This card features exclusive ASUS AUTO-EXTREME Technology with Super Alloy Power II for premium quality and best reliability. It also has GPU Tweak II with Xsplit Gamecaster, provides intuitive performance tweaking and lets you stream your gameplay instantly.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and 105% improvement in static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><p>Redesigned with an intuitive, all-new UI, GPU Tweak II makes overclocking easier and more visual than ever, while still retaining advanced options for seasoned overclockers. With one click, the new Gaming Booster function maximizes system performance by removing redundant processes and allocating all available resources automatically. XSplit Gamecaster lets you easily stream or record your gameplay right from a convenient, in-game overlay.</p><ul><li>DirectCU III with Patented Triple Wing-Blade 0dB Fan Designdelivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Pulsating STRIX LED makes a statement while adding style to your system.</li><li>STRIX GPU-Fortifier relieves physical stress around the GPU in order to protect it.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li><li>4GB 4096-bit high-bandwidth memory for higher bandwidth performance and less power consumption.</li></ul>",
         "coverImage": "AMD/R9 FURY SMALL.jpg",
         "options": [],
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 Fury Two-Way Crossfire",
         "weight": 4,
         "price": 1270,
         "wattage": 550,
@@ -742,7 +742,7 @@
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX",
         "weight": 5,
         "price": 830,
         "wattage": 275,
@@ -754,7 +754,7 @@
         "fullImageLink": "AMD/R9 FURY X LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX Two-Way Crossfire",
         "weight": 10,
         "price": 1660,
         "wattage": 550,
@@ -2347,7 +2347,7 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 3GB",
+        "name": "ASUS GTX 1060 3GB",
         "weight": 4,
         "price": 300,
         "wattage": 120,
@@ -2359,7 +2359,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
@@ -2371,7 +2371,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -2383,7 +2383,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
@@ -2395,7 +2395,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -2407,7 +2407,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
@@ -2419,67 +2419,67 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 380X OC",
+        "name": "ASUS STRIX AMD Radeon R9 380X OC",
         "weight": 4,
         "price": 315,
         "wattage": 190,
         "type": "GPU",
         "shortDescription": "R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "G1 GAMING graphics cards are forged with only the top-notch GPU via the very own GPU Gauntlet and Ultra Durable VGA components to ensure high performance without compromising system reliability. Combined with the WINDFORCE cooling system and Ultra HD support, gamers can immerse themselves in the most enriched gaming environment than ever before.",
+        "longDescription": "<p>ASUS STRIX R9 380X gaming graphics cards packed with exclusive ASUS technologies, including DirectCU II with Dual Wing-Blade 0dB Fan Design for maximum air flow up to 30% cooler and 3X quieter performance. This card features exclusive Super Alloy Power II ensures heightened stability and durability, It also has GPU Tweak II with Xsplit Gamecaster, provides intuitive performance tweaking and lets you stream your gameplay instantly.</p><p>ASUS engineers have integrated premium alloy components into their graphics card designs to reinforce overall reliability. Super Alloy Power II components greatly enhance efficiency, reduce power loss, provide 2X reduced component buzzing while under full load, and achieve thermal levels that are approximately 50% cooler than previous designs.</p><p>Redesigned with an intuitive, all-new UI, GPU Tweak II makes overclocking easier and more visual than ever, while still retaining advanced options for seasoned overclockers. With one click, the new Gaming Booster function maximizes system performance by removing redundant processes and allocating all available resources automatically. XSplit Gamecaster lets you easily stream or record your gameplay right from a convenient, in-game overlay.</p><ul><li>1030 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU II with 0dB fan technology lets you enjoy complete silence whenidle, and up to 30%-cooler with 3X-quieter performance in hardcore gaming.</li><li>Super Alloy Power II uses premium alloy components to reinforce overall graphics card reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li></ul>",
         "coverImage": "AMD/R9 380X OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 380X OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390",
+        "name": "ASUS STRIX AMD Radeon R9 390",
         "weight": 4,
         "price": 425,
         "wattage": 275,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 390 Two-Way Crossfire",
         "weight": 8,
         "price": 850,
         "wattage": 550,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480",
+        "name": "ASUS STRIX AMD Radeon RX 480",
         "weight": 4,
         "price": 310,
         "wattage": 150,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon RX 480 Two-Way Crossfire",
         "weight": 8,
         "price": 620,
         "wattage": 300,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury",
+        "name": "ASUS STRIX AMD Radeon R9 Fury",
         "weight": 4,
         "price": 635,
         "wattage": 275,
@@ -2491,7 +2491,7 @@
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 Fury Two-Way Crossfire",
         "weight": 4,
         "price": 1270,
         "wattage": 550,
@@ -2503,7 +2503,7 @@
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX",
         "weight": 5,
         "price": 830,
         "wattage": 275,
@@ -2515,7 +2515,7 @@
         "fullImageLink": "AMD/R9 FURY X LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX Two-Way Crossfire",
         "weight": 10,
         "price": 1660,
         "wattage": 550,
@@ -4096,7 +4096,7 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1050 TI 4GB",
+        "name": "ASUS GTX 1050 TI 4GB",
         "weight": 4,
         "price": 235,
         "wattage": 75,
@@ -4108,7 +4108,7 @@
         "fullImageLink": "NVIDIA/GTX/ASUS GTX 1050TI LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 3GB",
+        "name": "ASUS GTX 1060 3GB",
         "weight": 4,
         "price": 300,
         "wattage": 120,
@@ -4120,7 +4120,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
@@ -4132,7 +4132,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -4144,7 +4144,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -4156,43 +4156,43 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 380X OC",
+        "name": "ASUS STRIX AMD Radeon R9 380X OC",
         "weight": 4,
         "price": 315,
         "wattage": 190,
         "type": "GPU",
         "shortDescription": "R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "G1 GAMING graphics cards are forged with only the top-notch GPU via the very own GPU Gauntlet and Ultra Durable VGA components to ensure high performance without compromising system reliability. Combined with the WINDFORCE cooling system and Ultra HD support, gamers can immerse themselves in the most enriched gaming environment than ever before.",
+        "longDescription": "<p>ASUS STRIX R9 380X gaming graphics cards packed with exclusive ASUS technologies, including DirectCU II with Dual Wing-Blade 0dB Fan Design for maximum air flow up to 30% cooler and 3X quieter performance. This card features exclusive Super Alloy Power II ensures heightened stability and durability, It also has GPU Tweak II with Xsplit Gamecaster, provides intuitive performance tweaking and lets you stream your gameplay instantly.</p><p>ASUS engineers have integrated premium alloy components into their graphics card designs to reinforce overall reliability. Super Alloy Power II components greatly enhance efficiency, reduce power loss, provide 2X reduced component buzzing while under full load, and achieve thermal levels that are approximately 50% cooler than previous designs.</p><p>Redesigned with an intuitive, all-new UI, GPU Tweak II makes overclocking easier and more visual than ever, while still retaining advanced options for seasoned overclockers. With one click, the new Gaming Booster function maximizes system performance by removing redundant processes and allocating all available resources automatically. XSplit Gamecaster lets you easily stream or record your gameplay right from a convenient, in-game overlay.</p><ul><li>1030 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU II with 0dB fan technology lets you enjoy complete silence whenidle, and up to 30%-cooler with 3X-quieter performance in hardcore gaming.</li><li>Super Alloy Power II uses premium alloy components to reinforce overall graphics card reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li></ul>",
         "coverImage": "AMD/R9 380X OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 380X OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390",
+        "name": "ASUS STRIX AMD Radeon R9 390",
         "weight": 4,
         "price": 425,
         "wattage": 275,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480",
+        "name": "ASUS STRIX AMD Radeon RX 480",
         "weight": 4,
         "price": 310,
         "wattage": 150,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury",
+        "name": "ASUS STRIX AMD Radeon R9 Fury",
         "weight": 4,
         "price": 635,
         "wattage": 275,
@@ -6244,7 +6244,7 @@
         "fullImageLink": "DOMINATOR PLATINUM RAM LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
@@ -6256,7 +6256,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -6268,7 +6268,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
@@ -6280,7 +6280,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1070 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -6292,7 +6292,7 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
@@ -6304,55 +6304,55 @@
         "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390",
+        "name": "ASUS STRIX AMD Radeon R9 390",
         "weight": 4,
         "price": 425,
         "wattage": 275,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 390 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 390 Two-Way Crossfire",
         "weight": 8,
         "price": 850,
         "wattage": 550,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380X delivers pumped gaming performance and extreme reliability.",
-        "longDescription": "ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.",
+        "shortDescription": "ASUS STRIX R9 390 gaming graphics cards packed with exclusive ASUS technologies, including DirectCU III with Triple Wing-Blade 0dB Fan Design for maximum air flow with 30% cooler and 3X quieter performance.",
+        "longDescription": "<p>ASUS R9 390X, a super-cool graphics card with pumped gaming performance, perfected manufacturing, and strong fortification for extreme reliability and longevity.Powered by AMD Radeon R9 390X graphics-processing units (GPUs), this graphics cards packed with exclusive ASUS technologies, including DirectCU II cooling technology to deliver cooler and quieter performance.This model also has DIGI+ VRM with 8-phase Super Alloy Power for premium quality and reliability, plus GPU Tweak II with XSplitGamecaster for intuitive performance tweaking and instant gameplay streaming.</p><p>DirectCU III features triple 0dB fans engineered with a patented, new wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games like League of Legends® and StarCraft® in complete silence — because the fan stops completely when the GPU temperature remains below a set level*. This makes DirectCU III the coolest and quietest graphics card in the market.</p><ul><li>1050 MHz engine clock for outstanding performance and gaming experience.</li><li>DirectCU III with Triple Wing-Blade 0dB Fan Design delivers maximum air flow with 30% cooler and 3X quieter performance.</li><li>Auto-Extreme Technology with Super Alloy Power II delivers premium aerospace-grade quality and reliability.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gamplay instantly.</li></ul>",
         "coverImage": "AMD/R9 390 OC SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/R9 390 OC LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480",
+        "name": "ASUS STRIX AMD Radeon RX 480",
         "weight": 4,
         "price": 310,
         "wattage": 150,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon RX 480 Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon RX 480 Two-Way Crossfire",
         "weight": 8,
         "price": 620,
         "wattage": 300,
         "type": "GPU",
-        "shortDescription": "ASUS STRIX R9 380 gaming graphics cards packed with exclusive ASUS technologies",
-        "longDescription": "The Radeon rebellion has begun, led by the ROG Strix RX 480 with DirectCU III and Aura RGB, bringing VR Ready Premium performance to the (stylish) masses. Clocking in at 1266MHz with 8GB VRAM and GPU Tweak II including Xsplit Gamecaster, this card is primed to drive the gaming revolution. Utilizes new AMD Polaris Architecture for extremely efficient performance 1266 MHz clock speed with 8GB GDDR5 frame buffer AMD Radeon VR Ready Premium with dual HDMI 2.0 ports to simultaneously connect headset & monitor DirectCU III with Patented Wing-Blade Fans delivers 30% cooler and 3X quieter performance. GPU Tweak with included Xsplit Gamecaster helps you monitor & control performance/cooling, as well as stream games on-the-fly Now in its 10th year, the Republic of Gamers (ROG) celebrates the ever-evolving collaboration between world-class R&D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.",
+        "shortDescription": "ASUS STRIX R9 RX 480 delivers the next realm of visual immersion",
+        "longDescription": "<p>With ASUS RX 480, you can play the latest eSports titles and the most popular AAA games or experience the next level of immersion with premium VR, powered by AMD's revolutionary LiquidVR™ technology. Experience incredible performance with Asynchronous shaders, AMD FreeSync™ technology and enhanced overclocking to power new levels of smooth gameplay performance, at superior frame-rates. And with revolutionary 14nm FinFET technology providing extraordinary performance at cool and quiet levels, you'll be prepared for the future with HDMI™ 2.0b and DisplayPort 1.3/1.4. While ASUS GPU Tweak II and XSplit Gamecaster provides you intuitive performance tweaking and instant gameplay streaming.</p><p>Delivering extraordinary visual power and technological innovation, Radeon™ VR Ready Premium solutions are the industry benchmark for enabling premium experiences in the new wave of high-end VR games, entertainment, and applications. Power through the most graphics-intensive games. Enjoy eye-popping cinematic visual quality. Step into fantastic virtual worlds. All with compelling VR presence, lifelike realism, and rich interactivity.</p><ul><li>ASUS GPU Tweak II with XSplit Gamecaster: Intuitive performance tweaking and instant gameplay streaming.</li><li>AMD LiquidVR™ Technology for smooth, true-to-life, amazingly rich and immersive VR experiences, with broad compatibility and seamless support for leading headsets.</li><li>DirectX® 12 technology gets intense gaming performance and unrivalled image quality with stunning 3D visual effects, realistic lighting and lifelike imagery.</li></ul>",
         "coverImage": "AMD/RX 480 SMALL.jpg",
         "options" : [],
         "fullImageLink": "AMD/RX 480 LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury",
+        "name": "ASUS STRIX AMD Radeon R9 Fury",
         "weight": 4,
         "price": 635,
         "wattage": 275,
@@ -6364,7 +6364,7 @@
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 Fury Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 Fury Two-Way Crossfire",
         "weight": 4,
         "price": 1270,
         "wattage": 550,
@@ -6376,7 +6376,7 @@
         "fullImageLink": "AMD/R9 FURY LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX",
         "weight": 5,
         "price": 830,
         "wattage": 275,
@@ -6388,7 +6388,7 @@
         "fullImageLink": "AMD/R9 FURY X LARGE.jpg"
       },
       {
-        "name": "AMD Radeon R9 FuryX Two-Way Crossfire",
+        "name": "ASUS STRIX AMD Radeon R9 FuryX Two-Way Crossfire",
         "weight": 10,
         "price": 1660,
         "wattage": 550,
