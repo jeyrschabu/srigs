@@ -770,8 +770,8 @@
         "price": 0,
         "wattage": 0,
         "type": "Overclocking",
-        "shortDescription": "up to 4.2 depends on cooling and motherboard",
-        "longDescription": "long description",
+        "shortDescription": "Up to 4.2 depends on cooling and motherboard",
+        "longDescription":  "Overclocking is resetting some computer component so that it runs faster than the manufacturer-specified speed. The purpose of overclocking is to boost performance. We want your rig to be the best it can so stage one overclocking is on us!",
         "coverImage": "OVERCLOCKING 1 SMALL.png",
         "options": [],
         "fullImageLink": "OVERCLOCKING 1 SMALL.png"
@@ -782,8 +782,8 @@
         "price": 49,
         "wattage": 0,
         "type": "Overclocking",
-        "shortDescription": "up to 4.5 depends on cooling and motherboard",
-        "longDescription": "long description",
+        "shortDescription": "Up to 4.5 depends on cooling and motherboard",
+        "longDescription": "Push your ",
         "coverImage": "OVERCLOCKING 1 SMALL.png",
         "options": [],
         "fullImageLink": "OVERCLOCKING 1 SMALL.png"
