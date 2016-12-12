@@ -16,4 +16,3 @@ angular.module('rigs.checkout', [])
   }])
   .service('PaymentService', PaymentService)
   .controller('CheckoutController', CheckoutController);
-
