@@ -26,8 +26,8 @@
         "price":130,
         "wattage":105,
         "type":"CPU",
-        "shortDescription":"Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
-        "longDescription":"Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "shortDescription": "Fast 6 core CPU from AMD. Features include a high performing clock rate of 3.5GHz and full 64 bit support on the AM3+ platform.",
+        "longDescription": "Take your PC's megatasking abilities to extreme levels with the first native desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ - 6300 Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ - 6300 Series processors have special system requirements including a robust liquid cooling system.</p> <p>The native 6-core desktop processor ensures breathtaking 3D modeling and HD video edition as well as maximum multitasking with the new Piledriver microarchitecture. 32 nanometer die shrink was designed to reduce leakage for improved efficiency, increased clock rate headroom and better thermals. The AMD unlocked technology offers more headroom for your overclocking (AMD’s product warranty does not cover damage caused by overclocking even when overclocking is enabled via AMD Overdrive software.)</p>",
         "coverImage":"AMD FX CPUS SMALL",
         "options":[
 
@@ -40,8 +40,8 @@
         "price":120,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
-        "longDescription":"The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
+        "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
+        "longDescription": "<p>The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.</p><p>Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. No additional hardware is necessary – just connect the included Corsair Link cable to a USB header on your motherboard and download the free Corsair Link Dashboard software. You can monitor coolant temperature and adjust cooling performance directly from your desktop.</p><ul><li>Corsair Hydro Series H80i High Performance Liquid CPU Cooler</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link™ Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011, 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Radiator dimensions: 120mm x 152mm x 38mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"CORSAIR H80I SMALL",
         "options":[
 
@@ -77,7 +77,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1050 TI 4GB",
+        "name": "ASUS GTX 1050 TI 4GB",
         "weight": 4,
         "price": 204,
         "wattage": 75,
@@ -147,8 +147,8 @@
         "price":210,
         "wattage":125,
         "type":"CPU",
-        "shortDescription":"Stay on the path to glory with an Amd Fx processor in your system.",
-        "longDescription":"We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure. Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive technology and AMD Catalyst Control Center software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself 'what competition?' in no time.",
+        "shortDescription": "Stay on the path to glory with an Amd Fx processor in your system.",
+        "longDescription": "<p>Enjoy the highest clocks and the most cores you can get on a consumer desktop PC with the AMD FX™ Series Processor family, from the company behind proven high-performance processors in the PlayStation® 4 and Xbox One™ gaming consoles, and Radeon™ graphics cards. Featuring a 220 Watt TDP, the AMD FX™ Series processors have special system requirements including a robust liquid cooling system.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure. Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive technology and AMD Catalyst Control Center software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself 'what competition?' in no time.</p><p>Like Bulldozer, Piledriver has some amazing instruction capabilities. Advanced Vector Extensions (AVX) increase parallelism tailored for scientific and 3D applications that use heavy floating point calculations. Floating Point Vector Multiply-Accumulate improves throughput and performance on many vector functions (integer and floating point). Advanced Encryption Standard noticeably increases performance on the latest encryption applications like TrueCrypt and benchmarks like PCMark.</p>",
         "coverImage":"AMD FX CPUS SMALL",
         "options":[
 
@@ -161,8 +161,8 @@
         "price":160,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription":"The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"H100i Small",
         "options":[
 
@@ -184,7 +184,7 @@
         "fullImageLink":"MSI 990FXA GAMING ONLY"
       },
       {
-        "name": "16GB Standard",
+        "name": "16GB DDR3 Standard",
         "weight": 0.5,
         "price": 110,
         "wattage": 20,
@@ -198,7 +198,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 3GB",
+        "name":"ASUS GTX 1060 3GB",
         "weight":4,
         "price":320,
         "wattage":120,
@@ -268,8 +268,8 @@
         "price":380,
         "wattage":230,
         "type":"CPU",
-        "shortDescription":"Transform your PC into a multimedia powerhouse. Take your PC?s megatasking abilities to extreme levels with the first native 8-core desktop processor.",
-        "longDescription":"Take your PC's megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "shortDescription": "Take your PC’s megatasking abilities to extreme levels with the first native 8-core desktop processor built with dynamic, tuneable performance to handle multiple intensive apps without breaking a sweat.",
+        "longDescription": "<p>Overclock and keep cool with up to eight cores and 5 GHz of the most advanced technology you can buy.1The AMD FX-series processor unleashes up to 5 GHz of performance and contains up to eight powerful cores, so you can game, overclock and get the max out of your experience.</p><p>We call it the new AMD FX 8-Core Processor Black Edition and it's unlocked for your overclocking pleasure.Experience unmatched multitasking and pure core performance with the industry's first 32nm 8-core desktop processor. Get the speed you crave with AMD Turbo CORE Technology to push your core frequencies to the limit when you need it most. Go beyond the limits of maximum speed with easy-to-use AMD OverDrive™ technology and AMD Catalyst™ Control Center™ software suites. But the best part of all? You'll get all this impressive performance at an unbelievable price. You'll be asking yourself what competition, in no time.AMD FX Processors unlock maximum, unrestrained processing performance for extreme responsiveness you can see and feel.</p><p>One 16-bit link at up to 5600MTps, up to 8.0GBps HyperTransport I/O bandwidth, up to 16GBps in HyperTransport Generation 3.0 mode, and up to 37GBps total delivered processor-to-system bandwidth (HyperTransport bus + memory bus). Benefit: Quick access times to system I/O for better performance.</p>",
         "coverImage":"AMD FX CPUS SMALL",
         "options":[
 
@@ -282,8 +282,8 @@
         "price":160,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription":"The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"H100i Small",
         "options":[
 
@@ -305,13 +305,13 @@
         "fullImageLink":"MSI 990FXA GAMING ONLY"
       },
       {
-        "name":"32GB Standard",
+        "name":"32GB DDR3 Standard",
         "weight":0.5,
         "price":240,
         "wattage":40,
         "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 32GB Dual-Channel",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "shortDescription": "CORSAIR Vengeance LPX 32GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -319,13 +319,13 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 6GB",
+        "name":"ASUS GTX 1060 6GB",
         "weight":4,
         "price":390,
         "wattage":120,
         "type":"GPU",
-        "shortDescription":"GTX 1060 is the perfect blend of price, performance and style.",
-        "longDescription":"Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "shortDescription": "GTX 1060 6GB is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ROG Strix GeForce® GTX 1060 gaming graphics cards are packed with exclusive ASUS technologies, including DirectCU III Technology with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance, and Industry-only Auto-Extreme Technology for premium quality and the best reliability. Aura RGB Lighting enables a gaming system personalization and VR-friendly HDMI ports let gamers easily enjoy immersive virtual reality experiences. ROG Strix GeForce® GTX 1060 also has GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p><p>Exclusive DirectCU III cooling technology features direct-GPU contact heatpipes that transports more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance. DirectCU III features triple 0dB fans engineered with a patented wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games in complete silence and make DirectCU III the coolest and quietest graphics card in the market.</p><p>NVIDIA G-SYNC™ synchronizes the ROG Swift gaming monitor's refresh rate to the GPU in your GeForce® GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag. With ROG Strix gaming graphics cards and ROG Swift gaming monitors, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.</p>ROG Strix is the newest recruit into the Republic of Gamers. A series of specialized gaming gear designed for the rebel in all of us, Strix exemplifies ROG's premier performance, innovative technology, and leading quality, but with its own confident and dynamic attitude. Featuring bold designs and bright colors, this exciting new series possesses a spirit of fierce individualism that charges every gaming experience with thrilling energy. ROG Strix equips players with the necessary speed and agility to dominate their game. A new generation of force has arrived. Join the Republic and experience the power of ROG Strix.</p><ul><li>1873 MHz boost clock in OC mode for outstanding performance and gaming experience.</li><li>DirectCU III with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance.</li><li>ASUS FanConnect features 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.</li><li>Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Aura RGB Lighting to express personalized gaming style.</li><li>VR-friendly HDMI ports for immersive virtual reality experiences.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li><li>NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots.</li><li>NVIDIA GameWorks™ provides an interactive and cinematic experience, as well as incredibly smooth gameplay.</li></ul>",
         "coverImage":"EVGA 1060 6GB SMALL",
         "options":[
 
@@ -384,18 +384,18 @@
         "fullImageLink":"CORSAIR 450D LARGE"
       },
       {
-        "name": "Intel Dual Core i3-6100 3.7GHz",
+        "name": "Intel Dual Core i3-4170 3.7GHz",
         "weight": 1,
-        "price": 138,
-        "wattage": 51,
+        "price": 146,
+        "wattage": 54,
         "type": "CPU",
-        "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p> <ul><li>",
-        "coverImage":"INTEL/6100 SMALL.jpg",
+        "shortDescription": "The Intel core i3 processor is the perfect entry point for a fast, responsive PC experience.",
+        "longDescription": "<p>The Intel 4th generation Core i3-4170 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensures enhanced performance per cycle.  Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.</p> <p>Haswell core-based processors come with Intel Advanced Vector Extensions 2 (Intel AVX2). Intel AVX2 expands integer data to 256-bit SIMD to increase the performance of integer operations. It also offers new capabilities such as Gather and FMA (Fused Multiply-Add). Additional new instructions accelerate key algorithms including parallel extract/deposit, bit manipulation operations and new rotates/multiplies/shift. The AES-NI performance is also improved.</p><p>Haswell core-based processors offer improved integrated graphics. The integrated graphics supports DirectX 11.1 for optimized graphics performance and OpenGL 3.2 & OpenCL 1.2 for enhanced general purpose computing in GPGPU supported applications. It also features digital display repartition, where digital display ports are wired directly to the CPU and analog displays are handled by a Random Access Memory Digital-to-Analog Converter (RAMDAC) located in the Platform Controller Hub (PCH). It supports up to three independent displays: HDMI, DVI, Display Port, VGA (via Lynx Point).</p>",
+        "coverImage":"INTEL/4170 SMALL.jpg",
         "options":[
 
         ],
-        "fullImageLink":"INTEL/6100 LARGE.jpg"
+        "fullImageLink":"INTEL/4170 LARGE.jpg"
       },
       {
         "name":"H80i GT Liquid CPU Cooler",
@@ -403,8 +403,8 @@
         "price":120,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
-        "longDescription":"The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
+        "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
+        "longDescription": "<p>The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.</p><p>Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. No additional hardware is necessary – just connect the included Corsair Link cable to a USB header on your motherboard and download the free Corsair Link Dashboard software. You can monitor coolant temperature and adjust cooling performance directly from your desktop.</p><ul><li>Corsair Hydro Series H80i High Performance Liquid CPU Cooler</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link™ Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011, 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Radiator dimensions: 120mm x 152mm x 38mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"CORSAIR H80I SMALL",
         "options":[
 
@@ -417,8 +417,8 @@
         "price":185,
         "wattage":70,
         "type":"Motherboard",
-        "shortDescription":"Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
-        "longDescription":"MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>When connecting multiple USB devices, most motherboards will be unable to deliver a strong 5V power signal to all USB ports. This is highly noticeable with high-quality external USB DACs where sound quality degrades as the motherboard is unable to deliver a perfect USB signal. Only MSI USB Audio Power continuously delivers a stable 5V to the USB ports on motherboards, making sure you can continue to enjoy the crystal clear audio standard you expect.</p> <ul><li>Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket<li>Supports DDR3-3300(OC) Memory</li><li>M.2 + USB 3.0 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>USB Audio Power: Surve Stable 5V Power & Better Signal Transmission over USB</li><li>XSplit Gamecaster: Show off Your Skills and Achievements</li><li>Guard-Pro: Improved Protection and Power Efficiency</li><li>OC Genie 4: Overclock in 1 Second</li><li>Gaming App: Boost Your Frame Rate</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>Multi-GPU: NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul>",
         "coverImage":"MSI Z97 GAMING 5 SMALL",
         "options":[
 
@@ -426,7 +426,7 @@
         "fullImageLink":"MSI Z97 GAMING 5 LARGE"
       },
       {
-        "name": "16GB Standard",
+        "name": "16GB DDR3 Standard",
         "weight": 0.5,
         "price": 110,
         "wattage": 20,
@@ -440,7 +440,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 3GB",
+        "name":"ASUS GTX 1060 3GB",
         "weight":4,
         "price":320,
         "wattage":120,
@@ -510,8 +510,8 @@
         "price":300,
         "wattage":88,
         "type":"CPU",
-        "shortDescription":"Total power zero compromise.",
-        "longDescription":"The Intel Core i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across eight software threads, the Intel Core i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's a gaming experience so perfect, you just might lose yourself in the action.",
+        "shortDescription": "Raise the bar on your PC experience with rich visuals plus an automatic burst of speed when you need it. The 4th generation Intel Core i5 processor delivers amazing performance, stunning visuals, and built-in security for deeper protection.",
+        "longDescription": "<p>The Intel 4th generation Core i5-4590 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensure enhanced performance per cycle. Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.</p> <p>The new Microarchitecture (code name Haswell) has full integrated voltage regulator (FIVR) for simplified motherboard design. It delivers improved CPU performance and enhanced overclocking over its previous generation Microarchitecture.</p> <p> More intelligent, energy-efficient, and dynamic than previous generation, Intel Turbo Boost Technology 2.0 gives you accelerating performance when you need it. It delivers an even greater automatic speed increase by allowing processor cores to run faster than the base operating frequency for demanding applications if the processor is operating below power, current, and temperature specification limits.</p>",
         "coverImage":"4690K SMALL",
         "options":[
 
@@ -524,8 +524,8 @@
         "price":160,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription":"The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"H100i Small",
         "options":[
 
@@ -538,8 +538,8 @@
         "price":185,
         "wattage":70,
         "type":"Motherboard",
-        "shortDescription":"Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
-        "longDescription":"MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>When connecting multiple USB devices, most motherboards will be unable to deliver a strong 5V power signal to all USB ports. This is highly noticeable with high-quality external USB DACs where sound quality degrades as the motherboard is unable to deliver a perfect USB signal. Only MSI USB Audio Power continuously delivers a stable 5V to the USB ports on motherboards, making sure you can continue to enjoy the crystal clear audio standard you expect.</p> <ul><li>Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket<li>Supports DDR3-3300(OC) Memory</li><li>M.2 + USB 3.0 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>USB Audio Power: Surve Stable 5V Power & Better Signal Transmission over USB</li><li>XSplit Gamecaster: Show off Your Skills and Achievements</li><li>Guard-Pro: Improved Protection and Power Efficiency</li><li>OC Genie 4: Overclock in 1 Second</li><li>Gaming App: Boost Your Frame Rate</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>Multi-GPU: NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul>",
         "coverImage":"MSI Z97 GAMING 5 SMALL",
         "options":[
 
@@ -547,7 +547,7 @@
         "fullImageLink":"MSI Z97 GAMING 5 LARGE"
       },
       {
-        "name": "16GB Standard",
+        "name": "16GB DDR3 Standard",
         "weight": 0.5,
         "price": 110,
         "wattage": 20,
@@ -561,13 +561,13 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 6GB",
+        "name":"ASUS GTX 1060 6GB",
         "weight":4,
         "price":390,
         "wattage":120,
         "type":"GPU",
-        "shortDescription":"GTX 1060 is the perfect blend of price, performance and style.",
-        "longDescription":"Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "shortDescription": "GTX 1060 6GB is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ROG Strix GeForce® GTX 1060 gaming graphics cards are packed with exclusive ASUS technologies, including DirectCU III Technology with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance, and Industry-only Auto-Extreme Technology for premium quality and the best reliability. Aura RGB Lighting enables a gaming system personalization and VR-friendly HDMI ports let gamers easily enjoy immersive virtual reality experiences. ROG Strix GeForce® GTX 1060 also has GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p><p>Exclusive DirectCU III cooling technology features direct-GPU contact heatpipes that transports more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance. DirectCU III features triple 0dB fans engineered with a patented wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games in complete silence and make DirectCU III the coolest and quietest graphics card in the market.</p><p>NVIDIA G-SYNC™ synchronizes the ROG Swift gaming monitor's refresh rate to the GPU in your GeForce® GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag. With ROG Strix gaming graphics cards and ROG Swift gaming monitors, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.</p>ROG Strix is the newest recruit into the Republic of Gamers. A series of specialized gaming gear designed for the rebel in all of us, Strix exemplifies ROG's premier performance, innovative technology, and leading quality, but with its own confident and dynamic attitude. Featuring bold designs and bright colors, this exciting new series possesses a spirit of fierce individualism that charges every gaming experience with thrilling energy. ROG Strix equips players with the necessary speed and agility to dominate their game. A new generation of force has arrived. Join the Republic and experience the power of ROG Strix.</p><ul><li>1873 MHz boost clock in OC mode for outstanding performance and gaming experience.</li><li>DirectCU III with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance.</li><li>ASUS FanConnect features 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.</li><li>Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Aura RGB Lighting to express personalized gaming style.</li><li>VR-friendly HDMI ports for immersive virtual reality experiences.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li><li>NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots.</li><li>NVIDIA GameWorks™ provides an interactive and cinematic experience, as well as incredibly smooth gameplay.</li></ul>",
         "coverImage":"EVGA 1060 6GB SMALL",
         "options":[
 
@@ -626,27 +626,27 @@
         "fullImageLink":"CORSAIR 450D LARGE"
       },
       {
-        "name":"Intel i5-4790K Devil's Canyon",
+        "name":"Intel i7-4790K Devil's Canyon",
         "weight":1,
         "price":435,
         "wattage":88,
         "type":"CPU",
-        "shortDescription":"The Intel Core I7-4790 4.4 GHz Processor is engineered to deliver performance and power efficiency",
-        "longDescription":"The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials",
+        "shortDescription": "The Intel Core I7-4790K 4.4 GHz Processor is engineered to deliver performance and power efficiency",
+        "longDescription": "<p>The Core i7-4790K will be the flagship processor of the Haswell Refresh lineup and the first 22nm consumer CPU to obtain clock frequency of 4 GHz and a maximum boost clock of 4.4 GHz which is also a first for Intel. It will feature 4 cores and 8 threads along with a fully unlocked design which will allow users to overclock the chip past the limits thanks to the improved thermal design and updated package materials.</p> <p>The Intel® i7 processor provides new levels of brilliant performance for highly threaded immersive games. By distributing AI, physics, and rendering across twelve soft ware threads, the Intel® Core™ i7 processor lets you concentrate on taking down the bad guys while your PC handles all the visual details such as texturing and shading that keep you feeling totally immersed. It's gaming experience so perfect, you just might lose yourself in the action.</p><p>Whether you're casually checking e-mail and surfing the Web or multitasking compute-intensive applications such as HD video encoding, you want a processor that enables maximum PC performance. With the Intel® Core™ i7 processor, you'll get just that. An unprecedented six-core, twelve-thread design with Intel® Hyper-Threading Technology ensures incredible performance, no matter what your computing needs.</p><p>It's time for digital content creation that's limited only by your imagination. Expierence total creative freedom with the power to encode video up to 40% faster. And enjoy incredible performance on other multimedia tasks like image rendering, photo retouching ,and editing.</p>",
         "coverImage":"4790K SMALL",
         "options":[
 
         ],
         "fullImageLink":"4790K LARGE"
       },
-</li>      {
+      {
         "name":"H100i GTX Liquid CPU Cooler",
         "weight":4,
         "price":160,
         "wattage":15,
         "type":"System Cooling",
-        "shortDescription":"Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription":"The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage":"H100i Small",
         "options":[
 
@@ -659,8 +659,8 @@
         "price":185,
         "wattage":70,
         "type":"Motherboard",
-        "shortDescription":"Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
-        "longDescription":"MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.",
+        "shortDescription": "Intel LGA 1150 DDR3 USB 3.0 ATX Gaming Motherboards",
+        "longDescription": "<p>MSI GAMING motherboards are designed to provide gamers with best-in-class features and technology. Backed by the imposing looks of MSI's Dragon, each motherboard is an engineering masterpiece tailored to gaming perfection.</p> <p>Get ready for ear-drum shattering sound, with MSI Audio Boost 2! With Audio Boost 2 we're delivering the highest audio quality with the use of Creative Sound Blaster Cinema 2 so you can enjoy crystal clear sound and music through 8-channel HD Audio.</p> <p>When connecting multiple USB devices, most motherboards will be unable to deliver a strong 5V power signal to all USB ports. This is highly noticeable with high-quality external USB DACs where sound quality degrades as the motherboard is unable to deliver a perfect USB signal. Only MSI USB Audio Power continuously delivers a stable 5V to the USB ports on motherboards, making sure you can continue to enjoy the crystal clear audio standard you expect.</p> <ul><li>Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket<li>Supports DDR3-3300(OC) Memory</li><li>M.2 + USB 3.0 + SATA 6Gb/s</li><li>Audio Boost 2: Reward Your Ears with True Quality</li><li>Killer Ethernet: Kill Your Lag</li><li>USB Audio Power: Surve Stable 5V Power & Better Signal Transmission over USB</li><li>XSplit Gamecaster: Show off Your Skills and Achievements</li><li>Guard-Pro: Improved Protection and Power Efficiency</li><li>OC Genie 4: Overclock in 1 Second</li><li>Gaming App: Boost Your Frame Rate</li><li>Click BIOS 4: Easily Fine-tune Your System</li><li>Multi-GPU: NVIDIA SLI & AMD CrossFire Support</li><li>Sound Blaster Cinema 2: Realistic Surround Sound Experience</li><li>Gaming Device Port: Optimized with Triple Gold-plating for High Polling Rate Gaming Devices</li></ul>",
         "coverImage":"MSI Z97 GAMING 5 SMALL",
         "options":[
 
@@ -668,13 +668,13 @@
         "fullImageLink":"MSI Z97 GAMING 5 LARGE"
       },
       {
-        "name":"32GB Standard",
+        "name":"32GB DDR3 Standard",
         "weight":0.5,
         "price":240,
         "wattage":40,
         "type":"RAM",
-        "shortDescription":"CORSAIR Vengeance LPX 32GB Dual-Channel",
-        "longDescription":"Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential.",
+        "shortDescription": "CORSAIR Vengeance LPX 32GB Dual-Channel",
+        "longDescription": "<p>Like the legendary Dominator, enthusiast-grade Vengeance DRAM is designed for stability, stringently factory-tested, and backed by our limited lifetime warranty. And, we know that great looks are as important as great performance. This is why Vengeance modules come in a variety of colors to match your components and let you build your system just the way you want it.</p> <p>Vengeance memory is designed specifically for the latest CPUs. Vengeance modules are available in 1.65, 1.5V, and 1.35V configurations for maximum compatibility with all Intel® Core™ i3, i5 and i7 processors, as well as the 2nd generation Intel Core processor family. With dual channel, triple channel, and quad channel kits, there's a Vengeance configuration that's perfect for your motherboard.</p> <p>Vengeance memory supports the Intel XMP (Extreme Memory Profile) standard, and each module is individually factory-programmed with an XMP profile indicating supported timing, frequency and voltages. Just enable XMP on your compatible motherboard and you'll automatically get optimized memory overclocking without having to deal with multiple BIOS settings. Of course, if you're an experienced overclocker — or an aspiring one — you can adjust the settings to push for even higher performance.</p>",
         "coverImage":"VENGEACNCE LPX RAM SMALL",
         "options":[
 
@@ -682,13 +682,13 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1070 8GB",
+        "name":"EVGA GTX 1070 8GB",
         "weight":4,
         "price":600,
         "wattage":215,
         "type":"GPU",
-        "shortDescription":"Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription":"This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage":"EVGA 1070 SMALL",
         "options":[
 
@@ -763,7 +763,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -793,13 +793,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
         "type": "GPU",
-        "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
-        "longDescription": "Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 6GB of graphical RAM, 2,688 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 6GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "shortDescription": "GTX 1060 6GB is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ROG Strix GeForce® GTX 1060 gaming graphics cards are packed with exclusive ASUS technologies, including DirectCU III Technology with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance, and Industry-only Auto-Extreme Technology for premium quality and the best reliability. Aura RGB Lighting enables a gaming system personalization and VR-friendly HDMI ports let gamers easily enjoy immersive virtual reality experiences. ROG Strix GeForce® GTX 1060 also has GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p><p>Exclusive DirectCU III cooling technology features direct-GPU contact heatpipes that transports more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance. DirectCU III features triple 0dB fans engineered with a patented wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games in complete silence and make DirectCU III the coolest and quietest graphics card in the market.</p><p>NVIDIA G-SYNC™ synchronizes the ROG Swift gaming monitor's refresh rate to the GPU in your GeForce® GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag. With ROG Strix gaming graphics cards and ROG Swift gaming monitors, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.</p>ROG Strix is the newest recruit into the Republic of Gamers. A series of specialized gaming gear designed for the rebel in all of us, Strix exemplifies ROG's premier performance, innovative technology, and leading quality, but with its own confident and dynamic attitude. Featuring bold designs and bright colors, this exciting new series possesses a spirit of fierce individualism that charges every gaming experience with thrilling energy. ROG Strix equips players with the necessary speed and agility to dominate their game. A new generation of force has arrived. Join the Republic and experience the power of ROG Strix.</p><ul><li>1873 MHz boost clock in OC mode for outstanding performance and gaming experience.</li><li>DirectCU III with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance.</li><li>ASUS FanConnect features 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.</li><li>Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Aura RGB Lighting to express personalized gaming style.</li><li>VR-friendly HDMI ports for immersive virtual reality experiences.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li><li>NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots.</li><li>NVIDIA GameWorks™ provides an interactive and cinematic experience, as well as incredibly smooth gameplay.</li></ul>",
         "coverImage": "EVGA 1060 6GB SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1060 6BG LARGE"
@@ -868,7 +868,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -898,13 +898,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -973,7 +973,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1003,13 +1003,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
-        "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1080 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1080 LARGE"
@@ -1078,7 +1078,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1108,13 +1108,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -1195,7 +1195,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1225,13 +1225,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
         "type": "GPU",
         "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
-        "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1080 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1080 LARGE"
@@ -1300,7 +1300,7 @@
         "wattage": 51,
         "type": "CPU",
         "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.",
+        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p><p>Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity. With 6th generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC. Get smoother multitasking, faster start-up times, and better management tools on a Windows 10 PC powered by Intel.</p> ",
         "coverImage": "6100 SMALL",
         "options" : [],
         "fullImageLink": "6100 LARGE"
@@ -1312,7 +1312,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "The flexible, powerful 120mm liquid CPU cooling system for high performance PCs.",
-        "longDescription": "The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.",
+        "longDescription": "<p>The Hydro Series H80i GT is a high performance, all-in-one liquid CPU cooler that works with standard 120mm radiator mounts. The extra-thick 49mm x 120mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for high performance CPUs. It's Corsair Link compatible, so you can customize cooling performance, monitor system temperature, and change the color of the RGB LED lighting.</p><p>Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. Protect your hardware and increase your CPU’s overclocking potential. Dual fans and a double-thick radiator deliver outstanding cooling efficiency. No additional hardware is necessary – just connect the included Corsair Link cable to a USB header on your motherboard and download the free Corsair Link Dashboard software. You can monitor coolant temperature and adjust cooling performance directly from your desktop.</p><ul><li>Corsair Hydro Series H80i High Performance Liquid CPU Cooler</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link™ Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011, 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Radiator dimensions: 120mm x 152mm x 38mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "CORSAIR H80I SMALL",
         "options" : [],
         "fullImageLink": "CORSAIR H80I LARGE"
@@ -1342,7 +1342,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 960 4GB",
+        "name": "EVGA GTX 960 4GB",
         "weight": 4,
         "price": 290,
         "wattage": 160,
@@ -1417,7 +1417,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1447,7 +1447,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 970 4GB",
+        "name": "EVGA GTX 970 4GB",
         "weight": 4,
         "price": 410,
         "wattage": 170,
@@ -1522,7 +1522,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1552,13 +1552,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -1627,7 +1627,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1657,13 +1657,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -1732,7 +1732,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1762,13 +1762,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
-        "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1080 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1080 LARGE"
@@ -1837,7 +1837,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1867,13 +1867,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -1954,7 +1954,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -1984,13 +1984,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
         "type": "GPU",
         "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
-        "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1080 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1080 LARGE"
@@ -2071,7 +2071,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -2101,13 +2101,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
         "type": "GPU",
         "shortDescription": "Take on today's most challenging, graphics-intensive games without missing a beat.",
-        "longDescription": "This innovative new family of industry-leading graphics cards is a quantum leap in performance and power efficiency. Ultra-fast FinFET and next-generation memory technologies, plus support for DirectX 12 features means you can count on the fastest, smoothest, most power-efficient gaming experiences.\nNext-Gen Gaming Technologies\nGet the performance to drive the latest displays, including VR, ultra-high-resolution, and multiple monitors. These cards feature the latest NVIDIA GameWorks technologies for smooth gameplay and cinematic experiences as well as revolutionary 360-degree image-capture- even in VR.\nVR READY\nNext-gen VR performance, the lowest latency, and plug-and-play compatibility with leading headsets means you can now explore the best VR has to offer driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\n\nVR READY \nDiscover next-generation VR performance, the lowest latency, and plug-and-play compatibility with leading headsets driven by NVIDIA VRWorks technologies. VR audio, physics, and haptics let you hear and feel every moment.\n\nTHE LATEST GAMING TECHNOLOGIES \nPascal is built to meet the demands of next generation displays, including VR, ultra-high-resolution, and multiple monitors. It features NVIDIA GameWorks technologies for extremely smooth gameplay and cinematic experiences. Plus, it includes revolutionary new 360-degree image capture.\n\nPERFORMANCE\nPascal-powered graphics cards give you superior performance and power efficiency, built using ultra-fast FinFET and supporting DirectX 12 features to deliver the fastest, smoothest, most power-efficient gaming experiences.",
+        "longDescription": "<p>The EVGA GeForce GTX 1070 featuring EVGA ACX 3.0 cooling is here. This new graphics card features NVIDIA’s new “Pascal” graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>Did you know that power consumption of the fans can directly affect your maximum overclock? The maximum “power target” takes into account the fan power consumption, meaning the lower the power consumption from the fan, the more power available for the card. EVGA ACX 3.0 coolers use more than 4X lower power than competitors allowing for better and more stable overclocks.</p><ul><li>Base Clock: 1607 MHZ</li><li>Boost Clock: 1797 MHz</li><li>Memory Clock: 8008 MHz Effective</li><li>CUDA Cores: 1920</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.25ns</li><li>Memory Bandwidth: 256.3 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1070 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1070 LARGE"
@@ -2188,7 +2188,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -2218,13 +2218,13 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
         "type": "GPU",
         "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
-        "longDescription": "The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new \"Pascal\" graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR.\n\nThese cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
         "coverImage": "EVGA 1080 SMALL",
         "options" : [],
         "fullImageLink": "EVGA 1080 LARGE"
@@ -2305,7 +2305,7 @@
         "wattage": 15,
         "type": "System Cooling",
         "shortDescription": "Extreme performance CPU cooling with built-In Corsair Link",
-        "longDescription": "The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.",
+        "longDescription": "<p>The Hydro Series H100i GTX is an extreme performance, all-in-one liquid CPU cooler for cases with 240mm radiator mounts. The 240mm radiator and dual SP120L PWM fans provide the excellent heat dissipation you need for highly overclocked CPUs. Corsair Link is built in, so you can monitor temperatures, adjust cooling performance and customize LED lighting directly from your desktop.</p><p>The 240mm top-mounted radiator provides maximum surface area for maximum cooling power. The 120mm fans use wide, low-pitch blades for better static pressure to noise ratio, offering improved efficiency at lower noise levels.</p><ul><li>Corsair Hydro Series H100i High Performance Liquid CPU Cooler.</li><li>Magnetic Multi-platform mounting kit for all modern CPU sockets</li><li>Dual SP120L High Performance Fans</li><li>USB Cable for Corsair Link Compatibility</li><li>Fan and radiator mounting screws</li><li>Thermal compound (pre-applied)</li><li>Quick Start Guide</li><li>Intel™ LGA 1150, 1151, 1155, 1156, 1366, 2011 and 2011-3</li><li>AMD™ sockets FM1, FM2, AM2, and AM3</li><li>Hydro Series H100i requires a case with dual 120mm fan mounts with 15mm spacing for a 240mm radiator</li><li>Radiator dimensions: 120mm x 275mm x 27mm</li><li>Fan dimensions: 120mm x 120mm x 25mm</li><li>Fan speed: 2700 RPM</li><li>Fan airflow: 77 CFM</li><li>Fan dBA: 37.68 dBA</li><li>Fan static pressure: 4mm/H20</li></ul>",
         "coverImage": "H100i Small",
         "options" : [],
         "fullImageLink": "H100i Large"
@@ -2335,7 +2335,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 980Ti 6GB Three-Way SLI",
+        "name": "EVGA GTX 980Ti 6GB Three-Way SLI",
         "weight": 12,
         "price": 1950,
         "wattage": 900,
