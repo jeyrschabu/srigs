@@ -77,7 +77,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1050 TI 4GB",
+        "name": "ASUS GTX 1050 TI 4GB",
         "weight": 4,
         "price": 204,
         "wattage": 75,
@@ -198,7 +198,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 3GB",
+        "name":"ASUS GTX 1060 3GB",
         "weight":4,
         "price":320,
         "wattage":120,
@@ -319,7 +319,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 6GB",
+        "name":"ASUS GTX 1060 6GB",
         "weight":4,
         "price":390,
         "wattage":120,
@@ -384,18 +384,18 @@
         "fullImageLink":"CORSAIR 450D LARGE"
       },
       {
-        "name": "Intel Dual Core i3-6100 3.7GHz",
+        "name": "Intel Dual Core i3-4170 3.7GHz",
         "weight": 1,
-        "price": 138,
-        "wattage": 51,
+        "price": 146,
+        "wattage": 54,
         "type": "CPU",
-        "shortDescription": "Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity.",
-        "longDescription": "<p>The 6th generation Intel Core processor is based on the Skylake micro architecture and built with 14nm manufacturing process. It comes packed with advanced features to take your productivity, creativity and 3D gaming to the next level. And, by enabling new exciting Windows 10 features, the 6th generation Intel Core processor empowers you to unleash your imagination and explore the possibilities. The Intel Core i3-6100 comes with two-core, four-thread configuration, delivering the performance and capability you need for everyday home and office tasks, as well as a host of new features to help you make the most of your PC experience.</p><p>Less waiting, more doing with the new 6th generation Intel Core processors, giving you more performance for improved productivity. With 6th generation Intel Core processor, play your favorite 3D games in higher resolution, better details, faster frame rates, giving you an amazing gaming experience on your PC. Get smoother multitasking, faster start-up times, and better management tools on a Windows 10 PC powered by Intel.</p> ",
-        "coverImage":"INTEL/6100 SMALL.jpg",
+        "shortDescription": "The Intel core i3 processor is the perfect entry point for a fast, responsive PC experience.",
+        "longDescription": "<p>The Intel 4th generation Core i3-4170 processor is based on the new 22nm Haswell Microarchitecture for improved CPU performance. Advanced power management innovations help keep power consumption in check. New compute instructions ensures enhanced performance per cycle.  Improved Intel integrated graphics enables discrete-level graphics performance. Extract more power from your Haswell core-based processor.</p> <p>Haswell core-based processors come with Intel Advanced Vector Extensions 2 (Intel AVX2). Intel AVX2 expands integer data to 256-bit SIMD to increase the performance of integer operations. It also offers new capabilities such as Gather and FMA (Fused Multiply-Add). Additional new instructions accelerate key algorithms including parallel extract/deposit, bit manipulation operations and new rotates/multiplies/shift. The AES-NI performance is also improved.</p><p>Haswell core-based processors offer improved integrated graphics. The integrated graphics supports DirectX 11.1 for optimized graphics performance and OpenGL 3.2 & OpenCL 1.2 for enhanced general purpose computing in GPGPU supported applications. It also features digital display repartition, where digital display ports are wired directly to the CPU and analog displays are handled by a Random Access Memory Digital-to-Analog Converter (RAMDAC) located in the Platform Controller Hub (PCH). It supports up to three independent displays: HDMI, DVI, Display Port, VGA (via Lynx Point).</p>",
+        "coverImage":"INTEL/4170 SMALL.jpg",
         "options":[
 
         ],
-        "fullImageLink":"INTEL/6100 LARGE.jpg"
+        "fullImageLink":"INTEL/4170 LARGE.jpg"
       },
       {
         "name":"H80i GT Liquid CPU Cooler",
@@ -440,7 +440,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 3GB",
+        "name":"ASUS GTX 1060 3GB",
         "weight":4,
         "price":320,
         "wattage":120,
@@ -561,7 +561,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1060 6GB",
+        "name":"ASUS GTX 1060 6GB",
         "weight":4,
         "price":390,
         "wattage":120,
@@ -682,7 +682,7 @@
         "fullImageLink":"VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name":"Nvidia GTX 1070 8GB",
+        "name":"EVGA GTX 1070 8GB",
         "weight":4,
         "price":600,
         "wattage":215,
@@ -793,7 +793,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1060 6GB",
+        "name": "ASUS GTX 1060 6GB",
         "weight": 4,
         "price": 390,
         "wattage": 120,
@@ -898,7 +898,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -1003,7 +1003,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -1108,7 +1108,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
@@ -1225,7 +1225,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
@@ -1342,7 +1342,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 960 4GB",
+        "name": "EVGA GTX 960 4GB",
         "weight": 4,
         "price": 290,
         "wattage": 160,
@@ -1447,7 +1447,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 970 4GB",
+        "name": "EVGA GTX 970 4GB",
         "weight": 4,
         "price": 410,
         "wattage": 170,
@@ -1552,7 +1552,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -1657,7 +1657,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -1762,7 +1762,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -1867,7 +1867,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB",
+        "name": "EVGA GTX 1070 8GB",
         "weight": 4,
         "price": 600,
         "wattage": 215,
@@ -1984,7 +1984,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB",
+        "name": "EVGA GTX 1080 8GB",
         "weight": 4,
         "price": 880,
         "wattage": 215,
@@ -2101,7 +2101,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1070 8GB Two-Way SLI",
+        "name": "EVGA GTX 1070 8GB Two-Way SLI",
         "weight": 8,
         "price": 1200,
         "wattage": 430,
@@ -2218,7 +2218,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "name": "EVGA GTX 1080 8GB Two-Way SLI",
         "weight": 5,
         "price": 1760,
         "wattage": 430,
@@ -2335,7 +2335,7 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "Nvidia GTX 980Ti 6GB Three-Way SLI",
+        "name": "EVGA GTX 980Ti 6GB Three-Way SLI",
         "weight": 12,
         "price": 1950,
         "wattage": 900,
