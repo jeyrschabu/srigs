@@ -445,8 +445,8 @@
         "price":320,
         "wattage":120,
         "type":"GPU",
-        "shortDescription":"GTX 1060 is the perfect blend of price, performance and style.",
-        "longDescription":"Render perfection with this EVGA GeForce GTX 1060 graphics card. Superclocking assures outstanding detail with even the most demanding games so that you get the most out of your gaming computer. The 3GB of graphical RAM, 1,152 CUDA cores and 288.38GB/s memory bandwidth get an insane amount of detail from this EVGA GeForce GTX 1060 graphics card. 3GB GDDR5 memory; PCI Express 3.0; HDMI, DVI-D and DisplayPort outputs; 1506MHz clock speed; 192-bit memory",
+        "shortDescription": "GTX 1060 3GB is a great way to game on a budget.",
+        "longDescription": "<p>ASUS Dual-fan GeForce® GTX 1060 comes equipped with Patented Wing-Blade Fans for max air flow with 105% more air pressure. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p> <p>Adjust clock speeds, voltages and fan speeds to tune your graphics card(s) exactly how you want to. Select between GPU Tweak’s Standard or Advanced modes depending on your level of experience. Choose Standard Mode to access Intuitive options for easy tweaking. This is great for those learning how to tune graphics cards. Alternatively try out the Advanced Mode for sophisticated and extensive tuning options that enable complete control for experienced overclockers.</p> <ul><li>1809 MHz Boost Clock (OC Mode) with 3GB GDDR5</li><li>Dual-fan cooling provides doubled airflow for 3x quieter gameplay</li><li>VR Ready with dual HDMI 2.0 ports to simultaneously connect headset & monitor</li><li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li><li>Auto-Extreme technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run 15% faster and last 2.5 longer than reference</li></ul>",
         "coverImage":"EVGA 1060 6GB SMALL",
         "options":[
 
@@ -1342,16 +1342,16 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "EVGA GTX 960 4GB",
+        "name": "Nvidia GTX 1060 3GB",
         "weight": 4,
-        "price": 290,
-        "wattage": 160,
+        "price": 300,
+        "wattage": 120,
         "type": "GPU",
-        "shortDescription": "Experience next-generation gaming with GeForce GTX 960 - the perfect upgrade to the advanced performance, power efficiency, and realistic gameplay only NVIDIA Maxwell technology can offer.",
-        "longDescription": "The EVGA GeForce GTX 960 delivers incredible performance, power efficiency, and gaming technologies that only NVIDIA Maxwell technology can offer. This is the perfect upgrade, offering 60% faster performance and twice the power efficiency of previous generation cards. Plus, it features VXGI for realistic lighting, support for smooth, tear free NVIDIA GSYNC technology, and Dynamic Super Resolution for 4Kqualitygaming on 1080Pdisplays. The latest versions come outfitted with 4GB of high speed GDDR5 memory giving you higher texture qualities and better 4K performance! The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "EVGA GTX 960 SMALL",
+        "shortDescription": "GTX 1060 is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ASUS Dual-fan GeForce® GTX 1060 comes equipped with Patented Wing-Blade Fans for max air flow with 105% more air pressure. While exclusive Auto-Extreme Technology with Super Alloy Power II components for superior stability. GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p> <p>ASUS graphics cards are produced using Auto-Extreme technology, an industry-first 100% automated production process, and feature premium Super Alloy Power II components that enhance efficiency, reduce power loss, decrease component buzzing under load, and lower thermal temperatures for unsurpassed quality and reliability.</p> <p>Adjust clock speeds, voltages and fan speeds to tune your graphics card(s) exactly how you want to. Select between GPU Tweak’s Standard or Advanced modes depending on your level of experience. Choose Standard Mode to access Intuitive options for easy tweaking. This is great for those learning how to tune graphics cards. Alternatively try out the Advanced Mode for sophisticated and extensive tuning options that enable complete control for experienced overclockers.</p> <ul><li>1809 MHz Boost Clock (OC Mode) with 3GB GDDR5</li><li>Dual-fan cooling provides doubled airflow for 3x quieter gameplay</li><li>VR Ready with dual HDMI 2.0 ports to simultaneously connect headset & monitor</li><li>GPU Tweak II makes monitoring performance and streaming easier than ever, featuring Game Booster and XSplit Gamecaster, all via an intuitive interface</li><li>Auto-Extreme technology delivers premium quality and reliability with aerospace-grade Super Alloy Power II components to run 15% faster and last 2.5 longer than reference</li></ul>",
+        "coverImage": "NVIDIA/GTX/EVGA 1060 6GB SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA GTX 960 LARGE"
+        "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
         "name": "550W Gold-Rated PSU",
@@ -1447,16 +1447,16 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "EVGA GTX 970 4GB",
+        "name": "Nvidia GTX 1060 6GB",
         "weight": 4,
-        "price": 410,
-        "wattage": 170,
+        "price": 390,
+        "wattage": 120,
         "type": "GPU",
-        "shortDescription": "Powered by the next-generation NVIDIA Maxwell architecture.",
-        "longDescription": "The new generation of EVGA GeForce GTX 970s have arrived with the SSC. This enhanced model offers an included back plate, improved cooling, double BIOS support, new display output configuration and 6 power phases for robust overclocking support. The new EVGA ACX 2.0+ cooler brings new features to the award winning EVGA ACX 2.0 cooling technology. A Memory MOSFET Cooling Plate (MMCP) reduces MOSFET and Memory temperatures and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5 Degree. ACX 2.0+ coolers also feature optimized Swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "EVGA GTX 970 SMALL",
-        "options" : [],
-        "fullImageLink": "EVGA GTX 970 LARGE"
+        "shortDescription": "GTX 1060 6GB is the perfect blend of price, performance and style.",
+        "longDescription": "<p>ROG Strix GeForce® GTX 1060 gaming graphics cards are packed with exclusive ASUS technologies, including DirectCU III Technology with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance, and Industry-only Auto-Extreme Technology for premium quality and the best reliability. Aura RGB Lighting enables a gaming system personalization and VR-friendly HDMI ports let gamers easily enjoy immersive virtual reality experiences. ROG Strix GeForce® GTX 1060 also has GPU Tweak II with XSplit Gamecaster that provides intuitive performance tweaking and instant gameplay streaming.</p><p>Exclusive DirectCU III cooling technology features direct-GPU contact heatpipes that transports more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance. DirectCU III features triple 0dB fans engineered with a patented wing-blade design that delivers maximum air flow and improved 105% static pressure over the heat sink, while operating at 3X quieter volumes than reference cards. The 0dB fans also let you enjoy games in complete silence and make DirectCU III the coolest and quietest graphics card in the market.</p><p>NVIDIA G-SYNC™ synchronizes the ROG Swift gaming monitor's refresh rate to the GPU in your GeForce® GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag. With ROG Strix gaming graphics cards and ROG Swift gaming monitors, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.</p>ROG Strix is the newest recruit into the Republic of Gamers. A series of specialized gaming gear designed for the rebel in all of us, Strix exemplifies ROG's premier performance, innovative technology, and leading quality, but with its own confident and dynamic attitude. Featuring bold designs and bright colors, this exciting new series possesses a spirit of fierce individualism that charges every gaming experience with thrilling energy. ROG Strix equips players with the necessary speed and agility to dominate their game. A new generation of force has arrived. Join the Republic and experience the power of ROG Strix.</p><ul><li>1873 MHz boost clock in OC mode for outstanding performance and gaming experience.</li><li>DirectCU III with Patented Wing-Blade Fans for 30% cooler and 3X quieter performance.</li><li>ASUS FanConnect features 4-pin GPU-controlled headers connected to system fans for optimal thermal performance.</li><li>Industry Only Auto-Extreme Technology with Super Alloy Power II delivers premium quality and best reliability.</li><li>Aura RGB Lighting to express personalized gaming style.</li><li>VR-friendly HDMI ports for immersive virtual reality experiences.</li><li>GPU Tweak II with Xsplit Gamecaster provides intuitive performance tweaking and lets you stream your gameplay instantly.</li><li>NVIDIA ANSEL for a revolutionary new way to capture in-game screenshots.</li><li>NVIDIA GameWorks™ provides an interactive and cinematic experience, as well as incredibly smooth gameplay.</li></ul>",
+        "coverImage": "NVIDIA/GTX/EVGA 1060 6GB SMALL.jpg",
+        "options": [],
+        "fullImageLink": "NVIDIA/GTX/EVGA 1060 6BG LARGE.jpg"
       },
       {
         "name": "650W Gold-Rated PSU",
@@ -2335,16 +2335,16 @@
         "fullImageLink": "VENGEACNCE LPX RAM LARGE"
       },
       {
-        "name": "EVGA GTX 980Ti 6GB Three-Way SLI",
-        "weight": 12,
-        "price": 1950,
-        "wattage": 900,
+        "name": "Nvidia GTX 1080 8GB Two-Way SLI",
+        "weight": 5,
+        "price": 1760,
+        "wattage": 430,
         "type": "GPU",
-        "shortDescription": "This graphics card delivers the extremely fast performance, with the advanced gaming technologies and the amazing gaming ecosystem.",
-        "longDescription": "Introducing the EVGA GeForce GTX 980 Ti. Accelerated by the groundbreaking NVIDIA Maxwell architecture, GTX 980 Ti delivers an unbeatable 4K and virtual reality experience. With 2816 NVIDIA CUDA Cores and 6GB of GDDR5 memory, it has the horsepower to drive whatever comes next. In fact, the EVGA GeForce GTX 980 Ti provides 3x the performance and 3x the memory of previous generation cards. You can now take on even the most challenging games at high settings for a smooth, ultra high definition, 4K experience. These cards also feature EVGA ACX 2.0+ cooling technology. EVGA ACX 2.0+ brings new features to the award winning EVGA ACX 2.0 cooling technology. A memory MOSFET Cooling Plate (MMCP) reduces MOSFET temperatures up to 11C, and optimized Straight Heat Pipes (SHP) reduce GPU temperature by an additional 5C. ACX 2.0+ coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU.",
-        "coverImage": "EVGA GTX 980TI LARGE NO SMALL",
+        "shortDescription": "The EVGA GeForce GTX 1080 features an incredibly powerful graphics processor. This amazing GPU delivers fast performance, innovative gaming technologies, and immersive VR.",
+        "longDescription": "<p>The EVGA GeForce GTX 1080 featuring EVGA ACX 3.0 cooling has arrived. This new graphics card features NVIDIA's new Pascal graphics processor which is the most advanced gaming GPU ever created. This breakthrough GPU delivers industry-leading performance, innovative new gaming technologies, and immersive, next-gen VR. These cards also feature EVGA ACX 3.0 cooling technology. EVGA ACX 3.0 once again brings new and exciting features to the award winning EVGA ACX cooling technology. SHP 3.0 gives increased heatpipes and copper contact area for cooler operation, and optimized fan curve for even quieter gaming. Of course, ACX 3.0 coolers also feature optimized swept fan blades, double ball bearings and an extreme low power motor, delivering more air flow with less power, unlocking additional power for the GPU. Select EVGA ACX 3.0 models will even feature a 10CM fan and RGB LED, allowing complete control over the color from EVGA Precision XOC.</p><p>The next generation of EVGA PrecisionX has arrived with EVGA Precision XOC. This new version of Precision is built for the NVIDIA Pascal architecture and combines the best of EVGA Precision and EVGA OC Scanner to give you never before seen overclocking features and built in automatic overclock tuning. EVGA ACX 3.0 fans use double ball bearings, which offer 4X longer lifespan than the sleeve bearing fans used by competitors. The oil that is used in sleeve bearing fans makes them vulnerable and prone to failure after time when the oil dries up. Upgrade to EVGA ACX 3.0 and your card will go the distance!</p><p>8GB of high performance memory running at extreme Clockspeeds giving you access to higher texture qualities in games and improved 4K gaming performance. Did we mention that this memory is running at an extreme 10,000MHz out of the box??!!<ul><li>Base Clock: 1721 MHZ</li><li>Boost Clock: 1860 MHz</li><li>Memory Clock: 10000 MHz Effective</li><li>CUDA Cores: 2560</li><li>Bus Type: PCI-E 3.0</li><li>Memory Detail: 8192MB GDDR5X</li><li>Memory Bit Width: 256 Bit</li><li>Memory Speed: 0.2ns</li><li>Memory Bandwidth: 320 GB/s</li><li>LED Logo: RGB</li></ul>",
+        "coverImage": "NVIDIA/GTX/EVGA 1080 SMALL.jpg",
         "options" : [],
-        "fullImageLink": "EVGA GTX 980TI LARGE NO SMALL"
+        "fullImageLink": "NVIDIA/GTX/EVGA 1080 LARGE.jpg"
       },
       {
         "name": "1300W Gold-Rated PSU",
