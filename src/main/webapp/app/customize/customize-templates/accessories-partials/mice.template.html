@@ -27,8 +27,8 @@
                 <div class="col-md-4">
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/MICE/' + mice.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/MICE/{{mice.coverImage}}">
                 </div>
-                <div class="col-md-8" ng-show="speaker.longDescription">
-                    <p>{{mice.longDescription}}</p>
+                <div class="col-md-8" ng-show="mice.longDescription">
+                  <p ng-bind-html="mice.longDescription"></p>
                 </div>
             </div>
 

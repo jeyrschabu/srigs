@@ -29,7 +29,7 @@
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/SERVICES/' + overclock.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/SERVICES/{{overclock.coverImage}}">
               </div>
                 <div class="col-md-8" ng-show="overclock.longDescription">
-                    <p>{{overclock.longDescription}}</p>
+                  <p ng-bind-html="overclock.longDescription"></p>
                 </div>
             </div>
 

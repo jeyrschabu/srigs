@@ -28,7 +28,7 @@
                        <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/SOFTWARE/' + os.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/SOFTWARE/{{os.coverImage}}">
                 </div>
                 <div class="col-md-9" ng-show="os.longDescription">
-                    <p>{{os.longDescription}}</p>
+                  <p ng-bind-html="os.longDescription"></p>
                 </div>
             </div>
 

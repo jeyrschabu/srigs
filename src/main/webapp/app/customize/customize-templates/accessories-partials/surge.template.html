@@ -28,7 +28,7 @@
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/POWERSTRIPS/' + surge.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/POWERSTRIPS/{{surge.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="surge.longDescription">
-                    <p>{{surge.longDescription}}</p>
+                  <p ng-bind-html="surge.longDescription"></p>
                 </div>
             </div>
 

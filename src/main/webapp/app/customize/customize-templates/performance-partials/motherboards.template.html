@@ -28,7 +28,7 @@
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/MOBO/' + syscooling.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/MOBO/{{syscooling.coverImage}}">
               </div>
                 <div class="col-md-8" ng-show="motherboard.longDescription">
-                    <p>{{motherboard.longDescription}}</p>
+                  <p ng-bind-html="motherboard.longDescription"></p>
                 </div>
             </div>
 

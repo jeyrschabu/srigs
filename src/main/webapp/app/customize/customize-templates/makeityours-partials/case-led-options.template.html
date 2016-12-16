@@ -28,7 +28,7 @@
                         <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/' + led.coverImage)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/LIGHTING/{{led.coverImage}}">
                 </div> -->
                 <div class="col-md-12" ng-show="led.longDescription">
-                    <p>{{led.longDescription}}</p>
+                  <p ng-bind-html="led.longDescription"></p>
                 </div>
             </div>
 

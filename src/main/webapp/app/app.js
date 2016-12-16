@@ -11,6 +11,7 @@ angular
     'braintree-angular',
     'ui.bootstrap',
     'angular-cache',
+    'ngSanitize',
     'formly',
     'formlyBootstrap',
     'rx',

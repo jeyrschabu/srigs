@@ -28,7 +28,7 @@
                         <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/WIFI/' + wifi.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/WIFI/{{wifi.coverImage}}">
                 </div>
                 <div class="col-md-9" ng-show="wifi.longDescription">
-                    <p>{{wifi.longDescription}}</p>
+                  <p ng-bind-html="wifi.longDescription"></p>
                 </div>
             </div>
 

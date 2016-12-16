@@ -1,7 +1,7 @@
 'use strict';
 
-CheckoutController.$inject = ['$stateParams', '$state', '$location', 'ngCart', 'CacheFactory', 'PaymentService', '$braintree', 'lodash'];
-function CheckoutController($stateParams, $state, $location, ngCart, CacheFactory, PaymentService, $braintree, lodash) {
+CheckoutController.$inject = ['$stateParams', '$sce', '$state', '$location', 'ngCart', 'CacheFactory', 'PaymentService', '$braintree', 'lodash'];
+function CheckoutController($stateParams, $sce, $state, $location, ngCart, CacheFactory, PaymentService, $braintree, lodash) {
   var checkoutController = this;
 
   checkoutController.userInfo = {
@@ -253,8 +253,8 @@ function CheckoutController($stateParams, $state, $location, ngCart, CacheFactor
   var Order = function (nonce) {
     return {
       paymentInfo: nonce,
-      username: 'me@gmail.com',
-      total: 0,
+      username: 'tycoon55777@gmail.com',
+      total: 1200,
       shippingAddress: {
         street: '405 NW Uptown Terrace',
         state: 'OR',
@@ -277,6 +277,10 @@ function CheckoutController($stateParams, $state, $location, ngCart, CacheFactor
             {
               name: 'Corsair 450D',
               type: 'case'
+            },
+            {
+              name: 'Corsair 450D',
+              type: 'case cooling'
             }
           ]
         }

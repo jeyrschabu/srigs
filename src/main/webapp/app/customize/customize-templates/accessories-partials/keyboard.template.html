@@ -28,7 +28,7 @@
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/KEYBOARDS/' + keyboard.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/KEYBOARDS/{{keyboard.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="keyboard.longDescription">
-                    <p>{{keyboard.longDescription}}</p>
+                  <p ng-bind-html="keyboard.longDescription"></p>
                 </div>
             </div>
 

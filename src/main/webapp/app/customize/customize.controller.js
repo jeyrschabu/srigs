@@ -108,18 +108,33 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
       });
 
       current = allItems[startIndex];
-      var currentPrice = allItems[startIndex].price;
-      lodash.map(allItems, function(item) {
-        item.priceDiff = item.price - currentPrice;
-        if (type == 'PSU') {
-          item.psuWattage = parseInt(item.name.substr(0, item.name.indexOf('W')));
-        }
+      if (!allItems[startIndex]) {
+        console.log('TYPE ' + specPredicate.type + " has no data")
 
-      })
+      } else {
+        var currentPrice = allItems[startIndex].price;
+        lodash.map(allItems, function(item) {
+          item.priceDiff = item.price - currentPrice;
+          if (type == 'PSU') {
+            item.psuWattage = parseInt(item.name.substr(0, item.name.indexOf('W')));
+          }
 
-      current.priceDiff = 0; //reset because price is included
-//      current.price = 0; //reset because price is included
-      allItems = allItems.slice(startIndex, allItems.length)
+        })
+
+        current.priceDiff = 0; //reset because price is included
+  //      current.price = 0; //reset because price is included
+        allItems = allItems.slice(startIndex, allItems.length)
+
+      }
+    } else {
+      if (!defaultItem) {
+        console.log('TYPE ' + specPredicate.type + " has no default item")
+
+      } else {
+        console.log('TYPE ' + specPredicate.type + " has no all item")
+
+      }
+
     }
 
     return {
@@ -147,36 +162,68 @@ function CustomizeController($rootScope, $scope, $stateParams, $state, lodash, P
   };
 
   customizeController.priceWatchers = function () {
-    [
-      'customizeController.rig.caseOptions',
-      'customizeController.rig.caseLedOptions',
-      'customizeController.rig.caseCoolingOptions',
-      'customizeController.rig.caseCablingOptions',
-      'customizeController.rig.performanceCpuOptions',
-      'customizeController.rig.performanceCoolingOptions',
-      'customizeController.rig.performanceReservoirOptions',
-      'customizeController.rig.performanceFittingsOptions',
-      'customizeController.rig.performanceCoolantOptions',
-      'customizeController.rig.performanceMotherboardOptions',
-      'customizeController.rig.performanceMemoryOptions',
-      'customizeController.rig.performanceGraphicsOptions',
-      'customizeController.rig.performanceOverclockOptions',
-      'customizeController.rig.performancePsuOptions',
-      'customizeController.rig.storageSsdOptions',
-      'customizeController.rig.storageHddOptions',
-      'customizeController.rig.storageM2Options',
-      'customizeController.rig.storageOpticalOptions',
-      'customizeController.rig.osOptions',
-      'customizeController.rig.internalWifiOptions',
-      'customizeController.rig.accDisplayOptions',
-      'customizeController.rig.accHeadsetOptions',
-      'customizeController.rig.accSpeakerOptions',
-      'customizeController.rig.accKeyboardOptions',
-      'customizeController.rig.accMiceOptions',
-      'customizeController.rig.accFlashOptions',
-      'customizeController.rig.accSurgeOptions'
+    var typesToCheck = [
+            'customizeController.rig.caseOptions',
+            'customizeController.rig.caseLedOptions',
+            'customizeController.rig.caseCoolingOptions',
+            'customizeController.rig.caseCablingOptions',
+            'customizeController.rig.performanceCpuOptions',
+            'customizeController.rig.performanceCoolingOptions',
+            'customizeController.rig.performanceMotherboardOptions',
+            'customizeController.rig.performanceMemoryOptions',
+            'customizeController.rig.performanceGraphicsOptions',
+            'customizeController.rig.performanceOverclockOptions',
+            'customizeController.rig.performancePsuOptions',
+            'customizeController.rig.storageSsdOptions',
+            'customizeController.rig.storageHddOptions',
+            'customizeController.rig.storageM2Options',
+            'customizeController.rig.storageOpticalOptions',
+            'customizeController.rig.osOptions',
+            'customizeController.rig.internalWifiOptions',
+            'customizeController.rig.accDisplayOptions',
+            'customizeController.rig.accHeadsetOptions',
+            'customizeController.rig.accSpeakerOptions',
+            'customizeController.rig.accKeyboardOptions',
+            'customizeController.rig.accMiceOptions',
+            'customizeController.rig.accFlashOptions',
+            'customizeController.rig.accSurgeOptions'
 
-    ].forEach(function (option) {
+          ];
+
+    if (customizeController.rig && customizeController.rig.product && customizeController.rig.product.name == 'Wraith') {
+      typesToCheck = [
+        'customizeController.rig.caseOptions',
+        'customizeController.rig.caseLedOptions',
+        'customizeController.rig.caseCoolingOptions',
+        'customizeController.rig.caseCablingOptions',
+        'customizeController.rig.performanceCpuOptions',
+        'customizeController.rig.performanceCoolingOptions',
+        'customizeController.rig.performanceReservoirOptions',
+        'customizeController.rig.performanceFittingsOptions',
+        'customizeController.rig.performanceCoolantOptions',
+        'customizeController.rig.performanceMotherboardOptions',
+        'customizeController.rig.performanceMemoryOptions',
+        'customizeController.rig.performanceGraphicsOptions',
+        'customizeController.rig.performanceOverclockOptions',
+        'customizeController.rig.performancePsuOptions',
+        'customizeController.rig.storageSsdOptions',
+        'customizeController.rig.storageHddOptions',
+        'customizeController.rig.storageM2Options',
+        'customizeController.rig.storageOpticalOptions',
+        'customizeController.rig.osOptions',
+        'customizeController.rig.internalWifiOptions',
+        'customizeController.rig.accDisplayOptions',
+        'customizeController.rig.accHeadsetOptions',
+        'customizeController.rig.accSpeakerOptions',
+        'customizeController.rig.accKeyboardOptions',
+        'customizeController.rig.accMiceOptions',
+        'customizeController.rig.accFlashOptions',
+        'customizeController.rig.accSurgeOptions'
+
+      ];
+    }
+
+    typesToCheck.forEach(function (option) {
       observeOnScope($scope, option, true)
         .subscribe(function(change) {
           if (change.newValue) {

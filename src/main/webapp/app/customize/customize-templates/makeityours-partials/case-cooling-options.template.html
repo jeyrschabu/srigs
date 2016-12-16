@@ -27,7 +27,7 @@
                     <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/' + fan.coverImage)" ng-src="http://cdn.shadowrigs.com/images/COOLING/{{fan.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="fan.longDescription">
-                    <p>{{fan.longDescription}}</p>
+                  <p ng-bind-html="fan.longDescription"></p>
                 </div>
             </div>
 

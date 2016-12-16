@@ -28,7 +28,7 @@
                   <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/PERIPHERALS/AUDIO/SPEAKERS/' + speaker.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/PERIPHERALS/AUDIO/SPEAKERS/{{speaker.coverImage}}">
                 </div>
                 <div class="col-md-8" ng-show="speaker.longDescription">
-                    <p>{{speaker.longDescription}}</p>
+                  <p ng-bind-html="speaker.longDescription"></p>
                 </div>
             </div>
 
