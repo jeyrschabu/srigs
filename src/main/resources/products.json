@@ -1222,6 +1222,18 @@
         "fullImageLink": ""
       },
       {
+        "name": "DVD Burner",
+        "weight": 1.6,
+        "price": 33,
+        "wattage": 0,
+        "type": "Optical",
+        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
+        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
+        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
+        "options": [],
+        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
+      },
+      {
         "name": "Blu-Ray Burner Standard",
         "weight": 1.6,
         "price": 68,
@@ -1246,18 +1258,6 @@
         "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
       },
       {
-        "name": "DVD Burner",
-        "weight": 1.6,
-        "price": 33,
-        "wattage": 0,
-        "type": "Optical",
-        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
-        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
-        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
-        "options": [],
-        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
-      },
-      {
         "name": "None",
         "weight": 0,
         "price": 0,
@@ -1276,7 +1276,7 @@
         "wattage": 0,
         "type": "OS",
         "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
-        "longDescription": "The Start Menu is back in an expanded form, plus we'll bring over your pinned apps and favorites so they're ready and waiting for you. It starts up and resumes fast, has more built-in security to help keep you safe, and is designed to work with software and hardware you already have. Windows 10 comes with Microsoft Edge, an all-new browser that's built to give you a better web experience. Write2 or type notes directly on webpages and share them with others, read online articles free of distraction, and save your favorite reads for later access. And with Cortana3 enabled, you get instant access to key actions-like making reservations or reading reviews-without leaving the page you're on. Easily snap up to four apps in place and see all open tasks in a single view. You can even create virtual desktops when you need more space or want to group things by project. Windows 10 enables your apps to look and work great in all modes, on all devices. On 2-in-1 devices, your screen can be optimized to work with touch or keyboard and mouse.",
+        "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
         "coverImage": "WINDOWS 10 SMALL.jpg",
         "options": [],
         "fullImageLink": "WINDOWS 10 LARGE.jpg"
@@ -1288,7 +1288,7 @@
         "wattage": 0,
         "type": "OS",
         "shortDescription": "Features Expanded Start Menu, Microsoft Edge Web Browser, Cortana Digital Personal Assistant, Snap Window Enhancements",
-        "longDescription": "Do things confidently.\nWindows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against viruses, phishing and malware.\n\n \nA web that works the way you do.\nThe all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you'll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.\n\n  \n \n \nTake your gaming further.\nGreat Xbox titles, the best of Xbox Live, and your Xbox community, achievements, and game collection via the Xbox app. You can even use your Xbox controller and stream Xbox One games on your home Windows 10 PC, laptop, or tablet. (1)\n\nDo things across your devices.\nTake your movies, music, and photos with you across all your devices with OneDrive. Plus, with OneDrive, you get 15GB of free storage space.\n\nDo things magically.\nCortana (2) is your truly personal digital assistant who learns more about you over time. Cortana works across all your devices, from phone to tablet to PC, to help you do more and forget less.",
+        "longDescription": "<p>Windows 10 combines the Windows you already know and adds great improvements you’ll love. Technologies like InstantGo1 let you boot up and resume quickly. And Windows 10 has more built-in security features than ever to help protect against malicious software.</p><p>Multi-task like a master with the ability to snap four things on the screen at once. Screen getting crowded? Create virtual desktops to get more space and work with just the items you want. Plus, all your notifications and key settings are collected on one easy-to-reach screen.</p><p>The best screen is always the one you’re on, because Windows 10 optimizes your experience for your activity and device. Onscreen features adapt for easy navigation and apps scale smoothly from the smallest to the largest displays.</p><p>Your Windows 10 device recognizes you and acknowledges your presence in truly personal ways. With Windows Hello, your device greets you by name and lights up in recognition, waving you through log-in and freeing you from having to remember or type in a password</p><ul><li>Join your Domain. You can connect to your business or school Domain or Azure Active Directory to use network files, servers, printers, and more.</li><li>Enhanced encryption. Get additional security with BitLocker to help protect your data with encryption and security management.</li><li>Remote log-in. Windows 10 enables you to log in with Remote Desktop to sign in and use your Pro PC while at home or on the road.</li><li>Virtual machines. Create and run virtual machines with Hyper-V so you can run more than one operating system at the same time on the same PC.</li><li>Your apps in the Store. Windows 10 lets you create your own private app section in the Windows Store for convenient access to company applications.</li>",
         "coverImage": "WINDOWS 10 PRO SMALL.jpg",
         "options": [],
         "fullImageLink": "WINDOWS 10 PRO LARGE.jpg"
@@ -2983,6 +2983,18 @@
         "fullImageLink": ""
       },
       {
+        "name": "DVD Burner",
+        "weight": 1.6,
+        "price": 33,
+        "wattage": 0,
+        "type": "Optical",
+        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
+        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
+        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
+        "options": [],
+        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
+      },
+      {
         "name": "Blu-Ray Burner Standard",
         "weight": 1.6,
         "price": 68,
@@ -3002,18 +3014,6 @@
         "type": "Optical",
         "shortDescription": "Capture all the excitement of Blu-ray with the 16x BD-R writing capability.",
         "longDescription": "Plus, now you can store more data on to BDXL discs. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market.",
-        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
-      },
-      {
-        "name": "DVD Burner",
-        "weight": 1.6,
-        "price": 33,
-        "wattage": 0,
-        "type": "Optical",
-        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
-        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
         "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
         "options" : [],
         "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
@@ -4600,6 +4600,18 @@
         "fullImageLink": ""
       },
       {
+        "name": "DVD Burner",
+        "weight": 1.6,
+        "price": 33,
+        "wattage": 0,
+        "type": "Optical",
+        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
+        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
+        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
+        "options": [],
+        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
+      },
+      {
         "name": "Blu-Ray Burner Standard",
         "weight": 1.6,
         "price": 68,
@@ -4619,18 +4631,6 @@
         "type": "Optical",
         "shortDescription": "Capture all the excitement of Blu-ray with the 16x BD-R writing capability.",
         "longDescription": "Plus, now you can store more data on to BDXL discs. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market.",
-        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
-      },
-      {
-        "name": "DVD Burner",
-        "weight": 1.6,
-        "price": 33,
-        "wattage": 0,
-        "type": "Optical",
-        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
-        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
         "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
         "options" : [],
         "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
@@ -6820,6 +6820,18 @@
         "fullImageLink": ""
       },
       {
+        "name": "DVD Burner",
+        "weight": 1.6,
+        "price": 33,
+        "wattage": 0,
+        "type": "Optical",
+        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
+        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
+        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
+        "options": [],
+        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
+      },
+      {
         "name": "Blu-Ray Burner Standard",
         "weight": 1.6,
         "price": 68,
@@ -6839,18 +6851,6 @@
         "type": "Optical",
         "shortDescription": "Capture all the excitement of Blu-ray with the 16x BD-R writing capability.",
         "longDescription": "Plus, now you can store more data on to BDXL discs. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market.",
-        "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
-        "options" : [],
-        "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"
-      },
-      {
-        "name": "DVD Burner",
-        "weight": 1.6,
-        "price": 33,
-        "wattage": 0,
-        "type": "Optical",
-        "shortDescription": "The LG Super-Multi GH24NSB0 DVD rewriter features a 24x DVD+R write speed",
-        "longDescription": "48x CDR write speed and supports M-DISC for superior reliability in data storage. Designed for storage needs that demand consistency, the GH24NSB0 read and write in CD, DVD+R, DVD+RW, DVD RAM formats giving you the option to choose the media best suited for each task. The M-DISC uses a patent rock-like recording surface instead of organic dye to etch your data onto a disc. The M-DISC has been tested and proven to outlast standard DVDs currently on the market",
         "coverImage": "ALL ASUS OPTICALS SMALL.jpg",
         "options" : [],
         "fullImageLink": "ALL ASUS OPTICALS LARGE.jpg"

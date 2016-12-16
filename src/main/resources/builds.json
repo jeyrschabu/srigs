@@ -121,6 +121,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name":"Mark 2",
     "brand":"AMD",
     "blobDescription":"AMD Mark 2",
@@ -240,6 +252,18 @@
         "fullImageLink":"EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name":"Mark 3",
@@ -363,6 +387,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name":"Mark 1",
     "brand":"Intel",
     "blobDescription":"Intel Mark 1",
@@ -482,6 +518,18 @@
         "fullImageLink":"EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name":"Mark 2",
@@ -605,6 +653,30 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name":"Mark 3",
     "brand":"Intel",
     "blobDescription":"Intel Mark 3",
@@ -726,6 +798,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 1",
     "brand": "Intel",
     "blobDescription": "Mark 1",
@@ -829,6 +913,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 2",
@@ -936,6 +1032,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 3",
     "brand": "Intel",
     "blobDescription": "Mark 3",
@@ -1039,6 +1147,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 4",
@@ -1158,6 +1278,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 5",
     "brand": "Intel",
     "blobDescription": "Mark 5",
@@ -1275,6 +1407,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 1",
     "brand": "Intel",
     "blobDescription": "Mark 1",
@@ -1378,6 +1522,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 2",
@@ -1485,6 +1641,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 3",
     "brand": "Intel",
     "blobDescription": "Mark 3",
@@ -1588,6 +1756,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 4",
@@ -1695,6 +1875,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 5",
     "brand": "Intel",
     "blobDescription": "Mark 5",
@@ -1798,6 +1990,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 1",
@@ -1917,6 +2121,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 2",
     "brand": "Intel",
     "blobDescription": "Mark 2",
@@ -2032,6 +2248,18 @@
         "fullImageLink": "EVO SSD LARGE"
       }
     ]
+  },
+  {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
   },
   {
     "name": "Mark 3",
@@ -2151,6 +2379,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 4",
     "brand": "Intel",
     "blobDescription": "Mark 4",
@@ -2268,6 +2508,18 @@
     ]
   },
   {
+    "name": "Windows 10 Home",
+    "weight": 0.1,
+    "price": 127,
+    "wattage": 0,
+    "type": "OS",
+    "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+    "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+    "coverImage": "WINDOWS 10 SMALL.jpg",
+    "options": [],
+    "fullImageLink": "WINDOWS 10 LARGE.jpg"
+  },
+  {
     "name": "Mark 5",
     "brand": "Intel",
     "blobDescription": "Mark 4",
@@ -2381,8 +2633,19 @@
         "coverImage": "EVO SSD SMALL",
         "options" : [],
         "fullImageLink": "EVO SSD LARGE"
+      },
+      {
+        "name": "Windows 10 Home",
+        "weight": 0.1,
+        "price": 127,
+        "wattage": 0,
+        "type": "OS",
+        "shortDescription": "Windows 10 is so familiar and easy to use, you'll feel like an expert",
+        "longDescription": "<p>Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against, viruses, phishing and malware.</p><p>The all-new browser is great for getting things done online. Write or type directly on webpages and easily share the mark-ups; you’ll also like reading online articles free of distractions. The address bar gives you personalized recommendations to get you quickly to your online destination.</p><ul><li>You’re already an expert with the familiar Start menu, task bar, and desktop</li><li>Customize the new Start menu with your favorite apps and games.</li><li>Stay productive with enhancements to Snap, new Task View, and Multiple desktops.</li><li>Cortana works across your day and your devices to help you get things done.</li><li>Stream your Xbox One games to a Windows 10 PC, laptop, or tablet.</li></ul>",
+        "coverImage": "WINDOWS 10 SMALL.jpg",
+        "options": [],
+        "fullImageLink": "WINDOWS 10 LARGE.jpg"
       }
     ]
   }
-
 ]
