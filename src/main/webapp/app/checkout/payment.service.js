@@ -1,7 +1,3 @@
-/**
- * Created by jeyrschabu on 9/1/16.
- */
-
 'use strict';
 
 function PaymentService($http, API_PREFIX) {
@@ -15,5 +11,13 @@ function PaymentService($http, API_PREFIX) {
         });
     }
 
+    function getClientToken() {
+        return $http({
+            url: API_PREFIX + '/payment/clientToken',
+            method: 'GET'
+        });
+    }
+
     paymentService.submitPayment = submitPayment;
+    paymentService.getClientToken = getClientToken;
 }

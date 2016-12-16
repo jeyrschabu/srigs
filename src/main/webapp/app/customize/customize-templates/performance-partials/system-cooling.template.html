@@ -6,7 +6,8 @@
             <div class="cpm-radio-wrap">
                 <input type="radio" name="syscooling.name" id="{{itemId}}"
                        ng-model="customizeController.rig.performanceCoolingOptions.current"
-                       ng-value="syscooling">
+                       ng-value="syscooling"
+                       ng-disabled="syscooling.name=='Dark Fusion Stage Four' && customizeController.rig.caseOptions.current.name!='Corsair Carbide 900D'">
             </div>
             <div class="cpm-item-wrap">
                 <h4>{{syscooling.name}}</h4>
@@ -28,6 +29,168 @@
               </div>
                 <div class="col-md-8" ng-show="syscooling.longDescription">
                     <p>{{syscooling.longDescription}}</p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+
+    <li ng-repeat="reservoir in customizeController.rig.performanceReservoirOptions.items"
+        ng-init="itemId=customizeController.slugify(reservoir.name);" ng-show="customizeController.rig.darkFusionSelected">
+        <label for="{{itemId}}" class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="reservoir.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceReservoirOptions.current"
+                       ng-value="reservoir">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{reservoir.name}}</h4>
+                <p>{{reservoir.shortDescription}}</p>
+                <span class="cpm-price">
+                        <!-- {{reservoir.priceDiff > 0 ? '+' : ''}}{{reservoir.priceDiff | currency}} -->
+                </span>
+            </div>
+        </label>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmsc1 = !cpmsc1"
+               ng-class="cpmsc1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmsc1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+              <!-- <div class="col-md-4">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/RESERVOIRS/' + reservoir.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/RESERVOIRS/{{syscooling.coverImage}}">
+              </div> -->
+                <div class="col-md-12" ng-show="reservoir.longDescription">
+                    <p>{{reservoir.longDescription}}</p>
+                </div>
+            </div>
+            <div class="row options" ng-show="reservoir.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in reservoir.options">
+                    <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/RESERVOIRS/' + option.coverImage)"  ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/RESERVOIRS/{{option.coverImage}}">
+                    <p>
+                      <label for="{{option.coverImage}}">
+                        <input type="radio" name="{{syscooling.name}}" id="{{option.coverImage}}"
+                              ng-click="customizeController.selectSubOption('performanceReservoirOptions', reservoir, option)"
+                               ng-model="customizeController.rig.performanceReservoirOptions.current.currentOption"
+                               ng-value="option">
+                        {{option.name}}
+                      </label>
+                    </p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+
+    <li ng-repeat="item in customizeController.rig.performanceFittingsOptions.items"
+        ng-init="itemId=customizeController.slugify(item.name);" ng-show="customizeController.rig.darkFusionSelected">
+        <label for="{{itemId}}" class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="fittings.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceFittingsOptions.current"
+                       ng-value="item">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{item.name}}</h4>
+                <p>{{item.shortDescription}}</p>
+                <span class="cpm-price">
+                        <!-- {{item.priceDiff > 0 ? '+' : ''}}{{item.priceDiff | currency}} -->
+                </span>
+            </div>
+        </label>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmsc1 = !cpmsc1"
+               ng-class="cpmsc1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmsc1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+              <!-- <div class="col-md-4">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/FITTINGS/' + item.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/FITTINGS/{{syscooling.coverImage}}">
+              </div> -->
+                <div class="col-md-12" ng-show="item.longDescription">
+                    <p>{{item.longDescription}}</p>
+                </div>
+            </div>
+            <div class="row options" ng-show="item.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in item.options">
+                    <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/FITTINGS/' + option.coverImage)"  ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/FITTINGS/{{option.coverImage}}">
+                    <p>
+                      <label for="{{option.coverImage}}">
+                        <input type="radio" name="{{syscooling.name}}" id="{{option.coverImage}}"
+                              ng-click="customizeController.selectSubOption('performanceFittingsOptions', item, option)"
+                               ng-model="customizeController.rig.performanceFittingsOptions.current.currentOption"
+                               ng-value="option">
+                        {{option.name}}
+                      </label>
+                    </p>
+                </div>
+            </div>
+
+            <!--<div class="row" ng-show="cpu.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in cpu.options">
+                    <a href="#" class="cpm-color"></a>
+                    <p>{{option.name}}</p>
+                </div>
+            </div>-->
+        </div>
+    </li>
+
+    <li ng-repeat="item in customizeController.rig.performanceCoolantOptions.items"
+        ng-init="itemId=customizeController.slugify(item.name);" ng-show="customizeController.rig.darkFusionSelected">
+        <label for="{{itemId}}" class="cpm-inner">
+            <div class="cpm-radio-wrap">
+                <input type="radio" name="coolant.name" id="{{itemId}}"
+                       ng-model="customizeController.rig.performanceCoolantOptions.current"
+                       ng-value="item">
+            </div>
+            <div class="cpm-item-wrap">
+                <h4>{{item.name}}</h4>
+                <p>{{item.shortDescription}}</p>
+                <span class="cpm-price">
+                        <!-- {{item.priceDiff > 0 ? '+' : ''}}{{item.priceDiff | currency}} -->
+                </span>
+            </div>
+        </label>
+        <a class="cpm-expand-desc">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true" ng-click="cpmsc1 = !cpmsc1"
+               ng-class="cpmsc1 ? 'cpm-expand-desc-active' : 'default'"></i>
+        </a>
+
+        <div class="cpm-description" ng-class="cpmsc1 ? 'cpm-desc-open' : 'cpm-desc-hide'">
+            <div class="row">
+              <!-- <div class="col-md-4">
+                  <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/LIQUID/' + item.fullImageLink)" ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/LIQUID/{{syscooling.coverImage}}">
+              </div> -->
+                <div class="col-md-12" ng-show="item.longDescription">
+                    <p>{{item.longDescription}}</p>
+                </div>
+            </div>
+            <div class="row options" ng-show="item.options.length">
+                <div class="col-xs-4 col-md-2" ng-repeat="option in item.options">
+                    <img ng-click="openImageModal('http://cdn.shadowrigs.com/images/COOLING/CUSTOM/LIQUID/' + option.coverImage)"  ng-src="http://cdn.shadowrigs.com/images/COOLING/CUSTOM/LIQUID/{{option.coverImage}}">
+                    <p>
+                      <label for="{{option.coverImage}}">
+                        <input type="radio" name="{{syscooling.name}}" id="{{option.coverImage}}"
+                              ng-click="customizeController.selectSubOption('performanceCoolantOptions', item, option)"
+                               ng-model="customizeController.rig.performanceCoolantOptions.current.currentOption"
+                               ng-value="option">
+                        {{option.name}}
+                      </label>
+                    </p>
                 </div>
             </div>
 

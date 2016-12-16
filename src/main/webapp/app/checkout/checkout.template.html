@@ -13,49 +13,299 @@
         <div class="form-line col-md-6">
           <label for="shipping-first-name">First Name <span>*</span></label>
           <input type="text" name="shipping-first-name" id="shipping-first-name"
-                 ng-model="CheckoutController.userInfo.shippingAddress.firstName" required>
+                 ng-model="checkoutController.userInfo.shippingAddress.firstName" required>
         </div>
 
         <div class="form-line col-md-6">
           <label for="shipping-last-name">Last Name <span>*</span></label>
           <input type="text" name="shipping-last-name" id="shipping-last-name"
-                 ng-model="CheckoutController.userInfo.shippingAddress.lastName" required>
+                 ng-model="checkoutController.userInfo.shippingAddress.lastName" required>
         </div>
 
         <div class="form-line col-md-12">
           <label for="shipping-address-1">Address 1 <span>*</span></label>
           <input type="text" name="shipping-address-1" id="shipping-address-1"
-                 ng-model="CheckoutController.userInfo.shippingAddress.address1" required>
+                 ng-model="checkoutController.userInfo.shippingAddress.address1" required>
         </div>
 
         <div class="form-line col-md-12">
           <label for="shipping-address-2">Address 2</label>
           <input type="text" name="shipping-address-2" id="shipping-address-2"
-                 ng-model="CheckoutController.userInfo.shippingAddress.address2">
+                 ng-model="checkoutController.userInfo.shippingAddress.address2">
         </div>
 
         <div class="form-line col-md-6">
           <label for="shipping-phone">Phone <span>*</span></label>
           <input type="text" name="shipping-phone" id="shipping-phone"
-                 ng-model="CheckoutController.userInfo.shippingAddress.phone">
+                 ng-model="checkoutController.userInfo.shippingAddress.phone">
         </div>
 
         <div class="form-line col-md-6">
           <label for="shipping-country">Country <span>*</span></label>
-          <select class="input-medium bfh-countries" data-country="US"
-                  name="shipping-country" id="shipping-country"></select>
+          <select ng-model="checkoutController.userInfo.shippingAddress.country" class="input-medium bfh-countries" data-country="US"
+                  name="shipping-country" id="shipping-country">
+                  <option value="">Country...</option>
+                  <option value="AF">Afghanistan</option>
+                  <option value="AL">Albania</option>
+                  <option value="DZ">Algeria</option>
+                  <option value="AS">American Samoa</option>
+                  <option value="AD">Andorra</option>
+                  <option value="AG">Angola</option>
+                  <option value="AI">Anguilla</option>
+                  <option value="AG">Antigua &amp; Barbuda</option>
+                  <option value="AR">Argentina</option>
+                  <option value="AA">Armenia</option>
+                  <option value="AW">Aruba</option>
+                  <option value="AU">Australia</option>
+                  <option value="AT">Austria</option>
+                  <option value="AZ">Azerbaijan</option>
+                  <option value="BS">Bahamas</option>
+                  <option value="BH">Bahrain</option>
+                  <option value="BD">Bangladesh</option>
+                  <option value="BB">Barbados</option>
+                  <option value="BY">Belarus</option>
+                  <option value="BE">Belgium</option>
+                  <option value="BZ">Belize</option>
+                  <option value="BJ">Benin</option>
+                  <option value="BM">Bermuda</option>
+                  <option value="BT">Bhutan</option>
+                  <option value="BO">Bolivia</option>
+                  <option value="BL">Bonaire</option>
+                  <option value="BA">Bosnia &amp; Herzegovina</option>
+                  <option value="BW">Botswana</option>
+                  <option value="BR">Brazil</option>
+                  <option value="BC">British Indian Ocean Ter</option>
+                  <option value="BN">Brunei</option>
+                  <option value="BG">Bulgaria</option>
+                  <option value="BF">Burkina Faso</option>
+                  <option value="BI">Burundi</option>
+                  <option value="KH">Cambodia</option>
+                  <option value="CM">Cameroon</option>
+                  <option value="CA">Canada</option>
+                  <option value="IC">Canary Islands</option>
+                  <option value="CV">Cape Verde</option>
+                  <option value="KY">Cayman Islands</option>
+                  <option value="CF">Central African Republic</option>
+                  <option value="TD">Chad</option>
+                  <option value="CD">Channel Islands</option>
+                  <option value="CL">Chile</option>
+                  <option value="CN">China</option>
+                  <option value="CI">Christmas Island</option>
+                  <option value="CS">Cocos Island</option>
+                  <option value="CO">Colombia</option>
+                  <option value="CC">Comoros</option>
+                  <option value="CG">Congo</option>
+                  <option value="CK">Cook Islands</option>
+                  <option value="CR">Costa Rica</option>
+                  <option value="CT">Cote D'Ivoire</option>
+                  <option value="HR">Croatia</option>
+                  <option value="CU">Cuba</option>
+                  <option value="CB">Curacao</option>
+                  <option value="CY">Cyprus</option>
+                  <option value="CZ">Czech Republic</option>
+                  <option value="DK">Denmark</option>
+                  <option value="DJ">Djibouti</option>
+                  <option value="DM">Dominica</option>
+                  <option value="DO">Dominican Republic</option>
+                  <option value="TM">East Timor</option>
+                  <option value="EC">Ecuador</option>
+                  <option value="EG">Egypt</option>
+                  <option value="SV">El Salvador</option>
+                  <option value="GQ">Equatorial Guinea</option>
+                  <option value="ER">Eritrea</option>
+                  <option value="EE">Estonia</option>
+                  <option value="ET">Ethiopia</option>
+                  <option value="FA">Falkland Islands</option>
+                  <option value="FO">Faroe Islands</option>
+                  <option value="FJ">Fiji</option>
+                  <option value="FI">Finland</option>
+                  <option value="FR">France</option>
+                  <option value="GF">French Guiana</option>
+                  <option value="PF">French Polynesia</option>
+                  <option value="FS">French Southern Ter</option>
+                  <option value="GA">Gabon</option>
+                  <option value="GM">Gambia</option>
+                  <option value="GE">Georgia</option>
+                  <option value="DE">Germany</option>
+                  <option value="GH">Ghana</option>
+                  <option value="GI">Gibraltar</option>
+                  <option value="GB">Great Britain</option>
+                  <option value="GR">Greece</option>
+                  <option value="GL">Greenland</option>
+                  <option value="GD">Grenada</option>
+                  <option value="GP">Guadeloupe</option>
+                  <option value="GU">Guam</option>
+                  <option value="GT">Guatemala</option>
+                  <option value="GN">Guinea</option>
+                  <option value="GY">Guyana</option>
+                  <option value="HT">Haiti</option>
+                  <option value="HW">Hawaii</option>
+                  <option value="HN">Honduras</option>
+                  <option value="HK">Hong Kong</option>
+                  <option value="HU">Hungary</option>
+                  <option value="IS">Iceland</option>
+                  <option value="IN">India</option>
+                  <option value="ID">Indonesia</option>
+                  <option value="IA">Iran</option>
+                  <option value="IQ">Iraq</option>
+                  <option value="IR">Ireland</option>
+                  <option value="IM">Isle of Man</option>
+                  <option value="IL">Israel</option>
+                  <option value="IT">Italy</option>
+                  <option value="JM">Jamaica</option>
+                  <option value="JP">Japan</option>
+                  <option value="JO">Jordan</option>
+                  <option value="KZ">Kazakhstan</option>
+                  <option value="KE">Kenya</option>
+                  <option value="KI">Kiribati</option>
+                  <option value="NK">Korea North</option>
+                  <option value="KS">Korea South</option>
+                  <option value="KW">Kuwait</option>
+                  <option value="KG">Kyrgyzstan</option>
+                  <option value="LA">Laos</option>
+                  <option value="LV">Latvia</option>
+                  <option value="LB">Lebanon</option>
+                  <option value="LS">Lesotho</option>
+                  <option value="LR">Liberia</option>
+                  <option value="LY">Libya</option>
+                  <option value="LI">Liechtenstein</option>
+                  <option value="LT">Lithuania</option>
+                  <option value="LU">Luxembourg</option>
+                  <option value="MO">Macau</option>
+                  <option value="MK">Macedonia</option>
+                  <option value="MG">Madagascar</option>
+                  <option value="MY">Malaysia</option>
+                  <option value="MW">Malawi</option>
+                  <option value="MV">Maldives</option>
+                  <option value="ML">Mali</option>
+                  <option value="MT">Malta</option>
+                  <option value="MH">Marshall Islands</option>
+                  <option value="MQ">Martinique</option>
+                  <option value="MR">Mauritania</option>
+                  <option value="MU">Mauritius</option>
+                  <option value="ME">Mayotte</option>
+                  <option value="MX">Mexico</option>
+                  <option value="MI">Midway Islands</option>
+                  <option value="MD">Moldova</option>
+                  <option value="MC">Monaco</option>
+                  <option value="MN">Mongolia</option>
+                  <option value="MS">Montserrat</option>
+                  <option value="MA">Morocco</option>
+                  <option value="MZ">Mozambique</option>
+                  <option value="MM">Myanmar</option>
+                  <option value="NA">Nambia</option>
+                  <option value="NU">Nauru</option>
+                  <option value="NP">Nepal</option>
+                  <option value="AN">Netherland Antilles</option>
+                  <option value="NL">Netherlands (Holland, Europe)</option>
+                  <option value="NV">Nevis</option>
+                  <option value="NC">New Caledonia</option>
+                  <option value="NZ">New Zealand</option>
+                  <option value="NI">Nicaragua</option>
+                  <option value="NE">Niger</option>
+                  <option value="NG">Nigeria</option>
+                  <option value="NW">Niue</option>
+                  <option value="NF">Norfolk Island</option>
+                  <option value="NO">Norway</option>
+                  <option value="OM">Oman</option>
+                  <option value="PK">Pakistan</option>
+                  <option value="PW">Palau Island</option>
+                  <option value="PS">Palestine</option>
+                  <option value="PA">Panama</option>
+                  <option value="PG">Papua New Guinea</option>
+                  <option value="PY">Paraguay</option>
+                  <option value="PE">Peru</option>
+                  <option value="PH">Philippines</option>
+                  <option value="PO">Pitcairn Island</option>
+                  <option value="PL">Poland</option>
+                  <option value="PT">Portugal</option>
+                  <option value="PR">Puerto Rico</option>
+                  <option value="QA">Qatar</option>
+                  <option value="ME">Republic of Montenegro</option>
+                  <option value="RS">Republic of Serbia</option>
+                  <option value="RE">Reunion</option>
+                  <option value="RO">Romania</option>
+                  <option value="RU">Russia</option>
+                  <option value="RW">Rwanda</option>
+                  <option value="NT">St Barthelemy</option>
+                  <option value="EU">St Eustatius</option>
+                  <option value="HE">St Helena</option>
+                  <option value="KN">St Kitts-Nevis</option>
+                  <option value="LC">St Lucia</option>
+                  <option value="MB">St Maarten</option>
+                  <option value="PM">St Pierre &amp; Miquelon</option>
+                  <option value="VC">St Vincent &amp; Grenadines</option>
+                  <option value="SP">Saipan</option>
+                  <option value="SO">Samoa</option>
+                  <option value="AS">Samoa American</option>
+                  <option value="SM">San Marino</option>
+                  <option value="ST">Sao Tome &amp; Principe</option>
+                  <option value="SA">Saudi Arabia</option>
+                  <option value="SN">Senegal</option>
+                  <option value="RS">Serbia</option>
+                  <option value="SC">Seychelles</option>
+                  <option value="SL">Sierra Leone</option>
+                  <option value="SG">Singapore</option>
+                  <option value="SK">Slovakia</option>
+                  <option value="SI">Slovenia</option>
+                  <option value="SB">Solomon Islands</option>
+                  <option value="OI">Somalia</option>
+                  <option value="ZA">South Africa</option>
+                  <option value="ES">Spain</option>
+                  <option value="LK">Sri Lanka</option>
+                  <option value="SD">Sudan</option>
+                  <option value="SR">Suriname</option>
+                  <option value="SZ">Swaziland</option>
+                  <option value="SE">Sweden</option>
+                  <option value="CH">Switzerland</option>
+                  <option value="SY">Syria</option>
+                  <option value="TA">Tahiti</option>
+                  <option value="TW">Taiwan</option>
+                  <option value="TJ">Tajikistan</option>
+                  <option value="TZ">Tanzania</option>
+                  <option value="TH">Thailand</option>
+                  <option value="TG">Togo</option>
+                  <option value="TK">Tokelau</option>
+                  <option value="TO">Tonga</option>
+                  <option value="TT">Trinidad &amp; Tobago</option>
+                  <option value="TN">Tunisia</option>
+                  <option value="TR">Turkey</option>
+                  <option value="TU">Turkmenistan</option>
+                  <option value="TC">Turks &amp; Caicos Is</option>
+                  <option value="TV">Tuvalu</option>
+                  <option value="UG">Uganda</option>
+                  <option value="UA">Ukraine</option>
+                  <option value="AE">United Arab Emirates</option>
+                  <option value="GB">United Kingdom</option>
+                  <option value="US">United States of America</option>
+                  <option value="UY">Uruguay</option>
+                  <option value="UZ">Uzbekistan</option>
+                  <option value="VU">Vanuatu</option>
+                  <option value="VS">Vatican City State</option>
+                  <option value="VE">Venezuela</option>
+                  <option value="VN">Vietnam</option>
+                  <option value="VB">Virgin Islands (Brit)</option>
+                  <option value="VA">Virgin Islands (USA)</option>
+                  <option value="WK">Wake Island</option>
+                  <option value="WF">Wallis &amp; Futana Is</option>
+                  <option value="YE">Yemen</option>
+                  <option value="ZR">Zaire</option>
+                  <option value="ZM">Zambia</option>
+                  <option value="ZW">Zimbabwe</option>
+
+          </select>
 
         </div>
 
         <div class="form-line col-md-6">
           <label for="shipping-city">City <span>*</span></label>
-          <input type="text" name="shipping-city" id="shipping-city" required>
+          <input type="text" ng-model="checkoutController.userInfo.shippingAddress.city" name="shipping-city" id="shipping-city" required>
         </div>
 
         <div class="form-line col-md-6">
           <label for="shipping-state">State <span>*</span></label>
           <!-- IF US, select state, else just text field -->
-          <select name="shipping-state" id="shipping-state" size="1" required>
+          <select ng-model="checkoutController.userInfo.shippingAddress.state" name="shipping-state" id="shipping-state" size="1" required>
             <option selected value="">State...</option>
             <option value="ZZ">None</option>
             <option value="">-- UNITED STATES --</option>
@@ -141,7 +391,7 @@
 
         <div class="form-line col-md-12">
           <label for="shipping-zip-code">ZIP Code<span>*</span></label>
-          <input type="text" name="shipping-zip-code" id="shipping-zip-code" required>
+          <input type="text" ng-model="checkoutController.userInfo.shippingAddress.zip" name="shipping-zip-code" id="shipping-zip-code" required>
         </div>
 
       </div>
@@ -153,7 +403,7 @@
       <h3>Billing Address
             <span class="same-as-shipping">
                 <!-- autofill if same as shipping -->
-                <input type="checkbox" name="same-as-shipping" id="same-as-shipping">
+                <input type="checkbox" name="same-as-shipping" ng-model="checkoutController.sameAsShipping" id="same-as-shipping">
                 <label for="same-as-shipping">Same As Shipping</label>
             </span>
       </h3>
@@ -162,34 +412,34 @@
       <div class="container">
         <div class="form-line col-md-6">
           <label for="billing-first-name">First Name <span>*</span></label>
-          <input type="text" name="billing-first-name" id="billing-first-name" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.firstName" name="billing-first-name" id="billing-first-name" required>
         </div>
 
         <div class="form-line col-md-6">
           <label for="billing-last-name">Last Name <span>*</span></label>
-          <input type="text" name="billing-last-name" id="billing-last-name" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.lastName" name="billing-last-name" id="billing-last-name" required>
         </div>
 
         <div class="form-line col-md-12">
           <label for="billing-address-1">Address 1 <span>*</span></label>
-          <input type="text" name="billing-address-1" id="billing-address-1" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.address1" name="billing-address-1" id="billing-address-1" required>
         </div>
 
         <div class="form-line col-md-12">
           <label for="billing-address-2">Address 2</label>
-          <input type="text" name="billing-address-2" id="billing-address-2">
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.address2" name="billing-address-2" id="billing-address-2">
         </div>
 
         <div class="form-line col-md-6">
           <label for="billing-phone">Phone
             <swapan>*</swapan>
           </label>
-          <input type="text" name="billing-phone" id="billing-phone" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.phone" name="billing-phone" id="billing-phone" required>
         </div>
 
         <div class="form-line col-md-6">
           <label for="billing-country">Country <span>*</span></label>
-          <select name="billing-country" id="billing-country" required>
+          <select ng-model="checkoutController.userInfo.billingAddress.country" name="billing-country" id="billing-country" required>
             <option value="">Country...</option>
             <option value="AF">Afghanistan</option>
             <option value="AL">Albania</option>
@@ -443,13 +693,13 @@
 
         <div class="form-line col-md-6">
           <label for="billing-city">City <span>*</span></label>
-          <input type="text" name="billing-city" id="billing-city" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.city" name="billing-city" id="billing-city" required>
         </div>
 
         <div class="form-line col-md-6">
           <label for="billing-state">State <span>*</span></label>
           <!-- IF US, select state, else just text field -->
-          <select name="billing-state" id="billing-state" size="1" required>
+          <select ng-model="checkoutController.userInfo.billingAddress.state" name="billing-state" id="billing-state" size="1" required>
             <option selected value="">State...</option>
             <option value="ZZ">None</option>
             <option value="">-- UNITED STATES --</option>
@@ -535,7 +785,7 @@
 
         <div class="form-line col-md-12">
           <label for="billing-zip-code">ZIP Code<span>*</span></label>
-          <input type="text" name="billing-zip-code" id="billing-zip-code" required>
+          <input type="text" ng-model="checkoutController.userInfo.billingAddress.zip" name="billing-zip-code" id="billing-zip-code" required>
         </div>
 
       </div>
@@ -550,25 +800,25 @@
       <div class="col-md-6">
         <div class="form-line">
           <label for="customer-email-1">E-mail Address<span>*</span></label>
-          <input type="text" name="customer-email-1" id="customer-email-1" required>
+          <input type="text" ng-model="checkoutController.userInfo.email" name="customer-email-1" id="customer-email-1" required>
         </div>
 
         <div class="form-line">
           <label for="customer-email-2">Confirm E-mail Address<span>*</span></label>
-          <input type="text" name="customer-email-2" id="customer-email-2" required>
+          <input type="text" ng-model="checkoutController.userInfo.email2" name="customer-email-2" id="customer-email-2" required>
         </div>
 
-        <div class="form-line">
+        <!-- <div class="form-line">
           <label for="coupon-code">Coupon Code</label>
-          <input type="text" name="coupon-code" id="coupon-code">
-        </div>
+          <input type="text" ng-model="checkoutController.userInfo.coupon" name="coupon-code" id="coupon-code">
+        </div> -->
 
       </div>
 
       <div class="col-md-6 comments-or-special">
         <div class="form-line">
           <label for="Comments">Comments, Questions or Special Instructions</label>
-          <textarea name="comments" id="comments"></textarea>
+          <textarea ng-model="checkoutController.userInfo.comments" name="comments" id="comments"></textarea>
         </div>
       </div>
 
@@ -577,32 +827,32 @@
     <div class="row payment-info">
       <div class="clearfix"></div>
       <h2>Choose a payment method</h2>
-      <p class="help-block">{{ errors }}</p><br>
-      <div class="col-md-6">
+      <p class="help-block">{{ checkoutController.error }}</p><br>
+      <!-- <div class="col-md-6">
 
 
         <braintree-dropin options="customizeController.paymentOptions">Loading...</braintree-dropin>
 
 
-      </div>
+      </div> -->
 
       <!-- not sure where this would go -->
 
       <div class="col-md-6 cc-info-wrap">
 
-        <div class="form-line">
+        <!-- <div class="form-line">
           <label for="name-on-card">Name on Card<span>*</span></label>
-          <input type="text" name="name-on-card" id="name-on-card" required>
-        </div>
+          <input type="text" ng-model='checkoutController.creditCard.name' name="name-on-card" id="name-on-card" required>
+        </div> -->
 
         <div class="form-line">
           <label for="card-number">Card Number<span>*</span></label>
-          <input type="text" name="card-number" id="card-number" required>
+          <input type="text" ng-model='checkoutController.creditCard.number' name="card-number" id="card-number" required>
         </div>
 
         <div class="form-line cc-expire">
           <label>Expiration *</label>
-          <select name='expireMM' id='expireMM'>
+          <select ng-model='checkoutController.creditCard.expirationMonth' name='expireMM' id='expireMM'>
             <option value=''>Month</option>
             <option value='01'>Janaury</option>
             <option value='02'>February</option>
@@ -617,7 +867,7 @@
             <option value='11'>November</option>
             <option value='12'>December</option>
           </select>
-          <select name='expireYY' id='expireYY'>
+          <select ng-model='checkoutController.creditCard.expirationYear' name='expireYY' id='expireYY'>
             <option value=''>Year</option>
             <option value='16'>2016</option>
             <option value='17'>2017</option>
@@ -634,12 +884,12 @@
 
         <div class="form-line cc-cvv">
           <label for="cvv2">CVV2 Code<span>*</span></label>
-          <input type="text" name="cvv2" id="cvv2" required>
+          <input type="text" ng-model='checkoutController.creditCard.cvv' name="cvv2" id="cvv2" required>
         </div>
 
       </div><!-- end payment-info-wrap -->
 
-      <input type="submit" value="Purchase!" class="purchase-button">
+      <input type="submit" ng-click="checkoutController.payButtonClicked()" value="Purchase!" class="purchase-button">
 
     </div>
 

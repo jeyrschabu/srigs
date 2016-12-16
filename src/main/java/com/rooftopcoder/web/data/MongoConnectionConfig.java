@@ -9,6 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 public class MongoConnectionConfig {
   private MongoClient mongoClient;
   private String databaseName;
+  private boolean loadOnStartUp;
   private String DEFAULT_DATABASE = "shadowrigs";
 
   public MongoConnectionConfig(MongoClient mongoClient, String databaseName) {
@@ -32,5 +33,13 @@ public class MongoConnectionConfig {
 
   public String getDatabaseName() {
     return databaseName;
+  }
+
+  public boolean getLoadOnStartUp() {
+    return loadOnStartUp;
+  }
+
+  public void setLoadOnStartUp(boolean loadOnStartUp) {
+    this.loadOnStartUp = loadOnStartUp;
   }
 }

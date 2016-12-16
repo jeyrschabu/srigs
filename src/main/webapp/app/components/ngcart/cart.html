@@ -107,6 +107,27 @@
             <td>{{ item.getData().performanceCoolingOptions.current.price | currency}}</td>
             <td></td>
         </tr>
+        <tr class="cartSubItem" ng-show="item.getData().darkFusionSelected">
+            <td></td>
+            <td>Reservoir: {{ item.getData().performanceReservoirOptions.current.name }} {{ item.getData().performanceReservoirOptions.current.currentOption ? '('+item.getData().performanceReservoirOptions.current.currentOption.name+')' : '' }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem" ng-show="item.getData().darkFusionSelected">
+            <td></td>
+            <td>Fittings: {{ item.getData().performanceFittingsOptions.current.name }} {{ item.getData().performanceFittingsOptions.current.currentOption ? '('+item.getData().performanceFittingsOptions.current.currentOption.name+')' : '' }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="cartSubItem" ng-show="item.getData().darkFusionSelected">
+            <td></td>
+            <td>Coolant: {{ item.getData().performanceCoolantOptions.current.name }} {{ item.getData().performanceCoolantOptions.current.currentOption ? '('+item.getData().performanceCoolantOptions.current.currentOption.name+')' : '' }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
         <tr class="cartSubItem">
             <td></td>
             <td>Motherboard: {{ item.getData().performanceMotherboardOptions.current.name }}</td>
