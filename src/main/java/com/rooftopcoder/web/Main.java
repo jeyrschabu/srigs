@@ -25,8 +25,8 @@ public class Main implements SparkApplication {
 
   private static void initWithRoutes(boolean loadDataOnStartUp) {
     log.info("Initializing database");
-    String database = StringUtils.isEmpty(serverConfig.db()) ? System.getenv(MONGO_DB) : serverConfig.db();
-    String mongoHost = StringUtils.isEmpty(serverConfig.dbHost()) ? System.getenv(MONGO_HOST) : serverConfig.dbHost();
+    String database = "shadowrigs";
+    String mongoHost = "localhost:27017";
     String userName = StringUtils.isEmpty(serverConfig.dbUser()) ? System.getenv(MONGO_USERNAME) : serverConfig.dbUser();
     String password = StringUtils.isEmpty(serverConfig.dbPass()) ? System.getenv(MONGO_PASSWORD) : serverConfig.dbPass();
     MongoClient mongoClient = new MongoClient();
@@ -58,7 +58,8 @@ public class Main implements SparkApplication {
 
 
   private boolean shouldPopulateOnStartUp() {
-    String populateOnStartUp = serverConfig.loadOnStartUp() == null ? System.getenv("POPULATE_ON_START_UP") : serverConfig.loadOnStartUp();
-    return !(StringUtils.isEmpty(populateOnStartUp) || populateOnStartUp.equalsIgnoreCase("disabled"));
+//    String populateOnStartUp = serverConfig.loadOnStartUp() == null ? System.getenv("POPULATE_ON_START_UP") : serverConfig.loadOnStartUp();
+//    return !(StringUtils.isEmpty(populateOnStartUp) || populateOnStartUp.equalsIgnoreCase("disabled"));
+    return true;
   }
 }
