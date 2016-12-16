@@ -20,10 +20,10 @@ public class Main implements SparkApplication {
   private static ApplicationConfig serverConfig = ConfigFactory.create(ApplicationConfig.class);
 
   public void init() {
-    Main.initWithRoutes();
+    Main.initWithRoutes(shouldPopulateOnStartUp());
   }
 
-  private static void initWithRoutes() {
+  private static void initWithRoutes(boolean loadDataOnStartUp) {
     log.info("Initializing database");
     String database = StringUtils.isEmpty(serverConfig.db()) ? System.getenv(MONGO_DB) : serverConfig.db();
     String mongoHost = StringUtils.isEmpty(serverConfig.dbHost()) ? System.getenv(MONGO_HOST) : serverConfig.dbHost();
@@ -40,6 +40,7 @@ public class Main implements SparkApplication {
 
     log.info("Initializing services");
     final MongoConnectionConfig dbCfg = new MongoConnectionConfig(mongoClient, database);
+    dbCfg.setLoadOnStartUp(loadDataOnStartUp);
     final ProductCategoryService categoryService = new ProductCategoryService().setDataProvider(dbCfg);
     final ProductService productService = new ProductService().setDataProvider(dbCfg);
     final SpecService specService = new SpecService().setDataProvider(dbCfg);
@@ -53,5 +54,11 @@ public class Main implements SparkApplication {
     new SpecResource(specService);
     new HomeResource();
     new PaymentResource(orderService, serverConfig);
+  }
+
+
+  private boolean shouldPopulateOnStartUp() {
+    String populateOnStartUp = serverConfig.loadOnStartUp() == null ? System.getenv("POPULATE_ON_START_UP") : serverConfig.loadOnStartUp();
+    return !(StringUtils.isEmpty(populateOnStartUp) || populateOnStartUp.equalsIgnoreCase("disabled"));
   }
 }
